@@ -26,7 +26,8 @@ This repository has a copy of the following:
 
 
 
-# What objects do contain the word sensor? 
+# SPARQL Query 
+What objects do contain the word sensor? 
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 
