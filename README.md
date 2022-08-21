@@ -74,5 +74,4 @@ References
 	alt="Minor pitfalls were found" height="69.6" width="100" /></a>
 </p>
 
-https://github.com/Naeima/Forest-Observatory-Ontology-/blob/main/Forest%20Observatory%20Ontology/index-en.html
 
