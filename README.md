@@ -72,10 +72,3 @@ References
 
 OOPS! (OntOlogy Pitfall Scanner!) results: https://github.com/Naeima/Forest-Observatory-Ontology-/releases/download/v1.0.0/oopsEval.html
 
-<p>
-<a href="http://oops.linkeddata.es"><img
-	src="http://oops.linkeddata.es/resource/image/oops_minor.png"
-	alt="Minor pitfalls were found" height="69.6" width="100" /></a>
-</p>
-
-
