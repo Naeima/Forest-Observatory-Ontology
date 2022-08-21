@@ -25,7 +25,7 @@ We developed FOO following the Linked Open Terms (LOT) methodology using a compl
 # Repository
 This repository has a copy of the following:
 
-•	A sreadsheet contains the ontology functional requirements (i.e., comptency questions) 
+•	A spreadsheet contains the ontology functional requirements (i.e., comptency questions) 
 
 •	Ontology in RDF/XML and TURTLE formats.
 
