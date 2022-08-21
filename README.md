@@ -66,3 +66,10 @@ References
 [7] Asunción Gómez-Pérez and Mari Carmen Suárez-Figueroa. 2009. NeOn methodology for building ontology networks:a scenario-based methodology. (2009).
 
 [8] Milena Salgado Lynn and Amaziasizamoria Jumail. 2021. The Danau Girang Field Centre: Field Station Profile.ECOTROPICA 23, 1/2 (2021), 202103–202103.
+
+
+<p>
+<a href="http://oops.linkeddata.es"><img
+	src="http://oops.linkeddata.es/resource/image/oops_minor.png"
+	alt="Minor pitfalls were found" height="69.6" width="100" /></a>
+</p>
