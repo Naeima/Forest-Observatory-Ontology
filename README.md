@@ -16,7 +16,7 @@ OOPS! (OntOlogy Pitfall Scanner!) results: https://github.com/Naeima/Forest-Obse
 
 
 
-#FOO Development
+## Development
 
 We developed FOO following the Linked Open Terms (LOT) methodology using a complied list of comptency questions (functional requirements)- implemented in protege software.  LOT  was originated from Neon methodology, it encourages borrowing and reusing classes from fully developed and widely shared ontologies. Therefore, we searched the existing literature for suitable ontologies. Then, we decided to borrow classes and relationships from SOSA and the BBC Wildlife Ontology, as they contained sufficient components to model our proposed entities (i.e., instances or individuals). Moreover, LOT recommends sharing ontologies according to the Linked Data principles to enable re-using the ontologies by the research community and software applications. 
 
