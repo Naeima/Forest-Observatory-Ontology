@@ -38,16 +38,16 @@ This repository has a copy of the following:
 # SPARQL Query example 
 What objects do contain the word sensor? 
 
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 
-PREFIX owl: <http://www.w3.org/2002/07/owl#>.
+    PREFIX owl: <http://www.w3.org/2002/07/owl#>.
 
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>.
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 
-SELECT ?subject ?predicate ?object
+    SELECT ?subject ?predicate ?object
 
     WHERE { ?subject ?predicate  ?object.
     
@@ -58,22 +58,22 @@ SELECT ?subject ?predicate ?object
 
 References
 
-[1] 2022. https://www.bbc.co.uk/ontologies/wildlife
+[1] 2022.  https://www.bbc.co.uk/ontologies/wildlife
 
 [2] Daniel Garijo. 2017. WIDOCO: a wizard for documenting ontologies. In International Semantic Web Conference. Springer,
-94–102.
+94–102. https://dgarijo.github.io/Widoco/
 
 [3] 2022. OOPS! - OntOlogy Pitfall Scanner! https://oops.linkeddata.es/
 
 [4] 2022. Protégé. https://protege.stanford.edu/
 
-[5] 2022. Semantic Sensor Network Ontology. https://www.w3.org/TR/vocab-ssn/
+[5] 2022. Semantic Sensor Network Ontology.https://www.w3.org/TR/vocab-ssn/
 
-[6] María Poveda-Villalón, Alba Fernández-Izquierdo, Mariano Fernández-López, and Raúl García Castro. 2022. LOT:An industrial oriented ontology engineering framework. Engineering Applications of Artificial Intelligence 111 (2022), 104755.
+[6] María Poveda-Villalón, Alba Fernández-Izquierdo, Mariano Fernández-López, and Raúl García Castro. 2022. LOT:An industrial oriented ontology engineering framework. Engineering Applications of Artificial Intelligence 111 (2022), 104755.https://www.sciencedirect.com/science/article/pii/S0952197622000525
 
-[7] Asunción Gómez-Pérez and Mari Carmen Suárez-Figueroa. 2009. NeOn methodology for building ontology networks:a scenario-based methodology. (2009).
+[7] Asunción Gómez-Pérez and Mari Carmen Suárez-Figueroa. 2009. NeOn methodology for building ontology networks:a scenario-based methodology (2009), https://oa.upm.es/5475/1/INVE_MEM_2009_64399.pdf
 
-[8] Milena Salgado Lynn and Amaziasizamoria Jumail. 2021. The Danau Girang Field Centre: Field Station Profile.ECOTROPICA 23, 1/2 (2021), 202103–202103.
+[8] Milena Salgado Lynn and Amaziasizamoria Jumail. 2021. The Danau Girang Field Centre: Field Station Profile.ECOTROPICA 23, 1/2 (2021), 202103–202103. https://www.ecotropica.eu/index.php/ecotropica/article/view/86/26
 
 
 
