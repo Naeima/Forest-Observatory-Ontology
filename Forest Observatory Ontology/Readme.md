@@ -25,10 +25,10 @@ a) Place the file in a server and access it via its URL (for example, put it in 
 
 b) Execute Chrome with the following commands :
 
-(WIN) chrome.exe --allow-file-access-from-files,
+- (WIN) chrome.exe --allow-file-access-from-files,
 
-(OSX) open /Applications/Google\ Chrome.app/ --args --allow-file-access-from-files
+- (OSX) open /Applications/Google\ Chrome.app/ --args --allow-file-access-from-files
 
-(UNX) /usr/bin/google-chrome --allow-file-access-from-files
+- (UNX) /usr/bin/google-chrome --allow-file-access-from-files
 
 Do you have a problem? open an issue at https://github.com/dgarijo/Widoco
