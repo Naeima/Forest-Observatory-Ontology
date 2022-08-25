@@ -16,9 +16,7 @@ https://github.com/Naeima/Forest-Observatory-Ontology-/releases/download/v1.0.0/
 
 
 
-
-
-#FOO Development
+# FOO Development
 
 We developed FOO following the Linked Open Terms (LOT) methodology using a complied list of comptency questions (functional requirements)- implemented in protege software.  LOT  was originated from Neon methodology, it encourages borrowing and reusing classes from fully developed and widely shared ontologies. Therefore, we searched the existing literature for suitable ontologies. Then, we decided to borrow classes and relationships from SOSA and the BBC Wildlife Ontology, as they contained sufficient components to model our proposed entities (i.e., instances or individuals). Moreover, LOT recommends sharing ontologies according to the Linked Data principles to enable re-using the ontologies by the research community and software applications. 
 
@@ -58,7 +56,7 @@ What objects do contain the word sensor?
 
 ![sensor](https://user-images.githubusercontent.com/57564713/185769348-497951cf-6b9d-465b-98f8-8a67b99121df.png)
 
-References
+# References
 
 [1] 2022.  https://www.bbc.co.uk/ontologies/wildlife
 
