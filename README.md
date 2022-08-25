@@ -60,6 +60,9 @@ What objects do contain the word sensor?
 
 https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/Soil-Data-v1.0.0
 
+![soil](https://user-images.githubusercontent.com/57564713/186782688-5561c88d-09d5-4b37-990a-fe290b91fe60.png)
+
+
 # How to use FOO
 
 https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/How-to-run-FOO-v1.0.0
