@@ -30,9 +30,6 @@ This repository has a copy of the following:
 •	Ontology documentation using WIDOCO tool
 
 
-
-
-
 # SPARQL Query example 
 What objects do contain the word sensor? 
 
