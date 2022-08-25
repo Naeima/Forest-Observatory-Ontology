@@ -1811,7 +1811,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#localDate">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
-        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-12-30</ontology:hasValue>
+        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-12</ontology:hasValue>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The current local date in Sabah, Malaysia when the image collects its readings.</skos:definition>
     </owl:NamedIndividual>
     
@@ -1850,7 +1850,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#timestamp">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
-        <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2013-11-23</sosa:resultTime>
+        <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2014-04-12T13:20:00-05:00</sosa:resultTime>
     </owl:NamedIndividual>
     
 
