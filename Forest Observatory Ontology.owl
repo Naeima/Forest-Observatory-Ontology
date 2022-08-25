@@ -1284,7 +1284,7 @@ Source: google.com</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Bulk_Density">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
-        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></ontology:hasValue>
+        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.69</ontology:hasValue>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measured Bulk Density of soil sample</skos:definition>
     </owl:NamedIndividual>
     
@@ -1417,7 +1417,7 @@ Source: google.com</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Elevation_masl">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
-        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></ontology:hasValue>
+        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.5</ontology:hasValue>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elevation at the plot centre, in metres above sea level</skos:definition>
     </owl:NamedIndividual>
     
@@ -1491,7 +1491,7 @@ Source: google.com</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Horizon_Depth">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
-        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></ontology:hasValue>
+        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</ontology:hasValue>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depth of the organic soil horizon sampled</skos:definition>
     </owl:NamedIndividual>
     
@@ -1521,7 +1521,7 @@ Source: google.com</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Lat">
         <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
-        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></wgs84_pos:lat>
+        <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.111245</wgs84_pos:lat>
     </owl:NamedIndividual>
     
 
@@ -1530,7 +1530,7 @@ Source: google.com</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Long">
         <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
-        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></wgs84_pos:long>
+        <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">118.11745</wgs84_pos:long>
     </owl:NamedIndividual>
     
 
@@ -1708,7 +1708,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Soil_pH">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
-        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></ontology:hasValue>
+        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.87</ontology:hasValue>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Measured pH of the soil sample</skos:definition>
     </owl:NamedIndividual>
     
@@ -1801,7 +1801,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#inorganic_P">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
-        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></ontology:hasValue>
+        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">36.65</ontology:hasValue>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inorganic/soluble phosphorus concentration of the soil sample</skos:definition>
     </owl:NamedIndividual>
     
@@ -1877,7 +1877,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#C:N">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
-        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></ontology:hasValue>
+        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">11.96</ontology:hasValue>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon to nitrogen ratio of the soil sample</skos:definition>
     </owl:NamedIndividual>
     
@@ -1887,7 +1887,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#C:P">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
-        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float"></ontology:hasValue>
+        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.12</ontology:hasValue>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon to inorganic phosphorus ratio of the soil sample</skos:definition>
     </owl:NamedIndividual>
     
