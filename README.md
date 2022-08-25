@@ -58,6 +58,10 @@ What objects do contain the word sensor?
 
 # Instantiating FOO with dataset about soil properties.
 
+https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/Soil-Data-v1.0.0
+
+
+
 # References
 
 [1] 2022.  https://www.bbc.co.uk/ontologies/wildlife
