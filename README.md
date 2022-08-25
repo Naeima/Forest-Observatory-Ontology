@@ -81,6 +81,9 @@ https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/Soil-Data-v1.
 
 [8] Milena Salgado Lynn and Amaziasizamoria Jumail. 2021. The Danau Girang Field Centre: Field Station Profile.ECOTROPICA 23, 1/2 (2021), 202103–202103. https://www.ecotropica.eu/index.php/ecotropica/article/view/86/26
 
+[9] Elias et. al. 2018. Soil properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia.
+https://doi.org/10.5285/7e046092-8405-41b8-9e38-67a844bb9e7d
+
 
 
 
