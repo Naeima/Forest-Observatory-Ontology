@@ -9,6 +9,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:DGFC="http://www.FOO/DGFC#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:sosa="http://www.w3.org/ns/sosa/"
@@ -156,7 +157,7 @@
         <rdfs:domain rdf:resource="http://creativecommons.org/ns#License"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema-datatypes#date"/>
         <rdfs:label xml:lang="en-us">deprecated
-		  on</rdfs:label>
+          on</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -582,7 +583,7 @@
 
     <owl:Class rdf:about="http://creativecommons.org/ns#Jurisdiction">
         <rdfs:comment xml:lang="en-us">the legal jurisdiction
-		    of a license</rdfs:comment>
+            of a license</rdfs:comment>
         <rdfs:label xml:lang="en-us">Jurisdiction</rdfs:label>
     </owl:Class>
     
@@ -594,9 +595,9 @@
         <owl:equivalentClass rdf:resource="http://web.resource.org/cc/License"/>
         <rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
         <rdfs:comment xml:lang="en-us">a set of
-		    requests/permissions to users of a Work, e.g. a
-		    copyright license, the public domain, information
-		    for distributors</rdfs:comment>
+            requests/permissions to users of a Work, e.g. a
+            copyright license, the public domain, information
+            for distributors</rdfs:comment>
         <rdfs:label xml:lang="en-us">License</rdfs:label>
     </owl:Class>
     
@@ -607,7 +608,7 @@
     <owl:Class rdf:about="http://creativecommons.org/ns#Permission">
         <owl:equivalentClass rdf:resource="http://web.resource.org/cc/Permission"/>
         <rdfs:comment xml:lang="en-us">an action that may or
-		    may not be allowed or desired</rdfs:comment>
+            may not be allowed or desired</rdfs:comment>
         <rdfs:label xml:lang="en-us">Permission</rdfs:label>
     </owl:Class>
     
@@ -618,7 +619,7 @@
     <owl:Class rdf:about="http://creativecommons.org/ns#Prohibition">
         <owl:equivalentClass rdf:resource="http://web.resource.org/cc/Prohibition"/>
         <rdfs:comment xml:lang="en-us">something you may be
-		    asked not to do</rdfs:comment>
+            asked not to do</rdfs:comment>
         <rdfs:label xml:lang="en-us">Prohibition</rdfs:label>
     </owl:Class>
     
@@ -629,7 +630,7 @@
     <owl:Class rdf:about="http://creativecommons.org/ns#Requirement">
         <owl:equivalentClass rdf:resource="http://web.resource.org/cc/Requirement"/>
         <rdfs:comment xml:lang="en-us">an action that may or
-		    may not be requested of you</rdfs:comment>
+            may not be requested of you</rdfs:comment>
         <rdfs:label xml:lang="en-us">Requirement</rdfs:label>
     </owl:Class>
     
@@ -640,7 +641,7 @@
     <owl:Class rdf:about="http://creativecommons.org/ns#Work">
         <owl:equivalentClass rdf:resource="http://web.resource.org/cc/Work"/>
         <rdfs:comment xml:lang="en-us">a potentially
-		    copyrightable work</rdfs:comment>
+            copyrightable work</rdfs:comment>
         <rdfs:label xml:lang="en-us">Work</rdfs:label>
     </owl:Class>
     
@@ -1049,7 +1050,6 @@ Source: google.com</rdfs:comment>
     <!-- http://www.w3.org/ns/sosa/FeatureOfInterest -->
 
     <owl:Class rdf:about="http://www.w3.org/ns/sosa/FeatureOfInterest">
-        <owl:disjointWith rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
         <rdfs:comment xml:lang="en">The thing whose property is being estimated or calculated in the course of an Observation to arrive at a Result or whose property is being manipulated by an Actuator, or which is being sampled or transformed in an act of Sampling.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/sosa/"/>
         <rdfs:label xml:lang="en">Feature Of Interest</rdfs:label>
@@ -1062,7 +1062,6 @@ Source: google.com</rdfs:comment>
     <!-- http://www.w3.org/ns/sosa/ObservableProperty -->
 
     <owl:Class rdf:about="http://www.w3.org/ns/sosa/ObservableProperty">
-        <owl:disjointWith rdf:resource="http://www.w3.org/ns/sosa/Observation"/>
         <rdfs:comment xml:lang="en">An observable quality (property, characteristic) of a FeatureOfInterest.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/sosa/"/>
         <rdfs:label xml:lang="en">Observable Property</rdfs:label>
@@ -1087,7 +1086,6 @@ Source: google.com</rdfs:comment>
     <!-- http://www.w3.org/ns/sosa/Platform -->
 
     <owl:Class rdf:about="http://www.w3.org/ns/sosa/Platform">
-        <owl:disjointWith rdf:resource="http://www.w3.org/ns/sosa/Sensor"/>
         <rdfs:comment>A Platform is an entity that hosts other entities, particularly Sensors, Actuators, Samplers, and other Platforms.&quot;@en ;</rdfs:comment>
         <rdfs:isDefinedBy>sosa</rdfs:isDefinedBy>
         <skos:definition>&quot;A Platform is an entity that hosts other entities, particularly Sensors, Actuators, Samplers, and other Platforms.&quot;@en ;</skos:definition>
@@ -1136,7 +1134,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://creativecommons.org/ns#Attribution">
         <rdf:type rdf:resource="http://creativecommons.org/ns#Requirement"/>
         <rdfs:comment xml:lang="en-us">credit be given to
-		    copyright holder and/or author</rdfs:comment>
+            copyright holder and/or author</rdfs:comment>
         <rdfs:label xml:lang="en-us">Attribution</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1147,7 +1145,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://creativecommons.org/ns#CommercialUse">
         <rdf:type rdf:resource="http://creativecommons.org/ns#Prohibition"/>
         <rdfs:comment xml:lang="en-us">exercising rights for
-		    commercial purposes</rdfs:comment>
+            commercial purposes</rdfs:comment>
         <rdfs:label xml:lang="en-us">Commercial Use</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1158,9 +1156,9 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://creativecommons.org/ns#Copyleft">
         <rdf:type rdf:resource="http://creativecommons.org/ns#Requirement"/>
         <rdfs:comment xml:lang="en-us">derivative and
-		    combined works must be licensed under specified
-		    terms, similar to those on the original
-		    work</rdfs:comment>
+            combined works must be licensed under specified
+            terms, similar to those on the original
+            work</rdfs:comment>
         <rdfs:label xml:lang="en-us">Copyleft</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1171,7 +1169,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://creativecommons.org/ns#DerivativeWorks">
         <rdf:type rdf:resource="http://creativecommons.org/ns#Permission"/>
         <rdfs:comment xml:lang="en-us">distribution of
-		    derivative works</rdfs:comment>
+            derivative works</rdfs:comment>
         <rdfs:label xml:lang="en-us">Derivative Works</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1182,7 +1180,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://creativecommons.org/ns#Distribution">
         <rdf:type rdf:resource="http://creativecommons.org/ns#Permission"/>
         <rdfs:comment xml:lang="en-us">distribution, public
-		    display, and publicly performance</rdfs:comment>
+            display, and publicly performance</rdfs:comment>
         <rdfs:label xml:lang="en-us">Distribution</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1193,7 +1191,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://creativecommons.org/ns#HighIncomeNationUse">
         <rdf:type rdf:resource="http://creativecommons.org/ns#Prohibition"/>
         <rdfs:comment xml:lang="en-us">use in a
-		    non-developing country</rdfs:comment>
+            non-developing country</rdfs:comment>
         <rdfs:label xml:lang="en-us">High Income Nation Use</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1204,10 +1202,10 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://creativecommons.org/ns#LesserCopyleft">
         <rdf:type rdf:resource="http://creativecommons.org/ns#Requirement"/>
         <rdfs:comment xml:lang="en-us">derivative works must
-		    be licensed under specified terms, with at least
-		    the same conditions as the original work;
-		    combinations with the work may be licensed under
-		    different terms</rdfs:comment>
+            be licensed under specified terms, with at least
+            the same conditions as the original work;
+            combinations with the work may be licensed under
+            different terms</rdfs:comment>
         <rdfs:label xml:lang="en-us">Lesser Copyleft</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1218,7 +1216,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://creativecommons.org/ns#Notice">
         <rdf:type rdf:resource="http://creativecommons.org/ns#Requirement"/>
         <rdfs:comment xml:lang="en-us">copyright and license
-		    notices be kept intact</rdfs:comment>
+            notices be kept intact</rdfs:comment>
         <rdfs:label xml:lang="en-us">Notice</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1229,7 +1227,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://creativecommons.org/ns#Reproduction">
         <rdf:type rdf:resource="http://creativecommons.org/ns#Permission"/>
         <rdfs:comment xml:lang="en-us">making multiple
-		    copies</rdfs:comment>
+            copies</rdfs:comment>
         <rdfs:label xml:lang="en-us">Reproduction</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1240,8 +1238,8 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://creativecommons.org/ns#ShareAlike">
         <rdf:type rdf:resource="http://creativecommons.org/ns#Requirement"/>
         <rdfs:comment xml:lang="en-us">derivative works be
-		    licensed under the same terms or compatible terms
-		    as the original work</rdfs:comment>
+            licensed under the same terms or compatible terms
+            as the original work</rdfs:comment>
         <rdfs:label xml:lang="en-us">Share Alike</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1252,8 +1250,8 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://creativecommons.org/ns#Sharing">
         <rdf:type rdf:resource="http://creativecommons.org/ns#Permission"/>
         <rdfs:comment xml:lang="en-us">permits commercial
-		    derivatives, but only non-commercial
-		    distribution</rdfs:comment>
+            derivatives, but only non-commercial
+            distribution</rdfs:comment>
         <rdfs:label xml:lang="en-us">Sharing</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1264,9 +1262,9 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://creativecommons.org/ns#SourceCode">
         <rdf:type rdf:resource="http://creativecommons.org/ns#Requirement"/>
         <rdfs:comment xml:lang="en-us">source code (the
-		    preferred form for making modifications) must be
-		    provided when exercising some rights granted by
-		    the license.</rdfs:comment>
+            preferred form for making modifications) must be
+            provided when exercising some rights granted by
+            the license.</rdfs:comment>
         <rdfs:label xml:lang="en-us">Source Code</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1312,6 +1310,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Count">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
         <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</ontology:hasValue>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GPS collar dataset&apos;s observation count per dataset</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1321,6 +1320,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Cov">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
         <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</ontology:hasValue>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GPS collar dataset: satellite coverage, the higher number the stronger coverage.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1329,6 +1329,7 @@ Source: google.com</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#DGFC_ID">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">111</ontology:hasValue>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An identifier that is unique for GPS collar sensor observation</skos:definition>
     </owl:NamedIndividual>
     
@@ -1339,6 +1340,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#DateTime">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
         <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-06T21:03:17</ontology:hasValue>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The date and time of the GPS collar observation</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1348,6 +1350,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Direction">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
         <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">90.0</ontology:hasValue>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direction that the elephant is travelling at the current data collection instant.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1357,6 +1360,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Distance">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
         <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">200.0</ontology:hasValue>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Distance (m) travelled from the previous data collection instant to the present.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1365,15 +1369,9 @@ Source: google.com</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Disturbance">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
-        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ontology:hasValue>
+        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logged</ontology:hasValue>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree of logging at the site, on of &quot;Old-growth&quot;, &quot;Twic logged&quot;, Logged&quot; (when number of logging operations unknown)</skos:definition>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.DGFC/ontology/2021/1.0#Elephantidae -->
-
-    <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Elephantidae"/>
     
 
 
@@ -1418,7 +1416,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Elevation_masl">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
         <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.5</ontology:hasValue>
-        <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">elevation at the plot centre, in metres above sea level</skos:definition>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elevation at the plot centre, in metres above sea level</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1428,6 +1426,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#ExtTemp">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
         <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.0</ontology:hasValue>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">External Temperature of the elephant at data collection instant</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1445,7 +1444,7 @@ Source: google.com</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Forest_type">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
-        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ontology:hasValue>
+        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCV High Conservation Value</ontology:hasValue>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type of forest site, one of &quot;Continous primary&quot;, &quot;Continous logged&quot;, &quot;HCV&quot; (i.e., High Conservation Value; fragmented sites in oil palm plantations)</skos:definition>
     </owl:NamedIndividual>
     
@@ -1455,6 +1454,7 @@ Source: google.com</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#GMTDate">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-12T13:20:00</sosa:resultTime>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The GMT date in Sabah, Malaysia when the GPS collar collected  its readings.</skos:definition>
     </owl:NamedIndividual>
     
@@ -1464,6 +1464,8 @@ Source: google.com</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#GMTTime">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-12T13:20:00</sosa:resultTime>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The current local date in Sabah, Malaysia when the image collects its readings.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1473,6 +1475,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#HDOP">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
         <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</ontology:hasValue>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horizontal Dilution of Precision (HDOP) measures GPS accuracy in Latitude and Longitude. The lower value the better precision.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1481,7 +1484,7 @@ Source: google.com</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Horizon">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
-        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></ontology:hasValue>
+        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sample_Name</ontology:hasValue>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soil horizon sampled</skos:definition>
     </owl:NamedIndividual>
     
@@ -1512,6 +1515,7 @@ Source: google.com</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Land_Use">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unlogged</ontology:hasValue>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Land use of the study plots: Unlogged tropical forest, Logged tropical forest or Oil palm plantation</skos:definition>
     </owl:NamedIndividual>
     
@@ -1522,6 +1526,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Lat">
         <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
         <wgs84_pos:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.111245</wgs84_pos:lat>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The geographical latitude of the observation location</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1531,6 +1536,7 @@ Source: google.com</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Long">
         <rdf:type rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
         <wgs84_pos:long rdf:datatype="http://www.w3.org/2001/XMLSchema#float">118.11745</wgs84_pos:long>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The geographical longitude of a sensor observation location</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1547,6 +1553,7 @@ Source: google.com</rdfs:comment>
     <!-- http://www.DGFC/ontology/2021/1.0#Mustelidae -->
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Mustelidae">
+        <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
         <wo:family rdf:resource="http://www.DGFC/ontology/2021/1.0#Mustelidae"/>
     </owl:NamedIndividual>
     
@@ -1556,6 +1563,7 @@ Source: google.com</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Name">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imahe_name</ontology:hasValue>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The named assigned to an image at collection time</skos:definition>
     </owl:NamedIndividual>
     
@@ -1565,6 +1573,7 @@ Source: google.com</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#PDOP">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positional Dilution of Precision (DDOP) describes the error caused by the relative position of the GPS satellites. The more signals a GPS reciever can &quot;see&quot; (speard vs near each other), the more precise it can be.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1587,28 +1596,12 @@ Source: google.com</rdfs:comment>
     
 
 
-    <!-- http://www.DGFC/ontology/2021/1.0#Pythonidae -->
-
-    <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Pythonidae">
-        <wo:family rdf:resource="http://www.schema.org/DGFC/python"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://www.DGFC/ontology/2021/1.0#Replanting_nearest_OP -->
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Replanting_nearest_OP">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
         <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</ontology:hasValue>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Year of any replanting of oil palm adjacent to the forest site (fragmented sites where adjacent oil palm had undergone a second round of planting)</skos:definition>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.DGFC/ontology/2021/1.0#Reptilia -->
-
-    <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Reptilia">
-        <wo:class rdf:resource="http://www.schema.org/DGFC/python"/>
     </owl:NamedIndividual>
     
 
@@ -1657,6 +1650,7 @@ Source: google.com</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Soil">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soil or dirt, is a mixture of organic matters, minerals, ases, liquids, and organisms that collectively support life.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1700,6 +1694,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Soil_identifier">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unique observation identifier, collected over a set time interval.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1729,14 +1724,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Speed">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
         <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">35.5</ontology:hasValue>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.DGFC/ontology/2021/1.0#Squamata -->
-
-    <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Squamata">
-        <wo:order rdf:resource="http://www.schema.org/DGFC/python"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Speed of the elephant at current data collection instant.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1765,6 +1753,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#Temperature">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
         <ontology:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.0</ontology:hasValue>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estimate temperature of the elephant in Celsius at data collection instant.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1821,6 +1810,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#localTime">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
+        <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-04-12T13:20:00</sosa:resultTime>
         <skos:definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The current local time in Sabah, Malaysia when the image collects its readings.</skos:definition>
     </owl:NamedIndividual>
     
@@ -1850,7 +1840,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <owl:NamedIndividual rdf:about="http://www.DGFC/ontology/2021/1.0#timestamp">
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/ObservableProperty"/>
-        <sosa:resultTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTimeStamp">2012-04-12T13:20:00-05:002013-11-23</sosa:resultTime>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The time of the sensor observation.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1908,6 +1898,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
     <owl:NamedIndividual rdf:about="http://www.schema.org/DGFC/Otter">
         <rdf:type rdf:resource="http://purl.org/ontology/wo/Order/Carnivora"/>
         <rdf:type rdf:resource="http://purl.org/ontology/wo/Phylum/Chordata"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Otter is a carnivorous mammal.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1919,9 +1910,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <rdf:type rdf:resource="http://purl.org/ontology/wo/Order/Squamata"/>
         <rdf:type rdf:resource="http://purl.org/ontology/wo/Phylum/Chordata"/>
         <rdf:type rdf:resource="http://www.w3.org/ns/sosa/FeatureOfInterest"/>
-        <wo:class rdf:resource="http://www.DGFC/ontology/2021/1.0#Reptilia"/>
-        <wo:family rdf:resource="http://www.DGFC/ontology/2021/1.0#Pythonidae"/>
-        <wo:order rdf:resource="http://www.DGFC/ontology/2021/1.0#Squamata"/>
+        <owl:sameAs rdf:resource="http://www.schema.org/DGFC/python#Juling"/>
     </owl:NamedIndividual>
     
 
@@ -1936,6 +1925,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female asian elephant called  Abaw, here, the GPS collar (sensor) is named after her.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1949,6 +1939,8 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#PDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female asian elephant called  Aqeela, here, the GPS collar (sensor) is named after her.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1967,6 +1959,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female asian elephant called Bikang1, here, the GPS collar (sensor) is named after her.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -1985,6 +1978,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female asian elephant called Bikang2, here, the GPS collar (sensor) is named after her.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2004,6 +1998,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female asian elephant called Dara, here, the GPS collar (sensor) is named after her.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2023,6 +2018,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A male asian elephant called Guli, here, the GPS collar (sensor) is named after him.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2041,6 +2037,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female asian elephant called Ita, here, the GPS collar (sensor) is named after her.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2058,6 +2055,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female asian elephant called Jasmin, here, the GPS collar (sensor) is named after her.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2076,6 +2074,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A male asian elephant called Jasper here, the GPS collar (sensor) is named after him.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2094,6 +2093,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female asian elephant called Kasih, here, the GPS collar (sensor) is named after her.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2112,6 +2112,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A male asian elephant called Kuma, here, the GPS collar (sensor) is named after him.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2125,6 +2126,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#PDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female asian elephant called Liun, here, the GPS collar (sensor) is named after her.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2143,6 +2145,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A male asian elephant called Maliau, here, the GPS collar (sensor) is named after him.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2161,6 +2164,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A male asian elephant called Merotai, here, the GPS collar (sensor) is named after him.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2179,6 +2183,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female asian elephant called Puteri here, the GPS collar (sensor) is named after her.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2196,6 +2201,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female asian elephant called Putut, here, the GPS collar (sensor) is named after her.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2214,6 +2220,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female asian elephant called Sandi, here, the GPS collar (sensor) is named after her.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2231,6 +2238,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A male asian elephant called Sejati, here, the GPS collar (sensor) is named after him.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2249,6 +2257,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female asian elephant called Seri, here, the GPS collar (sensor) is named after her.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2266,6 +2275,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#GMTTime"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female asian elephant called Tulid, here, the GPS collar (sensor) is named after her.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2284,6 +2294,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female asian elephant called Tunglap, here, the GPS collar (sensor) is named after her.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2302,6 +2313,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Temperature"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A male asian elephant called Umas2, here, the GPS collar (sensor) is named after him.</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2314,6 +2326,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#DateTime"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#HDOP"/>
         <sosa:observedProperty rdf:resource="http://www.DGFC/ontology/2021/1.0#Speed"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A python (snake) called Juling- with tracking device called Juling</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -2343,7 +2356,7 @@ The data is a contribution from the BALI collaboration, which is financed by the
 
     <rdf:Description rdf:about="http://creativecommons.org/ns#license">
         <rdfs:label xml:lang="en-us">has
-		  license</rdfs:label>
+          license</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.org/dc/terms/isPartOf">
         <rdfs:label xml:lang="en">Is Part Of</rdfs:label>
@@ -2449,6 +2462,7 @@ basic geo vocab
     </rdf:Description>
     <rdf:Description rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#Point">
         <iot-lite:relativeLocation></iot-lite:relativeLocation>
+        <rdfs:label>point</rdfs:label>
         <rdfs:comment> 
 Uniquely identified by lat/long/alt. i.e.
 
@@ -2457,7 +2471,6 @@ spaciallyIntersects(P1, P2) :- lat(P1, LAT), long(P1, LONG), alt(P1, ALT),
 
 sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P2).
   </rdfs:comment>
-        <rdfs:label>point</rdfs:label>
         <rdfs:comment>A point, typically described using a coordinate system relative to Earth, such as WGS84.
   </rdfs:comment>
     </rdf:Description>
