@@ -27,13 +27,10 @@
   } ]
 }, {
   "@id" : "http://creativecommons.org/ns#Attribution",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://creativecommons.org/ns#Requirement"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://creativecommons.org/ns#Requirement" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "credit be given to\n\t\t    copyright holder and/or author"
+    "@value" : "credit be given to\n            copyright holder and/or author"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -41,13 +38,10 @@
   } ]
 }, {
   "@id" : "http://creativecommons.org/ns#CommercialUse",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://creativecommons.org/ns#Prohibition"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://creativecommons.org/ns#Prohibition" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "exercising rights for\n\t\t    commercial purposes"
+    "@value" : "exercising rights for\n            commercial purposes"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -55,13 +49,10 @@
   } ]
 }, {
   "@id" : "http://creativecommons.org/ns#Copyleft",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://creativecommons.org/ns#Requirement"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://creativecommons.org/ns#Requirement" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "derivative and\n\t\t    combined works must be licensed under specified\n\t\t    terms, similar to those on the original\n\t\t    work"
+    "@value" : "derivative and\n            combined works must be licensed under specified\n            terms, similar to those on the original\n            work"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -69,13 +60,10 @@
   } ]
 }, {
   "@id" : "http://creativecommons.org/ns#DerivativeWorks",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://creativecommons.org/ns#Permission"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://creativecommons.org/ns#Permission" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "distribution of\n\t\t    derivative works"
+    "@value" : "distribution of\n            derivative works"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -83,13 +71,10 @@
   } ]
 }, {
   "@id" : "http://creativecommons.org/ns#Distribution",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://creativecommons.org/ns#Permission"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://creativecommons.org/ns#Permission" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "distribution, public\n\t\t    display, and publicly performance"
+    "@value" : "distribution, public\n            display, and publicly performance"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -97,13 +82,10 @@
   } ]
 }, {
   "@id" : "http://creativecommons.org/ns#HighIncomeNationUse",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://creativecommons.org/ns#Prohibition"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://creativecommons.org/ns#Prohibition" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "use in a\n\t\t    non-developing country"
+    "@value" : "use in a\n            non-developing country"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -114,7 +96,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "the legal jurisdiction\n\t\t    of a license"
+    "@value" : "the legal jurisdiction\n            of a license"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -122,13 +104,10 @@
   } ]
 }, {
   "@id" : "http://creativecommons.org/ns#LesserCopyleft",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://creativecommons.org/ns#Requirement"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://creativecommons.org/ns#Requirement" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "derivative works must\n\t\t    be licensed under specified terms, with at least\n\t\t    the same conditions as the original work;\n\t\t    combinations with the work may be licensed under\n\t\t    different terms"
+    "@value" : "derivative works must\n            be licensed under specified terms, with at least\n            the same conditions as the original work;\n            combinations with the work may be licensed under\n            different terms"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -139,7 +118,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "a set of\n\t\t    requests/permissions to users of a Work, e.g. a\n\t\t    copyright license, the public domain, information\n\t\t    for distributors"
+    "@value" : "a set of\n            requests/permissions to users of a Work, e.g. a\n            copyright license, the public domain, information\n            for distributors"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -153,13 +132,10 @@
   } ]
 }, {
   "@id" : "http://creativecommons.org/ns#Notice",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://creativecommons.org/ns#Requirement"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://creativecommons.org/ns#Requirement" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "copyright and license\n\t\t    notices be kept intact"
+    "@value" : "copyright and license\n            notices be kept intact"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -170,7 +146,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "an action that may or\n\t\t    may not be allowed or desired"
+    "@value" : "an action that may or\n            may not be allowed or desired"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -184,7 +160,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "something you may be\n\t\t    asked not to do"
+    "@value" : "something you may be\n            asked not to do"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -195,13 +171,10 @@
   } ]
 }, {
   "@id" : "http://creativecommons.org/ns#Reproduction",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://creativecommons.org/ns#Permission"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://creativecommons.org/ns#Permission" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "making multiple\n\t\t    copies"
+    "@value" : "making multiple\n            copies"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -212,7 +185,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "an action that may or\n\t\t    may not be requested of you"
+    "@value" : "an action that may or\n            may not be requested of you"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -223,13 +196,10 @@
   } ]
 }, {
   "@id" : "http://creativecommons.org/ns#ShareAlike",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://creativecommons.org/ns#Requirement"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://creativecommons.org/ns#Requirement" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "derivative works be\n\t\t    licensed under the same terms or compatible terms\n\t\t    as the original work"
+    "@value" : "derivative works be\n            licensed under the same terms or compatible terms\n            as the original work"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -237,13 +207,10 @@
   } ]
 }, {
   "@id" : "http://creativecommons.org/ns#Sharing",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://creativecommons.org/ns#Permission"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://creativecommons.org/ns#Permission" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "permits commercial\n\t\t    derivatives, but only non-commercial\n\t\t    distribution"
+    "@value" : "permits commercial\n            derivatives, but only non-commercial\n            distribution"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -251,13 +218,10 @@
   } ]
 }, {
   "@id" : "http://creativecommons.org/ns#SourceCode",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://creativecommons.org/ns#Requirement"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://creativecommons.org/ns#Requirement" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "source code (the\n\t\t    preferred form for making modifications) must be\n\t\t    provided when exercising some rights granted by\n\t\t    the license."
+    "@value" : "source code (the\n            preferred form for making modifications) must be\n            provided when exercising some rights granted by\n            the license."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -268,7 +232,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en-us",
-    "@value" : "a potentially\n\t\t    copyrightable work"
+    "@value" : "a potentially\n            copyrightable work"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
@@ -303,7 +267,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
-    "@value" : "deprecated\n\t\t  on"
+    "@value" : "deprecated\n          on"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema-datatypes#date"
@@ -338,7 +302,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en-us",
-    "@value" : "has\n\t\t  license"
+    "@value" : "has\n          license"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://creativecommons.org/ns#License"
@@ -1176,51 +1140,39 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Bulk_Density",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
-    "@value" : ""
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+    "@value" : "0.6"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "Measured Bulk Density of soil sample"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#C:N",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
-    "@value" : ""
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+    "@value" : "11.96"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "carbon to nitrogen ratio of the soil sample"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#C:P",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
-    "@value" : ""
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+    "@value" : "0.12"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "carbon to inorganic phosphorus ratio of the soil sample"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#CameraTrap",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
   "http://www.DGFC/ontology/2021/1.0#hasResult" : [ {
     "@value" : "Image"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Wildlife cameras with embeded sensors to capture moving objects."
@@ -1243,94 +1195,75 @@
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Count",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "10"
   } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "GPS collar dataset's observation count per dataset"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Cov",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "5"
   } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "GPS collar dataset: satellite coverage, the higher number the stronger coverage."
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#DGFC_ID",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
+  "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
+    "@value" : "111"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "An identifier that is unique for GPS collar sensor observation"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#DateTime",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
     "@value" : "2013-07-06T21:03:17"
   } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The date and time of the GPS collar observation"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Direction",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "90.0"
   } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Direction that the elephant is travelling at the current data collection instant."
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Distance",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "200.0"
   } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Distance (m) travelled from the previous data collection instant to the present."
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Disturbance",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
-    "@value" : ""
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+    "@value" : "Logged"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "degree of logging at the site, on of \"Old-growth\", \"Twic logged\", Logged\" (when number of logging operations unknown)"
   } ]
 }, {
-  "@id" : "http://www.DGFC/ontology/2021/1.0#Elephantidae",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
-}, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Elephas_maximus",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://purl.org/ontology/wo/Class/Mammalia"
-  }, {
-    "@id" : "http://purl.org/ontology/wo/Family/Elephantidae"
-  }, {
-    "@id" : "http://purl.org/ontology/wo/Kingdom/Animalia"
-  }, {
-    "@id" : "http://purl.org/ontology/wo/Order/Proboscidea"
-  }, {
-    "@id" : "http://purl.org/ontology/wo/Phylum/Chordata"
-  }, {
-    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/ontology/wo/Class/Mammalia", "http://purl.org/ontology/wo/Family/Elephantidae", "http://purl.org/ontology/wo/Kingdom/Animalia", "http://purl.org/ontology/wo/Order/Proboscidea", "http://purl.org/ontology/wo/Phylum/Chordata", "http://www.w3.org/ns/sosa/FeatureOfInterest" ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "Asian elephant"
   } ],
@@ -1381,26 +1314,23 @@
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Elevation_masl",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
-    "@value" : ""
+    "@value" : "15.5"
   } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#definition" : [ {
-    "@value" : "elevation at the plot centre, in metres above sea level"
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Elevation at the plot centre, in metres above sea level"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#ExtTemp",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "21.0"
   } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "External Temperature of the elephant at data collection instant"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#First_planting_nearest_OP",
@@ -1414,74 +1344,67 @@
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Forest_type",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
-    "@value" : ""
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+    "@value" : "HCV High Conservation Value"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "type of forest site, one of \"Continous primary\", \"Continous logged\", \"HCV\" (i.e., High Conservation Value; fragmented sites in oil palm plantations)"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#GMTDate",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "The GMT date in Sabah, Malaysia when the GPS collar collected  its readings."
+  } ],
+  "http://www.w3.org/ns/sosa/resultTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-04-12T13:20:00"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#GMTTime",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The current local date in Sabah, Malaysia when the image collects its readings."
+  } ],
+  "http://www.w3.org/ns/sosa/resultTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-04-12T13:20:00"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#HDOP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "1"
   } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Horizontal Dilution of Precision (HDOP) measures GPS accuracy in Latitude and Longitude. The lower value the better precision."
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Horizon",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
-    "@value" : ""
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+    "@value" : "Sample_Name"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "Soil horizon sampled"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Horizon_Depth",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
-    "@value" : ""
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+    "@value" : "2.5"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "Depth of the organic soil horizon sampled"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Identifier",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasResult" : [ {
     "@value" : "DGFC_"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "Unique Soil Sample Identifier"
@@ -1491,62 +1414,59 @@
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Land_Use",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
+  "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
+    "@value" : "Unlogged"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "Land use of the study plots: Unlogged tropical forest, Logged tropical forest or Oil palm plantation"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Lat",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#Point"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2003/01/geo/wgs84_pos#Point" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The geographical latitude of the observation location"
   } ],
   "http://www.w3.org/2003/01/geo/wgs84_pos#lat" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
-    "@value" : ""
+    "@value" : "5.111245"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Long",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#Point"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2003/01/geo/wgs84_pos#Point" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The geographical longitude of a sensor observation location"
   } ],
   "http://www.w3.org/2003/01/geo/wgs84_pos#long" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
-    "@value" : ""
+    "@value" : "118.11745"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Loxodonta",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/FeatureOfInterest" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "African elephant"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Mustelidae",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/FeatureOfInterest" ],
   "http://purl.org/ontology/wo/family" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Mustelidae"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Name",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
+  "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
+    "@value" : "Imahe_name"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "The named assigned to an image at collection time"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#PDOP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Positional Dilution of Precision (DDOP) describes the error caused by the relative position of the GPS satellites. The more signals a GPS reciever can \"see\" (speard vs near each other), the more precise it can be."
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Path",
@@ -1568,104 +1488,71 @@
     "@value" : "Name of the 1 Ha plot sampled"
   } ]
 }, {
-  "@id" : "http://www.DGFC/ontology/2021/1.0#Pythonidae",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/ontology/wo/family" : [ {
-    "@id" : "http://www.schema.org/DGFC/python"
-  } ]
-}, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Replanting_nearest_OP",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "2008"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "Year of any replanting of oil palm adjacent to the forest site (fragmented sites where adjacent oil palm had undergone a second round of planting)"
   } ]
 }, {
-  "@id" : "http://www.DGFC/ontology/2021/1.0#Reptilia",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/ontology/wo/class" : [ {
-    "@id" : "http://www.schema.org/DGFC/python"
-  } ]
-}, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Site",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/FeatureOfInterest" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@value" : ""
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "Geographical area/site which samples were taken from"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Site_code",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "18"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "code for the study site, in the format Fa (where a can be 1-18)"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Site_name",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@value" : "Sabahmas"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "name of the study site"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Site_plot_code",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "3"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "code for the study site and plot at the site, in the format FaPb (where a refers to site code, and can be 1-18; and b refers to plot code, and can be 1-3)"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Soil",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/FeatureOfInterest" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Soil or dirt, is a mixture of organic matters, minerals, ases, liquids, and organisms that collectively support life."
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Soil_Moisture",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@value" : ""
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "Gravimetric soil moisture"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Soil_Sensor",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "Soil sensor data consist of soil properties tropical forests in Sabah, Malaysia. \nThe data is a contribution from the BALI collaboration, which is financed by the UK's Natural Environment Research Council (NERC)."
   } ],
@@ -1703,50 +1590,38 @@
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Soil_identifier",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Unique observation identifier, collected over a set time interval."
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Soil_pH",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
-    "@value" : ""
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+    "@value" : "4.87"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "Measured pH of the soil sample"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Source_of_dates",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@value" : ""
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "source of \"First_planting_nearest_OP\""
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Speed",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "35.5"
   } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
-  } ]
-}, {
-  "@id" : "http://www.DGFC/ontology/2021/1.0#Squamata",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/ontology/wo/order" : [ {
-    "@id" : "http://www.schema.org/DGFC/python"
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Speed of the elephant at current data collection instant."
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Subplot",
@@ -1759,40 +1634,31 @@
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Survey_date",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@value" : "12/12/2008"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "date of field data collection at the plot, in the plot, in the format dd/mm/yyyy. Note that in some cases measurements were taken on more than one date for a single plot; see the dates provided in the seperate vegetation datasets for the precise date of particular vegetation data collection."
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Temperature",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#double",
     "@value" : "21.0"
   } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Estimate temperature of the elephant in Celsius at data collection instant."
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Vegetation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/FeatureOfInterest" ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#Years_since_frag",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@value" : "2017"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "Years since fragmentation at time of data collection. i.e., 2017 \"First_planting_nearest_OP\" (fragmented sites only)"
@@ -1817,99 +1683,73 @@
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#image",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
-  }, {
-    "@id" : "http://xmlns.com/foaf/0.1/Image"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/FeatureOfInterest", "http://xmlns.com/foaf/0.1/Image" ],
   "http://www.w3.org/ns/sosa/isFeatureOfInterestOf" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Identifier"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#inorganic_P",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
-    "@value" : ""
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+    "@value" : "36.65"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "inorganic/soluble phosphorus concentration of the soil sample"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#localDate",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
-    "@value" : ""
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+    "@value" : "2014-04-12T13:20:00-05:00"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "The current local date in Sabah, Malaysia when the image collects its readings."
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#localTime",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "The current local time in Sabah, Malaysia when the image collects its readings."
+  } ],
+  "http://www.w3.org/ns/sosa/resultTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2014-04-12T13:20:00"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#make",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@value" : ""
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "The make of the trail camera used to capture the image"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#model",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.DGFC/ontology/2021/1.0#hasValue" : [ {
     "@value" : ""
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "The model of the trail camera used to capture the image"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#timestamp",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
-  } ],
-  "http://www.w3.org/ns/sosa/resultTime" : [ {
-    "@type" : "http://www.w3.org/2001/XMLSchema#dateTimeStamp",
-    "@value" : ""
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The time of the sensor observation."
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#total_C",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "total carbon content of the soil sample"
   } ]
 }, {
   "@id" : "http://www.DGFC/ontology/2021/1.0#total_N",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
-  } ],
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/ObservableProperty" ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "total nitrogen content of the soil sample"
   } ]
@@ -1921,27 +1761,18 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/Civets",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://purl.org/ontology/wo/Family/Viverridae"
-  }, {
-    "@id" : "http://purl.org/ontology/wo/Order/Carnivora"
-  }, {
-    "@id" : "http://purl.org/ontology/wo/Phylum/Chordata"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/ontology/wo/Family/Viverridae", "http://purl.org/ontology/wo/Order/Carnivora", "http://purl.org/ontology/wo/Phylum/Chordata" ]
 }, {
   "@id" : "http://www.schema.org/DGFC/Otter",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://purl.org/ontology/wo/Order/Carnivora"
-  }, {
-    "@id" : "http://purl.org/ontology/wo/Phylum/Chordata"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/ontology/wo/Order/Carnivora", "http://purl.org/ontology/wo/Phylum/Chordata" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Otter is a carnivorous mammal."
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#ABAW",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A female asian elephant called  Abaw, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Elephas_maximus"
@@ -1959,9 +1790,11 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Aqeela",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  }, {
+    "@value" : "A female asian elephant called  Aqeela, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Elephas_maximus"
@@ -1977,9 +1810,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Bikang1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A female asian elephant called Bikang1, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Elephas_maximus"
@@ -2005,9 +1838,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Bikang2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A female asian elephant called Bikang2, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Elephas_maximus"
@@ -2033,9 +1866,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Dara",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A female asian elephant called Dara, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Elephas_maximus"
@@ -2063,9 +1896,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Guli",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A male asian elephant called Guli, here, the GPS collar (sensor) is named after him."
   } ],
   "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Elephas_maximus"
@@ -2093,9 +1926,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Ita",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A female asian elephant called Ita, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Count"
@@ -2120,9 +1953,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Jasmin",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A female asian elephant called Jasmin, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Count"
@@ -2145,9 +1978,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Jasper",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A male asian elephant called Jasper here, the GPS collar (sensor) is named after him."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Count"
@@ -2172,9 +2005,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Kasih",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A female asian elephant called Kasih, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Count"
@@ -2199,9 +2032,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Kuma",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A male asian elephant called Kuma, here, the GPS collar (sensor) is named after him."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Count"
@@ -2226,9 +2059,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Liun",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A female asian elephant called Liun, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#DateTime"
@@ -2243,9 +2076,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Maliau",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A male asian elephant called Maliau, here, the GPS collar (sensor) is named after him."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Count"
@@ -2270,9 +2103,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Merotai",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A male asian elephant called Merotai, here, the GPS collar (sensor) is named after him."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Count"
@@ -2297,9 +2130,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Puteri",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A female asian elephant called Puteri here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Count"
@@ -2324,9 +2157,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Putut",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A female asian elephant called Putut, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Count"
@@ -2349,9 +2182,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Sandi",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A female asian elephant called Sandi, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Count"
@@ -2376,9 +2209,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Sejati",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A male asian elephant called Sejati, here, the GPS collar (sensor) is named after him."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Count"
@@ -2401,9 +2234,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Seri",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A female asian elephant called Seri, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Count"
@@ -2428,9 +2261,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Tulid",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A female asian elephant called Tulid, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Count"
@@ -2453,9 +2286,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Tunglap",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A female asian elephant called Tunglap, here, the GPS collar (sensor) is named after her."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Count"
@@ -2480,9 +2313,9 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/elephant#Umas2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A male asian elephant called Umas2, here, the GPS collar (sensor) is named after him."
   } ],
   "http://www.w3.org/ns/sosa/observedProperty" : [ {
     "@id" : "http://www.DGFC/ontology/2021/1.0#Count"
@@ -2507,30 +2340,15 @@
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/python",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/ontology/wo/class" : [ {
-    "@id" : "http://www.DGFC/ontology/2021/1.0#Reptilia"
-  } ],
-  "http://purl.org/ontology/wo/family" : [ {
-    "@id" : "http://www.DGFC/ontology/2021/1.0#Pythonidae"
-  } ],
-  "http://purl.org/ontology/wo/order" : [ {
-    "@id" : "http://www.DGFC/ontology/2021/1.0#Squamata"
-  } ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://purl.org/ontology/wo/Class/Reptilia"
-  }, {
-    "@id" : "http://purl.org/ontology/wo/Order/Squamata"
-  }, {
-    "@id" : "http://purl.org/ontology/wo/Phylum/Chordata"
-  }, {
-    "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/ontology/wo/Class/Reptilia", "http://purl.org/ontology/wo/Order/Squamata", "http://purl.org/ontology/wo/Phylum/Chordata", "http://www.w3.org/ns/sosa/FeatureOfInterest" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.schema.org/DGFC/python#Juling"
   } ]
 }, {
   "@id" : "http://www.schema.org/DGFC/python#Juling",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/ns/sosa/Sensor" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A python (snake) called Juling- with tracking device called Juling"
   } ],
   "http://www.w3.org/ns/sosa/hasFeatureOfInterest" : [ {
     "@id" : "http://www.schema.org/DGFC/python"
@@ -2681,9 +2499,6 @@
     "@language" : "en",
     "@value" : "Feature Of Interest"
   } ],
-  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
-  } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "The thing whose property is being estimated or calculated in the course of an Observation to arrive at a Result or whose property is being manipulated by an Actuator, or which is being sampled or transformed in an act of Sampling."
@@ -2705,9 +2520,6 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "Observable Property"
-  } ],
-  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Observation"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
@@ -2747,9 +2559,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "sosa"
-  } ],
-  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.w3.org/ns/sosa/Sensor"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@value" : "\"A Platform is an entity that hosts other entities, particularly Sensors, Actuators, Samplers, and other Platforms.\"@en ;"
