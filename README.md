@@ -45,7 +45,7 @@ This repository has a copy of the following:
 •	Soil data properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia [9] [12].
 
 
-# SPARQL Query example 
+# SPARQL 
 What objects do contain the word sensor? 
 
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
