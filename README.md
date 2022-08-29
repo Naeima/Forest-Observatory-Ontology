@@ -19,7 +19,7 @@ https://github.com/Naeima/Forest-Observatory-Ontology-/releases/download/v1.0.0/
 
 # FOO Development
 
-We developed FOO following the Linked Open Terms (LOT) methodology using a complied list of comptency questions (functional requirements)- implemented in protege software.  LOT  was originated from Neon methodology, it encourages borrowing and reusing classes from fully developed and widely shared ontologies. Therefore, we searched the existing literature for suitable ontologies. Then, we decided to borrow classes and relationships from SOSA and BBC Wildlife Ontologies, as they contained sufficient components to model our proposed entities (i.e., instances or individuals). Moreover, LOT recommends sharing ontologies according to the Linked Data principles to enable re-using the ontologies by the research community and software applications. 
+We developed FOO following the Linked Open Terms (LOT) [6] methodology using a complied list of comptency questions (functional requirements)- implemented in protege software.  LOT  was originated from Neon methodology, it encourages borrowing and reusing classes from fully developed and widely shared ontologies. Therefore, we searched the existing literature for suitable ontologies. Then, we decided to borrow classes and relationships from SOSA and BBC Wildlife Ontologies, as they contained sufficient components to model our proposed entities (i.e., instances or individuals). Moreover, LOT recommends sharing ontologies according to the Linked Data principles to enable re-using the ontologies by the research community and software applications. 
 
 <img width="1305" alt="FOOSensor" src="https://user-images.githubusercontent.com/57564713/187103336-263758f5-ba32-439f-b9c1-836569f02526.png">
 
@@ -31,13 +31,18 @@ We developed FOO following the Linked Open Terms (LOT) methodology using a compl
 
 
 # Repository
+
 This repository has a copy of the following:
 
-•	A spreadsheet contains the ontology functional requirements (i.e., comptency questions) 
+•	Ontology Requirements Specification Document (ORSD).
+
+•	A spreadsheet contains the ontology functional requirements (i.e., comptency questions). 
 
 •	Ontology in RDF/XML and TURTLE formats.
 
 •	Ontology documentation using WIDOCO tool
+
+•	Soil data properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia [9] [12].
 
 
 # SPARQL Query example 
@@ -103,6 +108,7 @@ Meaningful Internet Systems". Springer, 966–982.
 [11] Krzysztof Janowicz, Armin Haller, Simon J.D. Cox, Danh Le Phuoc, and Maxime Lefrançois. 2019. 
 SOSA: A lightweight ontology for sensors, observations, samples, and actuators. Journal of Web Semantics 56, (2019), 1–10. DOI: https://doi.org/10.1016/j.websem.2018.06.003
 
+[12] Soil properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia - data.gov.uk. Retrieved January 21, 2022 from https://data.gov.uk/dataset/e54d035f-4bcb-4d65-a600-043a2c0f729a/soil-properties-across-primary-forest-logged-forest-and-oil-palm-plantation-in-sabah-malaysia
 
 
 
