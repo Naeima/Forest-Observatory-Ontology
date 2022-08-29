@@ -24,7 +24,7 @@ We developed FOO following the Linked Open Terms (LOT) methodology using a compl
 
 
 
-![things](https://user-images.githubusercontent.com/57564713/185769351-04be89c3-13fd-47aa-9b17-6298d426d4ae.png)
+
 
 
 
