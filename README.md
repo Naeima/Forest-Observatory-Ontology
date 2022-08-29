@@ -67,7 +67,7 @@ What objects do contain the word sensor?
 ![sensor](https://user-images.githubusercontent.com/57564713/185769348-497951cf-6b9d-465b-98f8-8a67b99121df.png)
 
 
-![Stardog](https://user-images.githubusercontent.com/57564713/187270186-f2f3dac2-b883-46c8-b34b-f3048f0c8cc9.png)
+![Stardog](https://user-images.githubusercontent.com/57564713/187270662-9236804f-3e1c-4425-a8c1-535e2a96776e.png)
 
 # Instantiating FOO with dataset about soil properties.
 
