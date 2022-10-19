@@ -84,7 +84,7 @@ https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/How-to-run-FO
 
 # References
 
-[1] 2022.  https://www.bbc.co.uk/ontologies/wildlife
+[1] 2022.  [https://www.bbc.co.uk/ontologies/wildlife](https://www.bbc.co.uk/ontologies/wildlife.io)
 
 [2] Daniel Garijo. 2017. WIDOCO: a wizard for documenting ontologies. In International Semantic Web Conference. Springer,
 94–102. https://dgarijo.github.io/Widoco/
