@@ -37,7 +37,8 @@ This repository has a copy of the following:
 
 •	Ontology documentation using WIDOCO tool
 
-•	Soil data properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia [9] [12].
+•	[Soil data properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia](data.gov.uk. Retrieved January 21, 2022 from https://data.gov.uk/dataset/e54d035f-4bcb-4d65-a600-043a2c0f729a/soil-properties-across-primary-forest-logged-forest-and-oil-palm-plantation-in-sabah-malaysia)
+.
 
 
 # SPARQL 
@@ -101,7 +102,7 @@ Meaningful Internet Systems". Springer, 966–982.
 [11] Krzysztof Janowicz, Armin Haller, Simon J.D. Cox, Danh Le Phuoc, and Maxime Lefrançois. 2019. 
 [SOSA: A lightweight ontology for sensors, observations, samples, and actuators. Journal of Web Semantics 56, (2019), 1–10. DOI:](https://doi.org/10.1016/j.websem.2018.06.003)
 
-[12] [Soil properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia](data.gov.uk. Retrieved January 21, 2022 from https://data.gov.uk/dataset/e54d035f-4bcb-4d65-a600-043a2c0f729a/soil-properties-across-primary-forest-logged-forest-and-oil-palm-plantation-in-sabah-malaysia)
+[12] Soil properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia](data.gov.uk. Retrieved January 21, 2022 from https://data.gov.uk/dataset/e54d035f-4bcb-4d65-a600-043a2c0f729a/soil-properties-across-primary-forest-logged-forest-and-oil-palm-plantation-in-sabah-malaysia)
 
 
 
