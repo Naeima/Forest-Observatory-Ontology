@@ -37,8 +37,8 @@ This repository has a copy of the following:
 
 •	Ontology documentation using WIDOCO tool
 
-•	Soil data properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia 
-[Retrieved from data.gov.uk.](https://data.gov.uk/dataset/e54d035f-4bcb-4d65-a600-043a2c0f729a/soil-properties-across-primary-forest-logged-forest-and-oil-palm-plantation-in-sabah-malaysia)
+•	Soil data properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia. 
+Retrieved from [data.gov.uk.](https://data.gov.uk/dataset/e54d035f-4bcb-4d65-a600-043a2c0f729a/soil-properties-across-primary-forest-logged-forest-and-oil-palm-plantation-in-sabah-malaysia)
 
 
 
