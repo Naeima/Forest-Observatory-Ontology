@@ -83,32 +83,31 @@ https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/How-to-run-FO
 
 [1] 2022.  [https://www.bbc.co.uk/ontologies/wildlife](https://www.bbc.co.uk/ontologies/wildlife.io)
 
-[2] Daniel Garijo. 2017. WIDOCO: a wizard for documenting ontologies. In International Semantic Web Conference. Springer,
-94–102. https://dgarijo.github.io/Widoco/
+[2] Daniel Garijo. 2017. [WIDOCO: a wizard for documenting ontologies. In International Semantic Web Conference. Springer,
+94–102.](https://dgarijo.github.io/Widoco/)
 
-[3] 2022. OOPS! - OntOlogy Pitfall Scanner! https://oops.linkeddata.es/
+[3] 2022. [OOPS! - OntOlogy Pitfall Scanner!](https://oops.linkeddata.es/)
 
-[4] 2022. Protégé. https://protege.stanford.edu/
+[4] 2022. [Protégé.](https://protege.stanford.edu/)
 
-[5] 2022. Semantic Sensor Network Ontology.https://www.w3.org/TR/vocab-ssn/
+[5] 2022. [Semantic Sensor Network Ontology.](https://www.w3.org/TR/vocab-ssn/)
 
-[6] María Poveda-Villalón, Alba Fernández-Izquierdo, Mariano Fernández-López, and Raúl García Castro. 2022. LOT:An industrial oriented ontology engineering framework. Engineering Applications of Artificial Intelligence 111 (2022), 104755.https://www.sciencedirect.com/science/article/pii/S0952197622000525
+[6] María Poveda-Villalón, Alba Fernández-Izquierdo, Mariano Fernández-López, and Raúl García Castro. 2022. LOT:An industrial oriented ontology engineering framework. [Engineering Applications of Artificial Intelligence 111 (2022),104755.](https://www.sciencedirect.com/science/article/pii/S0952197622000525)
 
-[7] Asunción Gómez-Pérez and Mari Carmen Suárez-Figueroa. 2009. NeOn methodology for building ontology networks:a scenario-based methodology (2009), https://oa.upm.es/5475/1/INVE_MEM_2009_64399.pdf
+[7] Asunción Gómez-Pérez and Mari Carmen Suárez-Figueroa. 2009. [NeOn methodology for building ontology networks:a scenario-based methodology (2009),](https://oa.upm.es/5475/1/INVE_MEM_2009_64399.pdf)
 
-[8] Milena Salgado Lynn and Amaziasizamoria Jumail. 2021. The Danau Girang Field Centre: Field Station Profile.ECOTROPICA 23, 1/2 (2021), 202103–202103. https://www.ecotropica.eu/index.php/ecotropica/article/view/86/26
+[8] Milena Salgado Lynn and Amaziasizamoria Jumail. 2021. [The Danau Girang Field Centre: Field Station Profile.ECOTROPICA 23, 1/2 (2021), 202103–202103](https://www.ecotropica.eu/index.php/ecotropica/article/view/86/26)
 
-[9] Elias et. al. 2018. Soil properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia.
-https://doi.org/10.5285/7e046092-8405-41b8-9e38-67a844bb9e7d.
+[9] Elias et. al. 2018. [Soil properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia.](https://doi.org/10.5285/7e046092-8405-41b8-9e38-67a844bb9e7d)
 
 [10] Mari Carmen Suárez-Figueroa, Asunción Gómez-Pérez, and Boris Villazón-Terrazas. 2009. How to write and use
 the ontology requirements specification document. In OTM Confederated International Conferences" On the Move to
 Meaningful Internet Systems". Springer, 966–982.
 
 [11] Krzysztof Janowicz, Armin Haller, Simon J.D. Cox, Danh Le Phuoc, and Maxime Lefrançois. 2019. 
-SOSA: A lightweight ontology for sensors, observations, samples, and actuators. Journal of Web Semantics 56, (2019), 1–10. DOI: https://doi.org/10.1016/j.websem.2018.06.003
+[SOSA: A lightweight ontology for sensors, observations, samples, and actuators. Journal of Web Semantics 56, (2019), 1–10. DOI:](https://doi.org/10.1016/j.websem.2018.06.003)
 
-[12] Soil properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia - data.gov.uk. Retrieved January 21, 2022 from https://data.gov.uk/dataset/e54d035f-4bcb-4d65-a600-043a2c0f729a/soil-properties-across-primary-forest-logged-forest-and-oil-palm-plantation-in-sabah-malaysia
+[12] [Soil properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia](data.gov.uk. Retrieved January 21, 2022 from https://data.gov.uk/dataset/e54d035f-4bcb-4d65-a600-043a2c0f729a/soil-properties-across-primary-forest-logged-forest-and-oil-palm-plantation-in-sabah-malaysia)
 
 
 
