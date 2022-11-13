@@ -9,10 +9,10 @@ The Forest Observatory Ontology (FOO) (is an ontology for describing wildlife da
 
 
 
-# [FOO Specification Draft](https://github.com/Naeima/Forest-Observatory-Ontology-/releases/download/v1.0.0/index-en.html)
+# [FOO Specification Draft. Click here](https://github.com/Naeima/Forest-Observatory-Ontology-/releases/download/v1.0.0/index-en.html)
 
 
-# [OOPS! (OntOlogy Pitfall Scanner!) Results](https://github.com/Naeima/Forest-Observatory-Ontology-/releases/download/v1.0.0/oopsEval.html)
+# [OOPS! (OntOlogy Pitfall Scanner!) Results. Click here](https://github.com/Naeima/Forest-Observatory-Ontology-/releases/download/v1.0.0/oopsEval.html)
 
 
 # FOO Development
@@ -71,7 +71,7 @@ https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/Soil-Data-v1.
 ![soil](https://user-images.githubusercontent.com/57564713/186782688-5561c88d-09d5-4b37-990a-fe290b91fe60.png)
 
 
-# [How to use FOO](https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/How-to-run-FOO-v1.0.0)
+# [How to use FOO, Click here.](https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/How-to-run-FOO-v1.0.0)
 
 
 
