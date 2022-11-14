@@ -12,7 +12,7 @@ The Forest Observatory Ontology (FOO) (is an ontology for describing wildlife da
 # FOO Specification Draft. [Click here](https://github.com/Naeima/Forest-Observatory-Ontology-/releases/download/v1.0.0/index-en.html)
 
 
-# OOPS! (OntOlogy Pitfall Scanner!) Results. [Click here](https://github.com/Naeima/Forest-Observatory-Ontology-/releases/download/v1.0.0/oopsEval.html)
+# OOPS! (OntOlogy Pitfall Scanner!). [Click here](https://github.com/Naeima/Forest-Observatory-Ontology-/releases/download/v1.0.0/oopsEval.html)
 
 
 # FOO Development
@@ -66,18 +66,18 @@ What objects do contain the word sensor?
 
 ![Stardog](https://user-images.githubusercontent.com/57564713/187270662-9236804f-3e1c-4425-a8c1-535e2a96776e.png)
 
-# Instantiating FOO with dataset about soil properties. [Click here](https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/Soil-Data-v1.0.0)
+# How to instantiating FOO with dataset about soil properties. [Click here](https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/Soil-Data-v1.0.0)
 
 ![soil](https://user-images.githubusercontent.com/57564713/186782688-5561c88d-09d5-4b37-990a-fe290b91fe60.png)
 
 
-# How to use FOO, [Click here.](https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/How-to-run-FOO-v1.0.0)
+# How to use FOO. [Click here.](https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/How-to-run-FOO-v1.0.0)
 
 
 
 # References
 
-[1] 2022.  [https://www.bbc.co.uk/ontologies/wildlife](https://www.bbc.co.uk/ontologies/wildlife.io)
+[1] 2022. [https://www.bbc.co.uk/ontologies/wildlife](https://www.bbc.co.uk/ontologies/wildlife.io)
 
 [2] Daniel Garijo. 2017. [WIDOCO: a wizard for documenting ontologies. In International Semantic Web Conference. Springer,
 94–102.](https://dgarijo.github.io/Widoco/)
