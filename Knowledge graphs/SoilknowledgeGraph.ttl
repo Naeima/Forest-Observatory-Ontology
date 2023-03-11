@@ -1,0 +1,1837 @@
+@prefix : <http://api.stardog.com/> .
+@prefix stardog: <tag:stardog:api:> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:foo_DV122 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "DV122" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "44.74"^^xsd:float , "45.19"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "DV122" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "DV1" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "29.65"^^xsd:float , "32.47"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "22.35"^^xsd:float , "25.6"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Danum Valley Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "5.02"^^xsd:float , "6.06"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 22 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.47"^^xsd:float , "7.52"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.08"^^xsd:float , "0.49"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "414.68"^^xsd:float , "603.51"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "2.26"^^xsd:float , "23.29"^^xsd:float .
+<http://www.w3.org/ns/sosa/Observation> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "sosa:Observation" ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Act of carrying out an (Observation) Procedure to estimate or calculate a value of a property of a FeatureOfInterest. Links to a Sensor to describe what made the Observation and how; links to an ObservableProperty to describe what the result is an estimate of, and to a FeatureOfInterest to detail what that property was associated with."@en ;
+   <http://www.w3.org/2004/02/skos/core#example> "The activity of estimating the intensity of an Earthquake using the Mercalli intensity scale is an Observation as is measuring the moment magnitude, i.e., the energy released by said earthquake."@en ;
+   rdfs:label "Observation"@en ;
+   rdfs:comment "Act of carrying out an (Observation) Procedure to estimate or calculate a value of a property of a FeatureOfInterest. Links to a Sensor to describe what made the Observation and how; links to an ObservableProperty to describe what the result is an estimate of, and to a FeatureOfInterest to detail what that property was associated with."@en ;
+   rdfs:isDefinedBy <http://www.w3.org/ns/sosa/> ;
+   rdfs:subClassOf owl:Thing .
+<http://schema.org/Soil_Properties_FRC> a <http://www.w3.org/ns/sosa/Sensor> .
+<http://www.ontology/ns/foo/1.1#Clay> a <http://www.w3.org/ns/sosa/observedProperty> .
+<http://www.ontology/ns/foo/1.1#Horizon> a <http://www.w3.org/ns/sosa/observedProperty> , <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Soil horizon sampled" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "Sample_Name" .
+<http://www.ontology/ns/foo/1.1#Land_Use> a <http://www.w3.org/ns/sosa/observedProperty> , <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Land use of the study plots: Unlogged tropical forest, Logged tropical forest or Oil palm plantation" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "Unlogged" .
+<http://www.ontology/ns/foo/1.1#Plot_Name> a <http://www.w3.org/ns/sosa/observedProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Name of the 1 Ha plot sampled" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "" .
+<http://www.ontology/ns/foo/1.1#Sand> a <http://www.w3.org/ns/sosa/observedProperty> .
+<http://www.ontology/ns/foo/1.1#Silt> a <http://www.w3.org/ns/sosa/observedProperty> .
+<http://www.ontology/ns/foo/1.1#Site> a <http://www.w3.org/ns/sosa/FeatureOfInterest> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Geographical area/site which samples were taken from" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "" .
+<http://www.ontology/ns/foo/1.1#Soil_pH> a <http://www.w3.org/ns/sosa/observedProperty> , <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Measured pH of the soil sample" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "4.87"^^xsd:float .
+<http://www.ontology/ns/foo/1.1#Subplot> a <http://www.w3.org/ns/sosa/observedProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Number of the subplot sampled within each 1 Ha plot Numeric" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "" .
+<http://www.ontology/ns/foo/1.1#Total_C> a <http://www.w3.org/ns/sosa/observedProperty> .
+<http://www.ontology/ns/foo/1.1#Total_N> a <http://www.w3.org/ns/sosa/observedProperty> .
+<http://www.ontology/ns/foo/1.1#Total_P> a <http://www.w3.org/ns/sosa/observedProperty> .
+<http://www.ontology/ns/foo/1.1#inorganic_P> a <http://www.w3.org/ns/sosa/observedProperty> , <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "inorganic/soluble phosphorus concentration of the soil sample" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "36.65"^^xsd:float .
+:foo_DV124 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "DV124" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "53.95"^^xsd:float , "56.4"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "DV124" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "DV1" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "24.23"^^xsd:float , "27.69"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "18.36"^^xsd:float , "19.37"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Danum Valley Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "5.64"^^xsd:float , "6.1"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 24 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.15"^^xsd:float , "3.78"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.06"^^xsd:float , "0.27"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "306.13"^^xsd:float , "432.68"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "3.96"^^xsd:float , "21.32"^^xsd:float .
+:foo_DV16 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "DV16" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "43.66"^^xsd:float , "44.87"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "DV16" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "DV1" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "29.81"^^xsd:float , "30.96"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "24.17"^^xsd:float , "26.54"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Danum Valley Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "6.06"^^xsd:float , "6.15"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 6 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.1"^^xsd:float , "4.32"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.06"^^xsd:float , "0.35"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "434.31"^^xsd:float , "565.6"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "1.48"^^xsd:float , "8.82"^^xsd:float .
+:foo_DV17 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "DV17" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "43.1"^^xsd:float , "43.94"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "DV17" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "DV1" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "28.95"^^xsd:float , "32.48"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "24.42"^^xsd:float , "27.11"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Danum Valley Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "6.01"^^xsd:float , "6.17"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 7 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "0.92"^^xsd:float , "4.08"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.04"^^xsd:float , "0.3"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "491.11"^^xsd:float , "568.16"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "1.14"^^xsd:float , "8.18"^^xsd:float .
+:foo_DV19 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "DV19" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "47.89"^^xsd:float , "52.48"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "DV19" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "DV1" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "23.13"^^xsd:float , "26.97"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "24.38"^^xsd:float , "25.14"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Danum Valley Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "5.65"^^xsd:float , "6.14"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 9 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.1"^^xsd:float , "2.51"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.05"^^xsd:float , "0.11"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "398.07"^^xsd:float , "465.79"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "1.25"^^xsd:float , "3.71"^^xsd:float .
+:foo_DV21 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "DV21" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "49.02"^^xsd:float , "51.01"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "DV21" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "DV2" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "23.93"^^xsd:float , "28.97"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "22.01"^^xsd:float , "25.06"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Danum Valley Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.46"^^xsd:float , "5.31"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 1 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "0.92"^^xsd:float , "4.5"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.05"^^xsd:float , "0.35"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "183.88"^^xsd:float , "319.38"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "4.16"^^xsd:float , "30.83"^^xsd:float .
+:foo_DV220 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "DV220" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "46.04"^^xsd:float , "57.01"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "DV220" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "DV2" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "17.24"^^xsd:float , "26.61"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "25.75"^^xsd:float , "27.35"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Danum Valley Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.84"^^xsd:float , "5.52"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 20 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.02"^^xsd:float , "3.0"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.06"^^xsd:float , "0.23"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "160.84"^^xsd:float , "229.19"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "2.65"^^xsd:float , "11.58"^^xsd:float .
+:foo_DV223 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "DV223" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "50.95"^^xsd:float , "58.4"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "DV223" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "DV2" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "21.38"^^xsd:float , "26.22"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "20.22"^^xsd:float , "22.84"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Danum Valley Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "5.0"^^xsd:float , "5.53"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 23 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "0.98"^^xsd:float , "3.89"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.05"^^xsd:float , "0.25"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "134.43"^^xsd:float , "250.96"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "4.04"^^xsd:float , "17.85"^^xsd:float .
+:foo_DV224 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "DV224" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "49.09"^^xsd:float , "54.59"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "DV224" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "DV2" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "20.58"^^xsd:float , "26.51"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "24.4"^^xsd:float , "24.83"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Danum Valley Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.54"^^xsd:float , "5.25"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 24 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "0.83"^^xsd:float , "2.8"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.05"^^xsd:float , "0.23"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "149.36"^^xsd:float , "212.55"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "3.46"^^xsd:float , "16.5"^^xsd:float .
+:foo_DV28 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "DV28" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "46.64"^^xsd:float , "54.45"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "DV28" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "DV2" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "23.5"^^xsd:float , "25.31"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "22.05"^^xsd:float , "28.05"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Danum Valley Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.97"^^xsd:float , "5.45"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 8 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.11"^^xsd:float , "4.79"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.05"^^xsd:float , "0.3"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "171.72"^^xsd:float , "291.37"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "2.83"^^xsd:float , "20.53"^^xsd:float .
+:foo_MB18 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "MB18" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "57.73"^^xsd:float , "63.55"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "MB18" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "Belian" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "21.67"^^xsd:float , "23.1"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "13.34"^^xsd:float , "20.6"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Maliau Basin Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.1"^^xsd:float , "4.64"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 18 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.17"^^xsd:float , "4.77"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.08"^^xsd:float , "0.37"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "128.8"^^xsd:float , "262.21"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "5.86"^^xsd:float , "28.59"^^xsd:float .
+:foo_MB22 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "MB22" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "61.53"^^xsd:float , "62.75"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "MB22" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "Belian" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "20.39"^^xsd:float , "21.67"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "15.57"^^xsd:float , "18.08"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Maliau Basin Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.86"^^xsd:float , "4.0"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 22 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.26"^^xsd:float , "4.51"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.09"^^xsd:float , "0.34"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "136.8"^^xsd:float , "235.19"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "7.15"^^xsd:float , "22.61"^^xsd:float .
+:foo_MB4 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "MB4" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "62.6"^^xsd:float , "62.88"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "MB4" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "Belian" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "20.66"^^xsd:float , "21.76"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "15.64"^^xsd:float , "16.46"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Maliau Basin Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.06"^^xsd:float , "4.69"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 4 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.15"^^xsd:float , "5.45"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.08"^^xsd:float , "0.38"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "171.28"^^xsd:float , "263.74"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "5.32"^^xsd:float , "25.03"^^xsd:float .
+:foo_MB7 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "MB7" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "65.76"^^xsd:float , "66.61"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "MB7" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "Belian" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "20.06"^^xsd:float , "20.59"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "12.8"^^xsd:float , "14.18"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Maliau Basin Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.18"^^xsd:float , "4.7"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 7 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.19"^^xsd:float , "3.58"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.09"^^xsd:float , "0.3"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "188.89"^^xsd:float , "266.68"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "5.02"^^xsd:float , "15.94"^^xsd:float .
+:foo_MB9 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "MB9" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "51.39"^^xsd:float , "54.06"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "MB9" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "Belian" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "29.34"^^xsd:float , "32.91"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "15.7"^^xsd:float , "16.6"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Maliau Basin Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.71"^^xsd:float , "3.75"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 9 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.46"^^xsd:float , "3.61"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.1"^^xsd:float , "0.31"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "144.82"^^xsd:float , "217.11"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "7.18"^^xsd:float , "21.92"^^xsd:float .
+:foo_MS14 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "MS14" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "53.1"^^xsd:float , "59.82"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "MS14" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "Seraya" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "22.63"^^xsd:float , "25.62"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "17.55"^^xsd:float , "21.28"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Maliau Basin Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.79"^^xsd:float , "3.83"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 14 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.07"^^xsd:float , "4.08"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.08"^^xsd:float , "0.35"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "150.97"^^xsd:float , "233.89"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "4.82"^^xsd:float , "22.84"^^xsd:float .
+:foo_MS15 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "MS15" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "50.42"^^xsd:float , "54.48"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "MS15" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "Seraya" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "24.49"^^xsd:float , "24.64"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "21.04"^^xsd:float , "24.94"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Maliau Basin Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.82"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 15 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.05"^^xsd:float , "3.71"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.07"^^xsd:float , "0.3"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "127.95"^^xsd:float , "214.8"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "5.65"^^xsd:float , "21.46"^^xsd:float .
+:foo_MS18 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "MS18" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "54.34"^^xsd:float , "54.64"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "MS18" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "Seraya" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "25.1"^^xsd:float , "26.82"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "18.84"^^xsd:float , "20.25"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Maliau Basin Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.64"^^xsd:float , "3.82"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 18 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.26"^^xsd:float , "3.73"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.09"^^xsd:float , "0.31"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "146.93"^^xsd:float , "235.99"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "6.57"^^xsd:float , "20.52"^^xsd:float .
+:foo_MS25 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "MS25" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "57.61"^^xsd:float , "62.27"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "MS25" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "Seraya" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "20.69"^^xsd:float , "24.65"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "17.04"^^xsd:float , "17.74"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Maliau Basin Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.78"^^xsd:float , "3.92"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 25 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.34"^^xsd:float , "3.6"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.09"^^xsd:float , "0.29"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "142.68"^^xsd:float , "190.08"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "6.64"^^xsd:float , "17.16"^^xsd:float .
+:foo_MS3 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "MS3" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "58.9"^^xsd:float , "58.96"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "MS3" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Unlogged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "Seraya" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "23.87"^^xsd:float , "25.71"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "15.39"^^xsd:float , "17.17"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "Maliau Basin Conservation Area" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.36"^^xsd:float , "5.47"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 3 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.06"^^xsd:float , "3.31"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.09"^^xsd:float , "0.28"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "191.45"^^xsd:float , "293.09"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "5.44"^^xsd:float , "15.88"^^xsd:float .
+:foo_SBN12 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SBN12" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "59.27"^^xsd:float , "62.73"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SBN12" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "B North" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "25.83"^^xsd:float , "28.65"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "11.45"^^xsd:float , "12.08"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.68"^^xsd:float , "3.87"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 12 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.51"^^xsd:float , "5.01"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.06"^^xsd:float , "0.41"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "112.55"^^xsd:float , "177.79"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "7.78"^^xsd:float , "15.82"^^xsd:float .
+:foo_SBN18 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SBN18" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "56.11"^^xsd:float , "57.13"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SBN18" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "B North" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "26.45"^^xsd:float , "27.54"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "16.34"^^xsd:float , "16.43"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.85"^^xsd:float , "3.92"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 18 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.43"^^xsd:float , "4.87"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.07"^^xsd:float , "0.33"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "131.36"^^xsd:float , "203.57"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "6.36"^^xsd:float , "15.42"^^xsd:float .
+:foo_SBN22 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SBN22" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "59.82"^^xsd:float , "62.92"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SBN22" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "B North" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "22.39"^^xsd:float , "23.39"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "14.69"^^xsd:float , "16.79"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.28"^^xsd:float , "5.08"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 22 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.11"^^xsd:float , "4.16"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.05"^^xsd:float , "0.27"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "124.71"^^xsd:float , "186.13"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "6.23"^^xsd:float , "15.42"^^xsd:float .
+:foo_SBN24 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SBN24" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "49.49"^^xsd:float , "51.62"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SBN24" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "B North" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "31.29"^^xsd:float , "32.45"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "17.09"^^xsd:float , "18.06"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.03"^^xsd:float , "4.51"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 24 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.82"^^xsd:float , "4.43"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.1"^^xsd:float , "0.34"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "193.91"^^xsd:float , "255.25"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "7.73"^^xsd:float , "14.06"^^xsd:float .
+:foo_SBN25 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SBN25" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "45.05"^^xsd:float , "49.13"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SBN25" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "B North" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "32.37"^^xsd:float , "34.2"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "18.5"^^xsd:float , "20.75"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.02"^^xsd:float , "4.16"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 25 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.51"^^xsd:float , "4.18"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.08"^^xsd:float , "0.3"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "148.75"^^xsd:float , "214.82"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "3.71"^^xsd:float , "9.07"^^xsd:float .
+:foo_SBS1 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SBS1" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "54.04"^^xsd:float , "56.56"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SBS1" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "B South" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "24.43"^^xsd:float , "24.5"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "19.0"^^xsd:float , "21.45"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.0"^^xsd:float , "5.06"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 1 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "2.0"^^xsd:float , "4.51"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.19"^^xsd:float , "0.35"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "236.89"^^xsd:float , "279.42"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "7.65"^^xsd:float , "23.12"^^xsd:float .
+:foo_SBS15 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SBS15" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "59.24"^^xsd:float , "60.86"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SBS15" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "B South" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "26.13"^^xsd:float , "26.96"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "13.01"^^xsd:float , "13.8"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.29"^^xsd:float , "5.54"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 15 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "2.01"^^xsd:float , "7.62"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.11"^^xsd:float , "0.55"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "224.65"^^xsd:float , "313.31"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "4.38"^^xsd:float , "12.86"^^xsd:float .
+:foo_SBS18 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SBS18" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "56.21"^^xsd:float , "56.66"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SBS18" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "B South" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "25.01"^^xsd:float , "29.02"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "14.77"^^xsd:float , "18.33"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.91"^^xsd:float , "5.98"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 18 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.49"^^xsd:float , "4.42"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.06"^^xsd:float , "0.34"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "177.81"^^xsd:float , "337.99"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "9.61"^^xsd:float , "32.83"^^xsd:float .
+:foo_SBS19 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SBS19" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "39.51"^^xsd:float , "45.26"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SBS19" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "B South" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "28.04"^^xsd:float , "34.78"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "25.71"^^xsd:float , "26.7"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.99"^^xsd:float , "4.7"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 19 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.54"^^xsd:float , "4.59"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.08"^^xsd:float , "0.37"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "156.53"^^xsd:float , "249.14"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "7.08"^^xsd:float , "21.68"^^xsd:float .
+:foo_SBS6 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SBS6" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "48.7"^^xsd:float , "56.5"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SBS6" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "B South" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "27.8"^^xsd:float , "35.03"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "15.7"^^xsd:float , "16.27"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.85"^^xsd:float , "5.88"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 6 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.74"^^xsd:float , "4.63"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.19"^^xsd:float , "0.39"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "200.14"^^xsd:float , "331.69"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "8.88"^^xsd:float , "24.69"^^xsd:float .
+:foo_SE12 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SE12" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "71.6"^^xsd:float , "75.56"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SE12" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "E" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "16.15"^^xsd:float , "20.14"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "8.26"^^xsd:float , "8.28"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.58"^^xsd:float , "3.63"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 12 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.45"^^xsd:float , "3.79"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.06"^^xsd:float , "0.31"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "126.02"^^xsd:float , "181.0"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "9.32"^^xsd:float , "23.48"^^xsd:float .
+:foo_SE20 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SE20" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "73.9"^^xsd:float , "76.47"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SE20" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "E" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "16.78"^^xsd:float , "18.01"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "6.75"^^xsd:float , "8.09"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.51"^^xsd:float , "3.68"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 20 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.7"^^xsd:float , "3.93"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.06"^^xsd:float , "0.25"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "98.69"^^xsd:float , "143.35"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "10.5"^^xsd:float , "19.66"^^xsd:float .
+:foo_SE24 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SE24" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "71.8"^^xsd:float , "72.4"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SE24" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "E" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "19.43"^^xsd:float , "20.7"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "6.9"^^xsd:float , "8.77"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.63"^^xsd:float , "3.7"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 24 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.32"^^xsd:float , "3.65"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.07"^^xsd:float , "0.25"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "100.74"^^xsd:float , "134.15"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "8.94"^^xsd:float , "15.54"^^xsd:float .
+:foo_SE3 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SE3" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "71.25"^^xsd:float , "71.45"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SE3" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "E" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "18.07"^^xsd:float , "20.25"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "8.3"^^xsd:float , "10.68"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.75"^^xsd:float , "3.87"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 3 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.36"^^xsd:float , "3.81"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.06"^^xsd:float , "0.27"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "136.64"^^xsd:float , "172.22"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "10.86"^^xsd:float , "22.63"^^xsd:float .
+:foo_SE6 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SE6" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "69.8"^^xsd:float , "71.04"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SE6" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "E" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "18.54"^^xsd:float , "19.27"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "9.69"^^xsd:float , "11.66"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.68"^^xsd:float , "3.85"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 6 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.63"^^xsd:float , "3.22"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.08"^^xsd:float , "0.26"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "147.19"^^xsd:float , "189.62"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "9.94"^^xsd:float , "23.52"^^xsd:float .
+:foo_SLF12 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SLF12" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "59.59"^^xsd:float , "61.81"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SLF12" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "LF" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "11.1"^^xsd:float , "13.29"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "27.09"^^xsd:float , "27.12"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.24"^^xsd:float , "3.37"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 12 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.55"^^xsd:float , "8.03"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.06"^^xsd:float , "0.45"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "85.47"^^xsd:float , "181.59"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "14.02"^^xsd:float , "44.63"^^xsd:float .
+:foo_SLF13 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SLF13" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "60.01"^^xsd:float , "61.25"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SLF13" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "LF" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "11.75"^^xsd:float , "12.61"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "27.0"^^xsd:float , "27.38"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.14"^^xsd:float , "3.42"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 13 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.85"^^xsd:float , "12.42"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.06"^^xsd:float , "0.64"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "95.7"^^xsd:float , "295.85"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "16.14"^^xsd:float , "57.86"^^xsd:float .
+:foo_SLF24 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SLF24" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "58.3"^^xsd:float , "64.37"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SLF24" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "LF" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "17.39"^^xsd:float , "23.8"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "17.9"^^xsd:float , "18.24"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.44"^^xsd:float , "3.71"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 24 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.89"^^xsd:float , "5.39"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.07"^^xsd:float , "0.31"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "126.09"^^xsd:float , "197.75"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "7.81"^^xsd:float , "21.89"^^xsd:float .
+:foo_SLF4 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SLF4" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "67.69"^^xsd:float , "75.24"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SLF4" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "LF" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "7.55"^^xsd:float , "12.82"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "17.21"^^xsd:float , "19.49"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.27"^^xsd:float , "3.73"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 4 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "2.4"^^xsd:float , "9.92"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.07"^^xsd:float , "0.55"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "71.88"^^xsd:float , "236.12"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "16.97"^^xsd:float , "76.44"^^xsd:float .
+:foo_SLF7 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SLF7" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "64.58"^^xsd:float , "74.49"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SLF7" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Logged" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "LF" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "8.5"^^xsd:float , "9.64"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "17.0"^^xsd:float , "25.78"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "3.47"^^xsd:float , "4.23"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 7 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.77"^^xsd:float , "13.6"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.06"^^xsd:float , "0.7"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "52.62"^^xsd:float , "283.72"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "12.7"^^xsd:float , "65.13"^^xsd:float .
+:foo_SOP1 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SOP1" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "34.26"^^xsd:float , "41.84"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SOP1" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Oil Palm" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "OP" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "30.95"^^xsd:float , "31.97"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "27.21"^^xsd:float , "33.78"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.21"^^xsd:float , "4.46"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 1 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "0.69"^^xsd:float , "1.98"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.05"^^xsd:float , "0.2"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "262.66"^^xsd:float , "667.0"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "23.94"^^xsd:float , "211.61"^^xsd:float .
+:foo_SOP2 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SOP2" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "29.77"^^xsd:float , "30.9"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SOP2" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Oil Palm" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "OP" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "29.19"^^xsd:float , "32.54"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "36.56"^^xsd:float , "41.04"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.72"^^xsd:float , "5.68"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 2 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.07"^^xsd:float , "3.89"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.07"^^xsd:float , "0.31"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "516.02"^^xsd:float , "2034.02"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "107.33"^^xsd:float , "737.97"^^xsd:float .
+:foo_SOP6 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SOP6" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "29.53"^^xsd:float , "32.39"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SOP6" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Oil Palm" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "OP" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "34.28"^^xsd:float , "37.97"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "32.5"^^xsd:float , "33.33"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.63"^^xsd:float , "5.43"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 6 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "1.0"^^xsd:float , "3.37"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.07"^^xsd:float , "0.31"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "547.63"^^xsd:float , "2440.86"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "73.79"^^xsd:float , "780.79"^^xsd:float .
+:foo_SOP8 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SOP8" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "26.67"^^xsd:float , "29.37"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SOP8" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Oil Palm" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "OP" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "35.87"^^xsd:float , "37.32"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "34.76"^^xsd:float , "36.01"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.45"^^xsd:float , "5.27"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 8 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "0.65"^^xsd:float , "3.86"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.05"^^xsd:float , "0.31"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "215.0"^^xsd:float , "960.06"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "4.5"^^xsd:float , "172.55"^^xsd:float .
+:foo_SOP9 a <http://www.w3.org/ns/sosa/Observation> ;
+   <http://schema.org/Soil_Properties_FRC> "SOP9" ;
+   <http://www.ontology/ns/foo/1.1#Clay> "26.82"^^xsd:float , "33.38"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Horizon> "Mineral" , "Organic" ;
+   <http://www.ontology/ns/foo/1.1#ID> "SOP9" ;
+   <http://www.ontology/ns/foo/1.1#Land_Use> "Oil Palm" ;
+   <http://www.ontology/ns/foo/1.1#Plot_Name> "OP" ;
+   <http://www.ontology/ns/foo/1.1#Sand> "32.58"^^xsd:float , "32.61"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Silt> "34.05"^^xsd:float , "40.57"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Site> "SAFE Project - Kalabakan Forest Reserve" ;
+   <http://www.ontology/ns/foo/1.1#Soil_pH> "4.63"^^xsd:float , "5.72"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Subplot> 9 ;
+   <http://www.ontology/ns/foo/1.1#Total_C> "0.9"^^xsd:float , "5.33"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_N> "0.05"^^xsd:float , "0.36"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#Total_P> "713.9"^^xsd:float , "2100.38"^^xsd:float ;
+   <http://www.ontology/ns/foo/1.1#inorganic_P> "226.6"^^xsd:float , "773.31"^^xsd:float .
+<http://www.w3.org/ns/sosa/Sensor> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "sosa:Sensor" ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms."@en ;
+   <http://www.w3.org/2004/02/skos/core#example> "Accelerometers, gyroscopes, barometers, magnetometers, and so forth are Sensors that are typically mounted on a modern smart phone (which acts as Platform). Other examples of sensors include the human eyes."@en ;
+   rdfs:label "Sensor"@en ;
+   rdfs:comment "Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms."@en ;
+   rdfs:isDefinedBy <http://www.w3.org/ns/sosa/> ;
+   rdfs:subClassOf owl:Thing .
+<http://www.w3.org/ns/sosa/observedProperty> a owl:ObjectProperty ;
+   rdfs:range <http://www.w3.org/ns/sosa/ObservableProperty> ;
+   rdfs:domain <http://www.w3.org/ns/sosa/Observation> .
+<http://www.w3.org/ns/sosa/FeatureOfInterest> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "sosa:FeatureOfInterest" ;
+   <http://www.w3.org/2004/02/skos/core#definition> "The thing whose property is being estimated or calculated in the course of an Observation to arrive at a Result or whose property is being manipulated by an Actuator, or which is being sampled or transformed in an act of Sampling."@en ;
+   <http://www.w3.org/2004/02/skos/core#example> "When measuring the height of a tree, the height is the observed ObservableProperty, 20m may be the Result of the Observation, and the tree is the FeatureOfInterest. A window is a FeatureOfInterest for an automatic window control Actuator."@en ;
+   rdfs:label "Feature Of Interest"@en ;
+   rdfs:comment "The thing whose property is being estimated or calculated in the course of an Observation to arrive at a Result or whose property is being manipulated by an Actuator, or which is being sampled or transformed in an act of Sampling."@en ;
+   rdfs:isDefinedBy <http://www.w3.org/ns/sosa/> ;
+   rdfs:subClassOf owl:Thing .
+<http://www.ontology/ns/foo#> a owl:Ontology ;
+   owl:versionIRI <http://www.ontology/ns/foo/1.1#> ;
+   <http://purl.org/dc/terms/rights> <http://creativecommons.org/licenses/by-sa/4.0/> .
+<http://purl.org/dc/terms/rights> a owl:AnnotationProperty ;
+   <http://purl.org/dc/terms/license> "Copyright 2017 W3C/OGC." .
+<http://creativecommons.org/ns#license> a owl:AnnotationProperty , owl:ObjectProperty , owl:NamedIndividual ;
+   rdfs:subPropertyOf <http://purl.org/dc/terms/license> ;
+   rdfs:range <http://creativecommons.org/ns#License> ;
+   rdfs:domain <http://creativecommons.org/ns#Work> ;
+   rdfs:label """has
+          license"""@en-us ;
+   owl:sameAs <http://www.w3.org/1999/xhtml/vocab#license> .
+<http://purl.org/dc/terms/license> a owl:AnnotationProperty ;
+   <http://purl.org/dc/terms/license> <http://www.opengeospatial.org/ogc/Software> , <http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document> .
+<http://creativecommons.org/ns#License> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "ns1:License" ;
+   rdfs:label "License"@en-us ;
+   rdfs:comment """a set of
+            requests/permissions to users of a Work, e.g. a
+            copyright license, the public domain, information
+            for distributors"""@en-us ;
+   rdfs:subClassOf <http://purl.org/dc/terms/LicenseDocument> ;
+   owl:equivalentClass <http://web.resource.org/cc/License> .
+<http://creativecommons.org/ns#morePermissions> a owl:AnnotationProperty , owl:ObjectProperty ;
+   rdfs:subPropertyOf <http://purl.org/dc/terms/relation> ;
+   rdfs:range rdfs:Resource ;
+   rdfs:domain <http://creativecommons.org/ns#Work> .
+<http://purl.org/dc/terms/relation> a owl:AnnotationProperty .
+rdfs:Resource a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "rdfs:Resource" ;
+   rdfs:subClassOf owl:Thing .
+<http://creativecommons.org/ns#useGuidelines> a owl:AnnotationProperty , owl:ObjectProperty ;
+   rdfs:subPropertyOf <http://purl.org/dc/terms/relation> ;
+   rdfs:range rdfs:Resource ;
+   rdfs:domain <http://creativecommons.org/ns#Work> .
+<http://data.bioontology.org/metadata/prefixIRI> a owl:AnnotationProperty .
+<http://purl.oclc.org/NET/UNIS/fiware/iot-lite#hasSensingDevice> a owl:AnnotationProperty .
+<http://purl.oclc.org/NET/UNIS/fiware/iot-lite#relativeLocation> a owl:AnnotationProperty .
+<http://purl.org/dc/terms/description> a owl:AnnotationProperty .
+<http://purl.org/dc/terms/title> a owl:AnnotationProperty .
+<http://schema.org/domainIncludes> a owl:AnnotationProperty .
+<http://schema.org/rangeIncludes> a owl:AnnotationProperty .
+<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> a owl:AnnotationProperty .
+<http://www.w3.org/2004/02/skos/core#definition> a owl:AnnotationProperty .
+<http://www.w3.org/2004/02/skos/core#example> a owl:AnnotationProperty .
+<http://creativecommons.org/ns#attributionURL> a owl:ObjectProperty ;
+   rdfs:range rdfs:Resource ;
+   rdfs:domain <http://creativecommons.org/ns#Work> .
+<http://creativecommons.org/ns#Work> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "ns1:Work" ;
+   rdfs:label "Work"@en-us ;
+   rdfs:comment """a potentially
+            copyrightable work"""@en-us ;
+   rdfs:subClassOf owl:Thing ;
+   owl:equivalentClass <http://web.resource.org/cc/Work> .
+<http://creativecommons.org/ns#deprecatedOn> a owl:ObjectProperty ;
+   rdfs:range <http://www.w3.org/2001/XMLSchema-datatypes#date> ;
+   rdfs:domain <http://creativecommons.org/ns#License> ;
+   rdfs:label """deprecated
+          on"""@en-us .
+<http://www.w3.org/2001/XMLSchema-datatypes#date> a owl:Class ;
+   rdfs:subClassOf owl:Thing .
+<http://creativecommons.org/ns#jurisdiction> a owl:ObjectProperty ;
+   rdfs:range <http://creativecommons.org/ns#Jurisdiction> ;
+   rdfs:domain <http://creativecommons.org/ns#License> ;
+   rdfs:label "jurisdiction"@en-us .
+<http://creativecommons.org/ns#Jurisdiction> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "ns1:Jurisdiction" ;
+   rdfs:label "Jurisdiction"@en-us ;
+   rdfs:comment """the legal jurisdiction
+            of a license"""@en-us ;
+   rdfs:subClassOf owl:Thing .
+<http://creativecommons.org/ns#legalcode> a owl:ObjectProperty ;
+   rdfs:range rdfs:Resource ;
+   rdfs:domain <http://creativecommons.org/ns#License> .
+<http://creativecommons.org/ns#permits> a owl:ObjectProperty ;
+   rdfs:range <http://creativecommons.org/ns#Permission> ;
+   rdfs:domain <http://creativecommons.org/ns#License> ;
+   rdfs:label "permits"@en-us .
+<http://creativecommons.org/ns#Permission> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "ns1:Permission" ;
+   rdfs:label "Permission"@en-us ;
+   rdfs:comment """an action that may or
+            may not be allowed or desired"""@en-us ;
+   rdfs:subClassOf owl:Thing ;
+   owl:equivalentClass <http://web.resource.org/cc/Permission> .
+<http://creativecommons.org/ns#prohibits> a owl:ObjectProperty ;
+   rdfs:range <http://creativecommons.org/ns#Prohibition> ;
+   rdfs:domain <http://creativecommons.org/ns#License> ;
+   rdfs:label "prohibits"@en-us .
+<http://creativecommons.org/ns#Prohibition> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "ns1:Prohibition" ;
+   rdfs:label "Prohibition"@en-us ;
+   rdfs:comment """something you may be
+            asked not to do"""@en-us ;
+   rdfs:subClassOf owl:Thing ;
+   owl:equivalentClass <http://web.resource.org/cc/Prohibition> .
+<http://creativecommons.org/ns#requires> a owl:ObjectProperty ;
+   rdfs:range <http://creativecommons.org/ns#Requirement> ;
+   rdfs:domain <http://creativecommons.org/ns#License> ;
+   rdfs:label "requires"@en-us .
+<http://creativecommons.org/ns#Requirement> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "ns1:Requirement" ;
+   rdfs:label "Requirement"@en-us ;
+   rdfs:comment """an action that may or
+            may not be requested of you"""@en-us ;
+   rdfs:subClassOf owl:Thing ;
+   owl:equivalentClass <http://web.resource.org/cc/Requirement> .
+<http://purl.org/ontology/wo/class> a owl:ObjectProperty ;
+   rdfs:range <http://purl.org/ontology/wo/Class> ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:domain <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:label "class"@en-gb ;
+   rdfs:comment "associates a taxon rank with a class"@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> .
+<http://purl.org/ontology/wo/TaxonRank> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "wo:TaxonRank" ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:label "Taxonomic Rank"@en-gb ;
+   rdfs:comment "Generic concept for a taxonomic rank such as a Genus or Species."@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> ;
+   rdfs:subClassOf owl:Thing ;
+   rdfs:seeAlso <http://en.wikipedia.org/wiki/Taxonomic_rank> .
+<http://purl.org/ontology/wo/Class> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "wo:Class" ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:label "Class"@en-gb ;
+   rdfs:comment "A class is a scientific way to group related organisms together, some examples of classes being jellyfish, reptiles and sea urchins. Classes are big groups and contain within them smaller groupings called orders, families, genera and species."@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:seeAlso <http://en.wikipedia.org/wiki/Class_%28biology%29> , <http://www.bbc.co.uk/nature/class> .
+<http://purl.org/ontology/wo/family> a owl:ObjectProperty ;
+   rdfs:range <http://purl.org/ontology/wo/Family> ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:domain <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:label "family"@en-gb ;
+   rdfs:comment "associates a taxon rank with a family"@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> .
+<http://purl.org/ontology/wo/Family> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "wo:Family" ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:label "Family"@en-gb ;
+   rdfs:comment "A family is a scientific grouping of closely related organisms. It has smaller groups, called genera and species, within it. A family can have a lot of members or only a few. Examples of families include the cats (Felidae), the gulls (Laridae) and the grasses (Poaceae)."@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:seeAlso <http://en.wikipedia.org/wiki/Family_%28biology%29> , <http://www.bbc.co.uk/nature/family> .
+<http://purl.org/ontology/wo/genus> a owl:ObjectProperty ;
+   rdfs:range <http://purl.org/ontology/wo/Genus> ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:domain <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:label "genus"@en-gb ;
+   rdfs:comment "associates a taxon rank with a genus"@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> .
+<http://purl.org/ontology/wo/Genus> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "wo:Genus" ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:label "Genus"@en-gb ;
+   rdfs:comment "A genus is a scientific way of showing that species are very closed related to each other. In fact the first word of the species' scientific name is its genus. So for lions (Panthera leo), Panthera is the genus and tells us that they are closely related to tigers (Panthera tigris), because they share the name"@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:seeAlso <http://en.wikipedia.org/wiki/Genus> , <http://www.bbc.co.uk/nature/genus> .
+<http://purl.org/ontology/wo/habitat> a owl:ObjectProperty ;
+   rdfs:range <http://purl.org/ontology/wo/Habitat> ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:domain <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:label "habitat"@en-gb ;
+   rdfs:comment "associates a taxon rank with a habitat in which it may typically be found"@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> .
+<http://purl.org/ontology/wo/Habitat> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "wo:Habitat" ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:label "Habitat"@en-gb ;
+   rdfs:comment "A habitat, or biome, is the type of environment in which plant and animals live. Habitat is dictated by what kinds of plants grow there, the climate and the geography. Rainforest, coral reefs and the tundra are all habitats where particular kinds of plants and animals might be found."@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> ;
+   rdfs:subClassOf owl:Thing ;
+   rdfs:seeAlso <http://en.wikipedia.org/wiki/Habitat> , <http://www.bbc.co.uk/nature/habitats> .
+<http://purl.org/ontology/wo/kingdom> a owl:ObjectProperty ;
+   rdfs:range <http://purl.org/ontology/wo/Kingdom> ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:domain <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:label "kingdom"@en-gb ;
+   rdfs:comment "associates a taxon rank with a kingdom"@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> .
+<http://purl.org/ontology/wo/Kingdom> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "wo:Kingdom" ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:label "Kingdom"@en-gb ;
+   rdfs:comment "Kingdoms are the major categories into which scientists divide up all living things. The main kingdoms are animals, plants, fungi and bacteria, although there are others. Each kingdom has its own suite of defining characteristics - for instance plants have rigid cell walls, whilst animals do not."@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:seeAlso <http://en.wikipedia.org/wiki/Kingdom_%28biology%29> , <http://www.bbc.co.uk/nature/kingdom> .
+<http://purl.org/ontology/wo/livesIn> a owl:ObjectProperty ;
+   rdfs:range <http://purl.org/ontology/wo/Habitat> ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:domain <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:label "lives in"@en-gb ;
+   rdfs:comment "associates a taxon rank with a habitat in which it lives. Sub-property of wo:habitat to be used for members of the animal kingdom"@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> .
+<http://purl.org/ontology/wo/order> a owl:ObjectProperty ;
+   rdfs:range <http://purl.org/ontology/wo/Kingdom> ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:domain <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:label "order"@en-gb ;
+   rdfs:comment "associates a taxon rank with an order"@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> .
+<http://purl.org/ontology/wo/phylum> a owl:ObjectProperty ;
+   rdfs:range <http://purl.org/ontology/wo/Phylum> ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:domain <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:label "phylum"@en-gb ;
+   rdfs:comment "associates a taxon rank with a phylum"@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> .
+<http://purl.org/ontology/wo/Phylum> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "wo:Phylum" ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:label "Phylum"@en-gb ;
+   rdfs:comment "A phylum - also known as a division when referring to plants - is a scientfic way of grouping together related organisms. All the members of a phylum have a common ancestor and anatomical similarities. For instance, all the arthropods have external skeletons. Phlya are large groups and are further subdivided into classes, orders, families and so on."@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:seeAlso <http://en.wikipedia.org/wiki/Phylum> , <http://www.bbc.co.uk/nature/phylum> .
+<http://purl.org/ontology/wo/species> a owl:ObjectProperty ;
+   rdfs:range <http://purl.org/ontology/wo/Species> ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:domain <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:label "species"@en-gb ;
+   rdfs:comment "associates a taxon rank with a species"@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> .
+<http://purl.org/ontology/wo/Species> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "wo:Species" ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:label "species"@en-gb ;
+   rdfs:comment "Generic class defining a biological species"@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:seeAlso <http://en.wikipedia.org/wiki/Species> , <http://www.bbc.co.uk/nature/species> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#> rdfs:label "geo" ;
+   rdfs:comment """
+Recent changes to this namespace:
+$Log: wgs84_pos.rdf,v $
+Revision 1.22  2009/04/20 15:00:30  timbl
+Remove the time bits which have been deal with elsewhere eg in iCal.
+
+Revision 1.21  2009/04/20 12:52:47  timbl
+try again
+
+Revision 1.20  2009/04/20 12:42:11  timbl
+Add Event (edited ages ago and never checked in), and location (following discussion http://chatlogs.planetrdf.com/swig/2009-04-20#T12-36-09)
+
+Revision 1.19  2009/04/20 12:36:31  timbl
+Add Event (edited ages ago and never checked in), and location (following discussion http://chatlogs.planetrdf.com/swig/2009-04-20#T12-36-09)
+
+Revision 1.18  2006/02/01 22:01:04  danbri
+Clarified that lat and long are decimal degrees, and that alt is decimal metres about local reference ellipsoid
+
+Revision 1.17  2004/02/06 17:38:12  danbri
+Fixed a bad commit screwup
+
+Revision 1.15  2003/04/19 11:24:08  danbri
+Fixed the typo even more.
+
+Revision 1.14  2003/04/19 11:16:56  danbri
+fixed a typo
+
+Revision 1.13  2003/02/19 22:27:27  connolly
+relaxed domain constraints on lat/long/alt from Point to SpatialThing
+
+Revision 1.12  2003/01/12 01:41:41  danbri
+Trying local copy of XSLT doc.
+
+Revision 1.11  2003/01/12 01:20:18  danbri
+added a link to morten's xslt rdfs viewer.
+
+Revision 1.10  2003/01/11 18:56:49  danbri
+Removed datatype range from lat and long properties, since they would
+have required each occurance of the property to mention the datatype.
+
+Revision 1.9  2003/01/11 11:41:31  danbri
+Another typo; repaired rdfs:Property to rdf:Property x4
+
+Revision 1.8  2003/01/11 11:05:02  danbri
+Added an rdfs:range for each lat/long/alt property,
+http://www.w3.org/2001/XMLSchema#float
+
+Revision 1.7  2003/01/10 20:25:16  danbri
+Longer rdfs:comment for Point, trying to be Earth-centric and neutral about
+coordinate system(s) at the same time. Feedback welcomed.
+
+Revision 1.6  2003/01/10 20:18:30  danbri
+Added CVS log comments into the RDF/XML as an rdfs:comment property of the
+vocabulary. Note that this is not common practice (but seems both harmless
+and potentially useful).
+
+
+revision 1.5
+date: 2003/01/10 20:14:31;  author: danbri;  state: Exp;  lines: +16 -5
+Updated schema:
+Added a dc:date, added url for more info. Changed the rdfs:label of the
+namespace from gp to geo. Added a class Point, set as the rdfs:domain of
+each property. Added XML comment on the lat_long property suggesting that
+we might not need it (based on #rdfig commentary from implementors).
+
+revision 1.4
+date: 2003/01/10 20:01:07;  author: danbri;  state: Exp;  lines: +6 -5
+Fixed typo; several rdfs:about attributes are now rdf:about. Thanks to MortenF in
+#rdfig for catching this error.
+
+revision 1.3
+date: 2003/01/10 11:59:03;  author: danbri;  state: Exp;  lines: +4 -3
+fixed buglet in vocab, added more wgs links
+
+revision 1.2
+date: 2003/01/10 11:01:11;  author: danbri;  state: Exp;  lines: +4 -4
+Removed alt from the as-a-flat-string property, and switched from
+space separated to comma separated.
+
+revision 1.1
+date: 2003/01/10 10:53:23;  author: danbri;  state: Exp;
+basic geo vocab
+
+""" .
+<http://www.w3.org/2003/01/geo/wgs84_pos#alt> a owl:ObjectProperty ;
+   rdfs:range _:anon-genid-b4db23e01394404a86b950630962cd81-0 ;
+   rdfs:domain <http://www.w3.org/2003/01/geo/wgs84_pos#Point> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#Point> a owl:Class , owl:NamedIndividual ;
+   <http://data.bioontology.org/metadata/prefixIRI> "wgs84_pos:Point" ;
+   <http://purl.oclc.org/NET/UNIS/fiware/iot-lite#relativeLocation> "" ;
+   rdfs:label "point" ;
+   rdfs:comment """ 
+Uniquely identified by lat/long/alt. i.e.
+
+spaciallyIntersects(P1, P2) :- lat(P1, LAT), long(P1, LONG), alt(P1, ALT),
+  lat(P2, LAT), long(P2, LONG), alt(P2, ALT).
+
+sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P2).
+  """ , """A point, typically described using a coordinate system relative to Earth, such as WGS84.
+  """ ;
+   <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "" ;
+   <http://www.w3.org/2003/01/geo/wgs84_pos#long> "" ;
+   rdfs:subClassOf <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
+_:anon-genid-b4db23e01394404a86b950630962cd81-0 a owl:Restriction ;
+   owl:onProperty <http://www.ontology/ns/foo/1.1#hasValue> ;
+   owl:someValuesFrom rdfs:Literal .
+<http://www.ontology/ns/foo/1.1#hasValue> a owl:DatatypeProperty ;
+   rdfs:range rdfs:Literal ;
+   rdfs:domain <http://www.w3.org/ns/sosa/ObservableProperty> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> a owl:ObjectProperty , owl:DatatypeProperty ;
+   rdfs:range _:anon-genid-b4db23e01394404a86b950630962cd81-1 ;
+   rdfs:domain <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ;
+   rdfs:label "latitude" ;
+   rdfs:comment "The WGS84 latitude of a SpatialThing (decimal degrees)." .
+_:anon-genid-b4db23e01394404a86b950630962cd81-1 a owl:Restriction ;
+   owl:onProperty <http://www.w3.org/2003/01/geo/wgs84_pos#lat> ;
+   owl:someValuesFrom xsd:float .
+<http://www.w3.org/2003/01/geo/wgs84_pos#location> a owl:ObjectProperty ;
+   rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/based_near> ;
+   rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+   rdfs:domain <http://www.w3.org/ns/sosa/Observation> ;
+   rdfs:label "location" ;
+   rdfs:comment """The relation between something and the point, 
+ or other geometrical thing in space, where it is.  For example, the realtionship between
+ a radio tower and a Point with a given lat and long.
+ Or a relationship between a park and its outline as a closed arc of points, or a road and
+ its location as a arc (a sequence of points).
+ Clearly in practice there will be limit to the accuracy of any such statement, but one would expect
+ an accuracy appropriate for the size of the object and uses such as mapping .
+ """ .
+<http://xmlns.com/foaf/0.1/based_near> a owl:ObjectProperty ;
+   rdfs:range <http://www.w3.org/ns/sosa/FeatureOfInterest> ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:domain <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+   rdfs:label "based near" ;
+   rdfs:comment "A location that something is based near, for some broadly human notion of near." ;
+   rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "wgs84_pos:SpatialThing" ;
+   rdfs:label "Spatial Thing" , "SpatialThing" ;
+   rdfs:comment """Anything with spatial extent, i.e. size, shape, or position.
+ e.g. people, places, bowling balls, as well as abstract areas like cubes.
+""" ;
+   rdfs:subClassOf owl:Thing .
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> a owl:ObjectProperty , owl:DatatypeProperty ;
+   rdfs:range _:anon-genid-b4db23e01394404a86b950630962cd81-2 ;
+   rdfs:domain <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ;
+   rdfs:label "longitude" ;
+   rdfs:comment "The WGS84 longitude of a SpatialThing (decimal degrees)." .
+_:anon-genid-b4db23e01394404a86b950630962cd81-2 a owl:Restriction ;
+   owl:onProperty <http://www.w3.org/2003/01/geo/wgs84_pos#long> ;
+   owl:someValuesFrom xsd:float .
+<http://www.w3.org/ns/sosa/hasFeatureOfInterest> a owl:ObjectProperty ;
+   rdfs:range <http://www.w3.org/ns/sosa/FeatureOfInterest> ;
+   rdfs:domain <http://www.w3.org/ns/sosa/Observation> .
+<http://www.w3.org/ns/sosa/hasSample> a owl:ObjectProperty ;
+   rdfs:range <http://www.w3.org/ns/sosa/Observation> ;
+   rdfs:domain <http://www.w3.org/ns/sosa/FeatureOfInterest> .
+<http://www.w3.org/ns/sosa/hosts> a owl:ObjectProperty ;
+   rdfs:range <http://www.w3.org/ns/sosa/Sensor> ;
+   rdfs:domain <http://www.w3.org/ns/sosa/Platform> ;
+   owl:propertyDisjointWith <http://www.w3.org/ns/sosa/observes> .
+<http://www.w3.org/ns/sosa/Platform> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "sosa:Platform" ;
+   <http://www.w3.org/2004/02/skos/core#definition> "\"A Platform is an entity that hosts other entities, particularly Sensors, Actuators, Samplers, and other Platforms.\"@en ;" ;
+   <http://www.w3.org/2004/02/skos/core#example> "\"A post, buoy, vehicle, ship, aircraft, satellite, cell-phone, human or animal may act as platforms for (technical or biological) sensors or actuators.\"@en ;" ;
+   rdfs:comment "A Platform is an entity that hosts other entities, particularly Sensors, Actuators, Samplers, and other Platforms.\"@en ;" ;
+   rdfs:isDefinedBy "sosa" ;
+   rdfs:subClassOf owl:Thing .
+<http://www.w3.org/ns/sosa/observes> a owl:ObjectProperty ;
+   rdfs:range <http://www.w3.org/ns/sosa/Observation> ;
+   rdfs:domain <http://www.w3.org/ns/sosa/ObservableProperty> .
+<http://www.w3.org/ns/sosa/isFeatureOfInterestOf> a owl:ObjectProperty ;
+   rdfs:range <http://www.w3.org/ns/sosa/FeatureOfInterest> ;
+   <http://www.w3.org/2004/02/skos/core#definition> "A relation between a FeatureOfInterest and an Observation about it, an Actuation acting on it, or an act of Sampling that sampled it."@en ;
+   rdfs:domain <http://www.w3.org/ns/sosa/Observation> .
+<http://www.w3.org/ns/sosa/isObservedBy> a owl:ObjectProperty ;
+   rdfs:range <http://www.w3.org/ns/sosa/ObservableProperty> ;
+   rdfs:domain <http://www.w3.org/ns/sosa/Sensor> .
+<http://www.w3.org/ns/sosa/ObservableProperty> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "sosa:ObservableProperty" ;
+   <http://www.w3.org/2004/02/skos/core#definition> "An observable quality (property, characteristic) of a FeatureOfInterest."@en ;
+   <http://www.w3.org/2004/02/skos/core#example> "The height of a tree, the depth of a water body, or the temperature of a surface are examples of observable properties, while the value of a classic car is not (directly) observable but asserted."@en ;
+   rdfs:label "Observable Property"@en ;
+   rdfs:comment "An observable quality (property, characteristic) of a FeatureOfInterest."@en ;
+   rdfs:isDefinedBy <http://www.w3.org/ns/sosa/> ;
+   rdfs:subClassOf owl:Thing .
+<http://www.w3.org/ns/sosa/madeBySensor> a owl:ObjectProperty ;
+   rdfs:range <http://www.w3.org/ns/sosa/Observation> ;
+   rdfs:domain <http://www.w3.org/ns/sosa/Sensor> .
+<http://www.w3.org/ns/sosa/madeObservation> a owl:ObjectProperty ;
+   rdfs:range <http://www.w3.org/ns/sosa/Sensor> ;
+   rdfs:domain <http://www.w3.org/ns/sosa/Observation> .
+<http://creativecommons.org/ns#attributionName> a owl:DatatypeProperty ;
+   rdfs:range rdfs:Literal ;
+   rdfs:domain <http://creativecommons.org/ns#Work> .
+<http://www.ontology/ns/foo/1.1#hasResult> a owl:DatatypeProperty ;
+   rdfs:range rdfs:Literal ;
+   rdfs:domain <http://www.w3.org/ns/sosa/Observation> .
+<http://www.w3.org/ns/sosa/resultTime> a owl:DatatypeProperty ;
+   rdfs:range xsd:dateTime ;
+   rdfs:domain <http://www.w3.org/ns/sosa/Observation> .
+<http://web.resource.org/cc/License> a owl:Class ;
+   rdfs:subClassOf <http://purl.org/dc/terms/LicenseDocument> .
+<http://purl.org/dc/terms/LicenseDocument> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "terms:LicenseDocument" ;
+   rdfs:label "License Document"@en ;
+   rdfs:comment "A legal document giving official permission to do something with a resource."@en ;
+   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+   rdfs:subClassOf <http://purl.org/dc/terms/RightsStatement> .
+<http://web.resource.org/cc/Permission> a owl:Class ;
+   rdfs:subClassOf owl:Thing .
+<http://web.resource.org/cc/Prohibition> a owl:Class ;
+   rdfs:subClassOf owl:Thing .
+<http://web.resource.org/cc/Requirement> a owl:Class ;
+   rdfs:subClassOf owl:Thing .
+<http://web.resource.org/cc/Work> a owl:Class ;
+   rdfs:subClassOf owl:Thing .
+<http://purl.org/dc/terms/Frequency> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "terms:Frequency" ;
+   rdfs:label "Frequency"@en ;
+   rdfs:comment "A rate at which something recurs."@en ;
+   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+   rdfs:subClassOf owl:Thing .
+<http://purl.org/dc/terms/RightsStatement> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "terms:RightsStatement" ;
+   rdfs:label "Rights Statement"@en ;
+   rdfs:comment "A statement about the intellectual property rights (IPR) held in or over a resource, a legal document giving official permission to do something with a resource, or a statement about access rights."@en ;
+   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+   rdfs:subClassOf owl:Thing .
+<http://purl.org/dc/terms/PhysicalResource> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "terms:PhysicalResource" ;
+   rdfs:label "Physical Resource"@en ;
+   rdfs:comment "A material thing."@en ;
+   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+   rdfs:subClassOf owl:Thing .
+<http://purl.org/dc/terms/Policy> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "terms:Policy" ;
+   rdfs:label "Policy"@en ;
+   rdfs:comment "A plan or course of action by an authority, intended to influence and determine decisions, actions, and other matters."@en ;
+   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+   rdfs:subClassOf owl:Thing ;
+   owl:disjointWith <http://purl.org/dc/terms/ProvenanceStatement> .
+<http://purl.org/dc/terms/ProvenanceStatement> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "terms:ProvenanceStatement" ;
+   rdfs:label "Provenance Statement"@en ;
+   rdfs:comment "Any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."@en ;
+   rdfs:isDefinedBy <http://purl.org/dc/terms/> ;
+   rdfs:subClassOf owl:Thing .
+<http://purl.org/ontology/wo/FreshwaterHabitat> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "wo:FreshwaterHabitat" ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:label "Freshwater Habitat"@en-gb ;
+   rdfs:comment "Freshwater habitats include bogs, ponds, lakes, rivers and streams. About 3% of Earth's water is freshwater, but this includes the water locked up in the ice caps and trapped in rocks and soil as groundwater. Only a tiny fraction (0.014%) is surface water in the form of rivers, lakes and swamps." ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/Habitat> .
+<http://purl.org/ontology/wo/MarineHabitat> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "wo:MarineHabitat" ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:label "Marine Habitat"@en-gb ;
+   rdfs:comment "Approximately 71% of the Earth's surface is covered by the oceans, an area of some 223698816km/sq. Although marine life evolved around three billion years before life on land, marine habitats are relatively poorly studied and much of the ocean's depths remains unexplored." ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/Habitat> .
+<http://purl.org/ontology/wo/Order> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "wo:Order" ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:label "Order"@en-gb ;
+   rdfs:comment "An order is a scientific way to categorise related organisms. An order is a smaller grouping than a class, but bigger than a family or genus. Examples of orders are willows, cockroaches and primates."@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/TaxonRank> ;
+   rdfs:seeAlso <http://en.wikipedia.org/wiki/Order_%28biology%29> , <http://www.bbc.co.uk/nature/order> .
+<http://purl.org/ontology/wo/TaxonName> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "wo:TaxonName" ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:label "Taxon Name"@en-gb ;
+   rdfs:comment "A taxonomic name, describing the structure and provenance of a taxonomic name."@en-gb ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> ;
+   rdfs:subClassOf owl:Thing ;
+   owl:disjointWith <http://purl.org/ontology/wo/TaxonRank> .
+<http://purl.org/ontology/wo/TerrestrialHabitat> a owl:Class ;
+   <http://data.bioontology.org/metadata/prefixIRI> "wo:TerrestrialHabitat" ;
+   <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" ;
+   rdfs:label "Terrestrial Habitat"@en-gb ;
+   rdfs:comment "Terrestrial habitats include forests, grasslands, deserts and rainforests. They are typically defined by factors such as plant structure (trees and grasses), leaf types (eg broadleaf and needleleaf), plant spacing (forest, woodland, savanna) and climate." ;
+   rdfs:isDefinedBy <http://purl.org/ontology/wo/> ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/Habitat> .
+<http://purl.org/ontology/wo/Class/Mammalia> a owl:Class ;
+   rdfs:comment """The highest class of the subphylum Vertebrata comprising humans and all other animals that nourish their young with milk secreted by mammary glands.
+https://www.merriam-webster.com/dictionary/Elephantidae""" ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/Class> .
+<http://purl.org/ontology/wo/Class/Reptilia> a owl:Class ;
+   rdfs:comment "Reptilia is a vertebrate animal of a class that includes snakes, lizards, crocodiles, turtles, and tortoises. They are distinguished by having a dry scaly skin and typically laying soft-shelled eggs on land." ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/Class> .
+<http://purl.org/ontology/wo/Family/Elephantidae> a owl:Class ;
+   rdfs:comment """ELEPHANTIDAE is a family of bulky mammals (order Proboscidea) comprising the recent elephants and related extinct forms.
+Source: https://www.merriam-webster.com/dictionary/Elephantidae""" ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/Family> .
+<http://purl.org/ontology/wo/Family/Viverridae> a owl:Class ;
+   rdfs:isDefinedBy "Viverridae is a family of small to medium-sized, feliform mammals. The viverrids comprise 33 species placed in 14 genera. This family was named and first described by John Edward Gray in 1821. Viverrids occur all over Africa, southern Europe, and South and Southeast Asia, across the Wallace Line" , "https://en.wikipedia.org/wiki/Viverridae" ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/Family> .
+<http://purl.org/ontology/wo/Kingdom/Animalia> a owl:Class ;
+   rdfs:comment """Animalia is the scientific grouping that includes all animals. Scientists, historians, and others classify similar things together, using a taxonomy.
+
+All members of the kingdom Animalia share three key traits. They are multicellular organisms, and they are all eukaryotic, meaning their cells have membrane-enclosed organelles and a nucleus. All animals are heterotrophic and must feed on other organisms to survive.
+source:https://study.com/learn/lesson/animalia-kingdom-examples-characteristics-facts.html""" ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/Kingdom> .
+<http://purl.org/ontology/wo/Order/Carnivora> a owl:Class ;
+   rdfs:comment "Carnivora is a monophyletic order of placental mammals consisting of the most recent common ancestor of all cats and dogs, and all descendants of that ancestor. Members of this group are formally referred to as carnivorans, and have evolved to specialize in eating flesh." ;
+   rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Carnivora" ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/Order> .
+<http://purl.org/ontology/wo/Order/Proboscidea> a owl:Class ;
+   rdfs:comment """Any of an order (Proboscidea) of large mammals comprising the elephants and extinct related forms.
+https://www.merriam-webster.com/dictionary/proboscidean""" ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/Order> .
+<http://purl.org/ontology/wo/Order/Squamata> a owl:Class ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/Order> .
+<http://purl.org/ontology/wo/Phylum/Chordata> a owl:Class ;
+   rdfs:comment """A large phylum of animals that includes the vertebrates together with the sea squirts and lancelets. They are distinguished by the possession of a notochord at some stage during their development.
+Source: google.com""" ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/Phylum> .
+<http://purl.org/ontology/wo/TaxonName/Civettictis> a owl:Class ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/TaxonName> .
+<http://purl.org/ontology/wo/TaxonName/Loxodonta> a owl:Class ;
+   rdfs:subClassOf <http://purl.org/ontology/wo/TaxonName> .
+<http://xmlns.com/foaf/0.1/Image> a owl:Class ;
+   rdfs:subClassOf owl:Thing .
+<http://xmlns.com/foaf/0.1/Person> a owl:Class ;
+   rdfs:subClassOf owl:Thing .
+<http://creativecommons.org/ns#Attribution> a <http://creativecommons.org/ns#Requirement> , owl:NamedIndividual ;
+   rdfs:label "Attribution"@en-us ;
+   rdfs:comment """credit be given to
+            copyright holder and/or author"""@en-us .
+<http://creativecommons.org/ns#CommercialUse> a <http://creativecommons.org/ns#Prohibition> , owl:NamedIndividual ;
+   rdfs:label "Commercial Use"@en-us ;
+   rdfs:comment """exercising rights for
+            commercial purposes"""@en-us .
+<http://creativecommons.org/ns#Copyleft> a <http://creativecommons.org/ns#Requirement> , owl:NamedIndividual ;
+   rdfs:label "Copyleft"@en-us ;
+   rdfs:comment """derivative and
+            combined works must be licensed under specified
+            terms, similar to those on the original
+            work"""@en-us .
+<http://creativecommons.org/ns#DerivativeWorks> a <http://creativecommons.org/ns#Permission> , owl:NamedIndividual ;
+   rdfs:label "Derivative Works"@en-us ;
+   rdfs:comment """distribution of
+            derivative works"""@en-us .
+<http://creativecommons.org/ns#Distribution> a <http://creativecommons.org/ns#Permission> , owl:NamedIndividual ;
+   rdfs:label "Distribution"@en-us ;
+   rdfs:comment """distribution, public
+            display, and publicly performance"""@en-us .
+<http://creativecommons.org/ns#HighIncomeNationUse> a <http://creativecommons.org/ns#Prohibition> , owl:NamedIndividual ;
+   rdfs:label "High Income Nation Use"@en-us ;
+   rdfs:comment """use in a
+            non-developing country"""@en-us .
+<http://creativecommons.org/ns#LesserCopyleft> a <http://creativecommons.org/ns#Requirement> , owl:NamedIndividual ;
+   rdfs:label "Lesser Copyleft"@en-us ;
+   rdfs:comment """derivative works must
+            be licensed under specified terms, with at least
+            the same conditions as the original work;
+            combinations with the work may be licensed under
+            different terms"""@en-us .
+<http://creativecommons.org/ns#Notice> a <http://creativecommons.org/ns#Requirement> , owl:NamedIndividual ;
+   rdfs:label "Notice"@en-us ;
+   rdfs:comment """copyright and license
+            notices be kept intact"""@en-us .
+<http://creativecommons.org/ns#Reproduction> a <http://creativecommons.org/ns#Permission> , owl:NamedIndividual ;
+   rdfs:label "Reproduction"@en-us ;
+   rdfs:comment """making multiple
+            copies"""@en-us .
+<http://creativecommons.org/ns#ShareAlike> a <http://creativecommons.org/ns#Requirement> , owl:NamedIndividual ;
+   rdfs:label "Share Alike"@en-us ;
+   rdfs:comment """derivative works be
+            licensed under the same terms or compatible terms
+            as the original work"""@en-us .
+<http://creativecommons.org/ns#Sharing> a <http://creativecommons.org/ns#Permission> , owl:NamedIndividual ;
+   rdfs:label "Sharing"@en-us ;
+   rdfs:comment """permits commercial
+            derivatives, but only non-commercial
+            distribution"""@en-us .
+<http://creativecommons.org/ns#SourceCode> a <http://creativecommons.org/ns#Requirement> , owl:NamedIndividual ;
+   rdfs:label "Source Code"@en-us ;
+   rdfs:comment """source code (the
+            preferred form for making modifications) must be
+            provided when exercising some rights granted by
+            the license."""@en-us .
+<http://www.w3.org/1999/xhtml/vocab#license> a owl:NamedIndividual .
+<http://www.dgfc/ontology/2021/1.0#C:P> a owl:NamedIndividual .
+<http://www.ontology/ns/foo/1.1#Bulk_Density> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Measured Bulk Density of soil sample" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "0.6"^^xsd:float .
+<http://www.ontology/ns/foo/1.1#CameraTrap> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Name> , <http://www.ontology/ns/foo/1.1#Path> , <http://www.ontology/ns/foo/1.1#localDate> , <http://www.ontology/ns/foo/1.1#localTime> , <http://www.ontology/ns/foo/1.1#make> , <http://www.ontology/ns/foo/1.1#model> ;
+   rdfs:comment "Wildlife cameras with embeded sensors to capture moving objects." ;
+   <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#image> ;
+   <http://www.ontology/ns/foo/1.1#hasResult> "Image" .
+<http://www.ontology/ns/foo/1.1#image> a <http://www.w3.org/ns/sosa/FeatureOfInterest> , <http://xmlns.com/foaf/0.1/Image> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/isFeatureOfInterestOf> <http://www.ontology/ns/foo/1.1#Identifier> .
+<http://www.ontology/ns/foo/1.1#Name> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "The named assigned to an image at collection time" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "Imahe_name" .
+<http://www.ontology/ns/foo/1.1#Path> a owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "The URI to point at the location of the image in secure cloud" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> ""^^xsd:anyURI .
+<http://www.ontology/ns/foo/1.1#localDate> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "The current local date in Sabah, Malaysia when the image collects its readings." ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "2014-04-12T13:20:00-05:00"^^xsd:dateTime .
+<http://www.ontology/ns/foo/1.1#localTime> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "The current local time in Sabah, Malaysia when the image collects its readings." ;
+   <http://www.w3.org/ns/sosa/resultTime> "2014-04-12T13:20:00"^^xsd:dateTime .
+<http://www.ontology/ns/foo/1.1#make> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "The make of the trail camera used to capture the image" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "" .
+<http://www.ontology/ns/foo/1.1#model> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "The model of the trail camera used to capture the image" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "" .
+<http://www.ontology/ns/foo/1.1#Count> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   rdfs:comment "GPS collar dataset's observation count per dataset" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> 10 .
+<http://www.ontology/ns/foo/1.1#Cov> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   rdfs:comment "GPS collar dataset: satellite coverage, the higher number the stronger coverage." ;
+   <http://www.ontology/ns/foo/1.1#hasValue> 5 .
+<http://www.ontology/ns/foo/1.1#DGFC_ID> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "An identifier that is unique for GPS collar sensor observation" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "111" .
+<http://www.ontology/ns/foo/1.1#DateTime> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   rdfs:comment "The date and time of the GPS collar observation" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "2013-07-06T21:03:17"^^xsd:dateTime .
+<http://www.ontology/ns/foo/1.1#Direction> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   rdfs:comment "Direction that the elephant is travelling at the current data collection instant." ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "90.0"^^xsd:float .
+<http://www.ontology/ns/foo/1.1#Distance> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   rdfs:comment "Distance (m) travelled from the previous data collection instant to the present." ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "200.0"^^xsd:float .
+<http://www.ontology/ns/foo/1.1#Disturbance> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "degree of logging at the site, on of \"Old-growth\", \"Twic logged\", Logged\" (when number of logging operations unknown)" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "Logged" .
+<http://www.ontology/ns/foo/1.1#ElephasMaximus> a <http://www.w3.org/ns/sosa/FeatureOfInterest> , <http://purl.org/ontology/wo/Class/Mammalia> , <http://purl.org/ontology/wo/Family/Elephantidae> , <http://purl.org/ontology/wo/Kingdom/Animalia> , <http://purl.org/ontology/wo/Order/Proboscidea> , <http://purl.org/ontology/wo/Phylum/Chordata> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Asian elephant" ;
+   <http://www.w3.org/ns/sosa/isFeatureOfInterestOf> <http://www.schema.org/dgfc/elephant#ABAW> , <http://www.schema.org/dgfc/elephant#Aqeela> , <http://www.schema.org/dgfc/elephant#Bikang1> , <http://www.schema.org/dgfc/elephant#Bikang2> , <http://www.schema.org/dgfc/elephant#Dara> , <http://www.schema.org/dgfc/elephant#Guli> , <http://www.schema.org/dgfc/elephant#Ita> , <http://www.schema.org/dgfc/elephant#Jasmin> , <http://www.schema.org/dgfc/elephant#Jasper> , <http://www.schema.org/dgfc/elephant#Kasih> , <http://www.schema.org/dgfc/elephant#Kuma> , <http://www.schema.org/dgfc/elephant#Liun> , <http://www.schema.org/dgfc/elephant#Maliau> , <http://www.schema.org/dgfc/elephant#Merotai> , <http://www.schema.org/dgfc/elephant#Puteri> , <http://www.schema.org/dgfc/elephant#Putut> , <http://www.schema.org/dgfc/elephant#Sandi> , <http://www.schema.org/dgfc/elephant#Sejati> , <http://www.schema.org/dgfc/elephant#Seri> , <http://www.schema.org/dgfc/elephant#Tulid> , <http://www.schema.org/dgfc/elephant#Tunglap> , <http://www.schema.org/dgfc/elephant#Umas2> .
+<http://www.schema.org/dgfc/elephant#ABAW> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#ExtTemp> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A female asian elephant called  Abaw, here, the GPS collar (sensor) is named after her." ;
+   <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#ElephasMaximus> .
+<http://www.schema.org/dgfc/elephant#Aqeela> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#PDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "" , "A female asian elephant called  Aqeela, here, the GPS collar (sensor) is named after her." ;
+   <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#ElephasMaximus> .
+<http://www.schema.org/dgfc/elephant#Bikang1> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A female asian elephant called Bikang1, here, the GPS collar (sensor) is named after her." ;
+   <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#ElephasMaximus> .
+<http://www.schema.org/dgfc/elephant#Bikang2> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A female asian elephant called Bikang2, here, the GPS collar (sensor) is named after her." ;
+   <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#ElephasMaximus> .
+<http://www.schema.org/dgfc/elephant#Dara> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#ExtTemp> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A female asian elephant called Dara, here, the GPS collar (sensor) is named after her." ;
+   <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#ElephasMaximus> .
+<http://www.schema.org/dgfc/elephant#Guli> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#ExtTemp> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A male asian elephant called Guli, here, the GPS collar (sensor) is named after him." ;
+   <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#ElephasMaximus> .
+<http://www.schema.org/dgfc/elephant#Ita> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#ExtTemp> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A female asian elephant called Ita, here, the GPS collar (sensor) is named after her." .
+<http://www.schema.org/dgfc/elephant#Jasmin> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A female asian elephant called Jasmin, here, the GPS collar (sensor) is named after her." .
+<http://www.schema.org/dgfc/elephant#Jasper> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#ExtTemp> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A male asian elephant called Jasper here, the GPS collar (sensor) is named after him." .
+<http://www.schema.org/dgfc/elephant#Kasih> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#ExtTemp> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A female asian elephant called Kasih, here, the GPS collar (sensor) is named after her." .
+<http://www.schema.org/dgfc/elephant#Kuma> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#ExtTemp> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A male asian elephant called Kuma, here, the GPS collar (sensor) is named after him." .
+<http://www.schema.org/dgfc/elephant#Liun> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#DateTime> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#PDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A female asian elephant called Liun, here, the GPS collar (sensor) is named after her." .
+<http://www.schema.org/dgfc/elephant#Maliau> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#ExtTemp> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A male asian elephant called Maliau, here, the GPS collar (sensor) is named after him." .
+<http://www.schema.org/dgfc/elephant#Merotai> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#ExtTemp> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A male asian elephant called Merotai, here, the GPS collar (sensor) is named after him." .
+<http://www.schema.org/dgfc/elephant#Puteri> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#ExtTemp> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A female asian elephant called Puteri here, the GPS collar (sensor) is named after her." .
+<http://www.schema.org/dgfc/elephant#Putut> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A female asian elephant called Putut, here, the GPS collar (sensor) is named after her." .
+<http://www.schema.org/dgfc/elephant#Sandi> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#ExtTemp> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A female asian elephant called Sandi, here, the GPS collar (sensor) is named after her." .
+<http://www.schema.org/dgfc/elephant#Sejati> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A male asian elephant called Sejati, here, the GPS collar (sensor) is named after him." .
+<http://www.schema.org/dgfc/elephant#Seri> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#ExtTemp> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A female asian elephant called Seri, here, the GPS collar (sensor) is named after her." .
+<http://www.schema.org/dgfc/elephant#Tulid> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#ExtTemp> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A female asian elephant called Tulid, here, the GPS collar (sensor) is named after her." .
+<http://www.schema.org/dgfc/elephant#Tunglap> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#ExtTemp> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A female asian elephant called Tunglap, here, the GPS collar (sensor) is named after her." .
+<http://www.schema.org/dgfc/elephant#Umas2> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Count> , <http://www.ontology/ns/foo/1.1#Cov> , <http://www.ontology/ns/foo/1.1#Direction> , <http://www.ontology/ns/foo/1.1#Distance> , <http://www.ontology/ns/foo/1.1#ExtTemp> , <http://www.ontology/ns/foo/1.1#GMTDate> , <http://www.ontology/ns/foo/1.1#GMTTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> , <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdfs:comment "A male asian elephant called Umas2, here, the GPS collar (sensor) is named after him." .
+<http://www.ontology/ns/foo/1.1#Elevation_masl> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   rdfs:comment "Elevation at the plot centre, in metres above sea level" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "15.5"^^xsd:float .
+<http://www.ontology/ns/foo/1.1#ExtTemp> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   rdfs:comment "External Temperature of the elephant at data collection instant" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> 2.1E1 .
+<http://www.ontology/ns/foo/1.1#First_planting_nearest_OP> a owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Year palm adjacent to the forest site" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> 2005 .
+<http://www.ontology/ns/foo/1.1#Forest_type> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "type of forest site, one of \"Continous primary\", \"Continous logged\", \"HCV\" (i.e., High Conservation Value; fragmented sites in oil palm plantations)" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "HCV High Conservation Value" .
+<http://www.ontology/ns/foo/1.1#GMTDate> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "The GMT date in Sabah, Malaysia when the GPS collar collected  its readings." ;
+   <http://www.w3.org/ns/sosa/resultTime> "2014-04-12T13:20:00"^^xsd:dateTime .
+<http://www.ontology/ns/foo/1.1#GMTTime> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   rdfs:comment "The current local date in Sabah, Malaysia when the image collects its readings." ;
+   <http://www.w3.org/ns/sosa/resultTime> "2014-04-12T13:20:00"^^xsd:dateTime .
+<http://www.ontology/ns/foo/1.1#HDOP> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   rdfs:comment "Horizontal Dilution of Precision (HDOP) measures GPS accuracy in Latitude and Longitude. The lower value the better precision." ;
+   <http://www.ontology/ns/foo/1.1#hasValue> 1 .
+<http://www.ontology/ns/foo/1.1#Horizon_Depth> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Depth of the organic soil horizon sampled" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "2.5"^^xsd:float .
+<http://www.ontology/ns/foo/1.1#Identifier> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Unique Soil Sample Identifier" ;
+   <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#image> ;
+   <http://www.ontology/ns/foo/1.1#hasResult> "DGFC_" .
+<http://www.ontology/ns/foo/1.1#Lat> a <http://www.w3.org/2003/01/geo/wgs84_pos#Point> , owl:NamedIndividual ;
+   rdfs:comment "The geographical latitude of the observation location" ;
+   <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "5.111245"^^xsd:float .
+<http://www.ontology/ns/foo/1.1#Long> a <http://www.w3.org/2003/01/geo/wgs84_pos#Point> , owl:NamedIndividual ;
+   rdfs:comment "The geographical longitude of a sensor observation location" ;
+   <http://www.w3.org/2003/01/geo/wgs84_pos#long> "118.11745"^^xsd:float .
+<http://www.ontology/ns/foo/1.1#Loxodonta> a <http://www.w3.org/ns/sosa/FeatureOfInterest> , owl:NamedIndividual ;
+   rdfs:comment "African elephant" .
+<http://www.ontology/ns/foo/1.1#Mustelidae> a <http://www.w3.org/ns/sosa/FeatureOfInterest> , owl:NamedIndividual ;
+   <http://purl.org/ontology/wo/family> <http://www.ontology/ns/foo/1.1#Mustelidae> .
+<http://www.ontology/ns/foo/1.1#PDOP> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   rdfs:comment "Positional Dilution of Precision (DDOP) describes the error caused by the relative position of the GPS satellites. The more signals a GPS reciever can \"see\" (speard vs near each other), the more precise it can be." .
+<http://www.ontology/ns/foo/1.1#Replanting_nearest_OP> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Year of any replanting of oil palm adjacent to the forest site (fragmented sites where adjacent oil palm had undergone a second round of planting)" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> 2008 .
+<http://www.ontology/ns/foo/1.1#Site_code> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "code for the study site, in the format Fa (where a can be 1-18)" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> 18 .
+<http://www.ontology/ns/foo/1.1#Site_name> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "name of the study site" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "Sabahmas" .
+<http://www.ontology/ns/foo/1.1#Site_plot_code> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "code for the study site and plot at the site, in the format FaPb (where a refers to site code, and can be 1-18; and b refers to plot code, and can be 1-3)" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> 3 .
+<http://www.ontology/ns/foo/1.1#Soil> a <http://www.w3.org/ns/sosa/FeatureOfInterest> , owl:NamedIndividual ;
+   rdfs:comment "Soil or dirt, is a mixture of organic matters, minerals, ases, liquids, and organisms that collectively support life." .
+<http://www.ontology/ns/foo/1.1#Soil_Moisture> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Gravimetric soil moisture" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "" .
+<http://www.ontology/ns/foo/1.1#Soil_Sensor> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#Horizon> , <http://www.ontology/ns/foo/1.1#Land_Use> , <http://www.ontology/ns/foo/1.1#Plot_Name> , <http://www.ontology/ns/foo/1.1#Site> , <http://www.ontology/ns/foo/1.1#Soil_pH> , <http://www.ontology/ns/foo/1.1#Subplot> , <http://www.ontology/ns/foo/1.1#inorganic_P> , <http://www.dgfc/ontology/2021/1.0#C:P> , <http://www.ontology/ns/foo/1.1#Bulk_Density> , <http://www.ontology/ns/foo/1.1#Horizon_Depth> , <http://www.ontology/ns/foo/1.1#Soil_Moisture> , <http://www.ontology/ns/foo/1.1#total_C> , <http://www.ontology/ns/foo/1.1#total_N> , <http://www.ontology/ns/foo/1.1#C:N> ;
+   rdfs:comment """Soil sensor data consist of soil properties tropical forests in Sabah, Malaysia. 
+The data is a contribution from the BALI collaboration, which is financed by the UK's Natural Environment Research Council (NERC).""" ;
+   <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.ontology/ns/foo/1.1#Soil> .
+<http://www.ontology/ns/foo/1.1#total_C> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "total carbon content of the soil sample" .
+<http://www.ontology/ns/foo/1.1#total_N> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "total nitrogen content of the soil sample" .
+<http://www.ontology/ns/foo/1.1#C:N> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "carbon to nitrogen ratio of the soil sample" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "11.96"^^xsd:float .
+<http://www.ontology/ns/foo/1.1#Soil_identifier> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   rdfs:comment "Unique observation identifier, collected over a set time interval." .
+<http://www.ontology/ns/foo/1.1#Source_of_dates> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "source of \"First_planting_nearest_OP\"" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "" .
+<http://www.ontology/ns/foo/1.1#Speed> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   rdfs:comment "Speed of the elephant at current data collection instant." ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "35.5"^^xsd:float .
+<http://www.ontology/ns/foo/1.1#Survey_date> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "date of field data collection at the plot, in the plot, in the format dd/mm/yyyy. Note that in some cases measurements were taken on more than one date for a single plot; see the dates provided in the seperate vegetation datasets for the precise date of particular vegetation data collection." ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "12/12/2008" .
+<http://www.ontology/ns/foo/1.1#Temperature> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   rdfs:comment "Estimate temperature of the elephant in Celsius at data collection instant." ;
+   <http://www.ontology/ns/foo/1.1#hasValue> 2.1E1 .
+<http://www.ontology/ns/foo/1.1#Vegetation> a <http://www.w3.org/ns/sosa/FeatureOfInterest> , owl:NamedIndividual .
+<http://www.ontology/ns/foo/1.1#Years_since_frag> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "Years since fragmentation at time of data collection. i.e., 2017 \"First_planting_nearest_OP\" (fragmented sites only)" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "2017" .
+<http://www.ontology/ns/foo/1.1#timestamp> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   rdfs:comment "The time of the sensor observation." .
+<http://www.ontology/ns/foo/1.1#BC:P> a <http://www.w3.org/ns/sosa/ObservableProperty> , owl:NamedIndividual ;
+   <http://www.w3.org/2004/02/skos/core#definition> "carbon to inorganic phosphorus ratio of the soil sample" ;
+   <http://www.ontology/ns/foo/1.1#hasValue> "0.12"^^xsd:float .
+<http://www.ontology/ns/foo/1.1#C:P> a owl:NamedIndividual .
+<http://www.schema.org/dgfc/Civets> a <http://purl.org/ontology/wo/Family/Viverridae> , <http://purl.org/ontology/wo/Order/Carnivora> , <http://purl.org/ontology/wo/Phylum/Chordata> , owl:NamedIndividual .
+<http://www.schema.org/dgfc/Otter> a <http://purl.org/ontology/wo/Order/Carnivora> , <http://purl.org/ontology/wo/Phylum/Chordata> , owl:NamedIndividual ;
+   rdfs:comment "Otter is a carnivorous mammal." .
+<http://www.schema.org/dgfc/python> a <http://www.w3.org/ns/sosa/FeatureOfInterest> , <http://purl.org/ontology/wo/Class/Reptilia> , <http://purl.org/ontology/wo/Order/Squamata> , <http://purl.org/ontology/wo/Phylum/Chordata> , owl:NamedIndividual ;
+   owl:sameAs <http://www.schema.org/dgfc/python#Juling> .
+<http://www.schema.org/dgfc/python#Juling> a <http://www.w3.org/ns/sosa/Sensor> , owl:NamedIndividual ;
+   <http://www.w3.org/ns/sosa/observedProperty> <http://www.ontology/ns/foo/1.1#DateTime> , <http://www.ontology/ns/foo/1.1#HDOP> , <http://www.ontology/ns/foo/1.1#Speed> ;
+   rdfs:comment "A python (snake) called Juling- with tracking device called Juling" ;
+   <http://www.w3.org/ns/sosa/hasFeatureOfInterest> <http://www.schema.org/dgfc/python> .
+<http://purl.org/dc/terms/isPartOf> <http://purl.org/dc/terms/description> "This property is intended to be used with non-literal values. This property is an inverse property of Has Part."@en ;
+   rdfs:label "Is Part Of"@en ;
+   rdfs:comment "A related resource in which the described resource is physically or logically included."@en ;
+   rdfs:isDefinedBy <http://purl.org/dc/terms/> .
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdfs:comment <http://www.FOO/dgfc> .
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://purl.org/dc/terms/title> "\"http://www.ontology/ns/foo#\"/" .
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat_long> rdfs:label "lat/long" ;
+   rdfs:comment "A comma-separated representation of a latitude, longitude coordinate." .
+_:anon-genid-b4db23e01394404a86b950630962cd81-3 a owl:AllDifferent ;
+   owl:distinctMembers _:anon-genid-b4db23e01394404a86b950630962cd81-4 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-4 rdf:first <http://creativecommons.org/ns#Attribution> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-5 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-5 rdf:first <http://creativecommons.org/ns#CommercialUse> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-6 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-6 rdf:first <http://creativecommons.org/ns#Copyleft> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-7 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-7 rdf:first <http://creativecommons.org/ns#DerivativeWorks> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-8 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-8 rdf:first <http://creativecommons.org/ns#Distribution> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-9 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-9 rdf:first <http://creativecommons.org/ns#HighIncomeNationUse> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-10 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-10 rdf:first <http://creativecommons.org/ns#LesserCopyleft> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-11 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-11 rdf:first <http://creativecommons.org/ns#Notice> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-12 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-12 rdf:first <http://creativecommons.org/ns#Reproduction> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-13 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-13 rdf:first <http://creativecommons.org/ns#ShareAlike> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-14 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-14 rdf:first <http://creativecommons.org/ns#Sharing> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-15 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-15 rdf:first <http://creativecommons.org/ns#SourceCode> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-16 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-16 rdf:first <http://creativecommons.org/ns#license> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-17 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-17 rdf:first <http://www.ontology/ns/foo/1.1#Bulk_Density> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-18 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-18 rdf:first <http://www.ontology/ns/foo/1.1#CameraTrap> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-19 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-19 rdf:first <http://www.ontology/ns/foo/1.1#Count> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-20 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-20 rdf:first <http://www.ontology/ns/foo/1.1#Cov> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-21 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-21 rdf:first <http://www.ontology/ns/foo/1.1#DGFC_ID> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-22 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-22 rdf:first <http://www.ontology/ns/foo/1.1#DateTime> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-23 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-23 rdf:first <http://www.ontology/ns/foo/1.1#Direction> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-24 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-24 rdf:first <http://www.ontology/ns/foo/1.1#Distance> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-25 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-25 rdf:first <http://www.ontology/ns/foo/1.1#Disturbance> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-26 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-26 rdf:first <http://www.ontology/ns/foo/1.1#ElephasMaximus> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-27 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-27 rdf:first <http://www.ontology/ns/foo/1.1#Elevation_masl> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-28 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-28 rdf:first <http://www.ontology/ns/foo/1.1#ExtTemp> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-29 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-29 rdf:first <http://www.ontology/ns/foo/1.1#First_planting_nearest_OP> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-30 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-30 rdf:first <http://www.ontology/ns/foo/1.1#Forest_type> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-31 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-31 rdf:first <http://www.ontology/ns/foo/1.1#GMTDate> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-32 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-32 rdf:first <http://www.ontology/ns/foo/1.1#GMTTime> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-33 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-33 rdf:first <http://www.ontology/ns/foo/1.1#HDOP> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-34 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-34 rdf:first <http://www.ontology/ns/foo/1.1#Horizon> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-35 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-35 rdf:first <http://www.ontology/ns/foo/1.1#Horizon_Depth> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-36 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-36 rdf:first <http://www.ontology/ns/foo/1.1#Identifier> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-37 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-37 rdf:first <http://www.ontology/ns/foo/1.1#Land_Use> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-38 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-38 rdf:first <http://www.ontology/ns/foo/1.1#Lat> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-39 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-39 rdf:first <http://www.ontology/ns/foo/1.1#Long> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-40 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-40 rdf:first <http://www.ontology/ns/foo/1.1#Loxodonta> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-41 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-41 rdf:first <http://www.ontology/ns/foo/1.1#Mustelidae> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-42 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-42 rdf:first <http://www.ontology/ns/foo/1.1#Name> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-43 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-43 rdf:first <http://www.ontology/ns/foo/1.1#PDOP> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-44 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-44 rdf:first <http://www.ontology/ns/foo/1.1#Path> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-45 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-45 rdf:first <http://www.ontology/ns/foo/1.1#Plot_Name> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-46 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-46 rdf:first <http://www.ontology/ns/foo/1.1#Replanting_nearest_OP> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-47 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-47 rdf:first <http://www.ontology/ns/foo/1.1#Site> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-48 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-48 rdf:first <http://www.ontology/ns/foo/1.1#Site_code> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-49 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-49 rdf:first <http://www.ontology/ns/foo/1.1#Site_name> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-50 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-50 rdf:first <http://www.ontology/ns/foo/1.1#Site_plot_code> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-51 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-51 rdf:first <http://www.ontology/ns/foo/1.1#Soil> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-52 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-52 rdf:first <http://www.ontology/ns/foo/1.1#Soil_Moisture> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-53 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-53 rdf:first <http://www.ontology/ns/foo/1.1#Soil_Sensor> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-54 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-54 rdf:first <http://www.ontology/ns/foo/1.1#Soil_identifier> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-55 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-55 rdf:first <http://www.ontology/ns/foo/1.1#Soil_pH> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-56 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-56 rdf:first <http://www.ontology/ns/foo/1.1#Source_of_dates> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-57 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-57 rdf:first <http://www.ontology/ns/foo/1.1#Speed> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-58 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-58 rdf:first <http://www.ontology/ns/foo/1.1#Subplot> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-59 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-59 rdf:first <http://www.ontology/ns/foo/1.1#Survey_date> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-60 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-60 rdf:first <http://www.ontology/ns/foo/1.1#Temperature> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-61 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-61 rdf:first <http://www.ontology/ns/foo/1.1#Vegetation> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-62 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-62 rdf:first <http://www.ontology/ns/foo/1.1#Years_since_frag> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-63 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-63 rdf:first <http://www.ontology/ns/foo/1.1#image> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-64 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-64 rdf:first <http://www.ontology/ns/foo/1.1#inorganic_P> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-65 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-65 rdf:first <http://www.ontology/ns/foo/1.1#localDate> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-66 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-66 rdf:first <http://www.ontology/ns/foo/1.1#localTime> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-67 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-67 rdf:first <http://www.ontology/ns/foo/1.1#make> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-68 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-68 rdf:first <http://www.ontology/ns/foo/1.1#model> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-69 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-69 rdf:first <http://www.ontology/ns/foo/1.1#timestamp> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-70 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-70 rdf:first <http://www.ontology/ns/foo/1.1#total_C> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-71 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-71 rdf:first <http://www.ontology/ns/foo/1.1#total_N> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-72 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-72 rdf:first <http://www.ontology/ns/foo/1.1#C:N> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-73 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-73 rdf:first <http://www.ontology/ns/foo/1.1#C:P> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-74 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-74 rdf:first <http://www.schema.org/dgfc/Civets> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-75 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-75 rdf:first <http://www.schema.org/dgfc/Otter> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-76 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-76 rdf:first <http://www.schema.org/dgfc/python> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-77 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-77 rdf:first <http://www.schema.org/dgfc/elephant#ABAW> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-78 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-78 rdf:first <http://www.schema.org/dgfc/elephant#Aqeela> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-79 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-79 rdf:first <http://www.schema.org/dgfc/elephant#Bikang1> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-80 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-80 rdf:first <http://www.schema.org/dgfc/elephant#Bikang2> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-81 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-81 rdf:first <http://www.schema.org/dgfc/elephant#Dara> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-82 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-82 rdf:first <http://www.schema.org/dgfc/elephant#Guli> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-83 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-83 rdf:first <http://www.schema.org/dgfc/elephant#Ita> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-84 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-84 rdf:first <http://www.schema.org/dgfc/elephant#Jasmin> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-85 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-85 rdf:first <http://www.schema.org/dgfc/elephant#Jasper> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-86 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-86 rdf:first <http://www.schema.org/dgfc/elephant#Kasih> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-87 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-87 rdf:first <http://www.schema.org/dgfc/elephant#Kuma> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-88 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-88 rdf:first <http://www.schema.org/dgfc/elephant#Liun> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-89 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-89 rdf:first <http://www.schema.org/dgfc/elephant#Maliau> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-90 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-90 rdf:first <http://www.schema.org/dgfc/elephant#Merotai> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-91 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-91 rdf:first <http://www.schema.org/dgfc/elephant#Puteri> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-92 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-92 rdf:first <http://www.schema.org/dgfc/elephant#Putut> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-93 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-93 rdf:first <http://www.schema.org/dgfc/elephant#Sandi> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-94 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-94 rdf:first <http://www.schema.org/dgfc/elephant#Sejati> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-95 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-95 rdf:first <http://www.schema.org/dgfc/elephant#Seri> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-96 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-96 rdf:first <http://www.schema.org/dgfc/elephant#Tulid> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-97 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-97 rdf:first <http://www.schema.org/dgfc/elephant#Tunglap> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-98 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-98 rdf:first <http://www.schema.org/dgfc/elephant#Umas2> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-99 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-99 rdf:first <http://www.schema.org/dgfc/python#Juling> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-100 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-100 rdf:first <http://www.w3.org/1999/xhtml/vocab#license> ;
+   rdf:rest _:anon-genid-b4db23e01394404a86b950630962cd81-101 .
+_:anon-genid-b4db23e01394404a86b950630962cd81-101 rdf:first <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ;
+   rdf:rest rdf:nil .
