@@ -1,0 +1,1201 @@
+@prefix ns1: <http://www.ontology/ns/foo/1.1#> .
+@prefix ns2: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<foo_DV122> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "DV122"^^xsd:string ;
+    ns1:Clay "44.74"^^xsd:float,
+        "45.19"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "DV122"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Sand "29.65"^^xsd:float,
+        "32.47"^^xsd:float ;
+    ns1:Silt "22.35"^^xsd:float,
+        "25.6"^^xsd:float ;
+    ns1:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "5.02"^^xsd:float,
+        "6.06"^^xsd:float ;
+    ns1:Subplot 22 ;
+    ns1:Total_C "1.47"^^xsd:float,
+        "7.52"^^xsd:float ;
+    ns1:Total_N "0.08"^^xsd:float,
+        "0.49"^^xsd:float ;
+    ns1:Total_P "414.68"^^xsd:float,
+        "603.51"^^xsd:float ;
+    ns1:inorganic_P "2.26"^^xsd:float,
+        "23.29"^^xsd:float .
+
+<foo_DV124> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "DV124"^^xsd:string ;
+    ns1:Clay "53.95"^^xsd:float,
+        "56.4"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "DV124"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Sand "24.23"^^xsd:float,
+        "27.69"^^xsd:float ;
+    ns1:Silt "18.36"^^xsd:float,
+        "19.37"^^xsd:float ;
+    ns1:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "5.64"^^xsd:float,
+        "6.1"^^xsd:float ;
+    ns1:Subplot 24 ;
+    ns1:Total_C "1.15"^^xsd:float,
+        "3.78"^^xsd:float ;
+    ns1:Total_N "0.06"^^xsd:float,
+        "0.27"^^xsd:float ;
+    ns1:Total_P "306.13"^^xsd:float,
+        "432.68"^^xsd:float ;
+    ns1:inorganic_P "3.96"^^xsd:float,
+        "21.32"^^xsd:float .
+
+<foo_DV16> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "DV16"^^xsd:string ;
+    ns1:Clay "43.66"^^xsd:float,
+        "44.87"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "DV16"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Sand "29.81"^^xsd:float,
+        "30.96"^^xsd:float ;
+    ns1:Silt "24.17"^^xsd:float,
+        "26.54"^^xsd:float ;
+    ns1:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "6.06"^^xsd:float,
+        "6.15"^^xsd:float ;
+    ns1:Subplot 6 ;
+    ns1:Total_C "1.1"^^xsd:float,
+        "4.32"^^xsd:float ;
+    ns1:Total_N "0.06"^^xsd:float,
+        "0.35"^^xsd:float ;
+    ns1:Total_P "434.31"^^xsd:float,
+        "565.6"^^xsd:float ;
+    ns1:inorganic_P "1.48"^^xsd:float,
+        "8.82"^^xsd:float .
+
+<foo_DV17> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "DV17"^^xsd:string ;
+    ns1:Clay "43.1"^^xsd:float,
+        "43.94"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "DV17"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Sand "28.95"^^xsd:float,
+        "32.48"^^xsd:float ;
+    ns1:Silt "24.42"^^xsd:float,
+        "27.11"^^xsd:float ;
+    ns1:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "6.01"^^xsd:float,
+        "6.17"^^xsd:float ;
+    ns1:Subplot 7 ;
+    ns1:Total_C "0.92"^^xsd:float,
+        "4.08"^^xsd:float ;
+    ns1:Total_N "0.04"^^xsd:float,
+        "0.3"^^xsd:float ;
+    ns1:Total_P "491.11"^^xsd:float,
+        "568.16"^^xsd:float ;
+    ns1:inorganic_P "1.14"^^xsd:float,
+        "8.18"^^xsd:float .
+
+<foo_DV19> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "DV19"^^xsd:string ;
+    ns1:Clay "47.89"^^xsd:float,
+        "52.48"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "DV19"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Sand "23.13"^^xsd:float,
+        "26.97"^^xsd:float ;
+    ns1:Silt "24.38"^^xsd:float,
+        "25.14"^^xsd:float ;
+    ns1:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "5.65"^^xsd:float,
+        "6.14"^^xsd:float ;
+    ns1:Subplot 9 ;
+    ns1:Total_C "1.1"^^xsd:float,
+        "2.51"^^xsd:float ;
+    ns1:Total_N "0.05"^^xsd:float,
+        "0.11"^^xsd:float ;
+    ns1:Total_P "398.07"^^xsd:float,
+        "465.79"^^xsd:float ;
+    ns1:inorganic_P "1.25"^^xsd:float,
+        "3.71"^^xsd:float .
+
+<foo_DV21> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "DV21"^^xsd:string ;
+    ns1:Clay "49.02"^^xsd:float,
+        "51.01"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "DV21"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Sand "23.93"^^xsd:float,
+        "28.97"^^xsd:float ;
+    ns1:Silt "22.01"^^xsd:float,
+        "25.06"^^xsd:float ;
+    ns1:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "4.46"^^xsd:float,
+        "5.31"^^xsd:float ;
+    ns1:Subplot 1 ;
+    ns1:Total_C "0.92"^^xsd:float,
+        "4.5"^^xsd:float ;
+    ns1:Total_N "0.05"^^xsd:float,
+        "0.35"^^xsd:float ;
+    ns1:Total_P "183.88"^^xsd:float,
+        "319.38"^^xsd:float ;
+    ns1:inorganic_P "4.16"^^xsd:float,
+        "30.83"^^xsd:float .
+
+<foo_DV220> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "DV220"^^xsd:string ;
+    ns1:Clay "46.04"^^xsd:float,
+        "57.01"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "DV220"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Sand "17.24"^^xsd:float,
+        "26.61"^^xsd:float ;
+    ns1:Silt "25.75"^^xsd:float,
+        "27.35"^^xsd:float ;
+    ns1:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "4.84"^^xsd:float,
+        "5.52"^^xsd:float ;
+    ns1:Subplot 20 ;
+    ns1:Total_C "1.02"^^xsd:float,
+        "3.0"^^xsd:float ;
+    ns1:Total_N "0.06"^^xsd:float,
+        "0.23"^^xsd:float ;
+    ns1:Total_P "160.84"^^xsd:float,
+        "229.19"^^xsd:float ;
+    ns1:inorganic_P "2.65"^^xsd:float,
+        "11.58"^^xsd:float .
+
+<foo_DV223> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "DV223"^^xsd:string ;
+    ns1:Clay "50.95"^^xsd:float,
+        "58.4"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "DV223"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Sand "21.38"^^xsd:float,
+        "26.22"^^xsd:float ;
+    ns1:Silt "20.22"^^xsd:float,
+        "22.84"^^xsd:float ;
+    ns1:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "5.0"^^xsd:float,
+        "5.53"^^xsd:float ;
+    ns1:Subplot 23 ;
+    ns1:Total_C "0.98"^^xsd:float,
+        "3.89"^^xsd:float ;
+    ns1:Total_N "0.05"^^xsd:float,
+        "0.25"^^xsd:float ;
+    ns1:Total_P "134.43"^^xsd:float,
+        "250.96"^^xsd:float ;
+    ns1:inorganic_P "4.04"^^xsd:float,
+        "17.85"^^xsd:float .
+
+<foo_DV224> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "DV224"^^xsd:string ;
+    ns1:Clay "49.09"^^xsd:float,
+        "54.59"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "DV224"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Sand "20.58"^^xsd:float,
+        "26.51"^^xsd:float ;
+    ns1:Silt "24.4"^^xsd:float,
+        "24.83"^^xsd:float ;
+    ns1:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "4.54"^^xsd:float,
+        "5.25"^^xsd:float ;
+    ns1:Subplot 24 ;
+    ns1:Total_C "0.83"^^xsd:float,
+        "2.8"^^xsd:float ;
+    ns1:Total_N "0.05"^^xsd:float,
+        "0.23"^^xsd:float ;
+    ns1:Total_P "149.36"^^xsd:float,
+        "212.55"^^xsd:float ;
+    ns1:inorganic_P "3.46"^^xsd:float,
+        "16.5"^^xsd:float .
+
+<foo_DV28> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "DV28"^^xsd:string ;
+    ns1:Clay "46.64"^^xsd:float,
+        "54.45"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "DV28"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Sand "23.5"^^xsd:float,
+        "25.31"^^xsd:float ;
+    ns1:Silt "22.05"^^xsd:float,
+        "28.05"^^xsd:float ;
+    ns1:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "4.97"^^xsd:float,
+        "5.45"^^xsd:float ;
+    ns1:Subplot 8 ;
+    ns1:Total_C "1.11"^^xsd:float,
+        "4.79"^^xsd:float ;
+    ns1:Total_N "0.05"^^xsd:float,
+        "0.3"^^xsd:float ;
+    ns1:Total_P "171.72"^^xsd:float,
+        "291.37"^^xsd:float ;
+    ns1:inorganic_P "2.83"^^xsd:float,
+        "20.53"^^xsd:float .
+
+<foo_MB18> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "MB18"^^xsd:string ;
+    ns1:Clay "57.73"^^xsd:float,
+        "63.55"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "MB18"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Sand "21.67"^^xsd:float,
+        "23.1"^^xsd:float ;
+    ns1:Silt "13.34"^^xsd:float,
+        "20.6"^^xsd:float ;
+    ns1:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "4.1"^^xsd:float,
+        "4.64"^^xsd:float ;
+    ns1:Subplot 18 ;
+    ns1:Total_C "1.17"^^xsd:float,
+        "4.77"^^xsd:float ;
+    ns1:Total_N "0.08"^^xsd:float,
+        "0.37"^^xsd:float ;
+    ns1:Total_P "128.8"^^xsd:float,
+        "262.21"^^xsd:float ;
+    ns1:inorganic_P "5.86"^^xsd:float,
+        "28.59"^^xsd:float .
+
+<foo_MB22> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "MB22"^^xsd:string ;
+    ns1:Clay "61.53"^^xsd:float,
+        "62.75"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "MB22"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Sand "20.39"^^xsd:float,
+        "21.67"^^xsd:float ;
+    ns1:Silt "15.57"^^xsd:float,
+        "18.08"^^xsd:float ;
+    ns1:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "3.86"^^xsd:float,
+        "4.0"^^xsd:float ;
+    ns1:Subplot 22 ;
+    ns1:Total_C "1.26"^^xsd:float,
+        "4.51"^^xsd:float ;
+    ns1:Total_N "0.09"^^xsd:float,
+        "0.34"^^xsd:float ;
+    ns1:Total_P "136.8"^^xsd:float,
+        "235.19"^^xsd:float ;
+    ns1:inorganic_P "7.15"^^xsd:float,
+        "22.61"^^xsd:float .
+
+<foo_MB4> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "MB4"^^xsd:string ;
+    ns1:Clay "62.6"^^xsd:float,
+        "62.88"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "MB4"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Sand "20.66"^^xsd:float,
+        "21.76"^^xsd:float ;
+    ns1:Silt "15.64"^^xsd:float,
+        "16.46"^^xsd:float ;
+    ns1:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "4.06"^^xsd:float,
+        "4.69"^^xsd:float ;
+    ns1:Subplot 4 ;
+    ns1:Total_C "1.15"^^xsd:float,
+        "5.45"^^xsd:float ;
+    ns1:Total_N "0.08"^^xsd:float,
+        "0.38"^^xsd:float ;
+    ns1:Total_P "171.28"^^xsd:float,
+        "263.74"^^xsd:float ;
+    ns1:inorganic_P "5.32"^^xsd:float,
+        "25.03"^^xsd:float .
+
+<foo_MB7> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "MB7"^^xsd:string ;
+    ns1:Clay "65.76"^^xsd:float,
+        "66.61"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "MB7"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Sand "20.06"^^xsd:float,
+        "20.59"^^xsd:float ;
+    ns1:Silt "12.8"^^xsd:float,
+        "14.18"^^xsd:float ;
+    ns1:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "4.18"^^xsd:float,
+        "4.7"^^xsd:float ;
+    ns1:Subplot 7 ;
+    ns1:Total_C "1.19"^^xsd:float,
+        "3.58"^^xsd:float ;
+    ns1:Total_N "0.09"^^xsd:float,
+        "0.3"^^xsd:float ;
+    ns1:Total_P "188.89"^^xsd:float,
+        "266.68"^^xsd:float ;
+    ns1:inorganic_P "5.02"^^xsd:float,
+        "15.94"^^xsd:float .
+
+<foo_MB9> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "MB9"^^xsd:string ;
+    ns1:Clay "51.39"^^xsd:float,
+        "54.06"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "MB9"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Sand "29.34"^^xsd:float,
+        "32.91"^^xsd:float ;
+    ns1:Silt "15.7"^^xsd:float,
+        "16.6"^^xsd:float ;
+    ns1:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "3.71"^^xsd:float,
+        "3.75"^^xsd:float ;
+    ns1:Subplot 9 ;
+    ns1:Total_C "1.46"^^xsd:float,
+        "3.61"^^xsd:float ;
+    ns1:Total_N "0.1"^^xsd:float,
+        "0.31"^^xsd:float ;
+    ns1:Total_P "144.82"^^xsd:float,
+        "217.11"^^xsd:float ;
+    ns1:inorganic_P "7.18"^^xsd:float,
+        "21.92"^^xsd:float .
+
+<foo_MS14> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "MS14"^^xsd:string ;
+    ns1:Clay "53.1"^^xsd:float,
+        "59.82"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "MS14"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Sand "22.63"^^xsd:float,
+        "25.62"^^xsd:float ;
+    ns1:Silt "17.55"^^xsd:float,
+        "21.28"^^xsd:float ;
+    ns1:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "3.79"^^xsd:float,
+        "3.83"^^xsd:float ;
+    ns1:Subplot 14 ;
+    ns1:Total_C "1.07"^^xsd:float,
+        "4.08"^^xsd:float ;
+    ns1:Total_N "0.08"^^xsd:float,
+        "0.35"^^xsd:float ;
+    ns1:Total_P "150.97"^^xsd:float,
+        "233.89"^^xsd:float ;
+    ns1:inorganic_P "4.82"^^xsd:float,
+        "22.84"^^xsd:float .
+
+<foo_MS15> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "MS15"^^xsd:string ;
+    ns1:Clay "50.42"^^xsd:float,
+        "54.48"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "MS15"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Sand "24.49"^^xsd:float,
+        "24.64"^^xsd:float ;
+    ns1:Silt "21.04"^^xsd:float,
+        "24.94"^^xsd:float ;
+    ns1:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "3.82"^^xsd:float ;
+    ns1:Subplot 15 ;
+    ns1:Total_C "1.05"^^xsd:float,
+        "3.71"^^xsd:float ;
+    ns1:Total_N "0.07"^^xsd:float,
+        "0.3"^^xsd:float ;
+    ns1:Total_P "127.95"^^xsd:float,
+        "214.8"^^xsd:float ;
+    ns1:inorganic_P "5.65"^^xsd:float,
+        "21.46"^^xsd:float .
+
+<foo_MS18> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "MS18"^^xsd:string ;
+    ns1:Clay "54.34"^^xsd:float,
+        "54.64"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "MS18"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Sand "25.1"^^xsd:float,
+        "26.82"^^xsd:float ;
+    ns1:Silt "18.84"^^xsd:float,
+        "20.25"^^xsd:float ;
+    ns1:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "3.64"^^xsd:float,
+        "3.82"^^xsd:float ;
+    ns1:Subplot 18 ;
+    ns1:Total_C "1.26"^^xsd:float,
+        "3.73"^^xsd:float ;
+    ns1:Total_N "0.09"^^xsd:float,
+        "0.31"^^xsd:float ;
+    ns1:Total_P "146.93"^^xsd:float,
+        "235.99"^^xsd:float ;
+    ns1:inorganic_P "6.57"^^xsd:float,
+        "20.52"^^xsd:float .
+
+<foo_MS25> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "MS25"^^xsd:string ;
+    ns1:Clay "57.61"^^xsd:float,
+        "62.27"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "MS25"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Sand "20.69"^^xsd:float,
+        "24.65"^^xsd:float ;
+    ns1:Silt "17.04"^^xsd:float,
+        "17.74"^^xsd:float ;
+    ns1:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "3.78"^^xsd:float,
+        "3.92"^^xsd:float ;
+    ns1:Subplot 25 ;
+    ns1:Total_C "1.34"^^xsd:float,
+        "3.6"^^xsd:float ;
+    ns1:Total_N "0.09"^^xsd:float,
+        "0.29"^^xsd:float ;
+    ns1:Total_P "142.68"^^xsd:float,
+        "190.08"^^xsd:float ;
+    ns1:inorganic_P "6.64"^^xsd:float,
+        "17.16"^^xsd:float .
+
+<foo_MS3> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "MS3"^^xsd:string ;
+    ns1:Clay "58.9"^^xsd:float,
+        "58.96"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "MS3"^^xsd:string ;
+    ns1:Land_Use "Unlogged"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Sand "23.87"^^xsd:float,
+        "25.71"^^xsd:float ;
+    ns1:Silt "15.39"^^xsd:float,
+        "17.17"^^xsd:float ;
+    ns1:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns1:Soil_pH "4.36"^^xsd:float,
+        "5.47"^^xsd:float ;
+    ns1:Subplot 3 ;
+    ns1:Total_C "1.06"^^xsd:float,
+        "3.31"^^xsd:float ;
+    ns1:Total_N "0.09"^^xsd:float,
+        "0.28"^^xsd:float ;
+    ns1:Total_P "191.45"^^xsd:float,
+        "293.09"^^xsd:float ;
+    ns1:inorganic_P "5.44"^^xsd:float,
+        "15.88"^^xsd:float .
+
+<foo_SBN12> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SBN12"^^xsd:string ;
+    ns1:Clay "59.27"^^xsd:float,
+        "62.73"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SBN12"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Sand "25.83"^^xsd:float,
+        "28.65"^^xsd:float ;
+    ns1:Silt "11.45"^^xsd:float,
+        "12.08"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "3.68"^^xsd:float,
+        "3.87"^^xsd:float ;
+    ns1:Subplot 12 ;
+    ns1:Total_C "1.51"^^xsd:float,
+        "5.01"^^xsd:float ;
+    ns1:Total_N "0.06"^^xsd:float,
+        "0.41"^^xsd:float ;
+    ns1:Total_P "112.55"^^xsd:float,
+        "177.79"^^xsd:float ;
+    ns1:inorganic_P "7.78"^^xsd:float,
+        "15.82"^^xsd:float .
+
+<foo_SBN18> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SBN18"^^xsd:string ;
+    ns1:Clay "56.11"^^xsd:float,
+        "57.13"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SBN18"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Sand "26.45"^^xsd:float,
+        "27.54"^^xsd:float ;
+    ns1:Silt "16.34"^^xsd:float,
+        "16.43"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "3.85"^^xsd:float,
+        "3.92"^^xsd:float ;
+    ns1:Subplot 18 ;
+    ns1:Total_C "1.43"^^xsd:float,
+        "4.87"^^xsd:float ;
+    ns1:Total_N "0.07"^^xsd:float,
+        "0.33"^^xsd:float ;
+    ns1:Total_P "131.36"^^xsd:float,
+        "203.57"^^xsd:float ;
+    ns1:inorganic_P "6.36"^^xsd:float,
+        "15.42"^^xsd:float .
+
+<foo_SBN22> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SBN22"^^xsd:string ;
+    ns1:Clay "59.82"^^xsd:float,
+        "62.92"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SBN22"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Sand "22.39"^^xsd:float,
+        "23.39"^^xsd:float ;
+    ns1:Silt "14.69"^^xsd:float,
+        "16.79"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "4.28"^^xsd:float,
+        "5.08"^^xsd:float ;
+    ns1:Subplot 22 ;
+    ns1:Total_C "1.11"^^xsd:float,
+        "4.16"^^xsd:float ;
+    ns1:Total_N "0.05"^^xsd:float,
+        "0.27"^^xsd:float ;
+    ns1:Total_P "124.71"^^xsd:float,
+        "186.13"^^xsd:float ;
+    ns1:inorganic_P "6.23"^^xsd:float,
+        "15.42"^^xsd:float .
+
+<foo_SBN24> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SBN24"^^xsd:string ;
+    ns1:Clay "49.49"^^xsd:float,
+        "51.62"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SBN24"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Sand "31.29"^^xsd:float,
+        "32.45"^^xsd:float ;
+    ns1:Silt "17.09"^^xsd:float,
+        "18.06"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "4.03"^^xsd:float,
+        "4.51"^^xsd:float ;
+    ns1:Subplot 24 ;
+    ns1:Total_C "1.82"^^xsd:float,
+        "4.43"^^xsd:float ;
+    ns1:Total_N "0.1"^^xsd:float,
+        "0.34"^^xsd:float ;
+    ns1:Total_P "193.91"^^xsd:float,
+        "255.25"^^xsd:float ;
+    ns1:inorganic_P "7.73"^^xsd:float,
+        "14.06"^^xsd:float .
+
+<foo_SBN25> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SBN25"^^xsd:string ;
+    ns1:Clay "45.05"^^xsd:float,
+        "49.13"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SBN25"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Sand "32.37"^^xsd:float,
+        "34.2"^^xsd:float ;
+    ns1:Silt "18.5"^^xsd:float,
+        "20.75"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "4.02"^^xsd:float,
+        "4.16"^^xsd:float ;
+    ns1:Subplot 25 ;
+    ns1:Total_C "1.51"^^xsd:float,
+        "4.18"^^xsd:float ;
+    ns1:Total_N "0.08"^^xsd:float,
+        "0.3"^^xsd:float ;
+    ns1:Total_P "148.75"^^xsd:float,
+        "214.82"^^xsd:float ;
+    ns1:inorganic_P "3.71"^^xsd:float,
+        "9.07"^^xsd:float .
+
+<foo_SBS1> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SBS1"^^xsd:string ;
+    ns1:Clay "54.04"^^xsd:float,
+        "56.56"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SBS1"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Sand "24.43"^^xsd:float,
+        "24.5"^^xsd:float ;
+    ns1:Silt "19.0"^^xsd:float,
+        "21.45"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "4.0"^^xsd:float,
+        "5.06"^^xsd:float ;
+    ns1:Subplot 1 ;
+    ns1:Total_C "2.0"^^xsd:float,
+        "4.51"^^xsd:float ;
+    ns1:Total_N "0.19"^^xsd:float,
+        "0.35"^^xsd:float ;
+    ns1:Total_P "236.89"^^xsd:float,
+        "279.42"^^xsd:float ;
+    ns1:inorganic_P "7.65"^^xsd:float,
+        "23.12"^^xsd:float .
+
+<foo_SBS15> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SBS15"^^xsd:string ;
+    ns1:Clay "59.24"^^xsd:float,
+        "60.86"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SBS15"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Sand "26.13"^^xsd:float,
+        "26.96"^^xsd:float ;
+    ns1:Silt "13.01"^^xsd:float,
+        "13.8"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "4.29"^^xsd:float,
+        "5.54"^^xsd:float ;
+    ns1:Subplot 15 ;
+    ns1:Total_C "2.01"^^xsd:float,
+        "7.62"^^xsd:float ;
+    ns1:Total_N "0.11"^^xsd:float,
+        "0.55"^^xsd:float ;
+    ns1:Total_P "224.65"^^xsd:float,
+        "313.31"^^xsd:float ;
+    ns1:inorganic_P "4.38"^^xsd:float,
+        "12.86"^^xsd:float .
+
+<foo_SBS18> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SBS18"^^xsd:string ;
+    ns1:Clay "56.21"^^xsd:float,
+        "56.66"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SBS18"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Sand "25.01"^^xsd:float,
+        "29.02"^^xsd:float ;
+    ns1:Silt "14.77"^^xsd:float,
+        "18.33"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "4.91"^^xsd:float,
+        "5.98"^^xsd:float ;
+    ns1:Subplot 18 ;
+    ns1:Total_C "1.49"^^xsd:float,
+        "4.42"^^xsd:float ;
+    ns1:Total_N "0.06"^^xsd:float,
+        "0.34"^^xsd:float ;
+    ns1:Total_P "177.81"^^xsd:float,
+        "337.99"^^xsd:float ;
+    ns1:inorganic_P "9.61"^^xsd:float,
+        "32.83"^^xsd:float .
+
+<foo_SBS19> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SBS19"^^xsd:string ;
+    ns1:Clay "39.51"^^xsd:float,
+        "45.26"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SBS19"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Sand "28.04"^^xsd:float,
+        "34.78"^^xsd:float ;
+    ns1:Silt "25.71"^^xsd:float,
+        "26.7"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "3.99"^^xsd:float,
+        "4.7"^^xsd:float ;
+    ns1:Subplot 19 ;
+    ns1:Total_C "1.54"^^xsd:float,
+        "4.59"^^xsd:float ;
+    ns1:Total_N "0.08"^^xsd:float,
+        "0.37"^^xsd:float ;
+    ns1:Total_P "156.53"^^xsd:float,
+        "249.14"^^xsd:float ;
+    ns1:inorganic_P "7.08"^^xsd:float,
+        "21.68"^^xsd:float .
+
+<foo_SBS6> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SBS6"^^xsd:string ;
+    ns1:Clay "48.7"^^xsd:float,
+        "56.5"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SBS6"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Sand "27.8"^^xsd:float,
+        "35.03"^^xsd:float ;
+    ns1:Silt "15.7"^^xsd:float,
+        "16.27"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "3.85"^^xsd:float,
+        "5.88"^^xsd:float ;
+    ns1:Subplot 6 ;
+    ns1:Total_C "1.74"^^xsd:float,
+        "4.63"^^xsd:float ;
+    ns1:Total_N "0.19"^^xsd:float,
+        "0.39"^^xsd:float ;
+    ns1:Total_P "200.14"^^xsd:float,
+        "331.69"^^xsd:float ;
+    ns1:inorganic_P "8.88"^^xsd:float,
+        "24.69"^^xsd:float .
+
+<foo_SE12> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SE12"^^xsd:string ;
+    ns1:Clay "71.6"^^xsd:float,
+        "75.56"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SE12"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Sand "16.15"^^xsd:float,
+        "20.14"^^xsd:float ;
+    ns1:Silt "8.26"^^xsd:float,
+        "8.28"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "3.58"^^xsd:float,
+        "3.63"^^xsd:float ;
+    ns1:Subplot 12 ;
+    ns1:Total_C "1.45"^^xsd:float,
+        "3.79"^^xsd:float ;
+    ns1:Total_N "0.06"^^xsd:float,
+        "0.31"^^xsd:float ;
+    ns1:Total_P "126.02"^^xsd:float,
+        "181.0"^^xsd:float ;
+    ns1:inorganic_P "9.32"^^xsd:float,
+        "23.48"^^xsd:float .
+
+<foo_SE20> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SE20"^^xsd:string ;
+    ns1:Clay "73.9"^^xsd:float,
+        "76.47"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SE20"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Sand "16.78"^^xsd:float,
+        "18.01"^^xsd:float ;
+    ns1:Silt "6.75"^^xsd:float,
+        "8.09"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "3.51"^^xsd:float,
+        "3.68"^^xsd:float ;
+    ns1:Subplot 20 ;
+    ns1:Total_C "1.7"^^xsd:float,
+        "3.93"^^xsd:float ;
+    ns1:Total_N "0.06"^^xsd:float,
+        "0.25"^^xsd:float ;
+    ns1:Total_P "98.69"^^xsd:float,
+        "143.35"^^xsd:float ;
+    ns1:inorganic_P "10.5"^^xsd:float,
+        "19.66"^^xsd:float .
+
+<foo_SE24> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SE24"^^xsd:string ;
+    ns1:Clay "71.8"^^xsd:float,
+        "72.4"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SE24"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Sand "19.43"^^xsd:float,
+        "20.7"^^xsd:float ;
+    ns1:Silt "6.9"^^xsd:float,
+        "8.77"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "3.63"^^xsd:float,
+        "3.7"^^xsd:float ;
+    ns1:Subplot 24 ;
+    ns1:Total_C "1.32"^^xsd:float,
+        "3.65"^^xsd:float ;
+    ns1:Total_N "0.07"^^xsd:float,
+        "0.25"^^xsd:float ;
+    ns1:Total_P "100.74"^^xsd:float,
+        "134.15"^^xsd:float ;
+    ns1:inorganic_P "8.94"^^xsd:float,
+        "15.54"^^xsd:float .
+
+<foo_SE3> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SE3"^^xsd:string ;
+    ns1:Clay "71.25"^^xsd:float,
+        "71.45"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SE3"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Sand "18.07"^^xsd:float,
+        "20.25"^^xsd:float ;
+    ns1:Silt "8.3"^^xsd:float,
+        "10.68"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "3.75"^^xsd:float,
+        "3.87"^^xsd:float ;
+    ns1:Subplot 3 ;
+    ns1:Total_C "1.36"^^xsd:float,
+        "3.81"^^xsd:float ;
+    ns1:Total_N "0.06"^^xsd:float,
+        "0.27"^^xsd:float ;
+    ns1:Total_P "136.64"^^xsd:float,
+        "172.22"^^xsd:float ;
+    ns1:inorganic_P "10.86"^^xsd:float,
+        "22.63"^^xsd:float .
+
+<foo_SE6> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SE6"^^xsd:string ;
+    ns1:Clay "69.8"^^xsd:float,
+        "71.04"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SE6"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Sand "18.54"^^xsd:float,
+        "19.27"^^xsd:float ;
+    ns1:Silt "9.69"^^xsd:float,
+        "11.66"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "3.68"^^xsd:float,
+        "3.85"^^xsd:float ;
+    ns1:Subplot 6 ;
+    ns1:Total_C "1.63"^^xsd:float,
+        "3.22"^^xsd:float ;
+    ns1:Total_N "0.08"^^xsd:float,
+        "0.26"^^xsd:float ;
+    ns1:Total_P "147.19"^^xsd:float,
+        "189.62"^^xsd:float ;
+    ns1:inorganic_P "9.94"^^xsd:float,
+        "23.52"^^xsd:float .
+
+<foo_SLF12> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SLF12"^^xsd:string ;
+    ns1:Clay "59.59"^^xsd:float,
+        "61.81"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SLF12"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Sand "11.1"^^xsd:float,
+        "13.29"^^xsd:float ;
+    ns1:Silt "27.09"^^xsd:float,
+        "27.12"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "3.24"^^xsd:float,
+        "3.37"^^xsd:float ;
+    ns1:Subplot 12 ;
+    ns1:Total_C "1.55"^^xsd:float,
+        "8.03"^^xsd:float ;
+    ns1:Total_N "0.06"^^xsd:float,
+        "0.45"^^xsd:float ;
+    ns1:Total_P "85.47"^^xsd:float,
+        "181.59"^^xsd:float ;
+    ns1:inorganic_P "14.02"^^xsd:float,
+        "44.63"^^xsd:float .
+
+<foo_SLF13> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SLF13"^^xsd:string ;
+    ns1:Clay "60.01"^^xsd:float,
+        "61.25"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SLF13"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Sand "11.75"^^xsd:float,
+        "12.61"^^xsd:float ;
+    ns1:Silt "27.0"^^xsd:float,
+        "27.38"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "3.14"^^xsd:float,
+        "3.42"^^xsd:float ;
+    ns1:Subplot 13 ;
+    ns1:Total_C "1.85"^^xsd:float,
+        "12.42"^^xsd:float ;
+    ns1:Total_N "0.06"^^xsd:float,
+        "0.64"^^xsd:float ;
+    ns1:Total_P "95.7"^^xsd:float,
+        "295.85"^^xsd:float ;
+    ns1:inorganic_P "16.14"^^xsd:float,
+        "57.86"^^xsd:float .
+
+<foo_SLF24> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SLF24"^^xsd:string ;
+    ns1:Clay "58.3"^^xsd:float,
+        "64.37"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SLF24"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Sand "17.39"^^xsd:float,
+        "23.8"^^xsd:float ;
+    ns1:Silt "17.9"^^xsd:float,
+        "18.24"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "3.44"^^xsd:float,
+        "3.71"^^xsd:float ;
+    ns1:Subplot 24 ;
+    ns1:Total_C "1.89"^^xsd:float,
+        "5.39"^^xsd:float ;
+    ns1:Total_N "0.07"^^xsd:float,
+        "0.31"^^xsd:float ;
+    ns1:Total_P "126.09"^^xsd:float,
+        "197.75"^^xsd:float ;
+    ns1:inorganic_P "7.81"^^xsd:float,
+        "21.89"^^xsd:float .
+
+<foo_SLF4> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SLF4"^^xsd:string ;
+    ns1:Clay "67.69"^^xsd:float,
+        "75.24"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SLF4"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Sand "7.55"^^xsd:float,
+        "12.82"^^xsd:float ;
+    ns1:Silt "17.21"^^xsd:float,
+        "19.49"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "3.27"^^xsd:float,
+        "3.73"^^xsd:float ;
+    ns1:Subplot 4 ;
+    ns1:Total_C "2.4"^^xsd:float,
+        "9.92"^^xsd:float ;
+    ns1:Total_N "0.07"^^xsd:float,
+        "0.55"^^xsd:float ;
+    ns1:Total_P "71.88"^^xsd:float,
+        "236.12"^^xsd:float ;
+    ns1:inorganic_P "16.97"^^xsd:float,
+        "76.44"^^xsd:float .
+
+<foo_SLF7> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SLF7"^^xsd:string ;
+    ns1:Clay "64.58"^^xsd:float,
+        "74.49"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SLF7"^^xsd:string ;
+    ns1:Land_Use "Logged"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Sand "8.5"^^xsd:float,
+        "9.64"^^xsd:float ;
+    ns1:Silt "17.0"^^xsd:float,
+        "25.78"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "3.47"^^xsd:float,
+        "4.23"^^xsd:float ;
+    ns1:Subplot 7 ;
+    ns1:Total_C "1.77"^^xsd:float,
+        "13.6"^^xsd:float ;
+    ns1:Total_N "0.06"^^xsd:float,
+        "0.7"^^xsd:float ;
+    ns1:Total_P "52.62"^^xsd:float,
+        "283.72"^^xsd:float ;
+    ns1:inorganic_P "12.7"^^xsd:float,
+        "65.13"^^xsd:float .
+
+<foo_SOP1> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SOP1"^^xsd:string ;
+    ns1:Clay "34.26"^^xsd:float,
+        "41.84"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SOP1"^^xsd:string ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Sand "30.95"^^xsd:float,
+        "31.97"^^xsd:float ;
+    ns1:Silt "27.21"^^xsd:float,
+        "33.78"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "4.21"^^xsd:float,
+        "4.46"^^xsd:float ;
+    ns1:Subplot 1 ;
+    ns1:Total_C "0.69"^^xsd:float,
+        "1.98"^^xsd:float ;
+    ns1:Total_N "0.05"^^xsd:float,
+        "0.2"^^xsd:float ;
+    ns1:Total_P "262.66"^^xsd:float,
+        "667.0"^^xsd:float ;
+    ns1:inorganic_P "23.94"^^xsd:float,
+        "211.61"^^xsd:float .
+
+<foo_SOP2> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SOP2"^^xsd:string ;
+    ns1:Clay "29.77"^^xsd:float,
+        "30.9"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SOP2"^^xsd:string ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Sand "29.19"^^xsd:float,
+        "32.54"^^xsd:float ;
+    ns1:Silt "36.56"^^xsd:float,
+        "41.04"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "4.72"^^xsd:float,
+        "5.68"^^xsd:float ;
+    ns1:Subplot 2 ;
+    ns1:Total_C "1.07"^^xsd:float,
+        "3.89"^^xsd:float ;
+    ns1:Total_N "0.07"^^xsd:float,
+        "0.31"^^xsd:float ;
+    ns1:Total_P "516.02"^^xsd:float,
+        "2034.02"^^xsd:float ;
+    ns1:inorganic_P "107.33"^^xsd:float,
+        "737.97"^^xsd:float .
+
+<foo_SOP6> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SOP6"^^xsd:string ;
+    ns1:Clay "29.53"^^xsd:float,
+        "32.39"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SOP6"^^xsd:string ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Sand "34.28"^^xsd:float,
+        "37.97"^^xsd:float ;
+    ns1:Silt "32.5"^^xsd:float,
+        "33.33"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "4.63"^^xsd:float,
+        "5.43"^^xsd:float ;
+    ns1:Subplot 6 ;
+    ns1:Total_C "1.0"^^xsd:float,
+        "3.37"^^xsd:float ;
+    ns1:Total_N "0.07"^^xsd:float,
+        "0.31"^^xsd:float ;
+    ns1:Total_P "547.63"^^xsd:float,
+        "2440.86"^^xsd:float ;
+    ns1:inorganic_P "73.79"^^xsd:float,
+        "780.79"^^xsd:float .
+
+<foo_SOP8> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SOP8"^^xsd:string ;
+    ns1:Clay "26.67"^^xsd:float,
+        "29.37"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SOP8"^^xsd:string ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Sand "35.87"^^xsd:float,
+        "37.32"^^xsd:float ;
+    ns1:Silt "34.76"^^xsd:float,
+        "36.01"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "4.45"^^xsd:float,
+        "5.27"^^xsd:float ;
+    ns1:Subplot 8 ;
+    ns1:Total_C "0.65"^^xsd:float,
+        "3.86"^^xsd:float ;
+    ns1:Total_N "0.05"^^xsd:float,
+        "0.31"^^xsd:float ;
+    ns1:Total_P "215.0"^^xsd:float,
+        "960.06"^^xsd:float ;
+    ns1:inorganic_P "4.5"^^xsd:float,
+        "172.55"^^xsd:float .
+
+<foo_SOP9> a <http://www.w3.org/ns/sosa/Observation> ;
+    ns2:Soil_Properties_FRC "SOP9"^^xsd:string ;
+    ns1:Clay "26.82"^^xsd:float,
+        "33.38"^^xsd:float ;
+    ns1:Horizon "Mineral"^^xsd:string,
+        "Organic"^^xsd:string ;
+    ns1:ID "SOP9"^^xsd:string ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Sand "32.58"^^xsd:float,
+        "32.61"^^xsd:float ;
+    ns1:Silt "34.05"^^xsd:float,
+        "40.57"^^xsd:float ;
+    ns1:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns1:Soil_pH "4.63"^^xsd:float,
+        "5.72"^^xsd:float ;
+    ns1:Subplot 9 ;
+    ns1:Total_C "0.9"^^xsd:float,
+        "5.33"^^xsd:float ;
+    ns1:Total_N "0.05"^^xsd:float,
+        "0.36"^^xsd:float ;
+    ns1:Total_P "713.9"^^xsd:float,
+        "2100.38"^^xsd:float ;
+    ns1:inorganic_P "226.6"^^xsd:float,
+        "773.31"^^xsd:float .
+
+ns2:Soil_Properties_FRC a <http://www.w3.org/ns/sosa/Sensor> .
+
+ns1:Clay a <http://www.w3.org/ns/sosa/observedProperty> .
+
+ns1:Horizon a <http://www.w3.org/ns/sosa/observedProperty> .
+
+ns1:Land_Use a <http://www.w3.org/ns/sosa/observedProperty> .
+
+ns1:Plot_Name a <http://www.w3.org/ns/sosa/observedProperty> .
+
+ns1:Sand a <http://www.w3.org/ns/sosa/observedProperty> .
+
+ns1:Silt a <http://www.w3.org/ns/sosa/observedProperty> .
+
+ns1:Site a <http://www.w3.org/ns/sosa/FeatureOfInterest> .
+
+ns1:Soil_pH a <http://www.w3.org/ns/sosa/observedProperty> .
+
+ns1:Subplot a <http://www.w3.org/ns/sosa/observedProperty> .
+
+ns1:Total_C a <http://www.w3.org/ns/sosa/observedProperty> .
+
+ns1:Total_N a <http://www.w3.org/ns/sosa/observedProperty> .
+
+ns1:Total_P a <http://www.w3.org/ns/sosa/observedProperty> .
+
+ns1:inorganic_P a <http://www.w3.org/ns/sosa/observedProperty> .
+

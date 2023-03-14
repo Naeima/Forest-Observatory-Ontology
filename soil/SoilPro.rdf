@@ -1,0 +1,3780 @@
+@prefix ns1: <http://schema.org/> .
+@prefix ns2: <http://www.w3.org/ns/sosa/ObservableProperty/> .
+@prefix ns3: <http://www.w3.org/ns/sosa/FeatureOfInterest/> .
+@prefix ns4: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<SoilPropertiesCeh_DV1221> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV1221"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 22 ;
+    ns2:Bulk_Density "0.51"^^xsd:float ;
+    ns2:CtoN "16.82"^^xsd:float ;
+    ns2:CtoP "0.31"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "27.43"^^xsd:float ;
+    ns2:Soil_pH "5.63"^^xsd:float ;
+    ns2:total_C "8.13"^^xsd:float ;
+    ns2:total_N "0.48"^^xsd:float ;
+    ns4:Observation "DV1221"^^xsd:string .
+
+<SoilPropertiesCeh_DV1222> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV1222"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 22 ;
+    ns2:Bulk_Density "0.26"^^xsd:float ;
+    ns2:CtoN "15.1"^^xsd:float ;
+    ns2:CtoP "0.44"^^xsd:float ;
+    ns2:Horizon_Depth "4.5"^^xsd:float ;
+    ns2:Soil_Moisture "26.35"^^xsd:float ;
+    ns2:Soil_pH "6.04"^^xsd:float ;
+    ns2:total_C "8.13"^^xsd:float ;
+    ns2:total_N "0.54"^^xsd:float ;
+    ns4:Observation "DV1222"^^xsd:string .
+
+<SoilPropertiesCeh_DV1223> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV1223"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 22 ;
+    ns2:Bulk_Density "0.46"^^xsd:float ;
+    ns2:CtoN "17.48"^^xsd:float ;
+    ns2:CtoP "0.45"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "26.27"^^xsd:float ;
+    ns2:Soil_pH "6.18"^^xsd:float ;
+    ns2:total_C "14.12"^^xsd:float ;
+    ns2:total_N "0.81"^^xsd:float ;
+    ns4:Observation "DV1223"^^xsd:string .
+
+<SoilPropertiesCeh_DV1224> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV1224"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 22 ;
+    ns2:Bulk_Density "0.37"^^xsd:float ;
+    ns2:CtoN "18.07"^^xsd:float ;
+    ns2:CtoP "0.89"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "29.48"^^xsd:float ;
+    ns2:Soil_pH "6.78"^^xsd:float ;
+    ns2:total_C "12.23"^^xsd:float ;
+    ns2:total_N "0.68"^^xsd:float ;
+    ns4:Observation "DV1224"^^xsd:string .
+
+<SoilPropertiesCeh_DV1225> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV1225"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 22 ;
+    ns2:Bulk_Density "0.39"^^xsd:float ;
+    ns2:CtoN "14.1"^^xsd:float ;
+    ns2:CtoP "0.46"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "30.14"^^xsd:float ;
+    ns2:Soil_pH "6.76"^^xsd:float ;
+    ns2:total_C "6.07"^^xsd:float ;
+    ns2:total_N "0.43"^^xsd:float ;
+    ns4:Observation "DV1225"^^xsd:string .
+
+<SoilPropertiesCeh_DV1241> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV1241"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.51"^^xsd:float ;
+    ns2:CtoN "13.91"^^xsd:float ;
+    ns2:CtoP "0.47"^^xsd:float ;
+    ns2:Horizon_Depth "5.0"^^xsd:float ;
+    ns2:Soil_Moisture "30.89"^^xsd:float ;
+    ns2:Soil_pH "7.29"^^xsd:float ;
+    ns2:total_C "5.64"^^xsd:float ;
+    ns2:total_N "0.41"^^xsd:float ;
+    ns4:Observation "DV1241"^^xsd:string .
+
+<SoilPropertiesCeh_DV1242> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV1242"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.52"^^xsd:float ;
+    ns2:CtoN "11.94"^^xsd:float ;
+    ns2:CtoP "0.46"^^xsd:float ;
+    ns2:Horizon_Depth "4.2"^^xsd:float ;
+    ns2:Soil_Moisture "26.76"^^xsd:float ;
+    ns2:Soil_pH "6.62"^^xsd:float ;
+    ns2:total_C "3.13"^^xsd:float ;
+    ns2:total_N "0.26"^^xsd:float ;
+    ns4:Observation "DV1242"^^xsd:string .
+
+<SoilPropertiesCeh_DV1243> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV1243"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.86"^^xsd:float ;
+    ns2:CtoN "15.39"^^xsd:float ;
+    ns2:CtoP "0.44"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "18.62"^^xsd:float ;
+    ns2:Soil_pH "7.06"^^xsd:float ;
+    ns2:total_C "7.08"^^xsd:float ;
+    ns2:total_N "0.46"^^xsd:float ;
+    ns4:Observation "DV1243"^^xsd:string .
+
+<SoilPropertiesCeh_DV1244> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV1244"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.62"^^xsd:float ;
+    ns2:CtoN "13.62"^^xsd:float ;
+    ns2:CtoP "0.74"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "23.28"^^xsd:float ;
+    ns2:Soil_pH "7.42"^^xsd:float ;
+    ns2:total_C "9.55"^^xsd:float ;
+    ns2:total_N "0.7"^^xsd:float ;
+    ns4:Observation "DV1244"^^xsd:string .
+
+<SoilPropertiesCeh_DV1245> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV1245"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.72"^^xsd:float ;
+    ns2:CtoN "17.26"^^xsd:float ;
+    ns2:CtoP "0.33"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "23.42"^^xsd:float ;
+    ns2:Soil_pH "7.31"^^xsd:float ;
+    ns2:total_C "8.23"^^xsd:float ;
+    ns2:total_N "0.48"^^xsd:float ;
+    ns4:Observation "DV1245"^^xsd:string .
+
+<SoilPropertiesCeh_DV161> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV161"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.93"^^xsd:float ;
+    ns2:CtoN "13.32"^^xsd:float ;
+    ns2:CtoP "0.58"^^xsd:float ;
+    ns2:Horizon_Depth "1.0"^^xsd:float ;
+    ns2:Soil_Moisture "21.98"^^xsd:float ;
+    ns2:Soil_pH "6.79"^^xsd:float ;
+    ns2:total_C "4.22"^^xsd:float ;
+    ns2:total_N "0.32"^^xsd:float ;
+    ns4:Observation "DV161"^^xsd:string .
+
+<SoilPropertiesCeh_DV162> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV162"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.55"^^xsd:float ;
+    ns2:CtoN "11.36"^^xsd:float ;
+    ns2:CtoP "0.61"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "18.96"^^xsd:float ;
+    ns2:Soil_pH "6.87"^^xsd:float ;
+    ns2:total_C "3.9"^^xsd:float ;
+    ns2:total_N "0.34"^^xsd:float ;
+    ns4:Observation "DV162"^^xsd:string .
+
+<SoilPropertiesCeh_DV163> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV163"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.45"^^xsd:float ;
+    ns2:CtoN "11.73"^^xsd:float ;
+    ns2:CtoP "0.61"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "26.52"^^xsd:float ;
+    ns2:Soil_pH "6.81"^^xsd:float ;
+    ns2:total_C "5.63"^^xsd:float ;
+    ns2:total_N "0.48"^^xsd:float ;
+    ns4:Observation "DV163"^^xsd:string .
+
+<SoilPropertiesCeh_DV164> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV164"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.42"^^xsd:float ;
+    ns2:CtoN "12.97"^^xsd:float ;
+    ns2:CtoP "0.55"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "26.26"^^xsd:float ;
+    ns2:Soil_pH "7.08"^^xsd:float ;
+    ns2:total_C "7.39"^^xsd:float ;
+    ns2:total_N "0.57"^^xsd:float ;
+    ns4:Observation "DV164"^^xsd:string .
+
+<SoilPropertiesCeh_DV165> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV165"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.52"^^xsd:float ;
+    ns2:CtoN "13.71"^^xsd:float ;
+    ns2:CtoP "0.72"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "28.53"^^xsd:float ;
+    ns2:Soil_pH "7.03"^^xsd:float ;
+    ns2:total_C "4.47"^^xsd:float ;
+    ns2:total_N "0.33"^^xsd:float ;
+    ns4:Observation "DV165"^^xsd:string .
+
+<SoilPropertiesCeh_DV171> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV171"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 7 ;
+    ns2:Bulk_Density "0.48"^^xsd:float ;
+    ns2:CtoN "12.79"^^xsd:float ;
+    ns2:CtoP "0.78"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "23.7"^^xsd:float ;
+    ns2:Soil_pH "6.8"^^xsd:float ;
+    ns2:total_C "5.7"^^xsd:float ;
+    ns2:total_N "0.45"^^xsd:float ;
+    ns4:Observation "DV171"^^xsd:string .
+
+<SoilPropertiesCeh_DV172> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV172"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 7 ;
+    ns2:Bulk_Density "0.5"^^xsd:float ;
+    ns2:CtoN "13.03"^^xsd:float ;
+    ns2:CtoP "0.71"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "33.11"^^xsd:float ;
+    ns2:Soil_pH "7.0"^^xsd:float ;
+    ns2:total_C "4.07"^^xsd:float ;
+    ns2:total_N "0.31"^^xsd:float ;
+    ns4:Observation "DV172"^^xsd:string .
+
+<SoilPropertiesCeh_DV173> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV173"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 7 ;
+    ns2:Bulk_Density "0.68"^^xsd:float ;
+    ns2:CtoN "13.2"^^xsd:float ;
+    ns2:CtoP "0.72"^^xsd:float ;
+    ns2:Horizon_Depth "5.5"^^xsd:float ;
+    ns2:Soil_Moisture "23.27"^^xsd:float ;
+    ns2:Soil_pH "6.65"^^xsd:float ;
+    ns2:total_C "5.22"^^xsd:float ;
+    ns2:total_N "0.4"^^xsd:float ;
+    ns4:Observation "DV173"^^xsd:string .
+
+<SoilPropertiesCeh_DV174> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV174"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 7 ;
+    ns2:Bulk_Density "0.56"^^xsd:float ;
+    ns2:CtoN "13.97"^^xsd:float ;
+    ns2:CtoP "0.59"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "22.36"^^xsd:float ;
+    ns2:Soil_pH "7.15"^^xsd:float ;
+    ns2:total_C "4.75"^^xsd:float ;
+    ns2:total_N "0.34"^^xsd:float ;
+    ns4:Observation "DV174"^^xsd:string .
+
+<SoilPropertiesCeh_DV175> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV175"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 7 ;
+    ns2:Bulk_Density "0.6"^^xsd:float ;
+    ns2:CtoN "14.28"^^xsd:float ;
+    ns2:CtoP "0.88"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "23.66"^^xsd:float ;
+    ns2:Soil_pH "6.88"^^xsd:float ;
+    ns2:total_C "5.55"^^xsd:float ;
+    ns2:total_N "0.39"^^xsd:float ;
+    ns4:Observation "DV175"^^xsd:string .
+
+<SoilPropertiesCeh_DV191> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV191"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 9 ;
+    ns2:Bulk_Density "0.6"^^xsd:float ;
+    ns2:CtoN "11.65"^^xsd:float ;
+    ns2:CtoP "0.43"^^xsd:float ;
+    ns2:Horizon_Depth "1.7"^^xsd:float ;
+    ns2:Soil_Moisture "20.15"^^xsd:float ;
+    ns2:Soil_pH "7.06"^^xsd:float ;
+    ns2:total_C "1.73"^^xsd:float ;
+    ns2:total_N "0.15"^^xsd:float ;
+    ns4:Observation "DV191"^^xsd:string .
+
+<SoilPropertiesCeh_DV192> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV192"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 9 ;
+    ns2:Bulk_Density "0.9"^^xsd:float ;
+    ns2:CtoN "17.32"^^xsd:float ;
+    ns2:CtoP "0.54"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "16.77"^^xsd:float ;
+    ns2:Soil_pH "6.84"^^xsd:float ;
+    ns2:total_C "4.22"^^xsd:float ;
+    ns2:total_N "0.24"^^xsd:float ;
+    ns4:Observation "DV192"^^xsd:string .
+
+<SoilPropertiesCeh_DV193> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV193"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 9 ;
+    ns2:Bulk_Density "0.78"^^xsd:float ;
+    ns2:CtoN "11.92"^^xsd:float ;
+    ns2:CtoP "0.43"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "18.69"^^xsd:float ;
+    ns2:Soil_pH "6.77"^^xsd:float ;
+    ns2:total_C "1.97"^^xsd:float ;
+    ns2:total_N "0.17"^^xsd:float ;
+    ns4:Observation "DV193"^^xsd:string .
+
+<SoilPropertiesCeh_DV194> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV194"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 9 ;
+    ns2:Bulk_Density "0.98"^^xsd:float ;
+    ns2:CtoN "11.97"^^xsd:float ;
+    ns2:CtoP "0.8"^^xsd:float ;
+    ns2:Horizon_Depth "2.2"^^xsd:float ;
+    ns2:Soil_Moisture "12.54"^^xsd:float ;
+    ns2:Soil_pH "7.04"^^xsd:float ;
+    ns2:total_C "3.12"^^xsd:float ;
+    ns2:total_N "0.26"^^xsd:float ;
+    ns4:Observation "DV194"^^xsd:string .
+
+<SoilPropertiesCeh_DV195> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV1"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV195"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 9 ;
+    ns2:Bulk_Density "0.62"^^xsd:float ;
+    ns2:CtoN "12.37"^^xsd:float ;
+    ns2:CtoP "0.58"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "20.87"^^xsd:float ;
+    ns2:Soil_pH "6.93"^^xsd:float ;
+    ns2:total_C "2.17"^^xsd:float ;
+    ns2:total_N "0.18"^^xsd:float ;
+    ns4:Observation "DV195"^^xsd:string .
+
+<SoilPropertiesCeh_DV211> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV211"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 1 ;
+    ns2:Bulk_Density "0.47"^^xsd:float ;
+    ns2:CtoN "16.65"^^xsd:float ;
+    ns2:CtoP "0.25"^^xsd:float ;
+    ns2:Horizon_Depth "6.0"^^xsd:float ;
+    ns2:Soil_Moisture "28.14"^^xsd:float ;
+    ns2:Soil_pH "6.5"^^xsd:float ;
+    ns2:total_C "6.18"^^xsd:float ;
+    ns2:total_N "0.37"^^xsd:float ;
+    ns4:Observation "DV211"^^xsd:string .
+
+<SoilPropertiesCeh_DV212> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV212"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 1 ;
+    ns2:Bulk_Density "0.53"^^xsd:float ;
+    ns2:CtoN "13.21"^^xsd:float ;
+    ns2:CtoP "0.14"^^xsd:float ;
+    ns2:Horizon_Depth "1.0"^^xsd:float ;
+    ns2:Soil_Moisture "27.72"^^xsd:float ;
+    ns2:Soil_pH "6.12"^^xsd:float ;
+    ns2:total_C "4.37"^^xsd:float ;
+    ns2:total_N "0.33"^^xsd:float ;
+    ns4:Observation "DV212"^^xsd:string .
+
+<SoilPropertiesCeh_DV213> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV213"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 1 ;
+    ns2:Bulk_Density "0.37"^^xsd:float ;
+    ns2:CtoN "15.4"^^xsd:float ;
+    ns2:CtoP "0.16"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "16.19"^^xsd:float ;
+    ns2:Soil_pH "6.32"^^xsd:float ;
+    ns2:total_C "5.43"^^xsd:float ;
+    ns2:total_N "0.35"^^xsd:float ;
+    ns4:Observation "DV213"^^xsd:string .
+
+<SoilPropertiesCeh_DV214> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV214"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 1 ;
+    ns2:Bulk_Density "0.26"^^xsd:float ;
+    ns2:CtoN "14.34"^^xsd:float ;
+    ns2:CtoP "0.16"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "31.62"^^xsd:float ;
+    ns2:Soil_pH "5.53"^^xsd:float ;
+    ns2:total_C "5.23"^^xsd:float ;
+    ns2:total_N "0.36"^^xsd:float ;
+    ns4:Observation "DV214"^^xsd:string .
+
+<SoilPropertiesCeh_DV215> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV215"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 1 ;
+    ns2:Bulk_Density "0.68"^^xsd:float ;
+    ns2:CtoN "13.12"^^xsd:float ;
+    ns2:CtoP "0.16"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "23.83"^^xsd:float ;
+    ns2:Soil_pH "6.0"^^xsd:float ;
+    ns2:total_C "4.1"^^xsd:float ;
+    ns2:total_N "0.31"^^xsd:float ;
+    ns4:Observation "DV215"^^xsd:string .
+
+<SoilPropertiesCeh_DV2201> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV2201"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 20 ;
+    ns2:Bulk_Density "0.37"^^xsd:float ;
+    ns2:CtoN "14.74"^^xsd:float ;
+    ns2:CtoP "0.77"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "17.39"^^xsd:float ;
+    ns2:Soil_pH "6.32"^^xsd:float ;
+    ns2:total_C "4.87"^^xsd:float ;
+    ns2:total_N "0.33"^^xsd:float ;
+    ns4:Observation "DV2201"^^xsd:string .
+
+<SoilPropertiesCeh_DV2202> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV2202"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 20 ;
+    ns2:Bulk_Density "0.62"^^xsd:float ;
+    ns2:CtoN "21.38"^^xsd:float ;
+    ns2:CtoP "0.27"^^xsd:float ;
+    ns2:Horizon_Depth "1.5"^^xsd:float ;
+    ns2:Soil_Moisture "12.18"^^xsd:float ;
+    ns2:Soil_pH "6.22"^^xsd:float ;
+    ns2:total_C "1.88"^^xsd:float ;
+    ns2:total_N "0.09"^^xsd:float ;
+    ns4:Observation "DV2202"^^xsd:string .
+
+<SoilPropertiesCeh_DV2203> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV2203"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 20 ;
+    ns2:Bulk_Density "0.94"^^xsd:float ;
+    ns2:CtoN "16.35"^^xsd:float ;
+    ns2:CtoP "0.2"^^xsd:float ;
+    ns2:Horizon_Depth "1.0"^^xsd:float ;
+    ns2:Soil_Moisture "18.13"^^xsd:float ;
+    ns2:Soil_pH "6.73"^^xsd:float ;
+    ns2:total_C "3.1"^^xsd:float ;
+    ns2:total_N "0.19"^^xsd:float ;
+    ns4:Observation "DV2203"^^xsd:string .
+
+<SoilPropertiesCeh_DV2204> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV2204"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 20 ;
+    ns2:Bulk_Density "0.44"^^xsd:float ;
+    ns2:CtoN "13.86"^^xsd:float ;
+    ns2:CtoP "0.21"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "27.8"^^xsd:float ;
+    ns2:Soil_pH "5.8"^^xsd:float ;
+    ns2:total_C "3.49"^^xsd:float ;
+    ns2:total_N "0.25"^^xsd:float ;
+    ns4:Observation "DV2204"^^xsd:string .
+
+<SoilPropertiesCeh_DV2205> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV2205"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 20 ;
+    ns2:Bulk_Density "0.3"^^xsd:float ;
+    ns2:CtoN "14.38"^^xsd:float ;
+    ns2:CtoP "0.24"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "12.64"^^xsd:float ;
+    ns2:Soil_pH "5.92"^^xsd:float ;
+    ns2:total_C "2.59"^^xsd:float ;
+    ns2:total_N "0.18"^^xsd:float ;
+    ns4:Observation "DV2205"^^xsd:string .
+
+<SoilPropertiesCeh_DV2231> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV2231"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 23 ;
+    ns2:Bulk_Density "0.64"^^xsd:float ;
+    ns2:CtoN "21.44"^^xsd:float ;
+    ns2:CtoP "0.53"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "25.04"^^xsd:float ;
+    ns2:Soil_pH "5.98"^^xsd:float ;
+    ns2:total_C "8.95"^^xsd:float ;
+    ns2:total_N "0.42"^^xsd:float ;
+    ns4:Observation "DV2231"^^xsd:string .
+
+<SoilPropertiesCeh_DV2232> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV2232"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 23 ;
+    ns2:Bulk_Density "0.43"^^xsd:float ;
+    ns2:CtoN "20.31"^^xsd:float ;
+    ns2:CtoP "0.26"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "33.11"^^xsd:float ;
+    ns2:Soil_pH "5.99"^^xsd:float ;
+    ns2:total_C "4.48"^^xsd:float ;
+    ns2:total_N "0.22"^^xsd:float ;
+    ns4:Observation "DV2232"^^xsd:string .
+
+<SoilPropertiesCeh_DV2233> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV2233"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 23 ;
+    ns2:Bulk_Density "0.76"^^xsd:float ;
+    ns2:CtoN "16.39"^^xsd:float ;
+    ns2:CtoP "0.32"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "29.54"^^xsd:float ;
+    ns2:Soil_pH "6.53"^^xsd:float ;
+    ns2:total_C "5.06"^^xsd:float ;
+    ns2:total_N "0.31"^^xsd:float ;
+    ns4:Observation "DV2233"^^xsd:string .
+
+<SoilPropertiesCeh_DV2234> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV2234"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 23 ;
+    ns2:Bulk_Density "0.7"^^xsd:float ;
+    ns2:CtoN "16.85"^^xsd:float ;
+    ns2:CtoP "0.18"^^xsd:float ;
+    ns2:Horizon_Depth "5.5"^^xsd:float ;
+    ns2:Soil_Moisture "29.7"^^xsd:float ;
+    ns2:Soil_pH "6.36"^^xsd:float ;
+    ns2:total_C "2.74"^^xsd:float ;
+    ns2:total_N "0.16"^^xsd:float ;
+    ns4:Observation "DV2234"^^xsd:string .
+
+<SoilPropertiesCeh_DV2235> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV2235"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 23 ;
+    ns2:Bulk_Density "0.7"^^xsd:float ;
+    ns2:CtoN "14.64"^^xsd:float ;
+    ns2:CtoP "0.29"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "22.73"^^xsd:float ;
+    ns2:Soil_pH "6.19"^^xsd:float ;
+    ns2:total_C "3.64"^^xsd:float ;
+    ns2:total_N "0.25"^^xsd:float ;
+    ns4:Observation "DV2235"^^xsd:string .
+
+<SoilPropertiesCeh_DV2241> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV2241"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.39"^^xsd:float ;
+    ns2:CtoN "15.22"^^xsd:float ;
+    ns2:CtoP "0.19"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "26.65"^^xsd:float ;
+    ns2:Soil_pH "5.87"^^xsd:float ;
+    ns2:total_C "3.62"^^xsd:float ;
+    ns2:total_N "0.24"^^xsd:float ;
+    ns4:Observation "DV2241"^^xsd:string .
+
+<SoilPropertiesCeh_DV2242> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV2242"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.48"^^xsd:float ;
+    ns2:CtoN "13.78"^^xsd:float ;
+    ns2:CtoP "0.17"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "29.12"^^xsd:float ;
+    ns2:Soil_pH "5.99"^^xsd:float ;
+    ns2:total_C "3.34"^^xsd:float ;
+    ns2:total_N "0.24"^^xsd:float ;
+    ns4:Observation "DV2242"^^xsd:string .
+
+<SoilPropertiesCeh_DV2243> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV2243"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.43"^^xsd:float ;
+    ns2:CtoN "13.64"^^xsd:float ;
+    ns2:CtoP "0.15"^^xsd:float ;
+    ns2:Horizon_Depth "4.5"^^xsd:float ;
+    ns2:Soil_Moisture "22.9"^^xsd:float ;
+    ns2:Soil_pH "6.08"^^xsd:float ;
+    ns2:total_C "2.54"^^xsd:float ;
+    ns2:total_N "0.19"^^xsd:float ;
+    ns4:Observation "DV2243"^^xsd:string .
+
+<SoilPropertiesCeh_DV2244> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV2244"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.69"^^xsd:float ;
+    ns2:CtoN "19.63"^^xsd:float ;
+    ns2:CtoP "0.16"^^xsd:float ;
+    ns2:Horizon_Depth "1.5"^^xsd:float ;
+    ns2:Soil_Moisture "20.8"^^xsd:float ;
+    ns2:Soil_pH "6.58"^^xsd:float ;
+    ns2:total_C "1.81"^^xsd:float ;
+    ns2:total_N "0.09"^^xsd:float ;
+    ns4:Observation "DV2244"^^xsd:string .
+
+<SoilPropertiesCeh_DV2245> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV2245"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.45"^^xsd:float ;
+    ns2:CtoN "16.47"^^xsd:float ;
+    ns2:CtoP "0.22"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "26.32"^^xsd:float ;
+    ns2:Soil_pH "6.34"^^xsd:float ;
+    ns2:total_C "4.45"^^xsd:float ;
+    ns2:total_N "0.27"^^xsd:float ;
+    ns4:Observation "DV2245"^^xsd:string .
+
+<SoilPropertiesCeh_DV281> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV281"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 8 ;
+    ns2:Bulk_Density "0.65"^^xsd:float ;
+    ns2:CtoN "15.27"^^xsd:float ;
+    ns2:CtoP "0.21"^^xsd:float ;
+    ns2:Horizon_Depth "1.5"^^xsd:float ;
+    ns2:Soil_Moisture "17.53"^^xsd:float ;
+    ns2:Soil_pH "6.21"^^xsd:float ;
+    ns2:total_C "5.79"^^xsd:float ;
+    ns2:total_N "0.38"^^xsd:float ;
+    ns4:Observation "DV281"^^xsd:string .
+
+<SoilPropertiesCeh_DV282> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV282"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 8 ;
+    ns2:Bulk_Density "0.48"^^xsd:float ;
+    ns2:CtoN "14.43"^^xsd:float ;
+    ns2:CtoP "0.17"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "29.63"^^xsd:float ;
+    ns2:Soil_pH "5.83"^^xsd:float ;
+    ns2:total_C "4.77"^^xsd:float ;
+    ns2:total_N "0.33"^^xsd:float ;
+    ns4:Observation "DV282"^^xsd:string .
+
+<SoilPropertiesCeh_DV283> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV283"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 8 ;
+    ns2:Bulk_Density "0.5"^^xsd:float ;
+    ns2:CtoN "16.74"^^xsd:float ;
+    ns2:CtoP "0.32"^^xsd:float ;
+    ns2:Horizon_Depth "1.8"^^xsd:float ;
+    ns2:Soil_Moisture "20.03"^^xsd:float ;
+    ns2:Soil_pH "6.22"^^xsd:float ;
+    ns2:total_C "5.66"^^xsd:float ;
+    ns2:total_N "0.34"^^xsd:float ;
+    ns4:Observation "DV283"^^xsd:string .
+
+<SoilPropertiesCeh_DV284> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV284"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 8 ;
+    ns2:Bulk_Density "0.78"^^xsd:float ;
+    ns2:CtoN "17.25"^^xsd:float ;
+    ns2:CtoP "0.27"^^xsd:float ;
+    ns2:Horizon_Depth "1.5"^^xsd:float ;
+    ns2:Soil_Moisture "18.85"^^xsd:float ;
+    ns2:Soil_pH "6.13"^^xsd:float ;
+    ns2:total_C "4.97"^^xsd:float ;
+    ns2:total_N "0.29"^^xsd:float ;
+    ns4:Observation "DV284"^^xsd:string .
+
+<SoilPropertiesCeh_DV285> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "DV2"^^xsd:string ;
+    ns1:Soil_Properties_CEH "DV285"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Danum Valley Conservation Area"^^xsd:string ;
+    ns3:Subplot 8 ;
+    ns2:Bulk_Density "0.68"^^xsd:float ;
+    ns2:CtoN "39.59"^^xsd:float ;
+    ns2:CtoP "0.41"^^xsd:float ;
+    ns2:Horizon_Depth "2.2"^^xsd:float ;
+    ns2:Soil_Moisture "20.24"^^xsd:float ;
+    ns2:Soil_pH "6.34"^^xsd:float ;
+    ns2:total_C "4.84"^^xsd:float ;
+    ns2:total_N "0.12"^^xsd:float ;
+    ns4:Observation "DV285"^^xsd:string .
+
+<SoilPropertiesCeh_MB181> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB181"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.26"^^xsd:float ;
+    ns2:CtoN "17.98"^^xsd:float ;
+    ns2:CtoP "0.18"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "33.46"^^xsd:float ;
+    ns2:Soil_pH "4.96"^^xsd:float ;
+    ns2:total_C "9.86"^^xsd:float ;
+    ns2:total_N "0.55"^^xsd:float ;
+    ns4:Observation "MB181"^^xsd:string .
+
+<SoilPropertiesCeh_MB182> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB182"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.41"^^xsd:float ;
+    ns2:CtoN "17.58"^^xsd:float ;
+    ns2:CtoP "0.23"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "28.99"^^xsd:float ;
+    ns2:Soil_pH "5.62"^^xsd:float ;
+    ns2:total_C "8.43"^^xsd:float ;
+    ns2:total_N "0.48"^^xsd:float ;
+    ns4:Observation "MB182"^^xsd:string .
+
+<SoilPropertiesCeh_MB183> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB183"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.28"^^xsd:float ;
+    ns2:CtoN "13.91"^^xsd:float ;
+    ns2:CtoP "0.24"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "28.6"^^xsd:float ;
+    ns2:Soil_pH "5.87"^^xsd:float ;
+    ns2:total_C "7.18"^^xsd:float ;
+    ns2:total_N "0.52"^^xsd:float ;
+    ns4:Observation "MB183"^^xsd:string .
+
+<SoilPropertiesCeh_MB184> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB184"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.2"^^xsd:float ;
+    ns2:CtoN "13.9"^^xsd:float ;
+    ns2:CtoP "0.16"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "34.17"^^xsd:float ;
+    ns2:Soil_pH "5.54"^^xsd:float ;
+    ns2:total_C "5.07"^^xsd:float ;
+    ns2:total_N "0.36"^^xsd:float ;
+    ns4:Observation "MB184"^^xsd:string .
+
+<SoilPropertiesCeh_MB185> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB185"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.17"^^xsd:float ;
+    ns2:CtoN "13.21"^^xsd:float ;
+    ns2:CtoP "0.26"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "38.75"^^xsd:float ;
+    ns2:Soil_pH "5.65"^^xsd:float ;
+    ns2:total_C "4.54"^^xsd:float ;
+    ns2:total_N "0.34"^^xsd:float ;
+    ns4:Observation "MB185"^^xsd:string .
+
+<SoilPropertiesCeh_MB221> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB221"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 22 ;
+    ns2:Bulk_Density "0.39"^^xsd:float ;
+    ns2:CtoN "15.26"^^xsd:float ;
+    ns2:CtoP "0.26"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "33.67"^^xsd:float ;
+    ns2:Soil_pH "4.56"^^xsd:float ;
+    ns2:total_C "5.79"^^xsd:float ;
+    ns2:total_N "0.38"^^xsd:float ;
+    ns4:Observation "MB221"^^xsd:string .
+
+<SoilPropertiesCeh_MB222> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB222"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 22 ;
+    ns2:Bulk_Density "0.69"^^xsd:float ;
+    ns2:CtoN "14.34"^^xsd:float ;
+    ns2:CtoP "0.18"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "18.96"^^xsd:float ;
+    ns2:Soil_pH "4.92"^^xsd:float ;
+    ns2:total_C "4.99"^^xsd:float ;
+    ns2:total_N "0.35"^^xsd:float ;
+    ns4:Observation "MB222"^^xsd:string .
+
+<SoilPropertiesCeh_MB223> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB223"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 22 ;
+    ns2:Bulk_Density "0.39"^^xsd:float ;
+    ns2:CtoN "14.26"^^xsd:float ;
+    ns2:CtoP "0.29"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "26.02"^^xsd:float ;
+    ns2:Soil_pH "5.1"^^xsd:float ;
+    ns2:total_C "4.95"^^xsd:float ;
+    ns2:total_N "0.35"^^xsd:float ;
+    ns4:Observation "MB223"^^xsd:string .
+
+<SoilPropertiesCeh_MB224> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB224"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 22 ;
+    ns2:Bulk_Density "0.29"^^xsd:float ;
+    ns2:CtoN "12.21"^^xsd:float ;
+    ns2:CtoP "0.08"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "33.1"^^xsd:float ;
+    ns2:Soil_pH "5.6"^^xsd:float ;
+    ns2:total_C "3.47"^^xsd:float ;
+    ns2:total_N "0.28"^^xsd:float ;
+    ns4:Observation "MB224"^^xsd:string .
+
+<SoilPropertiesCeh_MB225> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB225"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 22 ;
+    ns2:Bulk_Density "0.52"^^xsd:float ;
+    ns2:CtoN "14.04"^^xsd:float ;
+    ns2:CtoP "0.34"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "26.9"^^xsd:float ;
+    ns2:Soil_pH "6.4"^^xsd:float ;
+    ns2:total_C "6.66"^^xsd:float ;
+    ns2:total_N "0.47"^^xsd:float ;
+    ns4:Observation "MB225"^^xsd:string .
+
+<SoilPropertiesCeh_MB41> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB41"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 4 ;
+    ns2:Bulk_Density "0.46"^^xsd:float ;
+    ns2:CtoN "11.93"^^xsd:float ;
+    ns2:CtoP "0.12"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "25.69"^^xsd:float ;
+    ns2:Soil_pH "4.84"^^xsd:float ;
+    ns2:total_C "4.44"^^xsd:float ;
+    ns2:total_N "0.37"^^xsd:float ;
+    ns4:Observation "MB41"^^xsd:string .
+
+<SoilPropertiesCeh_MB42> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB42"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 4 ;
+    ns2:Bulk_Density "0.76"^^xsd:float ;
+    ns2:CtoN "13.83"^^xsd:float ;
+    ns2:CtoP "0.23"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "39.79"^^xsd:float ;
+    ns2:Soil_pH "4.95"^^xsd:float ;
+    ns2:total_C "7.65"^^xsd:float ;
+    ns2:total_N "0.55"^^xsd:float ;
+    ns4:Observation "MB42"^^xsd:string .
+
+<SoilPropertiesCeh_MB43> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB43"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 4 ;
+    ns2:Bulk_Density "0.43"^^xsd:float ;
+    ns2:CtoN "15.84"^^xsd:float ;
+    ns2:CtoP "0.21"^^xsd:float ;
+    ns2:Horizon_Depth "1.0"^^xsd:float ;
+    ns2:Soil_Moisture "28.26"^^xsd:float ;
+    ns2:Soil_pH "6.0"^^xsd:float ;
+    ns2:total_C "6.67"^^xsd:float ;
+    ns2:total_N "0.42"^^xsd:float ;
+    ns4:Observation "MB43"^^xsd:string .
+
+<SoilPropertiesCeh_MB44> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB44"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 4 ;
+    ns2:Bulk_Density "0.32"^^xsd:float ;
+    ns2:CtoN "13.1"^^xsd:float ;
+    ns2:CtoP "0.12"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "32.05"^^xsd:float ;
+    ns2:Soil_pH "5.47"^^xsd:float ;
+    ns2:total_C "3.9"^^xsd:float ;
+    ns2:total_N "0.3"^^xsd:float ;
+    ns4:Observation "MB44"^^xsd:string .
+
+<SoilPropertiesCeh_MB45> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB45"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 4 ;
+    ns2:Bulk_Density "0.32"^^xsd:float ;
+    ns2:CtoN "17.15"^^xsd:float ;
+    ns2:CtoP "0.23"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "42.75"^^xsd:float ;
+    ns2:Soil_pH "6.42"^^xsd:float ;
+    ns2:total_C "8.06"^^xsd:float ;
+    ns2:total_N "0.47"^^xsd:float ;
+    ns4:Observation "MB45"^^xsd:string .
+
+<SoilPropertiesCeh_MB71> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB71"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 7 ;
+    ns2:Bulk_Density "0.82"^^xsd:float ;
+    ns2:CtoN "15.55"^^xsd:float ;
+    ns2:CtoP "0.25"^^xsd:float ;
+    ns2:Horizon_Depth "1.5"^^xsd:float ;
+    ns2:Soil_Moisture "24.06"^^xsd:float ;
+    ns2:Soil_pH "4.82"^^xsd:float ;
+    ns2:total_C "5.71"^^xsd:float ;
+    ns2:total_N "0.37"^^xsd:float ;
+    ns4:Observation "MB71"^^xsd:string .
+
+<SoilPropertiesCeh_MB72> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB72"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 7 ;
+    ns2:Bulk_Density "0.43"^^xsd:float ;
+    ns2:CtoN "12.46"^^xsd:float ;
+    ns2:CtoP "0.23"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "50.05"^^xsd:float ;
+    ns2:Soil_pH "5.26"^^xsd:float ;
+    ns2:total_C "5.56"^^xsd:float ;
+    ns2:total_N "0.45"^^xsd:float ;
+    ns4:Observation "MB72"^^xsd:string .
+
+<SoilPropertiesCeh_MB73> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB73"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 7 ;
+    ns2:Bulk_Density "0.57"^^xsd:float ;
+    ns2:CtoN "12.68"^^xsd:float ;
+    ns2:CtoP "0.37"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "19.48"^^xsd:float ;
+    ns2:Soil_pH "5.92"^^xsd:float ;
+    ns2:total_C "5.26"^^xsd:float ;
+    ns2:total_N "0.41"^^xsd:float ;
+    ns4:Observation "MB73"^^xsd:string .
+
+<SoilPropertiesCeh_MB74> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB74"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 7 ;
+    ns2:Bulk_Density "0.41"^^xsd:float ;
+    ns2:CtoN "12.46"^^xsd:float ;
+    ns2:CtoP "0.22"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "27.06"^^xsd:float ;
+    ns2:Soil_pH "5.85"^^xsd:float ;
+    ns2:total_C "3.51"^^xsd:float ;
+    ns2:total_N "0.28"^^xsd:float ;
+    ns4:Observation "MB74"^^xsd:string .
+
+<SoilPropertiesCeh_MB75> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB75"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 7 ;
+    ns2:Bulk_Density "0.46"^^xsd:float ;
+    ns2:CtoN "12.02"^^xsd:float ;
+    ns2:CtoP "0.28"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "21.93"^^xsd:float ;
+    ns2:Soil_pH "5.97"^^xsd:float ;
+    ns2:total_C "4.45"^^xsd:float ;
+    ns2:total_N "0.37"^^xsd:float ;
+    ns4:Observation "MB75"^^xsd:string .
+
+<SoilPropertiesCeh_MB91> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB91"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 9 ;
+    ns2:Bulk_Density "0.33"^^xsd:float ;
+    ns2:CtoN "13.87"^^xsd:float ;
+    ns2:CtoP "0.21"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "27.74"^^xsd:float ;
+    ns2:Soil_pH "4.47"^^xsd:float ;
+    ns2:total_C "5.16"^^xsd:float ;
+    ns2:total_N "0.37"^^xsd:float ;
+    ns4:Observation "MB91"^^xsd:string .
+
+<SoilPropertiesCeh_MB92> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB92"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 9 ;
+    ns2:Bulk_Density "0.21"^^xsd:float ;
+    ns2:CtoN "15.4"^^xsd:float ;
+    ns2:CtoP "0.26"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "35.74"^^xsd:float ;
+    ns2:Soil_pH "4.93"^^xsd:float ;
+    ns2:total_C "5.23"^^xsd:float ;
+    ns2:total_N "0.34"^^xsd:float ;
+    ns4:Observation "MB92"^^xsd:string .
+
+<SoilPropertiesCeh_MB93> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB93"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 9 ;
+    ns2:Bulk_Density "0.49"^^xsd:float ;
+    ns2:CtoN "13.77"^^xsd:float ;
+    ns2:CtoP "0.25"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "21.48"^^xsd:float ;
+    ns2:Soil_pH "4.93"^^xsd:float ;
+    ns2:total_C "4.38"^^xsd:float ;
+    ns2:total_N "0.32"^^xsd:float ;
+    ns4:Observation "MB93"^^xsd:string .
+
+<SoilPropertiesCeh_MB94> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB94"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 9 ;
+    ns2:Bulk_Density "0.27"^^xsd:float ;
+    ns2:CtoN "12.48"^^xsd:float ;
+    ns2:CtoP "0.25"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "26.44"^^xsd:float ;
+    ns2:Soil_pH "5.06"^^xsd:float ;
+    ns2:total_C "5.18"^^xsd:float ;
+    ns2:total_N "0.42"^^xsd:float ;
+    ns4:Observation "MB94"^^xsd:string .
+
+<SoilPropertiesCeh_MB95> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Belian"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MB95"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 9 ;
+    ns2:Bulk_Density "0.36"^^xsd:float ;
+    ns2:CtoN "13.14"^^xsd:float ;
+    ns2:CtoP "0.21"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "23.14"^^xsd:float ;
+    ns2:Soil_pH "5.16"^^xsd:float ;
+    ns2:total_C "3.94"^^xsd:float ;
+    ns2:total_N "0.3"^^xsd:float ;
+    ns4:Observation "MB95"^^xsd:string .
+
+<SoilPropertiesCeh_MS141> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS141"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 14 ;
+    ns2:Bulk_Density "0.95"^^xsd:float ;
+    ns2:CtoN "13.98"^^xsd:float ;
+    ns2:CtoP "0.14"^^xsd:float ;
+    ns2:Horizon_Depth "2.3"^^xsd:float ;
+    ns2:Soil_Moisture "23.85"^^xsd:float ;
+    ns2:Soil_pH "4.56"^^xsd:float ;
+    ns2:total_C "3.92"^^xsd:float ;
+    ns2:total_N "0.28"^^xsd:float ;
+    ns4:Observation "MS141"^^xsd:string .
+
+<SoilPropertiesCeh_MS142> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS142"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 14 ;
+    ns2:Bulk_Density "0.44"^^xsd:float ;
+    ns2:CtoN "16.21"^^xsd:float ;
+    ns2:CtoP "0.16"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "26.67"^^xsd:float ;
+    ns2:Soil_pH "4.85"^^xsd:float ;
+    ns2:total_C "8.17"^^xsd:float ;
+    ns2:total_N "0.5"^^xsd:float ;
+    ns4:Observation "MS142"^^xsd:string .
+
+<SoilPropertiesCeh_MS143> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS143"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 14 ;
+    ns2:Bulk_Density "0.3"^^xsd:float ;
+    ns2:CtoN "14.28"^^xsd:float ;
+    ns2:CtoP "0.22"^^xsd:float ;
+    ns2:Horizon_Depth "2.7"^^xsd:float ;
+    ns2:Soil_Moisture "31.6"^^xsd:float ;
+    ns2:Soil_pH "5.4"^^xsd:float ;
+    ns2:total_C "4.52"^^xsd:float ;
+    ns2:total_N "0.32"^^xsd:float ;
+    ns4:Observation "MS143"^^xsd:string .
+
+<SoilPropertiesCeh_MS144> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS144"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 14 ;
+    ns2:Bulk_Density "0.5"^^xsd:float ;
+    ns2:CtoN "14.93"^^xsd:float ;
+    ns2:CtoP "0.21"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "24.35"^^xsd:float ;
+    ns2:Soil_pH "5.07"^^xsd:float ;
+    ns2:total_C "4.76"^^xsd:float ;
+    ns2:total_N "0.32"^^xsd:float ;
+    ns4:Observation "MS144"^^xsd:string .
+
+<SoilPropertiesCeh_MS145> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS145"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 14 ;
+    ns2:Bulk_Density "0.34"^^xsd:float ;
+    ns2:CtoN "15.14"^^xsd:float ;
+    ns2:CtoP "0.25"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "20.39"^^xsd:float ;
+    ns2:Soil_pH "4.92"^^xsd:float ;
+    ns2:total_C "5.19"^^xsd:float ;
+    ns2:total_N "0.34"^^xsd:float ;
+    ns4:Observation "MS145"^^xsd:string .
+
+<SoilPropertiesCeh_MS151> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS151"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 15 ;
+    ns2:Bulk_Density "1.09"^^xsd:float ;
+    ns2:CtoN "15.77"^^xsd:float ;
+    ns2:CtoP "0.26"^^xsd:float ;
+    ns2:Horizon_Depth "1.0"^^xsd:float ;
+    ns2:Soil_Moisture "20.58"^^xsd:float ;
+    ns2:Soil_pH "4.45"^^xsd:float ;
+    ns2:total_C "4.94"^^xsd:float ;
+    ns2:total_N "0.31"^^xsd:float ;
+    ns4:Observation "MS151"^^xsd:string .
+
+<SoilPropertiesCeh_MS152> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS152"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 15 ;
+    ns2:Bulk_Density "0.5"^^xsd:float ;
+    ns2:CtoN "13.93"^^xsd:float ;
+    ns2:CtoP "0.24"^^xsd:float ;
+    ns2:Horizon_Depth "4.7"^^xsd:float ;
+    ns2:Soil_Moisture "23.65"^^xsd:float ;
+    ns2:Soil_pH "5.39"^^xsd:float ;
+    ns2:total_C "4.94"^^xsd:float ;
+    ns2:total_N "0.35"^^xsd:float ;
+    ns4:Observation "MS152"^^xsd:string .
+
+<SoilPropertiesCeh_MS153> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS153"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 15 ;
+    ns2:Bulk_Density "0.59"^^xsd:float ;
+    ns2:CtoN "16.27"^^xsd:float ;
+    ns2:CtoP "0.25"^^xsd:float ;
+    ns2:Horizon_Depth "4.8"^^xsd:float ;
+    ns2:Soil_Moisture "20.29"^^xsd:float ;
+    ns2:Soil_pH "4.98"^^xsd:float ;
+    ns2:total_C "5.93"^^xsd:float ;
+    ns2:total_N "0.36"^^xsd:float ;
+    ns4:Observation "MS153"^^xsd:string .
+
+<SoilPropertiesCeh_MS154> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS154"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 15 ;
+    ns2:Bulk_Density "0.46"^^xsd:float ;
+    ns2:CtoN "16.63"^^xsd:float ;
+    ns2:CtoP "0.26"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "25.0"^^xsd:float ;
+    ns2:Soil_pH "4.89"^^xsd:float ;
+    ns2:total_C "3.72"^^xsd:float ;
+    ns2:total_N "0.22"^^xsd:float ;
+    ns4:Observation "MS154"^^xsd:string .
+
+<SoilPropertiesCeh_MS155> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS155"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 15 ;
+    ns2:Bulk_Density "0.22"^^xsd:float ;
+    ns2:CtoN "13.42"^^xsd:float ;
+    ns2:CtoP "0.17"^^xsd:float ;
+    ns2:Horizon_Depth "1.5"^^xsd:float ;
+    ns2:Soil_Moisture "33.81"^^xsd:float ;
+    ns2:Soil_pH "4.88"^^xsd:float ;
+    ns2:total_C "3.67"^^xsd:float ;
+    ns2:total_N "0.27"^^xsd:float ;
+    ns4:Observation "MS155"^^xsd:string .
+
+<SoilPropertiesCeh_MS181> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS181"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.42"^^xsd:float ;
+    ns2:CtoN "13.22"^^xsd:float ;
+    ns2:CtoP "0.22"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "27.59"^^xsd:float ;
+    ns2:Soil_pH "4.65"^^xsd:float ;
+    ns2:total_C "3.24"^^xsd:float ;
+    ns2:total_N "0.24"^^xsd:float ;
+    ns4:Observation "MS181"^^xsd:string .
+
+<SoilPropertiesCeh_MS182> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS182"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.44"^^xsd:float ;
+    ns2:CtoN "14.9"^^xsd:float ;
+    ns2:CtoP "0.12"^^xsd:float ;
+    ns2:Horizon_Depth "4.5"^^xsd:float ;
+    ns2:Soil_Moisture "29.33"^^xsd:float ;
+    ns2:Soil_pH "4.71"^^xsd:float ;
+    ns2:total_C "5.68"^^xsd:float ;
+    ns2:total_N "0.38"^^xsd:float ;
+    ns4:Observation "MS182"^^xsd:string .
+
+<SoilPropertiesCeh_MS183> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS183"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.24"^^xsd:float ;
+    ns2:CtoN "13.2"^^xsd:float ;
+    ns2:CtoP "0.24"^^xsd:float ;
+    ns2:Horizon_Depth "3.2"^^xsd:float ;
+    ns2:Soil_Moisture "41.05"^^xsd:float ;
+    ns2:Soil_pH "5.2"^^xsd:float ;
+    ns2:total_C "4.16"^^xsd:float ;
+    ns2:total_N "0.32"^^xsd:float ;
+    ns4:Observation "MS183"^^xsd:string .
+
+<SoilPropertiesCeh_MS184> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS184"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.47"^^xsd:float ;
+    ns2:CtoN "14.49"^^xsd:float ;
+    ns2:CtoP "0.27"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "23.99"^^xsd:float ;
+    ns2:Soil_pH "4.8"^^xsd:float ;
+    ns2:total_C "3.89"^^xsd:float ;
+    ns2:total_N "0.27"^^xsd:float ;
+    ns4:Observation "MS184"^^xsd:string .
+
+<SoilPropertiesCeh_MS185> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS185"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.44"^^xsd:float ;
+    ns2:CtoN "13.36"^^xsd:float ;
+    ns2:CtoP "0.19"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "27.09"^^xsd:float ;
+    ns2:Soil_pH "5.04"^^xsd:float ;
+    ns2:total_C "3.79"^^xsd:float ;
+    ns2:total_N "0.28"^^xsd:float ;
+    ns4:Observation "MS185"^^xsd:string .
+
+<SoilPropertiesCeh_MS251> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS251"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 25 ;
+    ns2:Bulk_Density "0.48"^^xsd:float ;
+    ns2:CtoN "16.79"^^xsd:float ;
+    ns2:CtoP "0.2"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "23.41"^^xsd:float ;
+    ns2:Soil_pH "5.02"^^xsd:float ;
+    ns2:total_C "3.38"^^xsd:float ;
+    ns2:total_N "0.2"^^xsd:float ;
+    ns4:Observation "MS251"^^xsd:string .
+
+<SoilPropertiesCeh_MS252> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS252"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 25 ;
+    ns2:Bulk_Density "0.59"^^xsd:float ;
+    ns2:CtoN "15.27"^^xsd:float ;
+    ns2:CtoP "0.25"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "21.0"^^xsd:float ;
+    ns2:Soil_pH "5.1"^^xsd:float ;
+    ns2:total_C "5.3"^^xsd:float ;
+    ns2:total_N "0.35"^^xsd:float ;
+    ns4:Observation "MS252"^^xsd:string .
+
+<SoilPropertiesCeh_MS253> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS253"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 25 ;
+    ns2:Bulk_Density "0.63"^^xsd:float ;
+    ns2:CtoN "17.75"^^xsd:float ;
+    ns2:CtoP "0.36"^^xsd:float ;
+    ns2:Horizon_Depth "1.5"^^xsd:float ;
+    ns2:Soil_Moisture "19.96"^^xsd:float ;
+    ns2:Soil_pH "4.9"^^xsd:float ;
+    ns2:total_C "4.52"^^xsd:float ;
+    ns2:total_N "0.25"^^xsd:float ;
+    ns4:Observation "MS253"^^xsd:string .
+
+<SoilPropertiesCeh_MS254> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS254"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 25 ;
+    ns2:Bulk_Density "0.56"^^xsd:float ;
+    ns2:CtoN "16.03"^^xsd:float ;
+    ns2:CtoP "0.28"^^xsd:float ;
+    ns2:Horizon_Depth "5.5"^^xsd:float ;
+    ns2:Soil_Moisture "19.66"^^xsd:float ;
+    ns2:Soil_pH "5.42"^^xsd:float ;
+    ns2:total_C "4.26"^^xsd:float ;
+    ns2:total_N "0.27"^^xsd:float ;
+    ns4:Observation "MS254"^^xsd:string .
+
+<SoilPropertiesCeh_MS255> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS255"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 25 ;
+    ns2:Bulk_Density "0.34"^^xsd:float ;
+    ns2:CtoN "12.82"^^xsd:float ;
+    ns2:CtoP "0.25"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "29.63"^^xsd:float ;
+    ns2:Soil_pH "5.34"^^xsd:float ;
+    ns2:total_C "3.99"^^xsd:float ;
+    ns2:total_N "0.31"^^xsd:float ;
+    ns4:Observation "MS255"^^xsd:string .
+
+<SoilPropertiesCeh_MS31> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS31"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 3 ;
+    ns2:Bulk_Density "0.53"^^xsd:float ;
+    ns2:CtoN "12.54"^^xsd:float ;
+    ns2:CtoP "0.31"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "31.41"^^xsd:float ;
+    ns2:Soil_pH "6.19"^^xsd:float ;
+    ns2:total_C "4.46"^^xsd:float ;
+    ns2:total_N "0.36"^^xsd:float ;
+    ns4:Observation "MS31"^^xsd:string .
+
+<SoilPropertiesCeh_MS32> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS32"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 3 ;
+    ns2:Bulk_Density "0.67"^^xsd:float ;
+    ns2:CtoN "12.72"^^xsd:float ;
+    ns2:CtoP "0.24"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "22.55"^^xsd:float ;
+    ns2:Soil_pH "6.35"^^xsd:float ;
+    ns2:total_C "3.29"^^xsd:float ;
+    ns2:total_N "0.26"^^xsd:float ;
+    ns4:Observation "MS32"^^xsd:string .
+
+<SoilPropertiesCeh_MS33> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS33"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 3 ;
+    ns2:Bulk_Density "0.51"^^xsd:float ;
+    ns2:CtoN "11.77"^^xsd:float ;
+    ns2:CtoP "0.15"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "23.21"^^xsd:float ;
+    ns2:Soil_pH "6.78"^^xsd:float ;
+    ns2:total_C "3.66"^^xsd:float ;
+    ns2:total_N "0.31"^^xsd:float ;
+    ns4:Observation "MS33"^^xsd:string .
+
+<SoilPropertiesCeh_MS34> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS34"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 3 ;
+    ns2:Bulk_Density "0.62"^^xsd:float ;
+    ns2:CtoN "18.78"^^xsd:float ;
+    ns2:CtoP "0.36"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "21.84"^^xsd:float ;
+    ns2:Soil_pH "6.37"^^xsd:float ;
+    ns2:total_C "7.39"^^xsd:float ;
+    ns2:total_N "0.39"^^xsd:float ;
+    ns4:Observation "MS34"^^xsd:string .
+
+<SoilPropertiesCeh_MS35> a ns4:Observation ;
+    ns1:Land_Use "Unlogged Forest"^^xsd:string ;
+    ns1:Plot_Name "Seraya"^^xsd:string ;
+    ns1:Soil_Properties_CEH "MS35"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "Maliau Basin Conservation Area"^^xsd:string ;
+    ns3:Subplot 3 ;
+    ns2:Bulk_Density "0.29"^^xsd:float ;
+    ns2:CtoN "16.43"^^xsd:float ;
+    ns2:CtoP "0.22"^^xsd:float ;
+    ns2:Horizon_Depth "2.7"^^xsd:float ;
+    ns2:Soil_Moisture "35.45"^^xsd:float ;
+    ns2:Soil_pH "5.92"^^xsd:float ;
+    ns2:total_C "3.39"^^xsd:float ;
+    ns2:total_N "0.21"^^xsd:float ;
+    ns4:Observation "MS35"^^xsd:string .
+
+<SoilPropertiesCeh_SBN121> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN121"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 12 ;
+    ns2:Bulk_Density "0.53"^^xsd:float ;
+    ns2:CtoN "14.42"^^xsd:float ;
+    ns2:CtoP "0.28"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "34.1"^^xsd:float ;
+    ns2:Soil_pH "5.19"^^xsd:float ;
+    ns2:total_C "3.32"^^xsd:float ;
+    ns2:total_N "0.23"^^xsd:float ;
+    ns4:Observation "SBN121"^^xsd:string .
+
+<SoilPropertiesCeh_SBN122> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN122"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 12 ;
+    ns2:Bulk_Density "0.79"^^xsd:float ;
+    ns2:CtoN "15.8"^^xsd:float ;
+    ns2:CtoP "0.3"^^xsd:float ;
+    ns2:Horizon_Depth "6.5"^^xsd:float ;
+    ns2:Soil_Moisture "24.02"^^xsd:float ;
+    ns2:Soil_pH "5.72"^^xsd:float ;
+    ns2:total_C "4.95"^^xsd:float ;
+    ns2:total_N "0.31"^^xsd:float ;
+    ns4:Observation "SBN122"^^xsd:string .
+
+<SoilPropertiesCeh_SBN123> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN123"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 12 ;
+    ns2:Bulk_Density "0.54"^^xsd:float ;
+    ns2:CtoN "14.34"^^xsd:float ;
+    ns2:CtoP "0.3"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "29.02"^^xsd:float ;
+    ns2:Soil_pH "5.62"^^xsd:float ;
+    ns2:total_C "3.63"^^xsd:float ;
+    ns2:total_N "0.25"^^xsd:float ;
+    ns4:Observation "SBN123"^^xsd:string .
+
+<SoilPropertiesCeh_SBN124> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN124"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 12 ;
+    ns2:Bulk_Density "0.77"^^xsd:float ;
+    ns2:CtoN "16.12"^^xsd:float ;
+    ns2:CtoP "0.37"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "30.19"^^xsd:float ;
+    ns2:Soil_pH "5.05"^^xsd:float ;
+    ns2:total_C "7.21"^^xsd:float ;
+    ns2:total_N "0.45"^^xsd:float ;
+    ns4:Observation "SBN124"^^xsd:string .
+
+<SoilPropertiesCeh_SBN125> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN125"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 12 ;
+    ns2:Bulk_Density "0.77"^^xsd:float ;
+    ns2:CtoN "17.47"^^xsd:float ;
+    ns2:CtoP "0.17"^^xsd:float ;
+    ns2:Horizon_Depth "7.5"^^xsd:float ;
+    ns2:Soil_Moisture "26.92"^^xsd:float ;
+    ns2:Soil_pH "4.75"^^xsd:float ;
+    ns2:total_C "6.06"^^xsd:float ;
+    ns2:total_N "0.35"^^xsd:float ;
+    ns4:Observation "SBN125"^^xsd:string .
+
+<SoilPropertiesCeh_SBN181> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN181"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.77"^^xsd:float ;
+    ns2:CtoN "15.3"^^xsd:float ;
+    ns2:CtoP "0.19"^^xsd:float ;
+    ns2:Horizon_Depth "4.5"^^xsd:float ;
+    ns2:Soil_Moisture "25.65"^^xsd:float ;
+    ns2:Soil_pH "4.82"^^xsd:float ;
+    ns2:total_C "3.87"^^xsd:float ;
+    ns2:total_N "0.25"^^xsd:float ;
+    ns4:Observation "SBN181"^^xsd:string .
+
+<SoilPropertiesCeh_SBN182> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN182"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.76"^^xsd:float ;
+    ns2:CtoN "14.62"^^xsd:float ;
+    ns2:CtoP "0.23"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "25.78"^^xsd:float ;
+    ns2:Soil_pH "5.4"^^xsd:float ;
+    ns2:total_C "4.73"^^xsd:float ;
+    ns2:total_N "0.32"^^xsd:float ;
+    ns4:Observation "SBN182"^^xsd:string .
+
+<SoilPropertiesCeh_SBN183> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN183"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.58"^^xsd:float ;
+    ns2:CtoN "13.45"^^xsd:float ;
+    ns2:CtoP "0.27"^^xsd:float ;
+    ns2:Horizon_Depth "2.7"^^xsd:float ;
+    ns2:Soil_Moisture "32.61"^^xsd:float ;
+    ns2:Soil_pH "5.31"^^xsd:float ;
+    ns2:total_C "3.79"^^xsd:float ;
+    ns2:total_N "0.28"^^xsd:float ;
+    ns4:Observation "SBN183"^^xsd:string .
+
+<SoilPropertiesCeh_SBN184> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN184"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.62"^^xsd:float ;
+    ns2:CtoN "15.93"^^xsd:float ;
+    ns2:CtoP "0.37"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "27.44"^^xsd:float ;
+    ns2:Soil_pH "5.37"^^xsd:float ;
+    ns2:total_C "5.22"^^xsd:float ;
+    ns2:total_N "0.33"^^xsd:float ;
+    ns4:Observation "SBN184"^^xsd:string .
+
+<SoilPropertiesCeh_SBN185> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN185"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.55"^^xsd:float ;
+    ns2:CtoN "16.68"^^xsd:float ;
+    ns2:CtoP "0.38"^^xsd:float ;
+    ns2:Horizon_Depth "4.5"^^xsd:float ;
+    ns2:Soil_Moisture "32.35"^^xsd:float ;
+    ns2:Soil_pH "5.0"^^xsd:float ;
+    ns2:total_C "6.57"^^xsd:float ;
+    ns2:total_N "0.39"^^xsd:float ;
+    ns4:Observation "SBN185"^^xsd:string .
+
+<SoilPropertiesCeh_SBN221> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN221"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 22 ;
+    ns2:Bulk_Density "0.78"^^xsd:float ;
+    ns2:CtoN "18.59"^^xsd:float ;
+    ns2:CtoP "0.27"^^xsd:float ;
+    ns2:Horizon_Depth "5.5"^^xsd:float ;
+    ns2:Soil_Moisture "30.26"^^xsd:float ;
+    ns2:Soil_pH "5.87"^^xsd:float ;
+    ns2:total_C "6.51"^^xsd:float ;
+    ns2:total_N "0.35"^^xsd:float ;
+    ns4:Observation "SBN221"^^xsd:string .
+
+<SoilPropertiesCeh_SBN222> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN222"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 22 ;
+    ns2:Bulk_Density "1.02"^^xsd:float ;
+    ns2:CtoN "19.46"^^xsd:float ;
+    ns2:CtoP "0.15"^^xsd:float ;
+    ns2:Horizon_Depth "8.5"^^xsd:float ;
+    ns2:Soil_Moisture "32.01"^^xsd:float ;
+    ns2:Soil_pH "6.47"^^xsd:float ;
+    ns2:total_C "1.99"^^xsd:float ;
+    ns2:total_N "0.1"^^xsd:float ;
+    ns4:Observation "SBN222"^^xsd:string .
+
+<SoilPropertiesCeh_SBN223> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN223"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 22 ;
+    ns2:Bulk_Density "0.69"^^xsd:float ;
+    ns2:CtoN "14.08"^^xsd:float ;
+    ns2:CtoP "0.3"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "35.96"^^xsd:float ;
+    ns2:Soil_pH "6.68"^^xsd:float ;
+    ns2:total_C "3.71"^^xsd:float ;
+    ns2:total_N "0.26"^^xsd:float ;
+    ns4:Observation "SBN223"^^xsd:string .
+
+<SoilPropertiesCeh_SBN224> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN224"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 22 ;
+    ns2:Bulk_Density "0.93"^^xsd:float ;
+    ns2:CtoN "15.39"^^xsd:float ;
+    ns2:CtoP "0.17"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "35.59"^^xsd:float ;
+    ns2:Soil_pH "5.94"^^xsd:float ;
+    ns2:total_C "4.85"^^xsd:float ;
+    ns2:total_N "0.32"^^xsd:float ;
+    ns4:Observation "SBN224"^^xsd:string .
+
+<SoilPropertiesCeh_SBN225> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN225"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 22 ;
+    ns2:Bulk_Density "1.1"^^xsd:float ;
+    ns2:CtoN "15.92"^^xsd:float ;
+    ns2:CtoP "0.19"^^xsd:float ;
+    ns2:Horizon_Depth "9.5"^^xsd:float ;
+    ns2:Soil_Moisture "32.79"^^xsd:float ;
+    ns2:Soil_pH "6.44"^^xsd:float ;
+    ns2:total_C "4.33"^^xsd:float ;
+    ns2:total_N "0.27"^^xsd:float ;
+    ns4:Observation "SBN225"^^xsd:string .
+
+<SoilPropertiesCeh_SBN241> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN241"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.67"^^xsd:float ;
+    ns2:CtoN "13.14"^^xsd:float ;
+    ns2:CtoP "0.33"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "34.23"^^xsd:float ;
+    ns2:Soil_pH "5.36"^^xsd:float ;
+    ns2:total_C "4.72"^^xsd:float ;
+    ns2:total_N "0.36"^^xsd:float ;
+    ns4:Observation "SBN241"^^xsd:string .
+
+<SoilPropertiesCeh_SBN242> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN242"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.64"^^xsd:float ;
+    ns2:CtoN "14.48"^^xsd:float ;
+    ns2:CtoP "0.39"^^xsd:float ;
+    ns2:Horizon_Depth "9.5"^^xsd:float ;
+    ns2:Soil_Moisture "31.59"^^xsd:float ;
+    ns2:Soil_pH "5.99"^^xsd:float ;
+    ns2:total_C "5.22"^^xsd:float ;
+    ns2:total_N "0.36"^^xsd:float ;
+    ns4:Observation "SBN242"^^xsd:string .
+
+<SoilPropertiesCeh_SBN243> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN243"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.63"^^xsd:float ;
+    ns2:CtoN "15.32"^^xsd:float ;
+    ns2:CtoP "0.33"^^xsd:float ;
+    ns2:Horizon_Depth "4.5"^^xsd:float ;
+    ns2:Soil_Moisture "27.63"^^xsd:float ;
+    ns2:Soil_pH "5.46"^^xsd:float ;
+    ns2:total_C "5.59"^^xsd:float ;
+    ns2:total_N "0.36"^^xsd:float ;
+    ns4:Observation "SBN243"^^xsd:string .
+
+<SoilPropertiesCeh_SBN244> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN244"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.7"^^xsd:float ;
+    ns2:CtoN "15.19"^^xsd:float ;
+    ns2:CtoP "0.33"^^xsd:float ;
+    ns2:Horizon_Depth "7.0"^^xsd:float ;
+    ns2:Soil_Moisture "36.56"^^xsd:float ;
+    ns2:Soil_pH "6.45"^^xsd:float ;
+    ns2:total_C "6.75"^^xsd:float ;
+    ns2:total_N "0.44"^^xsd:float ;
+    ns4:Observation "SBN244"^^xsd:string .
+
+<SoilPropertiesCeh_SBN245> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN245"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.92"^^xsd:float ;
+    ns2:CtoN "12.92"^^xsd:float ;
+    ns2:CtoP "0.24"^^xsd:float ;
+    ns2:Horizon_Depth "8.0"^^xsd:float ;
+    ns2:Soil_Moisture "25.13"^^xsd:float ;
+    ns2:Soil_pH "5.78"^^xsd:float ;
+    ns2:total_C "3.19"^^xsd:float ;
+    ns2:total_N "0.25"^^xsd:float ;
+    ns4:Observation "SBN245"^^xsd:string .
+
+<SoilPropertiesCeh_SBN251> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN251"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 25 ;
+    ns2:Bulk_Density "0.69"^^xsd:float ;
+    ns2:CtoN "14.16"^^xsd:float ;
+    ns2:CtoP "0.49"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "32.03"^^xsd:float ;
+    ns2:Soil_pH "5.66"^^xsd:float ;
+    ns2:total_C "4.98"^^xsd:float ;
+    ns2:total_N "0.35"^^xsd:float ;
+    ns4:Observation "SBN251"^^xsd:string .
+
+<SoilPropertiesCeh_SBN252> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN252"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 25 ;
+    ns2:Bulk_Density "0.49"^^xsd:float ;
+    ns2:CtoN "13.07"^^xsd:float ;
+    ns2:CtoP "0.53"^^xsd:float ;
+    ns2:Horizon_Depth "7.0"^^xsd:float ;
+    ns2:Soil_Moisture "34.68"^^xsd:float ;
+    ns2:Soil_pH "5.57"^^xsd:float ;
+    ns2:total_C "3.84"^^xsd:float ;
+    ns2:total_N "0.29"^^xsd:float ;
+    ns4:Observation "SBN252"^^xsd:string .
+
+<SoilPropertiesCeh_SBN253> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN253"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 25 ;
+    ns2:Bulk_Density "0.78"^^xsd:float ;
+    ns2:CtoN "11.75"^^xsd:float ;
+    ns2:CtoP "0.5"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "22.92"^^xsd:float ;
+    ns2:Soil_pH "5.56"^^xsd:float ;
+    ns2:total_C "3.29"^^xsd:float ;
+    ns2:total_N "0.28"^^xsd:float ;
+    ns4:Observation "SBN253"^^xsd:string .
+
+<SoilPropertiesCeh_SBN254> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN254"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 25 ;
+    ns2:Bulk_Density "0.88"^^xsd:float ;
+    ns2:CtoN "16.95"^^xsd:float ;
+    ns2:CtoP "0.44"^^xsd:float ;
+    ns2:Horizon_Depth "5.0"^^xsd:float ;
+    ns2:Soil_Moisture "32.91"^^xsd:float ;
+    ns2:Soil_pH "5.2"^^xsd:float ;
+    ns2:total_C "6.66"^^xsd:float ;
+    ns2:total_N "0.39"^^xsd:float ;
+    ns4:Observation "SBN254"^^xsd:string .
+
+<SoilPropertiesCeh_SBN255> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B North"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBN255"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 25 ;
+    ns2:Bulk_Density "0.53"^^xsd:float ;
+    ns2:CtoN "15.67"^^xsd:float ;
+    ns2:CtoP "0.45"^^xsd:float ;
+    ns2:Horizon_Depth "4.5"^^xsd:float ;
+    ns2:Soil_Moisture "29.0"^^xsd:float ;
+    ns2:Soil_pH "5.64"^^xsd:float ;
+    ns2:total_C "4.69"^^xsd:float ;
+    ns2:total_N "0.3"^^xsd:float ;
+    ns4:Observation "SBN255"^^xsd:string .
+
+<SoilPropertiesCeh_SBS11> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS11"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 1 ;
+    ns2:Bulk_Density "0.65"^^xsd:float ;
+    ns2:CtoN "12.28"^^xsd:float ;
+    ns2:CtoP "0.19"^^xsd:float ;
+    ns2:Horizon_Depth "4.5"^^xsd:float ;
+    ns2:Soil_Moisture "46.84"^^xsd:float ;
+    ns2:Soil_pH "5.9"^^xsd:float ;
+    ns2:total_C "5.64"^^xsd:float ;
+    ns2:total_N "0.46"^^xsd:float ;
+    ns4:Observation "SBS11"^^xsd:string .
+
+<SoilPropertiesCeh_SBS12> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS12"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 1 ;
+    ns2:Bulk_Density "0.98"^^xsd:float ;
+    ns2:CtoN "11.94"^^xsd:float ;
+    ns2:CtoP "0.33"^^xsd:float ;
+    ns2:Horizon_Depth "6.5"^^xsd:float ;
+    ns2:Soil_Moisture "29.15"^^xsd:float ;
+    ns2:Soil_pH "6.2"^^xsd:float ;
+    ns2:total_C "6.4"^^xsd:float ;
+    ns2:total_N "0.54"^^xsd:float ;
+    ns4:Observation "SBS12"^^xsd:string .
+
+<SoilPropertiesCeh_SBS13> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS13"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 1 ;
+    ns2:Bulk_Density "0.7"^^xsd:float ;
+    ns2:CtoN "14.01"^^xsd:float ;
+    ns2:CtoP "0.22"^^xsd:float ;
+    ns2:Horizon_Depth "6.5"^^xsd:float ;
+    ns2:Soil_Moisture "30.97"^^xsd:float ;
+    ns2:Soil_pH "6.52"^^xsd:float ;
+    ns2:total_C "4.36"^^xsd:float ;
+    ns2:total_N "0.31"^^xsd:float ;
+    ns4:Observation "SBS13"^^xsd:string .
+
+<SoilPropertiesCeh_SBS14> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS14"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 1 ;
+    ns2:Bulk_Density "0.52"^^xsd:float ;
+    ns2:CtoN "15.16"^^xsd:float ;
+    ns2:CtoP "0.19"^^xsd:float ;
+    ns2:Horizon_Depth "6.0"^^xsd:float ;
+    ns2:Soil_Moisture "26.9"^^xsd:float ;
+    ns2:Soil_pH "6.5"^^xsd:float ;
+    ns2:total_C "6.51"^^xsd:float ;
+    ns2:total_N "0.43"^^xsd:float ;
+    ns4:Observation "SBS14"^^xsd:string .
+
+<SoilPropertiesCeh_SBS15> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS15"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 1 ;
+    ns2:Bulk_Density "0.82"^^xsd:float ;
+    ns2:CtoN "14.63"^^xsd:float ;
+    ns2:CtoP "0.27"^^xsd:float ;
+    ns2:Horizon_Depth "6.0"^^xsd:float ;
+    ns2:Soil_Moisture "38.69"^^xsd:float ;
+    ns2:Soil_pH "6.32"^^xsd:float ;
+    ns2:total_C "10.26"^^xsd:float ;
+    ns2:total_N "0.7"^^xsd:float ;
+    ns4:Observation "SBS15"^^xsd:string .
+
+<SoilPropertiesCeh_SBS151> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS151"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 15 ;
+    ns2:Bulk_Density "0.54"^^xsd:float ;
+    ns2:CtoN "12.95"^^xsd:float ;
+    ns2:CtoP "0.33"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "38.73"^^xsd:float ;
+    ns2:Soil_pH "6.05"^^xsd:float ;
+    ns2:total_C "6.85"^^xsd:float ;
+    ns2:total_N "0.53"^^xsd:float ;
+    ns4:Observation "SBS151"^^xsd:string .
+
+<SoilPropertiesCeh_SBS152> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS152"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 15 ;
+    ns2:Bulk_Density "0.94"^^xsd:float ;
+    ns2:CtoN "11.59"^^xsd:float ;
+    ns2:CtoP "0.32"^^xsd:float ;
+    ns2:Horizon_Depth "5.5"^^xsd:float ;
+    ns2:Soil_Moisture "23.44"^^xsd:float ;
+    ns2:Soil_pH "5.82"^^xsd:float ;
+    ns2:total_C "4.46"^^xsd:float ;
+    ns2:total_N "0.39"^^xsd:float ;
+    ns4:Observation "SBS152"^^xsd:string .
+
+<SoilPropertiesCeh_SBS153> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS153"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 15 ;
+    ns2:Bulk_Density "0.56"^^xsd:float ;
+    ns2:CtoN "10.83"^^xsd:float ;
+    ns2:CtoP "0.53"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "27.66"^^xsd:float ;
+    ns2:Soil_pH "6.37"^^xsd:float ;
+    ns2:total_C "4.67"^^xsd:float ;
+    ns2:total_N "0.43"^^xsd:float ;
+    ns4:Observation "SBS153"^^xsd:string .
+
+<SoilPropertiesCeh_SBS154> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS154"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 15 ;
+    ns2:Bulk_Density "0.93"^^xsd:float ;
+    ns2:CtoN "12.41"^^xsd:float ;
+    ns2:CtoP "0.41"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "27.74"^^xsd:float ;
+    ns2:Soil_pH "6.49"^^xsd:float ;
+    ns2:total_C "5.38"^^xsd:float ;
+    ns2:total_N "0.43"^^xsd:float ;
+    ns4:Observation "SBS154"^^xsd:string .
+
+<SoilPropertiesCeh_SBS155> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS155"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 15 ;
+    ns2:Bulk_Density "0.4"^^xsd:float ;
+    ns2:CtoN "10.96"^^xsd:float ;
+    ns2:CtoP "0.36"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "26.3"^^xsd:float ;
+    ns2:Soil_pH "5.65"^^xsd:float ;
+    ns2:total_C "3.55"^^xsd:float ;
+    ns2:total_N "0.32"^^xsd:float ;
+    ns4:Observation "SBS155"^^xsd:string .
+
+<SoilPropertiesCeh_SBS181> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS181"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.59"^^xsd:float ;
+    ns2:CtoN "13.15"^^xsd:float ;
+    ns2:CtoP "0.26"^^xsd:float ;
+    ns2:Horizon_Depth "6.0"^^xsd:float ;
+    ns2:Soil_Moisture "40.17"^^xsd:float ;
+    ns2:Soil_pH "5.59"^^xsd:float ;
+    ns2:total_C "5.25"^^xsd:float ;
+    ns2:total_N "0.4"^^xsd:float ;
+    ns4:Observation "SBS181"^^xsd:string .
+
+<SoilPropertiesCeh_SBS182> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS182"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.94"^^xsd:float ;
+    ns2:CtoN "16.02"^^xsd:float ;
+    ns2:CtoP "0.27"^^xsd:float ;
+    ns2:Horizon_Depth "7.0"^^xsd:float ;
+    ns2:Soil_Moisture "32.67"^^xsd:float ;
+    ns2:Soil_pH "6.3"^^xsd:float ;
+    ns2:total_C "15.16"^^xsd:float ;
+    ns2:total_N "0.95"^^xsd:float ;
+    ns4:Observation "SBS182"^^xsd:string .
+
+<SoilPropertiesCeh_SBS183> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS183"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.76"^^xsd:float ;
+    ns2:CtoN "12.39"^^xsd:float ;
+    ns2:CtoP "0.28"^^xsd:float ;
+    ns2:Horizon_Depth "7.5"^^xsd:float ;
+    ns2:Soil_Moisture "65.1"^^xsd:float ;
+    ns2:Soil_pH "7.14"^^xsd:float ;
+    ns2:total_C "5.47"^^xsd:float ;
+    ns2:total_N "0.44"^^xsd:float ;
+    ns4:Observation "SBS183"^^xsd:string .
+
+<SoilPropertiesCeh_SBS184> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS184"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.56"^^xsd:float ;
+    ns2:CtoN "14.16"^^xsd:float ;
+    ns2:CtoP "0.19"^^xsd:float ;
+    ns2:Horizon_Depth "5.0"^^xsd:float ;
+    ns2:Soil_Moisture "36.31"^^xsd:float ;
+    ns2:Soil_pH "6.93"^^xsd:float ;
+    ns2:total_C "7.92"^^xsd:float ;
+    ns2:total_N "0.56"^^xsd:float ;
+    ns4:Observation "SBS184"^^xsd:string .
+
+<SoilPropertiesCeh_SBS185> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS185"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 18 ;
+    ns2:Bulk_Density "0.54"^^xsd:float ;
+    ns2:CtoN "17.08"^^xsd:float ;
+    ns2:CtoP "0.3"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "43.6"^^xsd:float ;
+    ns2:Soil_pH "6.63"^^xsd:float ;
+    ns2:total_C "13.39"^^xsd:float ;
+    ns2:total_N "0.78"^^xsd:float ;
+    ns4:Observation "SBS185"^^xsd:string .
+
+<SoilPropertiesCeh_SBS191> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS191"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 19 ;
+    ns2:Bulk_Density "0.79"^^xsd:float ;
+    ns2:CtoN "13.84"^^xsd:float ;
+    ns2:CtoP "0.23"^^xsd:float ;
+    ns2:Horizon_Depth "1.0"^^xsd:float ;
+    ns2:Soil_Moisture "27.0"^^xsd:float ;
+    ns2:Soil_pH "6.57"^^xsd:float ;
+    ns2:total_C "5.21"^^xsd:float ;
+    ns2:total_N "0.38"^^xsd:float ;
+    ns4:Observation "SBS191"^^xsd:string .
+
+<SoilPropertiesCeh_SBS192> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS192"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 19 ;
+    ns2:Bulk_Density "0.59"^^xsd:float ;
+    ns2:CtoN "14.05"^^xsd:float ;
+    ns2:CtoP "0.22"^^xsd:float ;
+    ns2:Horizon_Depth "1.5"^^xsd:float ;
+    ns2:Soil_Moisture "36.89"^^xsd:float ;
+    ns2:Soil_pH "5.26"^^xsd:float ;
+    ns2:total_C "6.09"^^xsd:float ;
+    ns2:total_N "0.43"^^xsd:float ;
+    ns4:Observation "SBS192"^^xsd:string .
+
+<SoilPropertiesCeh_SBS193> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS193"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 19 ;
+    ns2:Bulk_Density "0.68"^^xsd:float ;
+    ns2:CtoN "11.23"^^xsd:float ;
+    ns2:CtoP "0.34"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "21.8"^^xsd:float ;
+    ns2:Soil_pH "5.13"^^xsd:float ;
+    ns2:total_C "3.74"^^xsd:float ;
+    ns2:total_N "0.33"^^xsd:float ;
+    ns4:Observation "SBS193"^^xsd:string .
+
+<SoilPropertiesCeh_SBS194> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS194"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 19 ;
+    ns2:Bulk_Density "0.96"^^xsd:float ;
+    ns2:CtoN "14.74"^^xsd:float ;
+    ns2:CtoP "0.18"^^xsd:float ;
+    ns2:Horizon_Depth "1.0"^^xsd:float ;
+    ns2:Soil_Moisture "31.38"^^xsd:float ;
+    ns2:Soil_pH "5.75"^^xsd:float ;
+    ns2:total_C "6.89"^^xsd:float ;
+    ns2:total_N "0.47"^^xsd:float ;
+    ns4:Observation "SBS194"^^xsd:string .
+
+<SoilPropertiesCeh_SBS195> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS195"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 19 ;
+    ns2:Bulk_Density "0.5"^^xsd:float ;
+    ns2:CtoN "12.88"^^xsd:float ;
+    ns2:CtoP "0.19"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "45.72"^^xsd:float ;
+    ns2:Soil_pH "5.62"^^xsd:float ;
+    ns2:total_C "4.59"^^xsd:float ;
+    ns2:total_N "0.36"^^xsd:float ;
+    ns4:Observation "SBS195"^^xsd:string .
+
+<SoilPropertiesCeh_SBS61> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS61"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.78"^^xsd:float ;
+    ns2:CtoN "15.81"^^xsd:float ;
+    ns2:CtoP "0.4"^^xsd:float ;
+    ns2:Horizon_Depth "5.0"^^xsd:float ;
+    ns2:Soil_Moisture "25.72"^^xsd:float ;
+    ns2:Soil_pH "4.66"^^xsd:float ;
+    ns2:total_C "5.35"^^xsd:float ;
+    ns2:total_N "0.34"^^xsd:float ;
+    ns4:Observation "SBS61"^^xsd:string .
+
+<SoilPropertiesCeh_SBS62> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS62"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.81"^^xsd:float ;
+    ns2:CtoN "19.57"^^xsd:float ;
+    ns2:CtoP "0.23"^^xsd:float ;
+    ns2:Horizon_Depth "4.5"^^xsd:float ;
+    ns2:Soil_Moisture "21.16"^^xsd:float ;
+    ns2:Soil_pH "5.29"^^xsd:float ;
+    ns2:total_C "13.97"^^xsd:float ;
+    ns2:total_N "0.71"^^xsd:float ;
+    ns4:Observation "SBS62"^^xsd:string .
+
+<SoilPropertiesCeh_SBS63> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS63"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.92"^^xsd:float ;
+    ns2:CtoN "17.11"^^xsd:float ;
+    ns2:CtoP "0.33"^^xsd:float ;
+    ns2:Horizon_Depth "5.0"^^xsd:float ;
+    ns2:Soil_Moisture "20.42"^^xsd:float ;
+    ns2:Soil_pH "4.32"^^xsd:float ;
+    ns2:total_C "8.05"^^xsd:float ;
+    ns2:total_N "0.47"^^xsd:float ;
+    ns4:Observation "SBS63"^^xsd:string .
+
+<SoilPropertiesCeh_SBS64> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS64"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.93"^^xsd:float ;
+    ns2:CtoN "12.2"^^xsd:float ;
+    ns2:CtoP "0.19"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "28.97"^^xsd:float ;
+    ns2:Soil_pH "5.4"^^xsd:float ;
+    ns2:total_C "4.76"^^xsd:float ;
+    ns2:total_N "0.39"^^xsd:float ;
+    ns4:Observation "SBS64"^^xsd:string .
+
+<SoilPropertiesCeh_SBS65> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "B South"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SBS65"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.48"^^xsd:float ;
+    ns2:CtoN "12.27"^^xsd:float ;
+    ns2:CtoP "0.17"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "28.3"^^xsd:float ;
+    ns2:Soil_pH "5.25"^^xsd:float ;
+    ns2:total_C "5.01"^^xsd:float ;
+    ns2:total_N "0.41"^^xsd:float ;
+    ns4:Observation "SBS65"^^xsd:string .
+
+<SoilPropertiesCeh_SE121> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE121"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 12 ;
+    ns2:Bulk_Density "1.29"^^xsd:float ;
+    ns2:CtoN "15.12"^^xsd:float ;
+    ns2:CtoP "0.15"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "21.17"^^xsd:float ;
+    ns2:Soil_pH "4.61"^^xsd:float ;
+    ns2:total_C "4.5"^^xsd:float ;
+    ns2:total_N "0.3"^^xsd:float ;
+    ns4:Observation "SE121"^^xsd:string .
+
+<SoilPropertiesCeh_SE122> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE122"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 12 ;
+    ns2:Bulk_Density "0.9"^^xsd:float ;
+    ns2:CtoN "14.54"^^xsd:float ;
+    ns2:CtoP "0.14"^^xsd:float ;
+    ns2:Horizon_Depth "7.5"^^xsd:float ;
+    ns2:Soil_Moisture "16.65"^^xsd:float ;
+    ns2:Soil_pH "4.69"^^xsd:float ;
+    ns2:total_C "3.64"^^xsd:float ;
+    ns2:total_N "0.25"^^xsd:float ;
+    ns4:Observation "SE122"^^xsd:string .
+
+<SoilPropertiesCeh_SE123> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE123"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 12 ;
+    ns2:Bulk_Density "1.08"^^xsd:float ;
+    ns2:CtoN "15.2"^^xsd:float ;
+    ns2:CtoP "0.17"^^xsd:float ;
+    ns2:Horizon_Depth "4.5"^^xsd:float ;
+    ns2:Soil_Moisture "16.88"^^xsd:float ;
+    ns2:Soil_pH "4.54"^^xsd:float ;
+    ns2:total_C "5.21"^^xsd:float ;
+    ns2:total_N "0.34"^^xsd:float ;
+    ns4:Observation "SE123"^^xsd:string .
+
+<SoilPropertiesCeh_SE124> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE124"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 12 ;
+    ns2:Bulk_Density "0.71"^^xsd:float ;
+    ns2:CtoN "14.82"^^xsd:float ;
+    ns2:CtoP "0.25"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "25.11"^^xsd:float ;
+    ns2:Soil_pH "5.13"^^xsd:float ;
+    ns2:total_C "4.64"^^xsd:float ;
+    ns2:total_N "0.31"^^xsd:float ;
+    ns4:Observation "SE124"^^xsd:string .
+
+<SoilPropertiesCeh_SE125> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE125"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 12 ;
+    ns2:Bulk_Density "0.8"^^xsd:float ;
+    ns2:CtoN "12.31"^^xsd:float ;
+    ns2:CtoP "0.08"^^xsd:float ;
+    ns2:Horizon_Depth "6.0"^^xsd:float ;
+    ns2:Soil_Moisture "19.48"^^xsd:float ;
+    ns2:Soil_pH "4.77"^^xsd:float ;
+    ns2:total_C "1.9"^^xsd:float ;
+    ns2:total_N "0.15"^^xsd:float ;
+    ns4:Observation "SE125"^^xsd:string .
+
+<SoilPropertiesCeh_SE201> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE201"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 20 ;
+    ns2:Bulk_Density "0.99"^^xsd:float ;
+    ns2:CtoN "18.9"^^xsd:float ;
+    ns2:CtoP "0.18"^^xsd:float ;
+    ns2:Horizon_Depth "6.0"^^xsd:float ;
+    ns2:Soil_Moisture "20.56"^^xsd:float ;
+    ns2:Soil_pH "4.34"^^xsd:float ;
+    ns2:total_C "3.55"^^xsd:float ;
+    ns2:total_N "0.19"^^xsd:float ;
+    ns4:Observation "SE201"^^xsd:string .
+
+<SoilPropertiesCeh_SE202> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE202"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 20 ;
+    ns2:Bulk_Density "0.89"^^xsd:float ;
+    ns2:CtoN "18.03"^^xsd:float ;
+    ns2:CtoP "0.23"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "10.84"^^xsd:float ;
+    ns2:Soil_pH "4.31"^^xsd:float ;
+    ns2:total_C "5.83"^^xsd:float ;
+    ns2:total_N "0.32"^^xsd:float ;
+    ns4:Observation "SE202"^^xsd:string .
+
+<SoilPropertiesCeh_SE203> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE203"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 20 ;
+    ns2:Bulk_Density "1.24"^^xsd:float ;
+    ns2:CtoN "17.7"^^xsd:float ;
+    ns2:CtoP "0.23"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "26.91"^^xsd:float ;
+    ns2:Soil_pH "4.47"^^xsd:float ;
+    ns2:total_C "4.82"^^xsd:float ;
+    ns2:total_N "0.27"^^xsd:float ;
+    ns4:Observation "SE203"^^xsd:string .
+
+<SoilPropertiesCeh_SE204> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE204"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 20 ;
+    ns2:Bulk_Density "0.88"^^xsd:float ;
+    ns2:CtoN "16.2"^^xsd:float ;
+    ns2:CtoP "0.21"^^xsd:float ;
+    ns2:Horizon_Depth "4.5"^^xsd:float ;
+    ns2:Soil_Moisture "22.46"^^xsd:float ;
+    ns2:Soil_pH "4.92"^^xsd:float ;
+    ns2:total_C "3.27"^^xsd:float ;
+    ns2:total_N "0.2"^^xsd:float ;
+    ns4:Observation "SE204"^^xsd:string .
+
+<SoilPropertiesCeh_SE205> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE205"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 20 ;
+    ns2:Bulk_Density "0.69"^^xsd:float ;
+    ns2:CtoN "9.68"^^xsd:float ;
+    ns2:CtoP "0.23"^^xsd:float ;
+    ns2:Horizon_Depth "6.0"^^xsd:float ;
+    ns2:Soil_Moisture "30.02"^^xsd:float ;
+    ns2:Soil_pH "4.81"^^xsd:float ;
+    ns2:total_C "3.67"^^xsd:float ;
+    ns2:total_N "0.38"^^xsd:float ;
+    ns4:Observation "SE205"^^xsd:string .
+
+<SoilPropertiesCeh_SE241> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE241"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.94"^^xsd:float ;
+    ns2:CtoN "16.18"^^xsd:float ;
+    ns2:CtoP "0.28"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "34.85"^^xsd:float ;
+    ns2:Soil_pH "4.3"^^xsd:float ;
+    ns2:total_C "5.95"^^xsd:float ;
+    ns2:total_N "0.37"^^xsd:float ;
+    ns4:Observation "SE241"^^xsd:string .
+
+<SoilPropertiesCeh_SE242> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE242"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.91"^^xsd:float ;
+    ns2:CtoN "13.9"^^xsd:float ;
+    ns2:CtoP "0.19"^^xsd:float ;
+    ns2:Horizon_Depth "5.0"^^xsd:float ;
+    ns2:Soil_Moisture "18.87"^^xsd:float ;
+    ns2:Soil_pH "5.21"^^xsd:float ;
+    ns2:total_C "2.11"^^xsd:float ;
+    ns2:total_N "0.15"^^xsd:float ;
+    ns4:Observation "SE242"^^xsd:string .
+
+<SoilPropertiesCeh_SE243> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE243"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.77"^^xsd:float ;
+    ns2:CtoN "17.45"^^xsd:float ;
+    ns2:CtoP "0.25"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "27.41"^^xsd:float ;
+    ns2:Soil_pH "5.25"^^xsd:float ;
+    ns2:total_C "3.45"^^xsd:float ;
+    ns2:total_N "0.2"^^xsd:float ;
+    ns4:Observation "SE243"^^xsd:string .
+
+<SoilPropertiesCeh_SE244> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE244"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.73"^^xsd:float ;
+    ns2:CtoN "15.28"^^xsd:float ;
+    ns2:CtoP "0.23"^^xsd:float ;
+    ns2:Horizon_Depth "4.5"^^xsd:float ;
+    ns2:Soil_Moisture "17.98"^^xsd:float ;
+    ns2:Soil_pH "5.33"^^xsd:float ;
+    ns2:total_C "3.48"^^xsd:float ;
+    ns2:total_N "0.23"^^xsd:float ;
+    ns4:Observation "SE244"^^xsd:string .
+
+<SoilPropertiesCeh_SE245> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE245"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.83"^^xsd:float ;
+    ns2:CtoN "15.4"^^xsd:float ;
+    ns2:CtoP "0.13"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "20.72"^^xsd:float ;
+    ns2:Soil_pH "5.04"^^xsd:float ;
+    ns2:total_C "3.45"^^xsd:float ;
+    ns2:total_N "0.22"^^xsd:float ;
+    ns4:Observation "SE245"^^xsd:string .
+
+<SoilPropertiesCeh_SE31> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE31"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 3 ;
+    ns2:Bulk_Density "1.33"^^xsd:float ;
+    ns2:CtoN "10.08"^^xsd:float ;
+    ns2:CtoP "0.13"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "14.89"^^xsd:float ;
+    ns2:Soil_pH "4.48"^^xsd:float ;
+    ns2:total_C "4.13"^^xsd:float ;
+    ns2:total_N "0.41"^^xsd:float ;
+    ns4:Observation "SE31"^^xsd:string .
+
+<SoilPropertiesCeh_SE32> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE32"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 3 ;
+    ns2:Bulk_Density "0.93"^^xsd:float ;
+    ns2:CtoN "14.12"^^xsd:float ;
+    ns2:CtoP "0.2"^^xsd:float ;
+    ns2:Horizon_Depth "7.5"^^xsd:float ;
+    ns2:Soil_Moisture "19.14"^^xsd:float ;
+    ns2:Soil_pH "4.86"^^xsd:float ;
+    ns2:total_C "3.68"^^xsd:float ;
+    ns2:total_N "0.26"^^xsd:float ;
+    ns4:Observation "SE32"^^xsd:string .
+
+<SoilPropertiesCeh_SE33> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE33"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 3 ;
+    ns2:Bulk_Density "0.99"^^xsd:float ;
+    ns2:CtoN "12.92"^^xsd:float ;
+    ns2:CtoP "0.18"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "15.49"^^xsd:float ;
+    ns2:Soil_pH "4.85"^^xsd:float ;
+    ns2:total_C "3.06"^^xsd:float ;
+    ns2:total_N "0.24"^^xsd:float ;
+    ns4:Observation "SE33"^^xsd:string .
+
+<SoilPropertiesCeh_SE34> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE34"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 3 ;
+    ns2:Bulk_Density "1.13"^^xsd:float ;
+    ns2:CtoN "17.69"^^xsd:float ;
+    ns2:CtoP "0.17"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "12.97"^^xsd:float ;
+    ns2:Soil_pH "5.02"^^xsd:float ;
+    ns2:total_C "5.75"^^xsd:float ;
+    ns2:total_N "0.33"^^xsd:float ;
+    ns4:Observation "SE34"^^xsd:string .
+
+<SoilPropertiesCeh_SE35> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE35"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 3 ;
+    ns2:Bulk_Density "1.07"^^xsd:float ;
+    ns2:CtoN "12.88"^^xsd:float ;
+    ns2:CtoP "0.14"^^xsd:float ;
+    ns2:Horizon_Depth "4.5"^^xsd:float ;
+    ns2:Soil_Moisture "13.34"^^xsd:float ;
+    ns2:Soil_pH "4.7"^^xsd:float ;
+    ns2:total_C "2.76"^^xsd:float ;
+    ns2:total_N "0.21"^^xsd:float ;
+    ns4:Observation "SE35"^^xsd:string .
+
+<SoilPropertiesCeh_SE61> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE61"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "1.05"^^xsd:float ;
+    ns2:CtoN "15.46"^^xsd:float ;
+    ns2:CtoP "0.15"^^xsd:float ;
+    ns2:Horizon_Depth "3.8"^^xsd:float ;
+    ns2:Soil_Moisture "23.28"^^xsd:float ;
+    ns2:Soil_pH "4.47"^^xsd:float ;
+    ns2:total_C "5.16"^^xsd:float ;
+    ns2:total_N "0.33"^^xsd:float ;
+    ns4:Observation "SE61"^^xsd:string .
+
+<SoilPropertiesCeh_SE62> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE62"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.91"^^xsd:float ;
+    ns2:CtoN "15.17"^^xsd:float ;
+    ns2:CtoP "0.14"^^xsd:float ;
+    ns2:Horizon_Depth "6.5"^^xsd:float ;
+    ns2:Soil_Moisture "18.16"^^xsd:float ;
+    ns2:Soil_pH "4.76"^^xsd:float ;
+    ns2:total_C "3.6"^^xsd:float ;
+    ns2:total_N "0.24"^^xsd:float ;
+    ns4:Observation "SE62"^^xsd:string .
+
+<SoilPropertiesCeh_SE63> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE63"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.8"^^xsd:float ;
+    ns2:CtoN "12.59"^^xsd:float ;
+    ns2:CtoP "0.17"^^xsd:float ;
+    ns2:Horizon_Depth "5.0"^^xsd:float ;
+    ns2:Soil_Moisture "34.99"^^xsd:float ;
+    ns2:Soil_pH "4.84"^^xsd:float ;
+    ns2:total_C "3.75"^^xsd:float ;
+    ns2:total_N "0.3"^^xsd:float ;
+    ns4:Observation "SE63"^^xsd:string .
+
+<SoilPropertiesCeh_SE64> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE64"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.9"^^xsd:float ;
+    ns2:CtoN "16.46"^^xsd:float ;
+    ns2:CtoP "0.14"^^xsd:float ;
+    ns2:Horizon_Depth "4.5"^^xsd:float ;
+    ns2:Soil_Moisture "14.79"^^xsd:float ;
+    ns2:Soil_pH "4.82"^^xsd:float ;
+    ns2:total_C "4.74"^^xsd:float ;
+    ns2:total_N "0.29"^^xsd:float ;
+    ns4:Observation "SE64"^^xsd:string .
+
+<SoilPropertiesCeh_SE65> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "E"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SE65"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.7"^^xsd:float ;
+    ns2:CtoN "12.2"^^xsd:float ;
+    ns2:CtoP "0.15"^^xsd:float ;
+    ns2:Horizon_Depth "5.0"^^xsd:float ;
+    ns2:Soil_Moisture "18.01"^^xsd:float ;
+    ns2:Soil_pH "5.12"^^xsd:float ;
+    ns2:total_C "3.31"^^xsd:float ;
+    ns2:total_N "0.27"^^xsd:float ;
+    ns4:Observation "SE65"^^xsd:string .
+
+<SoilPropertiesCeh_SLF121> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF121"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 12 ;
+    ns2:Bulk_Density "1.07"^^xsd:float ;
+    ns2:CtoN "17.61"^^xsd:float ;
+    ns2:CtoP "0.13"^^xsd:float ;
+    ns2:Horizon_Depth "6.0"^^xsd:float ;
+    ns2:Soil_Moisture "31.1"^^xsd:float ;
+    ns2:Soil_pH "4.19"^^xsd:float ;
+    ns2:total_C "7.68"^^xsd:float ;
+    ns2:total_N "0.44"^^xsd:float ;
+    ns4:Observation "SLF121"^^xsd:string .
+
+<SoilPropertiesCeh_SLF122> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF122"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 12 ;
+    ns2:Bulk_Density "1.12"^^xsd:float ;
+    ns2:CtoN "15.89"^^xsd:float ;
+    ns2:CtoP "0.15"^^xsd:float ;
+    ns2:Horizon_Depth "6.0"^^xsd:float ;
+    ns2:Soil_Moisture "34.64"^^xsd:float ;
+    ns2:Soil_pH "5.01"^^xsd:float ;
+    ns2:total_C "5.32"^^xsd:float ;
+    ns2:total_N "0.33"^^xsd:float ;
+    ns4:Observation "SLF122"^^xsd:string .
+
+<SoilPropertiesCeh_SLF123> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF123"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 12 ;
+    ns2:Bulk_Density "0.39"^^xsd:float ;
+    ns2:CtoN "18.28"^^xsd:float ;
+    ns2:CtoP "0.13"^^xsd:float ;
+    ns2:Horizon_Depth "4.5"^^xsd:float ;
+    ns2:Soil_Moisture "41.54"^^xsd:float ;
+    ns2:Soil_pH "4.56"^^xsd:float ;
+    ns2:total_C "8.04"^^xsd:float ;
+    ns2:total_N "0.44"^^xsd:float ;
+    ns4:Observation "SLF123"^^xsd:string .
+
+<SoilPropertiesCeh_SLF124> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF124"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 12 ;
+    ns2:Bulk_Density "0.9"^^xsd:float ;
+    ns2:CtoN "26.38"^^xsd:float ;
+    ns2:CtoP "0.34"^^xsd:float ;
+    ns2:Horizon_Depth "5.5"^^xsd:float ;
+    ns2:Soil_Moisture "32.01"^^xsd:float ;
+    ns2:Soil_pH "3.91"^^xsd:float ;
+    ns2:total_C "29.93"^^xsd:float ;
+    ns2:total_N "1.13"^^xsd:float ;
+    ns4:Observation "SLF124"^^xsd:string .
+
+<SoilPropertiesCeh_SLF125> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF125"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 12 ;
+    ns2:Bulk_Density "0.7"^^xsd:float ;
+    ns2:CtoN "24.53"^^xsd:float ;
+    ns2:CtoP "0.38"^^xsd:float ;
+    ns2:Horizon_Depth "8.0"^^xsd:float ;
+    ns2:Soil_Moisture "33.58"^^xsd:float ;
+    ns2:Soil_pH "4.47"^^xsd:float ;
+    ns2:total_C "11.66"^^xsd:float ;
+    ns2:total_N "0.48"^^xsd:float ;
+    ns4:Observation "SLF125"^^xsd:string .
+
+<SoilPropertiesCeh_SLF131> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF131"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 13 ;
+    ns2:Bulk_Density "0.5"^^xsd:float ;
+    ns2:CtoN "27.4"^^xsd:float ;
+    ns2:CtoP "0.33"^^xsd:float ;
+    ns2:Horizon_Depth "5.5"^^xsd:float ;
+    ns2:Soil_Moisture "60.09"^^xsd:float ;
+    ns2:Soil_pH "3.47"^^xsd:float ;
+    ns2:total_C "22.04"^^xsd:float ;
+    ns2:total_N "0.8"^^xsd:float ;
+    ns4:Observation "SLF131"^^xsd:string .
+
+<SoilPropertiesCeh_SLF132> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF132"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 13 ;
+    ns2:Bulk_Density "0.83"^^xsd:float ;
+    ns2:CtoN "18.82"^^xsd:float ;
+    ns2:CtoP "0.26"^^xsd:float ;
+    ns2:Horizon_Depth "9.5"^^xsd:float ;
+    ns2:Soil_Moisture "42.35"^^xsd:float ;
+    ns2:Soil_pH "4.83"^^xsd:float ;
+    ns2:total_C "4.91"^^xsd:float ;
+    ns2:total_N "0.26"^^xsd:float ;
+    ns4:Observation "SLF132"^^xsd:string .
+
+<SoilPropertiesCeh_SLF133> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF133"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 13 ;
+    ns2:Bulk_Density "0.84"^^xsd:float ;
+    ns2:CtoN "20.18"^^xsd:float ;
+    ns2:CtoP "0.22"^^xsd:float ;
+    ns2:Horizon_Depth "5.5"^^xsd:float ;
+    ns2:Soil_Moisture "36.35"^^xsd:float ;
+    ns2:Soil_pH "4.46"^^xsd:float ;
+    ns2:total_C "19.61"^^xsd:float ;
+    ns2:total_N "0.97"^^xsd:float ;
+    ns4:Observation "SLF133"^^xsd:string .
+
+<SoilPropertiesCeh_SLF134> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF134"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 13 ;
+    ns2:Bulk_Density "0.63"^^xsd:float ;
+    ns2:CtoN "23.2"^^xsd:float ;
+    ns2:CtoP "0.28"^^xsd:float ;
+    ns2:Horizon_Depth "7.0"^^xsd:float ;
+    ns2:Soil_Moisture "49.99"^^xsd:float ;
+    ns2:Soil_pH "4.17"^^xsd:float ;
+    ns2:total_C "22.35"^^xsd:float ;
+    ns2:total_N "0.96"^^xsd:float ;
+    ns4:Observation "SLF134"^^xsd:string .
+
+<SoilPropertiesCeh_SLF135> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF135"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 13 ;
+    ns2:Bulk_Density "0.61"^^xsd:float ;
+    ns2:CtoN "18.61"^^xsd:float ;
+    ns2:CtoP "0.16"^^xsd:float ;
+    ns2:Horizon_Depth "5.0"^^xsd:float ;
+    ns2:Soil_Moisture "48.63"^^xsd:float ;
+    ns2:Soil_pH "4.81"^^xsd:float ;
+    ns2:total_C "9.32"^^xsd:float ;
+    ns2:total_N "0.5"^^xsd:float ;
+    ns4:Observation "SLF135"^^xsd:string .
+
+<SoilPropertiesCeh_SLF241> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF241"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.78"^^xsd:float ;
+    ns2:CtoN "15.7"^^xsd:float ;
+    ns2:CtoP "0.24"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "18.46"^^xsd:float ;
+    ns2:Soil_pH "4.76"^^xsd:float ;
+    ns2:total_C "3.78"^^xsd:float ;
+    ns2:total_N "0.24"^^xsd:float ;
+    ns4:Observation "SLF241"^^xsd:string .
+
+<SoilPropertiesCeh_SLF242> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF242"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.54"^^xsd:float ;
+    ns2:CtoN "19.16"^^xsd:float ;
+    ns2:CtoP "0.28"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "24.96"^^xsd:float ;
+    ns2:Soil_pH "4.95"^^xsd:float ;
+    ns2:total_C "5.59"^^xsd:float ;
+    ns2:total_N "0.29"^^xsd:float ;
+    ns4:Observation "SLF242"^^xsd:string .
+
+<SoilPropertiesCeh_SLF243> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF243"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.81"^^xsd:float ;
+    ns2:CtoN "15.76"^^xsd:float ;
+    ns2:CtoP "0.4"^^xsd:float ;
+    ns2:Horizon_Depth "5.5"^^xsd:float ;
+    ns2:Soil_Moisture "27.34"^^xsd:float ;
+    ns2:Soil_pH "5.12"^^xsd:float ;
+    ns2:total_C "5.39"^^xsd:float ;
+    ns2:total_N "0.34"^^xsd:float ;
+    ns4:Observation "SLF243"^^xsd:string .
+
+<SoilPropertiesCeh_SLF244> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF244"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.95"^^xsd:float ;
+    ns2:CtoN "19.36"^^xsd:float ;
+    ns2:CtoP "0.41"^^xsd:float ;
+    ns2:Horizon_Depth "6.5"^^xsd:float ;
+    ns2:Soil_Moisture "32.43"^^xsd:float ;
+    ns2:Soil_pH "4.68"^^xsd:float ;
+    ns2:total_C "9.89"^^xsd:float ;
+    ns2:total_N "0.51"^^xsd:float ;
+    ns4:Observation "SLF244"^^xsd:string .
+
+<SoilPropertiesCeh_SLF245> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF245"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 24 ;
+    ns2:Bulk_Density "0.79"^^xsd:float ;
+    ns2:CtoN "15.99"^^xsd:float ;
+    ns2:CtoP "0.25"^^xsd:float ;
+    ns2:Horizon_Depth "7.5"^^xsd:float ;
+    ns2:Soil_Moisture "27.86"^^xsd:float ;
+    ns2:Soil_pH "4.85"^^xsd:float ;
+    ns2:total_C "5.39"^^xsd:float ;
+    ns2:total_N "0.34"^^xsd:float ;
+    ns4:Observation "SLF245"^^xsd:string .
+
+<SoilPropertiesCeh_SLF41> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF41"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 4 ;
+    ns2:Bulk_Density "0.75"^^xsd:float ;
+    ns2:CtoN "21.72"^^xsd:float ;
+    ns2:CtoP "0.26"^^xsd:float ;
+    ns2:Horizon_Depth "6.0"^^xsd:float ;
+    ns2:Soil_Moisture "56.23"^^xsd:float ;
+    ns2:Soil_pH "3.22"^^xsd:float ;
+    ns2:total_C "25.04"^^xsd:float ;
+    ns2:total_N "1.15"^^xsd:float ;
+    ns4:Observation "SLF41"^^xsd:string .
+
+<SoilPropertiesCeh_SLF42> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF42"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 4 ;
+    ns2:Bulk_Density "0.63"^^xsd:float ;
+    ns2:CtoN "19.07"^^xsd:float ;
+    ns2:CtoP "0.17"^^xsd:float ;
+    ns2:Horizon_Depth "9.0"^^xsd:float ;
+    ns2:Soil_Moisture "40.44"^^xsd:float ;
+    ns2:Soil_pH "4.37"^^xsd:float ;
+    ns2:total_C "16.07"^^xsd:float ;
+    ns2:total_N "0.84"^^xsd:float ;
+    ns4:Observation "SLF42"^^xsd:string .
+
+<SoilPropertiesCeh_SLF43> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF43"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 4 ;
+    ns2:Bulk_Density "1.03"^^xsd:float ;
+    ns2:CtoN "20.04"^^xsd:float ;
+    ns2:CtoP "0.1"^^xsd:float ;
+    ns2:Horizon_Depth "6.0"^^xsd:float ;
+    ns2:Soil_Moisture "26.42"^^xsd:float ;
+    ns2:Soil_pH "4.78"^^xsd:float ;
+    ns2:total_C "7.19"^^xsd:float ;
+    ns2:total_N "0.36"^^xsd:float ;
+    ns4:Observation "SLF43"^^xsd:string .
+
+<SoilPropertiesCeh_SLF44> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF44"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 4 ;
+    ns2:Bulk_Density "0.69"^^xsd:float ;
+    ns2:CtoN "25.19"^^xsd:float ;
+    ns2:CtoP "0.29"^^xsd:float ;
+    ns2:Horizon_Depth "5.0"^^xsd:float ;
+    ns2:Soil_Moisture "37.13"^^xsd:float ;
+    ns2:Soil_pH "3.91"^^xsd:float ;
+    ns2:total_C "23.65"^^xsd:float ;
+    ns2:total_N "0.94"^^xsd:float ;
+    ns4:Observation "SLF44"^^xsd:string .
+
+<SoilPropertiesCeh_SLF45> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF45"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 4 ;
+    ns2:Bulk_Density "0.53"^^xsd:float ;
+    ns2:CtoN "18.25"^^xsd:float ;
+    ns2:CtoP "0.11"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "47.59"^^xsd:float ;
+    ns2:Soil_pH "4.75"^^xsd:float ;
+    ns2:total_C "8.2"^^xsd:float ;
+    ns2:total_N "0.45"^^xsd:float ;
+    ns4:Observation "SLF45"^^xsd:string .
+
+<SoilPropertiesCeh_SLF71> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF71"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 7 ;
+    ns2:Bulk_Density "1.84"^^xsd:float ;
+    ns2:CtoN "19.94"^^xsd:float ;
+    ns2:CtoP "0.17"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "35.02"^^xsd:float ;
+    ns2:Soil_pH "3.91"^^xsd:float ;
+    ns2:total_C "14.47"^^xsd:float ;
+    ns2:total_N "0.73"^^xsd:float ;
+    ns4:Observation "SLF71"^^xsd:string .
+
+<SoilPropertiesCeh_SLF72> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF72"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 7 ;
+    ns2:Bulk_Density "0.66"^^xsd:float ;
+    ns2:CtoN "22.43"^^xsd:float ;
+    ns2:CtoP "0.25"^^xsd:float ;
+    ns2:Horizon_Depth "5.0"^^xsd:float ;
+    ns2:Soil_Moisture "31.35"^^xsd:float ;
+    ns2:Soil_pH "4.18"^^xsd:float ;
+    ns2:total_C "33.45"^^xsd:float ;
+    ns2:total_N "1.49"^^xsd:float ;
+    ns4:Observation "SLF72"^^xsd:string .
+
+<SoilPropertiesCeh_SLF73> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF73"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 7 ;
+    ns2:Bulk_Density "0.64"^^xsd:float ;
+    ns2:CtoN "21.11"^^xsd:float ;
+    ns2:CtoP "0.3"^^xsd:float ;
+    ns2:Horizon_Depth "7.0"^^xsd:float ;
+    ns2:Soil_Moisture "28.09"^^xsd:float ;
+    ns2:Soil_pH "4.52"^^xsd:float ;
+    ns2:total_C "30.21"^^xsd:float ;
+    ns2:total_N "1.43"^^xsd:float ;
+    ns4:Observation "SLF73"^^xsd:string .
+
+<SoilPropertiesCeh_SLF74> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF74"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 7 ;
+    ns2:Bulk_Density "0.75"^^xsd:float ;
+    ns2:CtoN "19.56"^^xsd:float ;
+    ns2:CtoP "0.15"^^xsd:float ;
+    ns2:Horizon_Depth "6.0"^^xsd:float ;
+    ns2:Soil_Moisture "47.63"^^xsd:float ;
+    ns2:Soil_pH "4.93"^^xsd:float ;
+    ns2:total_C "7.51"^^xsd:float ;
+    ns2:total_N "0.38"^^xsd:float ;
+    ns4:Observation "SLF74"^^xsd:string .
+
+<SoilPropertiesCeh_SLF75> a ns4:Observation ;
+    ns1:Land_Use "Logged Forest"^^xsd:string ;
+    ns1:Plot_Name "LF"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SLF75"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 7 ;
+    ns2:Bulk_Density "0.5"^^xsd:float ;
+    ns2:CtoN "17.7"^^xsd:float ;
+    ns2:CtoP "0.13"^^xsd:float ;
+    ns2:Horizon_Depth "7.5"^^xsd:float ;
+    ns2:Soil_Moisture "40.47"^^xsd:float ;
+    ns2:Soil_pH "5.13"^^xsd:float ;
+    ns2:total_C "6.1"^^xsd:float ;
+    ns2:total_N "0.34"^^xsd:float ;
+    ns4:Observation "SLF75"^^xsd:string .
+
+<SoilPropertiesCeh_SOP11> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP11"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 1 ;
+    ns2:Bulk_Density "0.82"^^xsd:float ;
+    ns2:CtoN "9.84"^^xsd:float ;
+    ns2:CtoP "0.06"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "15.53"^^xsd:float ;
+    ns2:Soil_pH "4.81"^^xsd:float ;
+    ns2:total_C "2.18"^^xsd:float ;
+    ns2:total_N "0.22"^^xsd:float ;
+    ns4:Observation "SOP11"^^xsd:string .
+
+<SoilPropertiesCeh_SOP12> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP12"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 1 ;
+    ns2:Bulk_Density "1.03"^^xsd:float ;
+    ns2:CtoN "13.24"^^xsd:float ;
+    ns2:CtoP "0.03"^^xsd:float ;
+    ns2:Horizon_Depth "5.0"^^xsd:float ;
+    ns2:Soil_Moisture "25.05"^^xsd:float ;
+    ns2:Soil_pH "5.84"^^xsd:float ;
+    ns2:total_C "2.44"^^xsd:float ;
+    ns2:total_N "0.18"^^xsd:float ;
+    ns4:Observation "SOP12"^^xsd:string .
+
+<SoilPropertiesCeh_SOP13> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP13"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 1 ;
+    ns2:Bulk_Density "0.8"^^xsd:float ;
+    ns2:CtoN "9.43"^^xsd:float ;
+    ns2:CtoP "0.02"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "21.06"^^xsd:float ;
+    ns2:Soil_pH "5.06"^^xsd:float ;
+    ns2:total_C "2.38"^^xsd:float ;
+    ns2:total_N "0.25"^^xsd:float ;
+    ns4:Observation "SOP13"^^xsd:string .
+
+<SoilPropertiesCeh_SOP14> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP14"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 1 ;
+    ns2:Bulk_Density "0.7"^^xsd:float ;
+    ns2:CtoN "6.65"^^xsd:float ;
+    ns2:CtoP "0.12"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "12.64"^^xsd:float ;
+    ns2:Soil_pH "6.0"^^xsd:float ;
+    ns2:total_C "0.83"^^xsd:float ;
+    ns2:total_N "0.12"^^xsd:float ;
+    ns4:Observation "SOP14"^^xsd:string .
+
+<SoilPropertiesCeh_SOP15> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP15"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 1 ;
+    ns2:Bulk_Density "1.25"^^xsd:float ;
+    ns2:CtoN "8.74"^^xsd:float ;
+    ns2:CtoP "0.1"^^xsd:float ;
+    ns2:Horizon_Depth "2.0"^^xsd:float ;
+    ns2:Soil_Moisture "13.94"^^xsd:float ;
+    ns2:Soil_pH "5.48"^^xsd:float ;
+    ns2:total_C "1.06"^^xsd:float ;
+    ns2:total_N "0.12"^^xsd:float ;
+    ns4:Observation "SOP15"^^xsd:string .
+
+<SoilPropertiesCeh_SOP21> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP21"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 2 ;
+    ns2:Bulk_Density "1.48"^^xsd:float ;
+    ns2:CtoN "13.94"^^xsd:float ;
+    ns2:CtoP "0.05"^^xsd:float ;
+    ns2:Horizon_Depth "1.0"^^xsd:float ;
+    ns2:Soil_Moisture "7.93"^^xsd:float ;
+    ns2:Soil_pH "5.9"^^xsd:float ;
+    ns2:total_C "10.63"^^xsd:float ;
+    ns2:total_N "0.76"^^xsd:float ;
+    ns4:Observation "SOP21"^^xsd:string .
+
+<SoilPropertiesCeh_SOP22> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP22"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 2 ;
+    ns2:Bulk_Density "1.55"^^xsd:float ;
+    ns2:CtoN "10.64"^^xsd:float ;
+    ns2:CtoP "0.08"^^xsd:float ;
+    ns2:Horizon_Depth "0.2"^^xsd:float ;
+    ns2:Soil_Moisture "10.38"^^xsd:float ;
+    ns2:Soil_pH "6.48"^^xsd:float ;
+    ns2:total_C "7.48"^^xsd:float ;
+    ns2:total_N "0.7"^^xsd:float ;
+    ns4:Observation "SOP22"^^xsd:string .
+
+<SoilPropertiesCeh_SOP23> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP23"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 2 ;
+    ns2:Bulk_Density "1.34"^^xsd:float ;
+    ns2:CtoN "8.16"^^xsd:float ;
+    ns2:CtoP "0.02"^^xsd:float ;
+    ns2:Horizon_Depth "0.5"^^xsd:float ;
+    ns2:Soil_Moisture "8.04"^^xsd:float ;
+    ns2:Soil_pH "6.7"^^xsd:float ;
+    ns2:total_C "10.37"^^xsd:float ;
+    ns2:total_N "1.27"^^xsd:float ;
+    ns4:Observation "SOP23"^^xsd:string .
+
+<SoilPropertiesCeh_SOP24> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP24"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 2 ;
+    ns2:Bulk_Density "0.58"^^xsd:float ;
+    ns2:CtoN "12.7"^^xsd:float ;
+    ns2:CtoP "0.02"^^xsd:float ;
+    ns2:Horizon_Depth "1.5"^^xsd:float ;
+    ns2:Soil_Moisture "13.02"^^xsd:float ;
+    ns2:Soil_pH "6.22"^^xsd:float ;
+    ns2:total_C "4.86"^^xsd:float ;
+    ns2:total_N "0.38"^^xsd:float ;
+    ns4:Observation "SOP24"^^xsd:string .
+
+<SoilPropertiesCeh_SOP25> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP25"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 2 ;
+    ns2:Bulk_Density "0.99"^^xsd:float ;
+    ns2:CtoN "9.34"^^xsd:float ;
+    ns2:CtoP "0.08"^^xsd:float ;
+    ns2:Horizon_Depth "1.0"^^xsd:float ;
+    ns2:Soil_Moisture "9.81"^^xsd:float ;
+    ns2:Soil_pH "5.69"^^xsd:float ;
+    ns2:total_C "2.54"^^xsd:float ;
+    ns2:total_N "0.27"^^xsd:float ;
+    ns4:Observation "SOP25"^^xsd:string .
+
+<SoilPropertiesCeh_SOP61> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP61"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "1.13"^^xsd:float ;
+    ns2:CtoN "13.43"^^xsd:float ;
+    ns2:CtoP "0.09"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "21.13"^^xsd:float ;
+    ns2:Soil_pH "5.84"^^xsd:float ;
+    ns2:total_C "4.34"^^xsd:float ;
+    ns2:total_N "0.32"^^xsd:float ;
+    ns4:Observation "SOP61"^^xsd:string .
+
+<SoilPropertiesCeh_SOP63> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP63"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "1.51"^^xsd:float ;
+    ns2:CtoN "11.92"^^xsd:float ;
+    ns2:CtoP "0.09"^^xsd:float ;
+    ns2:Horizon_Depth "0.5"^^xsd:float ;
+    ns2:Soil_Moisture "9.22"^^xsd:float ;
+    ns2:Soil_pH "6.41"^^xsd:float ;
+    ns2:total_C "6.38"^^xsd:float ;
+    ns2:total_N "0.54"^^xsd:float ;
+    ns4:Observation "SOP63"^^xsd:string .
+
+<SoilPropertiesCeh_SOP64> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP64"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.89"^^xsd:float ;
+    ns2:CtoN "11.42"^^xsd:float ;
+    ns2:CtoP "0.01"^^xsd:float ;
+    ns2:Horizon_Depth "3.5"^^xsd:float ;
+    ns2:Soil_Moisture "19.3"^^xsd:float ;
+    ns2:Soil_pH "5.34"^^xsd:float ;
+    ns2:total_C "3.63"^^xsd:float ;
+    ns2:total_N "0.32"^^xsd:float ;
+    ns4:Observation "SOP64"^^xsd:string .
+
+<SoilPropertiesCeh_SOP65> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP65"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 6 ;
+    ns2:Bulk_Density "0.97"^^xsd:float ;
+    ns2:CtoN "10.13"^^xsd:float ;
+    ns2:CtoP "0.5"^^xsd:float ;
+    ns2:Horizon_Depth "0.5"^^xsd:float ;
+    ns2:Soil_Moisture "21.91"^^xsd:float ;
+    ns2:Soil_pH "6.41"^^xsd:float ;
+    ns2:total_C "4.22"^^xsd:float ;
+    ns2:total_N "0.42"^^xsd:float ;
+    ns4:Observation "SOP65"^^xsd:string .
+
+<SoilPropertiesCeh_SOP81> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP81"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 8 ;
+    ns2:Bulk_Density "1.34"^^xsd:float ;
+    ns2:CtoN "8.76"^^xsd:float ;
+    ns2:CtoP "0.14"^^xsd:float ;
+    ns2:Horizon_Depth "0.5"^^xsd:float ;
+    ns2:Soil_Moisture "11.48"^^xsd:float ;
+    ns2:Soil_pH "5.52"^^xsd:float ;
+    ns2:total_C "2.92"^^xsd:float ;
+    ns2:total_N "0.33"^^xsd:float ;
+    ns4:Observation "SOP81"^^xsd:string .
+
+<SoilPropertiesCeh_SOP82> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP82"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 8 ;
+    ns2:Bulk_Density "0.78"^^xsd:float ;
+    ns2:CtoN "10.94"^^xsd:float ;
+    ns2:CtoP "0.05"^^xsd:float ;
+    ns2:Horizon_Depth "4.0"^^xsd:float ;
+    ns2:Soil_Moisture "20.52"^^xsd:float ;
+    ns2:Soil_pH "5.63"^^xsd:float ;
+    ns2:total_C "5.03"^^xsd:float ;
+    ns2:total_N "0.46"^^xsd:float ;
+    ns4:Observation "SOP82"^^xsd:string .
+
+<SoilPropertiesCeh_SOP83> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP83"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 8 ;
+    ns2:Bulk_Density "0.54"^^xsd:float ;
+    ns2:CtoN "10.89"^^xsd:float ;
+    ns2:CtoP "0.09"^^xsd:float ;
+    ns2:Horizon_Depth "2.5"^^xsd:float ;
+    ns2:Soil_Moisture "19.62"^^xsd:float ;
+    ns2:Soil_pH "5.8"^^xsd:float ;
+    ns2:total_C "3.25"^^xsd:float ;
+    ns2:total_N "0.3"^^xsd:float ;
+    ns4:Observation "SOP83"^^xsd:string .
+
+<SoilPropertiesCeh_SOP85> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP85"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 8 ;
+    ns2:Bulk_Density "0.73"^^xsd:float ;
+    ns2:CtoN "12.07"^^xsd:float ;
+    ns2:CtoP "0.12"^^xsd:float ;
+    ns2:Horizon_Depth "1.5"^^xsd:float ;
+    ns2:Soil_Moisture "12.96"^^xsd:float ;
+    ns2:Soil_pH "6.43"^^xsd:float ;
+    ns2:total_C "5.73"^^xsd:float ;
+    ns2:total_N "0.47"^^xsd:float ;
+    ns4:Observation "SOP85"^^xsd:string .
+
+<SoilPropertiesCeh_SOP91> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP91"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 9 ;
+    ns2:Bulk_Density "1.43"^^xsd:float ;
+    ns2:CtoN "14.07"^^xsd:float ;
+    ns2:CtoP "0.09"^^xsd:float ;
+    ns2:Horizon_Depth "1.0"^^xsd:float ;
+    ns2:Soil_Moisture "11.66"^^xsd:float ;
+    ns2:Soil_pH "7.23"^^xsd:float ;
+    ns2:total_C "6.95"^^xsd:float ;
+    ns2:total_N "0.49"^^xsd:float ;
+    ns4:Observation "SOP91"^^xsd:string .
+
+<SoilPropertiesCeh_SOP92> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP92"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 9 ;
+    ns2:Bulk_Density "1.4"^^xsd:float ;
+    ns2:CtoN "14.5"^^xsd:float ;
+    ns2:CtoP "0.05"^^xsd:float ;
+    ns2:Horizon_Depth "1.0"^^xsd:float ;
+    ns2:Soil_Moisture "7.62"^^xsd:float ;
+    ns2:Soil_pH "6.18"^^xsd:float ;
+    ns2:total_C "5.07"^^xsd:float ;
+    ns2:total_N "0.35"^^xsd:float ;
+    ns4:Observation "SOP92"^^xsd:string .
+
+<SoilPropertiesCeh_SOP93> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP93"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 9 ;
+    ns2:Bulk_Density "0.8"^^xsd:float ;
+    ns2:CtoN "12.08"^^xsd:float ;
+    ns2:CtoP "0.06"^^xsd:float ;
+    ns2:Horizon_Depth "3.0"^^xsd:float ;
+    ns2:Soil_Moisture "12.26"^^xsd:float ;
+    ns2:Soil_pH "6.63"^^xsd:float ;
+    ns2:total_C "2.79"^^xsd:float ;
+    ns2:total_N "0.23"^^xsd:float ;
+    ns4:Observation "SOP93"^^xsd:string .
+
+<SoilPropertiesCeh_SOP94> a ns4:Observation ;
+    ns1:Land_Use "Oil Palm"^^xsd:string ;
+    ns1:Plot_Name "OP"^^xsd:string ;
+    ns1:Soil_Properties_CEH "SOP94"^^xsd:string ;
+    ns3:Horizon "Organic"^^xsd:string ;
+    ns3:Site "SAFE Project - Kalabakan Forest Reserve"^^xsd:string ;
+    ns3:Subplot 9 ;
+    ns2:Bulk_Density "1.07"^^xsd:float ;
+    ns2:CtoN "13.94"^^xsd:float ;
+    ns2:CtoP "0.05"^^xsd:float ;
+    ns2:Horizon_Depth "5.5"^^xsd:float ;
+    ns2:Soil_Moisture "10.83"^^xsd:float ;
+    ns2:Soil_pH "6.53"^^xsd:float ;
+    ns2:total_C "6.06"^^xsd:float ;
+    ns2:total_N "0.43"^^xsd:float ;
+    ns4:Observation "SOP94"^^xsd:string .
+
