@@ -64,8 +64,6 @@ What objects do contain the word sensor?
 
 # Instantiate FOO with soil properties dataset. [Click here](https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/Soil-Data-v1.0.0)
 
-![soil](https://github.com/Naeima/Forest-Observatory-Ontology/blob/d534bbb9ed40b79bd09c8f2b1168489782172d9d/Soil%20Data/soil.png)
-
 
 # How to use FOO. [Click here.](https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/How-to-run-FOO-v1.0.0)
 
