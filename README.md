@@ -12,7 +12,7 @@ The Forest Observatory Ontology (FOO) is an ontology for describing wildlife dat
 # FOO Documentation. [Click here](https://github.com/Naeima/Forest-Observatory-Ontology/releases/download/v1.1.3/index-en.html)
 
 
-# OOPS! (OntOlogy Pitfall Scanner!). [Click here](https://github.com/Naeima/Forest-Observatory-Ontology-/releases/download/v1.0.0/oopsEval.html)
+# OOPS! (OntOlogy Pitfall Scanner!). [Click here](https://github.com/Naeima/Forest-Observatory-Ontology/releases/download/Oops!ResultsV1.0.0/oopsresult.png)
 
 
 # FOO Development
