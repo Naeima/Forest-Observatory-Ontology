@@ -1,11 +1,13 @@
 @prefix : <http://www.ontology/ns/foo#> .
 @prefix ns: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix wo: <http://purl.org/ontology/wo/> .
-@prefix foo: <http://www.ontology/ns/foo/1.1#> .
+@prefix foo: <http://www.ontology/ns/foo#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foo1: <http://www.ontology/ns/foo/1.1#> .
+@prefix hasC: <http://www.ontology/ns/foo#hasC:> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
@@ -13,12 +15,11 @@
 @prefix schema: <http://schema.org/> .
 @prefix iot-lite: <http://purl.oclc.org/NET/UNIS/fiware/iot-lite#> .
 @prefix metadata: <http://data.bioontology.org/metadata/> .
-@prefix wgs84_pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @base <http://www.ontology/ns/foo#> .
 
 <http://www.ontology/ns/foo#> rdf:type owl:Ontology ;
-                               owl:versionIRI foo: ;
-                               terms:rights <http://creativecommons.org/licenses/by-sa/4.0/> .
+                               owl:versionIRI foo1: ;
+                               terms:license <http://creativecommons.org/licenses/by-sa/4.0/> .
 
 #################################################################
 #    Annotation properties
@@ -52,7 +53,7 @@ terms:relation rdf:type owl:AnnotationProperty .
 
 ###  http://purl.org/dc/terms/rights
 terms:rights rdf:type owl:AnnotationProperty ;
-             terms:license "Copyright 2017 W3C/OGC."^^xsd:string .
+             terms:license "Copyright 2017 W3C/OGC." .
 
 
 ###  http://purl.org/dc/terms/title
@@ -90,7 +91,7 @@ wo:class rdf:type owl:ObjectProperty ;
          rdfs:comment "associates a taxon rank with a class"@en-gb ;
          rdfs:isDefinedBy wo: ;
          rdfs:label "class"@en-gb ;
-         ns:term_status "testing"^^xsd:string .
+         ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/family
@@ -100,7 +101,7 @@ wo:family rdf:type owl:ObjectProperty ;
           rdfs:comment "associates a taxon rank with a family"@en-gb ;
           rdfs:isDefinedBy wo: ;
           rdfs:label "family"@en-gb ;
-          ns:term_status "testing"^^xsd:string .
+          ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/genus
@@ -110,7 +111,7 @@ wo:genus rdf:type owl:ObjectProperty ;
          rdfs:comment "associates a taxon rank with a genus"@en-gb ;
          rdfs:isDefinedBy wo: ;
          rdfs:label "genus"@en-gb ;
-         ns:term_status "testing"^^xsd:string .
+         ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/habitat
@@ -120,7 +121,7 @@ wo:habitat rdf:type owl:ObjectProperty ;
            rdfs:comment "associates a taxon rank with a habitat in which it may typically be found"@en-gb ;
            rdfs:isDefinedBy wo: ;
            rdfs:label "habitat"@en-gb ;
-           ns:term_status "testing"^^xsd:string .
+           ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/kingdom
@@ -130,7 +131,7 @@ wo:kingdom rdf:type owl:ObjectProperty ;
            rdfs:comment "associates a taxon rank with a kingdom"@en-gb ;
            rdfs:isDefinedBy wo: ;
            rdfs:label "kingdom"@en-gb ;
-           ns:term_status "testing"^^xsd:string .
+           ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/livesIn
@@ -140,7 +141,7 @@ wo:livesIn rdf:type owl:ObjectProperty ;
            rdfs:comment "associates a taxon rank with a habitat in which it lives. Sub-property of wo:habitat to be used for members of the animal kingdom"@en-gb ;
            rdfs:isDefinedBy wo: ;
            rdfs:label "lives in"@en-gb ;
-           ns:term_status "testing"^^xsd:string .
+           ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/order
@@ -150,7 +151,7 @@ wo:order rdf:type owl:ObjectProperty ;
          rdfs:comment "associates a taxon rank with an order"@en-gb ;
          rdfs:isDefinedBy wo: ;
          rdfs:label "order"@en-gb ;
-         ns:term_status "testing"^^xsd:string .
+         ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/phylum
@@ -160,7 +161,7 @@ wo:phylum rdf:type owl:ObjectProperty ;
           rdfs:comment "associates a taxon rank with a phylum"@en-gb ;
           rdfs:isDefinedBy wo: ;
           rdfs:label "phylum"@en-gb ;
-          ns:term_status "testing"^^xsd:string .
+          ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/species
@@ -170,50 +171,50 @@ wo:species rdf:type owl:ObjectProperty ;
            rdfs:comment "associates a taxon rank with a species"@en-gb ;
            rdfs:isDefinedBy wo: ;
            rdfs:label "species"@en-gb ;
-           ns:term_status "testing"^^xsd:string .
+           ns:term_status "testing" .
 
 
 ###  http://www.w3.org/2003/01/geo/wgs84_pos#alt
-wgs84_pos:alt rdf:type owl:ObjectProperty ;
-              rdfs:domain wgs84_pos:Point ;
-              rdfs:range [ rdf:type owl:Restriction ;
-                           owl:onProperty foo:hasValue ;
-                           owl:someValuesFrom rdfs:Literal
-                         ] .
+<http://www.w3.org/2003/01/geo/wgs84_pos#alt> rdf:type owl:ObjectProperty ;
+                                              rdfs:domain <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ;
+                                              rdfs:range [ rdf:type owl:Restriction ;
+                                                           owl:onProperty foo1:hasValue ;
+                                                           owl:someValuesFrom rdfs:Literal
+                                                         ] .
 
 
 ###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
-wgs84_pos:lat rdf:type owl:ObjectProperty ;
-              rdfs:domain wgs84_pos:Point ;
-              rdfs:range [ rdf:type owl:Restriction ;
-                           owl:onProperty wgs84_pos:lat ;
-                           owl:someValuesFrom xsd:float
-                         ] .
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> rdf:type owl:ObjectProperty ;
+                                              rdfs:domain <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ;
+                                              rdfs:range [ rdf:type owl:Restriction ;
+                                                           owl:onProperty foo1:hasValue ;
+                                                           owl:someValuesFrom rdfs:Literal
+                                                         ] .
 
 
 ###  http://www.w3.org/2003/01/geo/wgs84_pos#location
-wgs84_pos:location rdf:type owl:ObjectProperty ;
-                   rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/based_near> ;
-                   rdfs:domain sosa:Observation ;
-                   rdfs:range wgs84_pos:SpatialThing ;
-                   rdfs:comment """The relation between something and the point, 
+<http://www.w3.org/2003/01/geo/wgs84_pos#location> rdf:type owl:ObjectProperty ;
+                                                   rdfs:subPropertyOf <http://xmlns.com/foaf/0.1/based_near> ;
+                                                   rdfs:domain sosa:Observation ;
+                                                   rdfs:range <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+                                                   rdfs:comment """The relation between something and the point, 
  or other geometrical thing in space, where it is.  For example, the realtionship between
  a radio tower and a Point with a given lat and long.
  Or a relationship between a park and its outline as a closed arc of points, or a road and
  its location as a arc (a sequence of points).
  Clearly in practice there will be limit to the accuracy of any such statement, but one would expect
  an accuracy appropriate for the size of the object and uses such as mapping .
- """^^xsd:string ;
-                   rdfs:label "location"^^xsd:string .
+ """ ;
+                                                   rdfs:label "location" .
 
 
 ###  http://www.w3.org/2003/01/geo/wgs84_pos#long
-wgs84_pos:long rdf:type owl:ObjectProperty ;
-               rdfs:domain wgs84_pos:Point ;
-               rdfs:range [ rdf:type owl:Restriction ;
-                            owl:onProperty wgs84_pos:long ;
-                            owl:someValuesFrom xsd:float
-                          ] .
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> rdf:type owl:ObjectProperty ;
+                                               rdfs:domain <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ;
+                                               rdfs:range [ rdf:type owl:Restriction ;
+                                                            owl:onProperty foo1:hasValue ;
+                                                            owl:someValuesFrom rdfs:Literal
+                                                          ] .
 
 
 ###  http://www.w3.org/ns/sosa/hasFeatureOfInterest
@@ -274,30 +275,287 @@ sosa:observes rdf:type owl:ObjectProperty ;
 
 ###  http://xmlns.com/foaf/0.1/based_near
 <http://xmlns.com/foaf/0.1/based_near> rdf:type owl:ObjectProperty ;
-                                       rdfs:domain wgs84_pos:SpatialThing ;
+                                       rdfs:domain <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
                                        rdfs:range sosa:FeatureOfInterest ;
-                                       rdfs:comment "A location that something is based near, for some broadly human notion of near."^^xsd:string ;
+                                       rdfs:comment "A location that something is based near, for some broadly human notion of near." ;
                                        rdfs:isDefinedBy <http://xmlns.com/foaf/0.1/> ;
-                                       rdfs:label "based near"^^xsd:string ;
-                                       ns:term_status "testing"^^xsd:string .
+                                       rdfs:label "based near" ;
+                                       ns:term_status "testing" .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.ontology/ns/foo/1.1#hasValue
-foo:hasValue rdf:type owl:DatatypeProperty ;
+###  http://www.ontology/ns/foo#PDOP
+foo:PDOP rdf:type owl:DatatypeProperty ;
+         rdfs:domain sosa:ObservableProperty ;
+         rdfs:range xsd:integer .
+
+
+###  http://www.ontology/ns/foo#Source_of_dates
+foo:Source_of_dates rdf:type owl:DatatypeProperty ;
+                    rdfs:domain sosa:ObservableProperty ;
+                    rdfs:range xsd:string .
+
+
+###  http://www.ontology/ns/foo#hasClay
+foo:hasClay rdf:type owl:DatatypeProperty ;
+            rdfs:domain sosa:ObservableProperty ;
+            rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasCount
+foo:hasCount rdf:type owl:DatatypeProperty ;
              rdfs:domain sosa:ObservableProperty ;
-             rdfs:range rdfs:Literal .
+             rdfs:range xsd:integer .
 
 
-###  http://www.w3.org/2003/01/geo/wgs84_pos#lat
-wgs84_pos:lat rdf:type owl:DatatypeProperty .
+###  http://www.ontology/ns/foo#hasCov
+foo:hasCov rdf:type owl:DatatypeProperty ;
+           rdfs:domain sosa:ObservableProperty ;
+           rdfs:range xsd:integer .
 
 
-###  http://www.w3.org/2003/01/geo/wgs84_pos#long
-wgs84_pos:long rdf:type owl:DatatypeProperty .
+###  http://www.ontology/ns/foo#hasDirection
+foo:hasDirection rdf:type owl:DatatypeProperty ;
+                 rdfs:domain sosa:ObservableProperty ;
+                 rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasDistance
+foo:hasDistance rdf:type owl:DatatypeProperty ;
+                rdfs:domain sosa:ObservableProperty ;
+                rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasDisturbance
+foo:hasDisturbance rdf:type owl:DatatypeProperty ;
+                   rdfs:domain sosa:ObservableProperty ;
+                   rdfs:range xsd:string .
+
+
+###  http://www.ontology/ns/foo#hasElevation_masi
+foo:hasElevation_masi rdf:type owl:DatatypeProperty ;
+                      rdfs:domain sosa:ObservableProperty ;
+                      rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasFirst_planning_nearest_OP
+foo:hasFirst_planning_nearest_OP rdf:type owl:DatatypeProperty ;
+                                 rdfs:domain sosa:ObservableProperty ;
+                                 rdfs:range xsd:string .
+
+
+###  http://www.ontology/ns/foo#hasHDOP
+foo:hasHDOP rdf:type owl:DatatypeProperty ;
+            rdfs:domain sosa:ObservableProperty ;
+            rdfs:range xsd:integer .
+
+
+###  http://www.ontology/ns/foo#hasHorizon
+foo:hasHorizon rdf:type owl:DatatypeProperty ;
+               rdfs:domain sosa:ObservableProperty ;
+               rdfs:range xsd:string .
+
+
+###  http://www.ontology/ns/foo#hasInorganic_P
+foo:hasInorganic_P rdf:type owl:DatatypeProperty ;
+                   rdfs:domain sosa:ObservableProperty ;
+                   rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasLand_Use
+foo:hasLand_Use rdf:type owl:DatatypeProperty ;
+                rdfs:domain sosa:ObservableProperty ;
+                rdfs:range xsd:string .
+
+
+###  http://www.ontology/ns/foo#hasLiana_dbh_cm
+foo:hasLiana_dbh_cm rdf:type owl:DatatypeProperty ;
+                    rdfs:domain sosa:ObservableProperty ;
+                    rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasLocalDate
+foo:hasLocalDate rdf:type owl:DatatypeProperty ;
+                 rdfs:domain sosa:ObservableProperty ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.ontology/ns/foo#hasMake
+foo:hasMake rdf:type owl:DatatypeProperty ;
+            rdfs:domain sosa:ObservableProperty ;
+            rdfs:range xsd:string .
+
+
+###  http://www.ontology/ns/foo#hasModel
+foo:hasModel rdf:type owl:DatatypeProperty ;
+             rdfs:domain sosa:ObservableProperty ;
+             rdfs:range xsd:string .
+
+
+###  http://www.ontology/ns/foo#hasMoisture
+foo:hasMoisture rdf:type owl:DatatypeProperty ;
+                rdfs:domain sosa:ObservableProperty ;
+                rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasName
+foo:hasName rdf:type owl:DatatypeProperty ;
+            rdfs:domain sosa:ObservableProperty ;
+            rdfs:range xsd:string .
+
+
+###  http://www.ontology/ns/foo#hasPath
+foo:hasPath rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:domain sosa:ObservableProperty ;
+            rdfs:range xsd:anyURI .
+
+
+###  http://www.ontology/ns/foo#hasPlot_Name
+foo:hasPlot_Name rdf:type owl:DatatypeProperty ;
+                 rdfs:domain sosa:ObservableProperty ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.ontology/ns/foo#hasReplanting_nearest_OP
+foo:hasReplanting_nearest_OP rdf:type owl:DatatypeProperty ;
+                             rdfs:domain sosa:ObservableProperty ;
+                             rdfs:range xsd:string .
+
+
+###  http://www.ontology/ns/foo#hasSand
+foo:hasSand rdf:type owl:DatatypeProperty ;
+            rdfs:domain sosa:ObservableProperty ;
+            rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasSilt
+foo:hasSilt rdf:type owl:DatatypeProperty ;
+            rdfs:domain sosa:ObservableProperty ;
+            rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasSite_name
+foo:hasSite_name rdf:type owl:DatatypeProperty ;
+                 rdfs:domain sosa:ObservableProperty ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.ontology/ns/foo#hasSite_plot_code
+foo:hasSite_plot_code rdf:type owl:DatatypeProperty ;
+                      rdfs:domain sosa:ObservableProperty ;
+                      rdfs:range rdfs:Literal .
+
+
+###  http://www.ontology/ns/foo#hasSoil_pH
+foo:hasSoil_pH rdf:type owl:DatatypeProperty ;
+               rdfs:domain sosa:ObservableProperty ;
+               rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasSpeed
+foo:hasSpeed rdf:type owl:DatatypeProperty ;
+             rdfs:domain sosa:ObservableProperty ;
+             rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasSubplot
+foo:hasSubplot rdf:type owl:DatatypeProperty ;
+               rdfs:domain sosa:ObservableProperty ;
+               rdfs:range rdfs:Literal .
+
+
+###  http://www.ontology/ns/foo#hasSubplot_radius_m
+foo:hasSubplot_radius_m rdf:type owl:DatatypeProperty ;
+                        rdfs:domain sosa:ObservableProperty ;
+                        rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasTemp
+foo:hasTemp rdf:type owl:DatatypeProperty ;
+            rdfs:domain sosa:ObservableProperty ;
+            rdfs:range xsd:double .
+
+
+###  http://www.ontology/ns/foo#hasTemperature
+foo:hasTemperature rdf:type owl:DatatypeProperty ;
+                   rdfs:domain sosa:ObservableProperty ;
+                   rdfs:range xsd:double .
+
+
+###  http://www.ontology/ns/foo#hasTotal_C
+foo:hasTotal_C rdf:type owl:DatatypeProperty ;
+               rdfs:domain sosa:ObservableProperty ;
+               rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasTotal_N
+foo:hasTotal_N rdf:type owl:DatatypeProperty ;
+               rdfs:domain sosa:ObservableProperty ;
+               rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasTotal_P
+foo:hasTotal_P rdf:type owl:DatatypeProperty ;
+               rdfs:domain sosa:ObservableProperty ;
+               rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasTree_ID
+foo:hasTree_ID rdf:type owl:DatatypeProperty ;
+               rdfs:domain sosa:ObservableProperty ;
+               rdfs:range xsd:string .
+
+
+###  http://www.ontology/ns/foo#hasTree_dbh_cm
+foo:hasTree_dbh_cm rdf:type owl:DatatypeProperty ;
+                   rdfs:domain sosa:ObservableProperty ;
+                   rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasTree_height_m
+foo:hasTree_height_m rdf:type owl:DatatypeProperty ;
+                     rdfs:domain sosa:ObservableProperty ;
+                     rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasTree_individual_no
+foo:hasTree_individual_no rdf:type owl:DatatypeProperty ;
+                          rdfs:domain sosa:ObservableProperty ;
+                          rdfs:range xsd:integer .
+
+
+###  http://www.ontology/ns/foo#hasTree_notes
+foo:hasTree_notes rdf:type owl:DatatypeProperty ;
+                  rdfs:domain sosa:ObservableProperty ;
+                  rdfs:range xsd:string .
+
+
+###  http://www.ontology/ns/foo#hasYears_since_frag
+foo:hasYears_since_frag rdf:type owl:DatatypeProperty ;
+                        rdfs:domain sosa:ObservableProperty ;
+                        rdfs:range xsd:string .
+
+
+###  http://www.ontology/ns/foo#C:P
+foo:C:P rdf:type owl:DatatypeProperty ;
+        rdfs:domain sosa:ObservableProperty ;
+        rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo#hasC:N
+hasC:N rdf:type owl:DatatypeProperty ;
+       rdfs:domain sosa:ObservableProperty ;
+       rdfs:range xsd:float .
+
+
+###  http://www.ontology/ns/foo/1.1#hasValue
+foo1:hasValue rdf:type owl:DatatypeProperty ;
+              rdfs:domain sosa:ObservableProperty ;
+              rdfs:range rdfs:Literal .
 
 
 ###  http://www.w3.org/ns/sosa/hasResult
@@ -325,7 +583,7 @@ sosa:resultTime rdf:type owl:DatatypeProperty ;
 ###  http://purl.org/dc/terms/Frequency
 terms:Frequency rdf:type owl:Class ;
                 rdfs:subClassOf owl:Thing ;
-                metadata:prefixIRI "terms:Frequency"^^xsd:string ;
+                metadata:prefixIRI "terms:Frequency" ;
                 rdfs:comment "A rate at which something recurs."@en ;
                 rdfs:isDefinedBy terms: ;
                 rdfs:label "Frequency"@en .
@@ -333,8 +591,7 @@ terms:Frequency rdf:type owl:Class ;
 
 ###  http://purl.org/dc/terms/LicenseDocument
 terms:LicenseDocument rdf:type owl:Class ;
-                      rdfs:subClassOf terms:RightsStatement ;
-                      metadata:prefixIRI "terms:LicenseDocument"^^xsd:string ;
+                      metadata:prefixIRI "terms:LicenseDocument" ;
                       rdfs:comment "A legal document giving official permission to do something with a resource."@en ;
                       rdfs:isDefinedBy terms: ;
                       rdfs:label "License Document"@en .
@@ -343,7 +600,7 @@ terms:LicenseDocument rdf:type owl:Class ;
 ###  http://purl.org/dc/terms/PhysicalResource
 terms:PhysicalResource rdf:type owl:Class ;
                        rdfs:subClassOf owl:Thing ;
-                       metadata:prefixIRI "terms:PhysicalResource"^^xsd:string ;
+                       metadata:prefixIRI "terms:PhysicalResource" ;
                        rdfs:comment "A material thing."@en ;
                        rdfs:isDefinedBy terms: ;
                        rdfs:label "Physical Resource"@en .
@@ -353,7 +610,7 @@ terms:PhysicalResource rdf:type owl:Class ;
 terms:Policy rdf:type owl:Class ;
              rdfs:subClassOf owl:Thing ;
              owl:disjointWith terms:ProvenanceStatement ;
-             metadata:prefixIRI "terms:Policy"^^xsd:string ;
+             metadata:prefixIRI "terms:Policy" ;
              rdfs:comment "A plan or course of action by an authority, intended to influence and determine decisions, actions, and other matters."@en ;
              rdfs:isDefinedBy terms: ;
              rdfs:label "Policy"@en .
@@ -362,194 +619,186 @@ terms:Policy rdf:type owl:Class ;
 ###  http://purl.org/dc/terms/ProvenanceStatement
 terms:ProvenanceStatement rdf:type owl:Class ;
                           rdfs:subClassOf owl:Thing ;
-                          metadata:prefixIRI "terms:ProvenanceStatement"^^xsd:string ;
+                          metadata:prefixIRI "terms:ProvenanceStatement" ;
                           rdfs:comment "Any changes in ownership and custody of a resource since its creation that are significant for its authenticity, integrity, and interpretation."@en ;
                           rdfs:isDefinedBy terms: ;
                           rdfs:label "Provenance Statement"@en .
 
 
-###  http://purl.org/dc/terms/RightsStatement
-terms:RightsStatement rdf:type owl:Class ;
-                      rdfs:subClassOf owl:Thing ;
-                      metadata:prefixIRI "terms:RightsStatement"^^xsd:string ;
-                      rdfs:comment "A statement about the intellectual property rights (IPR) held in or over a resource, a legal document giving official permission to do something with a resource, or a statement about access rights."@en ;
-                      rdfs:isDefinedBy terms: ;
-                      rdfs:label "Rights Statement"@en .
-
-
 ###  http://purl.org/ontology/wo/Class
 wo:Class rdf:type owl:Class ;
+         owl:equivalentClass wo:Family ;
          rdfs:subClassOf wo:TaxonRank ;
-         metadata:prefixIRI "wo:Class"^^xsd:string ;
+         metadata:prefixIRI "wo:Class" ;
          rdfs:comment "A class is a scientific way to group related organisms together, some examples of classes being jellyfish, reptiles and sea urchins. Classes are big groups and contain within them smaller groupings called orders, families, genera and species."@en-gb ;
          rdfs:isDefinedBy wo: ;
          rdfs:label "Class"@en-gb ;
          rdfs:seeAlso <http://en.wikipedia.org/wiki/Class_%28biology%29> ,
                       <http://www.bbc.co.uk/nature/class> ;
-         ns:term_status "testing"^^xsd:string .
+         ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/Family
 wo:Family rdf:type owl:Class ;
           rdfs:subClassOf wo:TaxonRank ;
-          metadata:prefixIRI "wo:Family"^^xsd:string ;
+          metadata:prefixIRI "wo:Family" ;
           rdfs:comment "A family is a scientific grouping of closely related organisms. It has smaller groups, called genera and species, within it. A family can have a lot of members or only a few. Examples of families include the cats (Felidae), the gulls (Laridae) and the grasses (Poaceae)."@en-gb ;
           rdfs:isDefinedBy wo: ;
           rdfs:label "Family"@en-gb ;
           rdfs:seeAlso <http://en.wikipedia.org/wiki/Family_%28biology%29> ,
                        <http://www.bbc.co.uk/nature/family> ;
-          ns:term_status "testing"^^xsd:string .
+          ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/FreshwaterHabitat
 wo:FreshwaterHabitat rdf:type owl:Class ;
                      rdfs:subClassOf wo:Habitat ;
-                     metadata:prefixIRI "wo:FreshwaterHabitat"^^xsd:string ;
-                     rdfs:comment "Freshwater habitats include bogs, ponds, lakes, rivers and streams. About 3% of Earth's water is freshwater, but this includes the water locked up in the ice caps and trapped in rocks and soil as groundwater. Only a tiny fraction (0.014%) is surface water in the form of rivers, lakes and swamps."^^xsd:string ;
+                     metadata:prefixIRI "wo:FreshwaterHabitat" ;
+                     rdfs:comment "Freshwater habitats include bogs, ponds, lakes, rivers and streams. About 3% of Earth's water is freshwater, but this includes the water locked up in the ice caps and trapped in rocks and soil as groundwater. Only a tiny fraction (0.014%) is surface water in the form of rivers, lakes and swamps." ;
                      rdfs:isDefinedBy wo: ;
                      rdfs:label "Freshwater Habitat"@en-gb ;
-                     ns:term_status "testing"^^xsd:string .
+                     ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/Genus
 wo:Genus rdf:type owl:Class ;
          rdfs:subClassOf wo:TaxonRank ;
-         metadata:prefixIRI "wo:Genus"^^xsd:string ;
+         metadata:prefixIRI "wo:Genus" ;
          rdfs:comment "A genus is a scientific way of showing that species are very closed related to each other. In fact the first word of the species' scientific name is its genus. So for lions (Panthera leo), Panthera is the genus and tells us that they are closely related to tigers (Panthera tigris), because they share the name"@en-gb ;
          rdfs:isDefinedBy wo: ;
          rdfs:label "Genus"@en-gb ;
          rdfs:seeAlso <http://en.wikipedia.org/wiki/Genus> ,
                       <http://www.bbc.co.uk/nature/genus> ;
-         ns:term_status "testing"^^xsd:string .
+         ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/Habitat
 wo:Habitat rdf:type owl:Class ;
            rdfs:subClassOf owl:Thing ;
-           metadata:prefixIRI "wo:Habitat"^^xsd:string ;
+           metadata:prefixIRI "wo:Habitat" ;
            rdfs:comment "A habitat, or biome, is the type of environment in which plant and animals live. Habitat is dictated by what kinds of plants grow there, the climate and the geography. Rainforest, coral reefs and the tundra are all habitats where particular kinds of plants and animals might be found."@en-gb ;
            rdfs:isDefinedBy wo: ;
            rdfs:label "Habitat"@en-gb ;
            rdfs:seeAlso <http://en.wikipedia.org/wiki/Habitat> ,
                         <http://www.bbc.co.uk/nature/habitats> ;
-           ns:term_status "testing"^^xsd:string .
+           ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/Kingdom
 wo:Kingdom rdf:type owl:Class ;
            rdfs:subClassOf wo:TaxonRank ;
-           metadata:prefixIRI "wo:Kingdom"^^xsd:string ;
+           metadata:prefixIRI "wo:Kingdom" ;
            rdfs:comment "Kingdoms are the major categories into which scientists divide up all living things. The main kingdoms are animals, plants, fungi and bacteria, although there are others. Each kingdom has its own suite of defining characteristics - for instance plants have rigid cell walls, whilst animals do not."@en-gb ;
            rdfs:isDefinedBy wo: ;
            rdfs:label "Kingdom"@en-gb ;
            rdfs:seeAlso <http://en.wikipedia.org/wiki/Kingdom_%28biology%29> ,
                         <http://www.bbc.co.uk/nature/kingdom> ;
-           ns:term_status "testing"^^xsd:string .
+           ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/MarineHabitat
 wo:MarineHabitat rdf:type owl:Class ;
                  rdfs:subClassOf wo:Habitat ;
-                 metadata:prefixIRI "wo:MarineHabitat"^^xsd:string ;
-                 rdfs:comment "Approximately 71% of the Earth's surface is covered by the oceans, an area of some 223698816km/sq. Although marine life evolved around three billion years before life on land, marine habitats are relatively poorly studied and much of the ocean's depths remains unexplored."^^xsd:string ;
+                 metadata:prefixIRI "wo:MarineHabitat" ;
+                 rdfs:comment "Approximately 71% of the Earth's surface is covered by the oceans, an area of some 223698816km/sq. Although marine life evolved around three billion years before life on land, marine habitats are relatively poorly studied and much of the ocean's depths remains unexplored." ;
                  rdfs:isDefinedBy wo: ;
                  rdfs:label "Marine Habitat"@en-gb ;
-                 ns:term_status "testing"^^xsd:string .
+                 ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/Order
 wo:Order rdf:type owl:Class ;
          rdfs:subClassOf wo:TaxonRank ;
-         metadata:prefixIRI "wo:Order"^^xsd:string ;
+         metadata:prefixIRI "wo:Order" ;
          rdfs:comment "An order is a scientific way to categorise related organisms. An order is a smaller grouping than a class, but bigger than a family or genus. Examples of orders are willows, cockroaches and primates."@en-gb ;
          rdfs:isDefinedBy wo: ;
          rdfs:label "Order"@en-gb ;
          rdfs:seeAlso <http://en.wikipedia.org/wiki/Order_%28biology%29> ,
                       <http://www.bbc.co.uk/nature/order> ;
-         ns:term_status "testing"^^xsd:string .
+         ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/Phylum
 wo:Phylum rdf:type owl:Class ;
           rdfs:subClassOf wo:TaxonRank ;
-          metadata:prefixIRI "wo:Phylum"^^xsd:string ;
+          metadata:prefixIRI "wo:Phylum" ;
           rdfs:comment "A phylum - also known as a division when referring to plants - is a scientfic way of grouping together related organisms. All the members of a phylum have a common ancestor and anatomical similarities. For instance, all the arthropods have external skeletons. Phlya are large groups and are further subdivided into classes, orders, families and so on."@en-gb ;
           rdfs:isDefinedBy wo: ;
           rdfs:label "Phylum"@en-gb ;
           rdfs:seeAlso <http://en.wikipedia.org/wiki/Phylum> ,
                        <http://www.bbc.co.uk/nature/phylum> ;
-          ns:term_status "testing"^^xsd:string .
+          ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/Species
 wo:Species rdf:type owl:Class ;
            rdfs:subClassOf wo:TaxonRank ;
-           metadata:prefixIRI "wo:Species"^^xsd:string ;
+           metadata:prefixIRI "wo:Species" ;
            rdfs:comment "Generic class defining a biological species"@en-gb ;
            rdfs:isDefinedBy wo: ;
            rdfs:label "species"@en-gb ;
            rdfs:seeAlso <http://en.wikipedia.org/wiki/Species> ,
                         <http://www.bbc.co.uk/nature/species> ;
-           ns:term_status "testing"^^xsd:string .
+           ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/TaxonName
 wo:TaxonName rdf:type owl:Class ;
              rdfs:subClassOf owl:Thing ;
              owl:disjointWith wo:TaxonRank ;
-             metadata:prefixIRI "wo:TaxonName"^^xsd:string ;
+             metadata:prefixIRI "wo:TaxonName" ;
              rdfs:comment "A taxonomic name, describing the structure and provenance of a taxonomic name."@en-gb ;
              rdfs:isDefinedBy wo: ;
              rdfs:label "Taxon Name"@en-gb ;
-             ns:term_status "testing"^^xsd:string .
+             ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/TaxonRank
 wo:TaxonRank rdf:type owl:Class ;
              rdfs:subClassOf owl:Thing ;
-             metadata:prefixIRI "wo:TaxonRank"^^xsd:string ;
+             metadata:prefixIRI "wo:TaxonRank" ;
              rdfs:comment "Generic concept for a taxonomic rank such as a Genus or Species."@en-gb ;
              rdfs:isDefinedBy wo: ;
              rdfs:label "Taxonomic Rank"@en-gb ;
              rdfs:seeAlso <http://en.wikipedia.org/wiki/Taxonomic_rank> ;
-             ns:term_status "testing"^^xsd:string .
+             ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/TerrestrialHabitat
 wo:TerrestrialHabitat rdf:type owl:Class ;
                       rdfs:subClassOf wo:Habitat ;
-                      metadata:prefixIRI "wo:TerrestrialHabitat"^^xsd:string ;
-                      rdfs:comment "Terrestrial habitats include forests, grasslands, deserts and rainforests. They are typically defined by factors such as plant structure (trees and grasses), leaf types (eg broadleaf and needleleaf), plant spacing (forest, woodland, savanna) and climate."^^xsd:string ;
+                      metadata:prefixIRI "wo:TerrestrialHabitat" ;
+                      rdfs:comment "Terrestrial habitats include forests, grasslands, deserts and rainforests. They are typically defined by factors such as plant structure (trees and grasses), leaf types (eg broadleaf and needleleaf), plant spacing (forest, woodland, savanna) and climate." ;
                       rdfs:isDefinedBy wo: ;
                       rdfs:label "Terrestrial Habitat"@en-gb ;
-                      ns:term_status "testing"^^xsd:string .
+                      ns:term_status "testing" .
 
 
 ###  http://purl.org/ontology/wo/Class/Mammalia
 <http://purl.org/ontology/wo/Class/Mammalia> rdf:type owl:Class ;
                                              rdfs:subClassOf wo:Class ;
                                              rdfs:comment """The highest class of the subphylum Vertebrata comprising humans and all other animals that nourish their young with milk secreted by mammary glands.
-https://www.merriam-webster.com/dictionary/Elephantidae"""^^xsd:string .
+https://www.merriam-webster.com/dictionary/Elephantidae""" .
 
 
 ###  http://purl.org/ontology/wo/Class/Reptilia
 <http://purl.org/ontology/wo/Class/Reptilia> rdf:type owl:Class ;
                                              rdfs:subClassOf wo:Class ;
-                                             rdfs:comment "Reptilia is a vertebrate animal of a class that includes snakes, lizards, crocodiles, turtles, and tortoises. They are distinguished by having a dry scaly skin and typically laying soft-shelled eggs on land."^^xsd:string .
+                                             rdfs:comment "Reptilia is a vertebrate animal of a class that includes snakes, lizards, crocodiles, turtles, and tortoises. They are distinguished by having a dry scaly skin and typically laying soft-shelled eggs on land." .
 
 
 ###  http://purl.org/ontology/wo/Family/Elephantidae
 <http://purl.org/ontology/wo/Family/Elephantidae> rdf:type owl:Class ;
                                                   rdfs:subClassOf wo:Family ;
                                                   rdfs:comment """ELEPHANTIDAE is a family of bulky mammals (order Proboscidea) comprising the recent elephants and related extinct forms.
-Source: https://www.merriam-webster.com/dictionary/Elephantidae"""^^xsd:string .
+Source: https://www.merriam-webster.com/dictionary/Elephantidae""" .
 
 
 ###  http://purl.org/ontology/wo/Family/Viverridae
 <http://purl.org/ontology/wo/Family/Viverridae> rdf:type owl:Class ;
                                                 rdfs:subClassOf wo:Family ;
-                                                rdfs:isDefinedBy "Viverridae is a family of small to medium-sized, feliform mammals. The viverrids comprise 33 species placed in 14 genera. This family was named and first described by John Edward Gray in 1821. Viverrids occur all over Africa, southern Europe, and South and Southeast Asia, across the Wallace Line"^^xsd:string ,
-                                                                 "https://en.wikipedia.org/wiki/Viverridae"^^xsd:string .
+                                                rdfs:isDefinedBy "Viverridae is a family of small to medium-sized, feliform mammals. The viverrids comprise 33 species placed in 14 genera. This family was named and first described by John Edward Gray in 1821. Viverrids occur all over Africa, southern Europe, and South and Southeast Asia, across the Wallace Line" ,
+                                                                 "https://en.wikipedia.org/wiki/Viverridae" .
 
 
 ###  http://purl.org/ontology/wo/Kingdom/Animalia
@@ -558,21 +807,21 @@ Source: https://www.merriam-webster.com/dictionary/Elephantidae"""^^xsd:string .
                                                rdfs:comment """Animalia is the scientific grouping that includes all animals. Scientists, historians, and others classify similar things together, using a taxonomy.
 
 All members of the kingdom Animalia share three key traits. They are multicellular organisms, and they are all eukaryotic, meaning their cells have membrane-enclosed organelles and a nucleus. All animals are heterotrophic and must feed on other organisms to survive.
-source:https://study.com/learn/lesson/animalia-kingdom-examples-characteristics-facts.html"""^^xsd:string .
+source:https://study.com/learn/lesson/animalia-kingdom-examples-characteristics-facts.html""" .
 
 
 ###  http://purl.org/ontology/wo/Order/Carnivora
 <http://purl.org/ontology/wo/Order/Carnivora> rdf:type owl:Class ;
                                               rdfs:subClassOf wo:Order ;
-                                              rdfs:comment "Carnivora is a monophyletic order of placental mammals consisting of the most recent common ancestor of all cats and dogs, and all descendants of that ancestor. Members of this group are formally referred to as carnivorans, and have evolved to specialize in eating flesh."^^xsd:string ;
-                                              rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Carnivora"^^xsd:string .
+                                              rdfs:comment "Carnivora is a monophyletic order of placental mammals consisting of the most recent common ancestor of all cats and dogs, and all descendants of that ancestor. Members of this group are formally referred to as carnivorans, and have evolved to specialize in eating flesh." ;
+                                              rdfs:isDefinedBy "https://en.wikipedia.org/wiki/Carnivora" .
 
 
 ###  http://purl.org/ontology/wo/Order/Proboscidea
 <http://purl.org/ontology/wo/Order/Proboscidea> rdf:type owl:Class ;
                                                 rdfs:subClassOf wo:Order ;
                                                 rdfs:comment """Any of an order (Proboscidea) of large mammals comprising the elephants and extinct related forms.
-https://www.merriam-webster.com/dictionary/proboscidean"""^^xsd:string .
+https://www.merriam-webster.com/dictionary/proboscidean""" .
 
 
 ###  http://purl.org/ontology/wo/Order/Squamata
@@ -584,7 +833,7 @@ https://www.merriam-webster.com/dictionary/proboscidean"""^^xsd:string .
 <http://purl.org/ontology/wo/Phylum/Chordata> rdf:type owl:Class ;
                                               rdfs:subClassOf wo:Phylum ;
                                               rdfs:comment """A large phylum of animals that includes the vertebrates together with the sea squirts and lancelets. They are distinguished by the possession of a notochord at some stage during their development.
-Source: google.com"""^^xsd:string .
+Source: google.com""" .
 
 
 ###  http://purl.org/ontology/wo/TaxonName/Civettictis
@@ -602,11 +851,6 @@ Source: google.com"""^^xsd:string .
                                      rdfs:subClassOf terms:LicenseDocument .
 
 
-###  http://web.resource.org/cc/Permission
-<http://web.resource.org/cc/Permission> rdf:type owl:Class ;
-                                        rdfs:subClassOf owl:Thing .
-
-
 ###  http://web.resource.org/cc/Prohibition
 <http://web.resource.org/cc/Prohibition> rdf:type owl:Class ;
                                          rdfs:subClassOf owl:Thing .
@@ -622,41 +866,35 @@ Source: google.com"""^^xsd:string .
                                   rdfs:subClassOf owl:Thing .
 
 
-###  http://www.w3.org/2000/01/rdf-schema#Resource
-rdfs:Resource rdf:type owl:Class ;
-              rdfs:subClassOf owl:Thing ;
-              metadata:prefixIRI "rdfs:Resource"^^xsd:string .
-
-
 ###  http://www.w3.org/2001/XMLSchema-datatypes#date
 <http://www.w3.org/2001/XMLSchema-datatypes#date> rdf:type owl:Class ;
                                                   rdfs:subClassOf owl:Thing .
 
 
 ###  http://www.w3.org/2002/07/owl#Thing
-owl:Thing metadata:prefixIRI "owl:Thing"^^xsd:string .
+owl:Thing metadata:prefixIRI "owl:Thing" .
 
 
 ###  http://www.w3.org/2003/01/geo/wgs84_pos#Point
-wgs84_pos:Point rdf:type owl:Class ;
-                rdfs:subClassOf wgs84_pos:SpatialThing .
+<http://www.w3.org/2003/01/geo/wgs84_pos#Point> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> .
 
 
 ###  http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing
-wgs84_pos:SpatialThing rdf:type owl:Class ;
-                       rdfs:subClassOf owl:Thing ;
-                       metadata:prefixIRI "wgs84_pos:SpatialThing"^^xsd:string ;
-                       rdfs:comment """Anything with spatial extent, i.e. size, shape, or position.
+<http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> rdf:type owl:Class ;
+                                                       rdfs:subClassOf owl:Thing ;
+                                                       metadata:prefixIRI "wgs84_pos:SpatialThing" ;
+                                                       rdfs:comment """Anything with spatial extent, i.e. size, shape, or position.
  e.g. people, places, bowling balls, as well as abstract areas like cubes.
-"""^^xsd:string ;
-                       rdfs:label "Spatial Thing"^^xsd:string ,
-                                  "SpatialThing"^^xsd:string .
+""" ;
+                                                       rdfs:label "Spatial Thing" ,
+                                                                  "SpatialThing" .
 
 
 ###  http://www.w3.org/ns/sosa/FeatureOfInterest
 sosa:FeatureOfInterest rdf:type owl:Class ;
                        rdfs:subClassOf owl:Thing ;
-                       metadata:prefixIRI "sosa:FeatureOfInterest"^^xsd:string ;
+                       metadata:prefixIRI "sosa:FeatureOfInterest" ;
                        rdfs:comment "The thing whose property is being estimated or calculated in the course of an Observation to arrive at a Result or whose property is being manipulated by an Actuator, or which is being sampled or transformed in an act of Sampling."@en ;
                        rdfs:isDefinedBy sosa: ;
                        rdfs:label "Feature Of Interest"@en ;
@@ -667,7 +905,7 @@ sosa:FeatureOfInterest rdf:type owl:Class ;
 ###  http://www.w3.org/ns/sosa/ObservableProperty
 sosa:ObservableProperty rdf:type owl:Class ;
                         rdfs:subClassOf owl:Thing ;
-                        metadata:prefixIRI "sosa:ObservableProperty"^^xsd:string ;
+                        metadata:prefixIRI "sosa:ObservableProperty" ;
                         rdfs:comment "An observable quality (property, characteristic) of a FeatureOfInterest."@en ;
                         rdfs:isDefinedBy sosa: ;
                         rdfs:label "Observable Property"@en ;
@@ -678,7 +916,7 @@ sosa:ObservableProperty rdf:type owl:Class ;
 ###  http://www.w3.org/ns/sosa/Observation
 sosa:Observation rdf:type owl:Class ;
                  rdfs:subClassOf owl:Thing ;
-                 metadata:prefixIRI "sosa:Observation"^^xsd:string ;
+                 metadata:prefixIRI "sosa:Observation" ;
                  rdfs:comment "Act of carrying out an (Observation) Procedure to estimate or calculate a value of a property of a FeatureOfInterest. Links to a Sensor to describe what made the Observation and how; links to an ObservableProperty to describe what the result is an estimate of, and to a FeatureOfInterest to detail what that property was associated with."@en ;
                  rdfs:isDefinedBy sosa: ;
                  rdfs:label "Observation"@en ;
@@ -689,17 +927,17 @@ sosa:Observation rdf:type owl:Class ;
 ###  http://www.w3.org/ns/sosa/Platform
 sosa:Platform rdf:type owl:Class ;
               rdfs:subClassOf owl:Thing ;
-              metadata:prefixIRI "sosa:Platform"^^xsd:string ;
-              rdfs:comment "A Platform is an entity that hosts other entities, particularly Sensors, Actuators, Samplers, and other Platforms.\"@en ;"^^xsd:string ;
-              rdfs:isDefinedBy "sosa"^^xsd:string ;
-              skos:definition "\"A Platform is an entity that hosts other entities, particularly Sensors, Actuators, Samplers, and other Platforms.\"@en ;"^^xsd:string ;
-              skos:example "\"A post, buoy, vehicle, ship, aircraft, satellite, cell-phone, human or animal may act as platforms for (technical or biological) sensors or actuators.\"@en ;"^^xsd:string .
+              metadata:prefixIRI "sosa:Platform" ;
+              rdfs:comment "A Platform is an entity that hosts other entities, particularly Sensors, Actuators, Samplers, and other Platforms.\"@en ;" ;
+              rdfs:isDefinedBy "sosa" ;
+              skos:definition "\"A Platform is an entity that hosts other entities, particularly Sensors, Actuators, Samplers, and other Platforms.\"@en ;" ;
+              skos:example "\"A post, buoy, vehicle, ship, aircraft, satellite, cell-phone, human or animal may act as platforms for (technical or biological) sensors or actuators.\"@en ;" .
 
 
 ###  http://www.w3.org/ns/sosa/Sensor
 sosa:Sensor rdf:type owl:Class ;
             rdfs:subClassOf owl:Thing ;
-            metadata:prefixIRI "sosa:Sensor"^^xsd:string ;
+            metadata:prefixIRI "sosa:Sensor" ;
             rdfs:comment "Device, agent (including humans), or software (simulation) involved in, or implementing, a Procedure. Sensors respond to a stimulus, e.g., a change in the environment, or input data composed from the results of prior Observations, and generate a Result. Sensors can be hosted by Platforms."@en ;
             rdfs:isDefinedBy sosa: ;
             rdfs:label "Sensor"@en ;
@@ -725,417 +963,441 @@ sosa:Sensor rdf:type owl:Class ;
 <http://www.DGFC/ontology/2021/1.0#C:P> rdf:type owl:NamedIndividual ,
                                                  sosa:ObservableProperty ;
                                         sosa:hasSimpleResult "0.12"^^xsd:float ;
-                                        skos:definition "carbon to inorganic phosphorus ratio of the soil sample"^^xsd:string .
+                                        skos:definition "carbon to inorganic phosphorus ratio of the soil sample" .
+
+
+###  http://www.ontology/ns/foo#Clay
+foo:Clay rdf:type owl:NamedIndividual ,
+                  sosa:ObservableProperty ;
+         foo:hasClay "2.3"^^xsd:float .
 
 
 ###  http://www.ontology/ns/foo#ID
-:ID rdf:type owl:NamedIndividual ,
-             sosa:Observation ;
-    sosa:hasResult "\"foo_\""^^xsd:string .
+foo:ID rdf:type owl:NamedIndividual ,
+                sosa:Observation ;
+       sosa:hasResult "\"foo_\"" .
+
+
+###  http://www.ontology/ns/foo#LocalDate
+foo:LocalDate rdf:type owl:NamedIndividual ,
+                       sosa:ObservableProperty ;
+              sosa:resultTime "2005-11-12T12:05:05"^^xsd:dateTime .
+
+
+###  http://www.ontology/ns/foo#LocalTime
+foo:LocalTime rdf:type owl:NamedIndividual ;
+              sosa:resultTime "2005-11-12T12:05:05"^^xsd:dateTime .
+
+
+###  http://www.ontology/ns/foo#Silt
+foo:Silt rdf:type owl:NamedIndividual .
 
 
 ###  http://www.ontology/ns/foo/1.1#Bulk_Density
-foo:Bulk_Density rdf:type owl:NamedIndividual ,
-                          sosa:ObservableProperty ;
-                 foo:hasValue "0.6"^^xsd:float ;
-                 skos:definition "Measured Bulk Density of soil sample"^^xsd:string .
+foo1:Bulk_Density rdf:type owl:NamedIndividual ,
+                           sosa:ObservableProperty ;
+                  foo1:hasValue "0.6"^^xsd:float ;
+                  skos:definition "Measured Bulk Density of soil sample" .
 
 
 ###  http://www.ontology/ns/foo/1.1#CameraTrap
-foo:CameraTrap rdf:type owl:NamedIndividual ,
-                        sosa:Sensor ;
-               sosa:hasFeatureOfInterest foo:image ;
-               sosa:observedProperty foo:Name ,
-                                     foo:Path ,
-                                     foo:localDate ,
-                                     foo:localTime ,
-                                     foo:make ,
-                                     foo:model ;
-               sosa:hasResult "Image"^^xsd:string ;
-               rdfs:comment "Wildlife cameras with embeded sensors to capture moving objects."^^xsd:string .
+foo1:CameraTrap rdf:type owl:NamedIndividual ,
+                         sosa:Sensor ;
+                sosa:hasFeatureOfInterest foo1:image ;
+                sosa:observedProperty foo1:Name ,
+                                      foo1:Path ,
+                                      foo1:localDate ,
+                                      foo1:localTime ,
+                                      foo1:make ,
+                                      foo1:model ;
+                foo:hasMake "\"make\"" ;
+                foo:hasModel "model" ;
+                foo:hasPath "dfgcimage.org"^^xsd:anyURI ;
+                sosa:hasResult "Image" ;
+                rdfs:comment "Wildlife cameras with embeded sensors to capture moving objects." .
 
 
 ###  http://www.ontology/ns/foo/1.1#Count
-foo:Count rdf:type owl:NamedIndividual ,
-                   sosa:ObservableProperty ;
-          sosa:hasSimpleResult 1 ;
-          rdfs:comment "GPS collar dataset's observation count per dataset"^^xsd:string .
+foo1:Count rdf:type owl:NamedIndividual ,
+                    sosa:ObservableProperty ;
+           foo:hasCount 1 ;
+           rdfs:comment "GPS collar dataset's observation count per dataset" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Cov
-foo:Cov rdf:type owl:NamedIndividual ,
-                 sosa:ObservableProperty ;
-        sosa:hasSimpleResult 3 ;
-        rdfs:comment "GPS collar dataset: satellite coverage, the higher number the stronger coverage."^^xsd:string .
+foo1:Cov rdf:type owl:NamedIndividual ,
+                  sosa:ObservableProperty ;
+         foo:hasCov 1 ;
+         rdfs:comment "GPS collar dataset: satellite coverage, the higher number the stronger coverage." .
 
 
 ###  http://www.ontology/ns/foo/1.1#DGFC_ID
-foo:DGFC_ID rdf:type owl:NamedIndividual ,
-                     sosa:ObservableProperty ;
-            sosa:hasSimpleResult "\"111\""^^xsd:string ;
-            skos:definition "An identifier that is unique for GPS collar sensor observation"^^xsd:string .
+foo1:DGFC_ID rdf:type owl:NamedIndividual ,
+                      sosa:ObservableProperty ;
+             sosa:hasResult "ID" ;
+             skos:definition "An identifier that is unique for GPS collar sensor observation" .
 
 
 ###  http://www.ontology/ns/foo/1.1#DateTime
-foo:DateTime rdf:type owl:NamedIndividual ,
-                      sosa:ObservableProperty ;
-             sosa:resultTime "2013-07-06T21:03:17"^^xsd:dateTime ;
-             rdfs:comment "The date and time of the GPS collar observation"^^xsd:string .
+foo1:DateTime rdf:type owl:NamedIndividual ,
+                       sosa:ObservableProperty ;
+              sosa:resultTime "2013-07-06T21:03:17"^^xsd:dateTime ;
+              rdfs:comment "The date and time of the GPS collar observation" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Direction
-foo:Direction rdf:type owl:NamedIndividual ,
-                       sosa:ObservableProperty ;
-              sosa:hasSimpleResult "90.0"^^xsd:float ;
-              rdfs:comment "Direction that the elephant is travelling at the current data collection instant."^^xsd:string .
+foo1:Direction rdf:type owl:NamedIndividual ,
+                        sosa:ObservableProperty ;
+               foo:hasDirection "0.4"^^xsd:float ;
+               rdfs:comment "Direction that the elephant is travelling at the current data collection instant." .
 
 
 ###  http://www.ontology/ns/foo/1.1#Distance
-foo:Distance rdf:type owl:NamedIndividual ,
-                      sosa:ObservableProperty ;
-             sosa:hasSimpleResult "200.0"^^xsd:float ;
-             rdfs:comment "Distance (m) travelled from the previous data collection instant to the present."^^xsd:string .
+foo1:Distance rdf:type owl:NamedIndividual ,
+                       sosa:ObservableProperty ;
+              foo:hasDistance "1.2"^^xsd:float ;
+              rdfs:comment "Distance (m) travelled from the previous data collection instant to the present." .
 
 
 ###  http://www.ontology/ns/foo/1.1#Disturbance
-foo:Disturbance rdf:type owl:NamedIndividual ,
-                         sosa:ObservableProperty ;
-                sosa:hasSimpleResult "Logged"^^xsd:string ;
-                skos:definition "degree of logging at the site, on of \"Old-growth\", \"Twic logged\", Logged\" (when number of logging operations unknown)"^^xsd:string .
+foo1:Disturbance rdf:type owl:NamedIndividual ,
+                          sosa:ObservableProperty ;
+                 foo:hasDisturbance "logged" ;
+                 skos:definition "degree of logging at the site, on of \"Old-growth\", \"Twic logged\", Logged\" (when number of logging operations unknown)" .
 
 
 ###  http://www.ontology/ns/foo/1.1#ElephasMaximus
-foo:ElephasMaximus rdf:type owl:NamedIndividual ,
-                            sosa:FeatureOfInterest .
+foo1:ElephasMaximus rdf:type owl:NamedIndividual ,
+                             sosa:FeatureOfInterest .
 
 
 ###  http://www.ontology/ns/foo/1.1#Elevation_masl
-foo:Elevation_masl rdf:type owl:NamedIndividual ,
-                            sosa:ObservableProperty ;
-                   sosa:hasSimpleResult "15.5"^^xsd:float ;
-                   rdfs:comment "Elevation at the plot centre, in metres above sea level"^^xsd:string .
+foo1:Elevation_masl rdf:type owl:NamedIndividual ,
+                             sosa:ObservableProperty ;
+                    foo:hasElevation_masi "5.2"^^xsd:float ;
+                    rdfs:comment "Elevation at the plot centre, in metres above sea level" .
 
 
 ###  http://www.ontology/ns/foo/1.1#ExtTemp
-foo:ExtTemp rdf:type owl:NamedIndividual ,
-                     sosa:ObservableProperty ;
-            sosa:hasSimpleResult "21.0"^^xsd:double ;
-            rdfs:comment "External Temperature of the elephant at data collection instant"^^xsd:string .
+foo1:ExtTemp rdf:type owl:NamedIndividual ,
+                      sosa:ObservableProperty ;
+             foo:hasTemp "27.0"^^xsd:double ;
+             rdfs:comment "External Temperature of the elephant at data collection instant" .
 
 
 ###  http://www.ontology/ns/foo/1.1#First_planting_nearest_OP
-foo:First_planting_nearest_OP rdf:type owl:NamedIndividual ;
-                              sosa:hasSimpleResult 2005 ;
-                              skos:definition "Year palm adjacent to the forest site"^^xsd:string .
+foo1:First_planting_nearest_OP rdf:type owl:NamedIndividual ;
+                               foo:hasFirst_planning_nearest_OP "2005" ;
+                               skos:definition "Year palm adjacent to the forest site" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Forest_type
-foo:Forest_type rdf:type owl:NamedIndividual ,
-                         sosa:ObservableProperty ;
-                sosa:hasSimpleResult "HCV High Conservation Value"^^xsd:string ;
-                skos:definition "type of forest site, one of \"Continous primary\", \"Continous logged\", \"HCV\" (i.e., High Conservation Value; fragmented sites in oil palm plantations)"^^xsd:string .
+foo1:Forest_type rdf:type owl:NamedIndividual ,
+                          sosa:ObservableProperty ;
+                 sosa:hasSimpleResult "HCV High Conservation Value" ;
+                 skos:definition "type of forest site, one of \"Continous primary\", \"Continous logged\", \"HCV\" (i.e., High Conservation Value; fragmented sites in oil palm plantations)" .
 
 
 ###  http://www.ontology/ns/foo/1.1#GMTDate
-foo:GMTDate rdf:type owl:NamedIndividual ,
-                     sosa:ObservableProperty ;
-            sosa:resultTime "2014-04-12T13:20:00"^^xsd:dateTime ;
-            skos:definition "The GMT date in Sabah, Malaysia when the GPS collar collected  its readings."^^xsd:string .
+foo1:GMTDate rdf:type owl:NamedIndividual ,
+                      sosa:ObservableProperty ;
+             sosa:resultTime "2014-04-12T13:20:00"^^xsd:dateTime ;
+             skos:definition "The GMT date in Sabah, Malaysia when the GPS collar collected  its readings." .
 
 
 ###  http://www.ontology/ns/foo/1.1#GMTTime
-foo:GMTTime rdf:type owl:NamedIndividual ,
-                     sosa:ObservableProperty ;
-            sosa:resultTime "2014-04-12T13:20:00"^^xsd:dateTime ;
-            rdfs:comment "The current local date in Sabah, Malaysia when the image collects its readings."^^xsd:string .
+foo1:GMTTime rdf:type owl:NamedIndividual ,
+                      sosa:ObservableProperty ;
+             sosa:resultTime "2014-04-12T13:20:00"^^xsd:dateTime ;
+             rdfs:comment "The current local date in Sabah, Malaysia when the image collects its readings." .
 
 
 ###  http://www.ontology/ns/foo/1.1#HDOP
-foo:HDOP rdf:type owl:NamedIndividual ,
-                  sosa:ObservableProperty ;
-         sosa:hasSimpleResult 1 ;
-         rdfs:comment "Horizontal Dilution of Precision (HDOP) measures GPS accuracy in Latitude and Longitude. The lower value the better precision."^^xsd:string .
+foo1:HDOP rdf:type owl:NamedIndividual ,
+                   sosa:ObservableProperty ;
+          sosa:hasSimpleResult 1 ;
+          rdfs:comment "Horizontal Dilution of Precision (HDOP) measures GPS accuracy in Latitude and Longitude. The lower value the better precision." .
 
 
 ###  http://www.ontology/ns/foo/1.1#Horizon
-foo:Horizon rdf:type owl:NamedIndividual ,
-                     sosa:ObservableProperty ;
-            sosa:hasSimpleResult "Sample_Name"^^xsd:string ;
-            skos:definition "Soil horizon sampled"^^xsd:string .
+foo1:Horizon rdf:type owl:NamedIndividual ,
+                      sosa:ObservableProperty ;
+             sosa:hasSimpleResult "Sample_Name" ;
+             skos:definition "Soil horizon sampled" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Horizon_Depth
-foo:Horizon_Depth rdf:type owl:NamedIndividual ,
-                           sosa:ObservableProperty ;
-                  sosa:hasSimpleResult "2.5"^^xsd:float ;
-                  skos:definition "Depth of the organic soil horizon sampled"^^xsd:string .
+foo1:Horizon_Depth rdf:type owl:NamedIndividual ,
+                            sosa:ObservableProperty ;
+                   sosa:hasSimpleResult "2.5"^^xsd:float ;
+                   skos:definition "Depth of the organic soil horizon sampled" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Identifier
-foo:Identifier rdf:type owl:NamedIndividual ,
-                        sosa:ObservableProperty ,
-                        sosa:Observation ;
-               sosa:hasFeatureOfInterest foo:image ;
-               sosa:hasResult "DGFC_"^^xsd:string ;
-               skos:definition "Unique Soil Sample Identifier"^^xsd:string .
+foo1:Identifier rdf:type owl:NamedIndividual ,
+                         sosa:ObservableProperty ,
+                         sosa:Observation ;
+                sosa:hasFeatureOfInterest foo1:image ;
+                sosa:hasResult "DGFC_" ;
+                skos:definition "Unique Soil Sample Identifier" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Land_Use
-foo:Land_Use rdf:type owl:NamedIndividual ,
-                      sosa:ObservableProperty ;
-             sosa:hasSimpleResult "Unlogged"^^xsd:string ;
-             skos:definition "Land use of the study plots: Unlogged tropical forest, Logged tropical forest or Oil palm plantation"^^xsd:string .
+foo1:Land_Use rdf:type owl:NamedIndividual ,
+                       sosa:ObservableProperty ;
+              foo:hasLand_Use "plants" ;
+              sosa:hasSimpleResult "Unlogged" ;
+              skos:definition "Land use of the study plots: Unlogged tropical forest, Logged tropical forest or Oil palm plantation" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Lat
-foo:Lat rdf:type owl:NamedIndividual ,
-                 wgs84_pos:Point ;
-        wgs84_pos:lat "5.111245"^^xsd:float ;
-        rdfs:comment "The geographical latitude of the observation location"^^xsd:string .
+foo1:Lat rdf:type owl:NamedIndividual ,
+                  <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ;
+         rdfs:comment "The geographical latitude of the observation location" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Long
-foo:Long rdf:type owl:NamedIndividual ,
-                  wgs84_pos:Point ;
-         wgs84_pos:long "118.11745"^^xsd:float ;
-         rdfs:comment "The geographical longitude of a sensor observation location"^^xsd:string .
+foo1:Long rdf:type owl:NamedIndividual ,
+                   <http://www.w3.org/2003/01/geo/wgs84_pos#Point> ;
+          rdfs:comment "The geographical longitude of a sensor observation location" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Loxodonta
-foo:Loxodonta rdf:type owl:NamedIndividual ,
-                       sosa:FeatureOfInterest ;
-              rdfs:comment "African elephant"^^xsd:string .
+foo1:Loxodonta rdf:type owl:NamedIndividual ,
+                        sosa:FeatureOfInterest ;
+               rdfs:comment "African elephant" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Mustelidae
-foo:Mustelidae rdf:type owl:NamedIndividual ,
-                        sosa:FeatureOfInterest ;
-               wo:family foo:Mustelidae .
+foo1:Mustelidae rdf:type owl:NamedIndividual ,
+                         sosa:FeatureOfInterest ;
+                wo:family foo1:Mustelidae .
 
 
 ###  http://www.ontology/ns/foo/1.1#Name
-foo:Name rdf:type owl:NamedIndividual ,
-                  sosa:ObservableProperty ;
-         sosa:hasSimpleResult "Imahe_name"^^xsd:string ;
-         skos:definition "The named assigned to an image at collection time"^^xsd:string .
+foo1:Name rdf:type owl:NamedIndividual ,
+                   sosa:ObservableProperty ;
+          foo:hasName "Imahe_name" ;
+          skos:definition "The named assigned to an image at collection time" .
 
 
 ###  http://www.ontology/ns/foo/1.1#PDOP
-foo:PDOP rdf:type owl:NamedIndividual ,
-                  sosa:ObservableProperty ;
-         rdfs:comment "Positional Dilution of Precision (DDOP) describes the error caused by the relative position of the GPS satellites. The more signals a GPS reciever can \"see\" (speard vs near each other), the more precise it can be."^^xsd:string .
+foo1:PDOP rdf:type owl:NamedIndividual ,
+                   sosa:ObservableProperty ;
+          foo:PDOP 3 ;
+          rdfs:comment "Positional Dilution of Precision (DDOP) describes the error caused by the relative position of the GPS satellites. The more signals a GPS reciever can \"see\" (speard vs near each other), the more precise it can be." .
 
 
 ###  http://www.ontology/ns/foo/1.1#Path
-foo:Path rdf:type owl:NamedIndividual ;
-         sosa:hasSimpleResult ""^^xsd:anyURI ;
-         skos:definition "The URI to point at the location of the image in secure cloud"^^xsd:string .
+foo1:Path rdf:type owl:NamedIndividual ;
+          foo:hasPath "example.com"^^xsd:anyURI ;
+          skos:definition "The URI to point at the location of the image in secure cloud" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Plot_Name
-foo:Plot_Name rdf:type owl:NamedIndividual ;
-              sosa:hasSimpleResult ""^^xsd:string ;
-              skos:definition "Name of the 1 Ha plot sampled"^^xsd:string .
+foo1:Plot_Name rdf:type owl:NamedIndividual ;
+               foo:hasPlot_Name "NAME" ;
+               skos:definition "Name of the 1 Ha plot sampled" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Replanting_nearest_OP
-foo:Replanting_nearest_OP rdf:type owl:NamedIndividual ,
-                                   sosa:ObservableProperty ;
-                          sosa:hasSimpleResult 2008 ;
-                          skos:definition "Year of any replanting of oil palm adjacent to the forest site (fragmented sites where adjacent oil palm had undergone a second round of planting)"^^xsd:string .
+foo1:Replanting_nearest_OP rdf:type owl:NamedIndividual ,
+                                    sosa:ObservableProperty ;
+                           foo:hasReplanting_nearest_OP "2008" ;
+                           skos:definition "Year of any replanting of oil palm adjacent to the forest site (fragmented sites where adjacent oil palm had undergone a second round of planting)" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Site
-foo:Site rdf:type owl:NamedIndividual ,
-                  sosa:FeatureOfInterest ;
-         sosa:hasSimpleResult "\"Valley\""^^xsd:string ;
-         skos:definition "Geographical area/site which samples were taken from"^^xsd:string .
+foo1:Site rdf:type owl:NamedIndividual ,
+                   sosa:FeatureOfInterest ;
+          sosa:hasSimpleResult "\"Valley\"" ;
+          skos:definition "Geographical area/site which samples were taken from" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Site_code
-foo:Site_code rdf:type owl:NamedIndividual ,
-                       sosa:ObservableProperty ;
-              sosa:hasSimpleResult 18 ;
-              skos:definition "code for the study site, in the format Fa (where a can be 1-18)"^^xsd:string .
+foo1:Site_code rdf:type owl:NamedIndividual ,
+                        sosa:ObservableProperty ;
+               sosa:hasSimpleResult 18 ;
+               skos:definition "code for the study site, in the format Fa (where a can be 1-18)" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Site_name
-foo:Site_name rdf:type owl:NamedIndividual ,
-                       sosa:ObservableProperty ;
-              sosa:hasSimpleResult "Sabahmas"^^xsd:string ;
-              skos:definition "name of the study site"^^xsd:string .
+foo1:Site_name rdf:type owl:NamedIndividual ,
+                        sosa:ObservableProperty ;
+               foo:hasSite_name "Sabahmas" ;
+               skos:definition "name of the study site" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Site_plot_code
-foo:Site_plot_code rdf:type owl:NamedIndividual ,
-                            sosa:ObservableProperty ;
-                   sosa:hasSimpleResult 3 ;
-                   skos:definition "code for the study site and plot at the site, in the format FaPb (where a refers to site code, and can be 1-18; and b refers to plot code, and can be 1-3)"^^xsd:string .
+foo1:Site_plot_code rdf:type owl:NamedIndividual ,
+                             sosa:ObservableProperty ;
+                    foo:hasSite_plot_code 3 ;
+                    skos:definition "code for the study site and plot at the site, in the format FaPb (where a refers to site code, and can be 1-18; and b refers to plot code, and can be 1-3)" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Soil
-foo:Soil rdf:type owl:NamedIndividual ,
-                  sosa:FeatureOfInterest ;
-         rdfs:comment "Soil or dirt, is a mixture of organic matters, minerals, ases, liquids, and organisms that collectively support life."^^xsd:string .
+foo1:Soil rdf:type owl:NamedIndividual ,
+                   sosa:FeatureOfInterest ;
+          rdfs:comment "Soil or dirt, is a mixture of organic matters, minerals, ases, liquids, and organisms that collectively support life." .
 
 
 ###  http://www.ontology/ns/foo/1.1#Soil_Moisture
-foo:Soil_Moisture rdf:type owl:NamedIndividual ,
-                           sosa:ObservableProperty ;
-                  sosa:hasSimpleResult ""^^xsd:string ;
-                  skos:definition "Gravimetric soil moisture"^^xsd:string .
+foo1:Soil_Moisture rdf:type owl:NamedIndividual ,
+                            sosa:ObservableProperty ;
+                   foo:hasMoisture 225 ;
+                   skos:definition "Gravimetric soil moisture" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Soil_Sensor
-foo:Soil_Sensor rdf:type owl:NamedIndividual ,
-                         sosa:Sensor ;
-                sosa:hasFeatureOfInterest foo:Soil ;
-                sosa:observedProperty <http://www.DGFC/ontology/2021/1.0#C:P> ,
-                                      foo:Bulk_Density ,
-                                      foo:Horizon ,
-                                      foo:Horizon_Depth ,
-                                      foo:Land_Use ,
-                                      foo:Plot_Name ,
-                                      foo:Site ,
-                                      foo:Soil_Moisture ,
-                                      foo:Soil_pH ,
-                                      foo:Subplot ,
-                                      foo:inorganic_P ,
-                                      foo:total_C ,
-                                      foo:total_N ,
-                                      foo:C:N ;
-                rdfs:comment """Soil sensor data consist of soil properties tropical forests in Sabah, Malaysia. 
-The data is a contribution from the BALI collaboration, which is financed by the UK's Natural Environment Research Council (NERC)."""^^xsd:string .
+foo1:Soil_Sensor rdf:type owl:NamedIndividual ,
+                          sosa:Sensor ;
+                 sosa:hasFeatureOfInterest foo1:Soil ;
+                 sosa:observedProperty <http://www.DGFC/ontology/2021/1.0#C:P> ,
+                                       foo1:Bulk_Density ,
+                                       foo1:Horizon ,
+                                       foo1:Horizon_Depth ,
+                                       foo1:Land_Use ,
+                                       foo1:Plot_Name ,
+                                       foo1:Site ,
+                                       foo1:Soil_Moisture ,
+                                       foo1:Soil_pH ,
+                                       foo1:Subplot ,
+                                       foo1:inorganic_P ,
+                                       foo1:total_C ,
+                                       foo1:total_N ,
+                                       foo1:C:N ;
+                 rdfs:comment """Soil sensor data consist of soil properties tropical forests in Sabah, Malaysia. 
+The data is a contribution from the BALI collaboration, which is financed by the UK's Natural Environment Research Council (NERC).""" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Soil_identifier
-foo:Soil_identifier rdf:type owl:NamedIndividual ,
-                             sosa:ObservableProperty ;
-                    sosa:hasSimpleResult "\" \""^^xsd:string ;
-                    rdfs:comment "Unique observation identifier, collected over a set time interval."^^xsd:string .
+foo1:Soil_identifier rdf:type owl:NamedIndividual ,
+                              sosa:ObservableProperty ;
+                     sosa:hasResult "\" \"" ;
+                     rdfs:comment "Unique observation identifier, collected over a set time interval." .
 
 
 ###  http://www.ontology/ns/foo/1.1#Soil_pH
-foo:Soil_pH rdf:type owl:NamedIndividual ,
-                     sosa:ObservableProperty ;
-            sosa:hasSimpleResult "4.87"^^xsd:float ;
-            skos:definition "Measured pH of the soil sample"^^xsd:string .
+foo1:Soil_pH rdf:type owl:NamedIndividual ,
+                      sosa:ObservableProperty ;
+             foo:hasSoil_pH "4.87"^^xsd:float ;
+             skos:definition "Measured pH of the soil sample" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Source_of_dates
-foo:Source_of_dates rdf:type owl:NamedIndividual ,
-                             sosa:ObservableProperty ;
-                    sosa:hasSimpleResult ""^^xsd:string ;
-                    skos:definition "source of \"First_planting_nearest_OP\""^^xsd:string .
+foo1:Source_of_dates rdf:type owl:NamedIndividual ,
+                              sosa:ObservableProperty ;
+                     foo:Source_of_dates "string" ;
+                     skos:definition "source of \"First_planting_nearest_OP\"" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Speed
-foo:Speed rdf:type owl:NamedIndividual ,
-                   sosa:ObservableProperty ;
-          sosa:hasSimpleResult "35.5"^^xsd:float ;
-          rdfs:comment "Speed of the elephant at current data collection instant."^^xsd:string .
+foo1:Speed rdf:type owl:NamedIndividual ,
+                    sosa:ObservableProperty ;
+           foo:hasSpeed "35.5"^^xsd:float ;
+           rdfs:comment "Speed of the elephant at current data collection instant." .
 
 
 ###  http://www.ontology/ns/foo/1.1#Subplot
-foo:Subplot rdf:type owl:NamedIndividual ;
-            sosa:hasSimpleResult ""^^xsd:string ;
-            skos:definition "Number of the subplot sampled within each 1 Ha plot Numeric"^^xsd:string .
+foo1:Subplot rdf:type owl:NamedIndividual ;
+             foo:hasSubplot "subplot" ;
+             skos:definition "Number of the subplot sampled within each 1 Ha plot Numeric" .
 
 
 ###  http://www.ontology/ns/foo/1.1#Survey_date
-foo:Survey_date rdf:type owl:NamedIndividual ,
-                         sosa:ObservableProperty ;
-                sosa:hasSimpleResult "12/12/2008"^^xsd:string ;
-                skos:definition "date of field data collection at the plot, in the plot, in the format dd/mm/yyyy. Note that in some cases measurements were taken on more than one date for a single plot; see the dates provided in the seperate vegetation datasets for the precise date of particular vegetation data collection."^^xsd:string .
+foo1:Survey_date rdf:type owl:NamedIndividual ,
+                          sosa:ObservableProperty ;
+                 foo:hasLocalDate "" ;
+                 skos:definition "date of field data collection at the plot, in the plot, in the format dd/mm/yyyy. Note that in some cases measurements were taken on more than one date for a single plot; see the dates provided in the seperate vegetation datasets for the precise date of particular vegetation data collection." .
 
 
 ###  http://www.ontology/ns/foo/1.1#Temperature
-foo:Temperature rdf:type owl:NamedIndividual ,
-                         sosa:ObservableProperty ;
-                sosa:hasSimpleResult "21.0"^^xsd:double ;
-                rdfs:comment "Estimate temperature of the elephant in Celsius at data collection instant."^^xsd:string .
+foo1:Temperature rdf:type owl:NamedIndividual ,
+                          sosa:ObservableProperty ;
+                 foo:hasTemperature "21.0"^^xsd:double ;
+                 rdfs:comment "Estimate temperature of the elephant in Celsius at data collection instant." .
 
 
 ###  http://www.ontology/ns/foo/1.1#Vegetation
-foo:Vegetation rdf:type owl:NamedIndividual ,
-                        sosa:FeatureOfInterest .
+foo1:Vegetation rdf:type owl:NamedIndividual ,
+                         sosa:FeatureOfInterest .
 
 
 ###  http://www.ontology/ns/foo/1.1#Years_since_frag
-foo:Years_since_frag rdf:type owl:NamedIndividual ,
-                              sosa:ObservableProperty ;
-                     sosa:hasSimpleResult "2017"^^xsd:string ;
-                     skos:definition "Years since fragmentation at time of data collection. i.e., 2017 \"First_planting_nearest_OP\" (fragmented sites only)"^^xsd:string .
+foo1:Years_since_frag rdf:type owl:NamedIndividual ,
+                               sosa:ObservableProperty ;
+                      foo:hasYears_since_frag "2017" ;
+                      skos:definition "Years since fragmentation at time of data collection. i.e., 2017 \"First_planting_nearest_OP\" (fragmented sites only)" .
 
 
 ###  http://www.ontology/ns/foo/1.1#image
-foo:image rdf:type owl:NamedIndividual ,
-                   sosa:FeatureOfInterest ,
-                   <http://xmlns.com/foaf/0.1/Image> ;
-          sosa:isFeatureOfInterestOf foo:Identifier .
+foo1:image rdf:type owl:NamedIndividual ,
+                    sosa:FeatureOfInterest ,
+                    <http://xmlns.com/foaf/0.1/Image> ;
+           sosa:isFeatureOfInterestOf foo1:Identifier .
 
 
 ###  http://www.ontology/ns/foo/1.1#inorganic_P
-foo:inorganic_P rdf:type owl:NamedIndividual ,
-                         sosa:ObservableProperty ;
-                sosa:hasSimpleResult "36.65"^^xsd:float ;
-                skos:definition "inorganic/soluble phosphorus concentration of the soil sample"^^xsd:string .
+foo1:inorganic_P rdf:type owl:NamedIndividual ,
+                          sosa:ObservableProperty ;
+                 sosa:hasSimpleResult "36.65"^^xsd:float ;
+                 skos:definition "inorganic/soluble phosphorus concentration of the soil sample" .
 
 
 ###  http://www.ontology/ns/foo/1.1#localDate
-foo:localDate rdf:type owl:NamedIndividual ,
-                       sosa:ObservableProperty ;
-              sosa:resultTime "2014-04-12T13:20:00-05:00"^^xsd:dateTime ;
-              skos:definition "The current local date in Sabah, Malaysia when the image collects its readings."^^xsd:string .
+foo1:localDate rdf:type owl:NamedIndividual ,
+                        sosa:ObservableProperty ;
+               sosa:resultTime "2014-04-12T13:20:00-05:00"^^xsd:dateTime ;
+               skos:definition "The current local date in Sabah, Malaysia when the image collects its readings." .
 
 
 ###  http://www.ontology/ns/foo/1.1#localTime
-foo:localTime rdf:type owl:NamedIndividual ,
-                       sosa:ObservableProperty ;
-              sosa:resultTime "2014-04-12T13:20:00"^^xsd:dateTime ;
-              skos:definition "The current local time in Sabah, Malaysia when the image collects its readings."^^xsd:string .
+foo1:localTime rdf:type owl:NamedIndividual ,
+                        sosa:ObservableProperty ;
+               sosa:resultTime "2014-04-12T13:20:00"^^xsd:dateTime ;
+               skos:definition "The current local time in Sabah, Malaysia when the image collects its readings." .
 
 
 ###  http://www.ontology/ns/foo/1.1#make
-foo:make rdf:type owl:NamedIndividual ,
-                  sosa:ObservableProperty ;
-         sosa:hasSimpleResult "Reckno"^^xsd:string ;
-         skos:definition "The make of the trail camera used to capture the image"^^xsd:string .
+foo1:make rdf:type owl:NamedIndividual ,
+                   sosa:ObservableProperty ;
+          foo:hasMake "Reckno" ;
+          skos:definition "The make of the trail camera used to capture the image" .
 
 
 ###  http://www.ontology/ns/foo/1.1#model
-foo:model rdf:type owl:NamedIndividual ,
-                   sosa:ObservableProperty ;
-          sosa:hasSimpleResult "\"model\""^^xsd:string ;
-          skos:definition "The model of the trail camera used to capture the image"^^xsd:string .
+foo1:model rdf:type owl:NamedIndividual ,
+                    sosa:ObservableProperty ;
+           foo:hasModel "\"model\"" ;
+           skos:definition "The model of the trail camera used to capture the image" .
 
 
 ###  http://www.ontology/ns/foo/1.1#timestamp
-foo:timestamp rdf:type owl:NamedIndividual ,
-                       sosa:ObservableProperty ;
-              sosa:resultTime "2014-04-12T13:20:00"^^xsd:dateTime ;
-              rdfs:comment "The time of the sensor observation."^^xsd:string .
+foo1:timestamp rdf:type owl:NamedIndividual ,
+                        sosa:ObservableProperty ;
+               sosa:resultTime "2014-04-12T13:20:00"^^xsd:dateTime ;
+               rdfs:comment "The time of the sensor observation." .
 
 
 ###  http://www.ontology/ns/foo/1.1#total_C
-foo:total_C rdf:type owl:NamedIndividual ,
-                     sosa:ObservableProperty ;
-            sosa:hasSimpleResult "22.23"^^xsd:float ;
-            skos:definition "total carbon content of the soil sample"^^xsd:string .
+foo1:total_C rdf:type owl:NamedIndividual ,
+                      sosa:ObservableProperty ;
+             foo:hasTotal_C "22.23"^^xsd:float ;
+             skos:definition "total carbon content of the soil sample" .
 
 
 ###  http://www.ontology/ns/foo/1.1#total_N
-foo:total_N rdf:type owl:NamedIndividual ,
-                     sosa:ObservableProperty ;
-            sosa:hasSimpleResult "23.65"^^xsd:float ;
-            skos:definition "total nitrogen content of the soil sample"^^xsd:string .
+foo1:total_N rdf:type owl:NamedIndividual ,
+                      sosa:ObservableProperty ;
+             foo:hasTotal_N "23.65"^^xsd:float ;
+             skos:definition "total nitrogen content of the soil sample" .
 
 
 ###  http://www.ontology/ns/foo/1.1#C:N
-foo:C:N rdf:type owl:NamedIndividual ,
-                 sosa:ObservableProperty ;
-        sosa:hasSimpleResult "11.96"^^xsd:float ;
-        skos:definition "carbon to nitrogen ratio of the soil sample"^^xsd:string .
+foo1:C:N rdf:type owl:NamedIndividual ,
+                  sosa:ObservableProperty ;
+         hasC:N "11.9"^^xsd:float ;
+         skos:definition "carbon to nitrogen ratio of the soil sample" .
 
 
 ###  http://www.schema.org/DGFC/Civets
@@ -1150,17 +1412,19 @@ foo:C:N rdf:type owl:NamedIndividual ,
                                                     sosa:Sensor ;
                                            owl:sameAs <http://www.schema.org/dgfc/python> ;
                                            sosa:hasFeatureOfInterest <http://www.schema.org/dgfc/python> ;
-                                           sosa:observedProperty foo:DateTime ,
-                                                                 foo:HDOP ,
-                                                                 foo:Speed ;
-                                           rdfs:comment "A python (snake) called Juling- with tracking device called Juling"^^xsd:string .
+                                           sosa:observedProperty foo1:DateTime ,
+                                                                 foo1:HDOP ,
+                                                                 foo1:Speed ;
+                                           rdfs:comment "A python (snake) called Juling- with tracking device called Juling" .
 
+
+###  http://www.schema.org/dgfc/python
 
 ###  http://www.schema.org/dgfc/Otter
 <http://www.schema.org/dgfc/Otter> rdf:type owl:NamedIndividual ,
                                             <http://purl.org/ontology/wo/Order/Carnivora> ,
                                             <http://purl.org/ontology/wo/Phylum/Chordata> ;
-                                   rdfs:comment "Otter is a carnivorous mammal."^^xsd:string .
+                                   rdfs:comment "Otter is a carnivorous mammal." .
 
 
 ###  http://www.schema.org/dgfc/python
@@ -1174,330 +1438,338 @@ foo:C:N rdf:type owl:NamedIndividual ,
 ###  http://www.schema.org/dgfc/elephant#ABAW
 <http://www.schema.org/dgfc/elephant#ABAW> rdf:type owl:NamedIndividual ,
                                                     sosa:Sensor ;
-                                           sosa:observedProperty foo:Cov ,
-                                                                 foo:ExtTemp ,
-                                                                 foo:HDOP ,
-                                                                 foo:Speed ,
-                                                                 foo:Temperature ;
-                                           sosa:hasResult ""^^xsd:string ;
-                                           rdfs:comment "A female asian elephant called  Abaw, here, the GPS collar (sensor) is named after her."^^xsd:string .
+                                           sosa:observedProperty foo1:Cov ,
+                                                                 foo1:ExtTemp ,
+                                                                 foo1:HDOP ,
+                                                                 foo1:Speed ,
+                                                                 foo1:Temperature ;
+                                           sosa:hasResult "" ;
+                                           rdfs:comment "A female asian elephant called  Abaw, here, the GPS collar (sensor) is named after her." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Aqeela
 <http://www.schema.org/dgfc/elephant#Aqeela> rdf:type owl:NamedIndividual ,
                                                       sosa:Sensor ;
-                                             sosa:observedProperty foo:PDOP ;
-                                             rdfs:comment ""^^xsd:string ,
-                                                          "A female asian elephant called  Aqeela, here, the GPS collar (sensor) is named after her."^^xsd:string .
+                                             sosa:observedProperty foo:LocalDate ,
+                                                                   foo:LocalTime ,
+                                                                   foo1:Cov ,
+                                                                   foo1:Direction ,
+                                                                   foo1:Distance ,
+                                                                   foo1:HDOP ,
+                                                                   foo1:PDOP ,
+                                                                   foo1:Speed ,
+                                                                   foo1:Temperature ;
+                                             rdfs:comment "" ,
+                                                          "A female asian elephant called  Aqeela, here, the GPS collar (sensor) is named after her." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Bikang1
 <http://www.schema.org/dgfc/elephant#Bikang1> rdf:type owl:NamedIndividual ,
                                                        sosa:Sensor ;
-                                              sosa:observedProperty foo:Count ,
-                                                                    foo:Cov ,
-                                                                    foo:Direction ,
-                                                                    foo:Distance ,
-                                                                    foo:GMTDate ,
-                                                                    foo:GMTTime ,
-                                                                    foo:HDOP ,
-                                                                    foo:Speed ,
-                                                                    foo:Temperature ;
-                                              rdfs:comment "A female asian elephant called Bikang1, here, the GPS collar (sensor) is named after her."^^xsd:string .
+                                              sosa:observedProperty foo1:Count ,
+                                                                    foo1:Cov ,
+                                                                    foo1:Direction ,
+                                                                    foo1:Distance ,
+                                                                    foo1:GMTDate ,
+                                                                    foo1:GMTTime ,
+                                                                    foo1:HDOP ,
+                                                                    foo1:Speed ,
+                                                                    foo1:Temperature ;
+                                              rdfs:comment "A female asian elephant called Bikang1, here, the GPS collar (sensor) is named after her." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Bikang2
 <http://www.schema.org/dgfc/elephant#Bikang2> rdf:type owl:NamedIndividual ,
                                                        sosa:Sensor ;
-                                              sosa:observedProperty foo:Count ,
-                                                                    foo:Cov ,
-                                                                    foo:Direction ,
-                                                                    foo:Distance ,
-                                                                    foo:GMTDate ,
-                                                                    foo:GMTTime ,
-                                                                    foo:HDOP ,
-                                                                    foo:Speed ,
-                                                                    foo:Temperature ;
-                                              rdfs:comment "A female asian elephant called Bikang2, here, the GPS collar (sensor) is named after her."^^xsd:string .
+                                              sosa:observedProperty foo1:Count ,
+                                                                    foo1:Cov ,
+                                                                    foo1:Direction ,
+                                                                    foo1:Distance ,
+                                                                    foo1:GMTDate ,
+                                                                    foo1:GMTTime ,
+                                                                    foo1:HDOP ,
+                                                                    foo1:Speed ,
+                                                                    foo1:Temperature ;
+                                              rdfs:comment "A female asian elephant called Bikang2, here, the GPS collar (sensor) is named after her." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Dara
 <http://www.schema.org/dgfc/elephant#Dara> rdf:type owl:NamedIndividual ,
                                                     sosa:Sensor ;
-                                           sosa:observedProperty foo:Count ,
-                                                                 foo:Cov ,
-                                                                 foo:Direction ,
-                                                                 foo:Distance ,
-                                                                 foo:ExtTemp ,
-                                                                 foo:GMTDate ,
-                                                                 foo:GMTTime ,
-                                                                 foo:HDOP ,
-                                                                 foo:Speed ,
-                                                                 foo:Temperature ;
-                                           rdfs:comment "A female asian elephant called Dara, here, the GPS collar (sensor) is named after her."^^xsd:string .
+                                           sosa:observedProperty foo1:Count ,
+                                                                 foo1:Cov ,
+                                                                 foo1:Direction ,
+                                                                 foo1:Distance ,
+                                                                 foo1:ExtTemp ,
+                                                                 foo1:GMTDate ,
+                                                                 foo1:GMTTime ,
+                                                                 foo1:HDOP ,
+                                                                 foo1:Speed ,
+                                                                 foo1:Temperature ;
+                                           rdfs:comment "A female asian elephant called Dara, here, the GPS collar (sensor) is named after her." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Guli
 <http://www.schema.org/dgfc/elephant#Guli> rdf:type owl:NamedIndividual ,
                                                     sosa:Sensor ;
-                                           sosa:observedProperty foo:Count ,
-                                                                 foo:Cov ,
-                                                                 foo:Direction ,
-                                                                 foo:Distance ,
-                                                                 foo:ExtTemp ,
-                                                                 foo:GMTDate ,
-                                                                 foo:GMTTime ,
-                                                                 foo:HDOP ,
-                                                                 foo:Speed ,
-                                                                 foo:Temperature ;
-                                           rdfs:comment "A male asian elephant called Guli, here, the GPS collar (sensor) is named after him."^^xsd:string .
+                                           sosa:observedProperty foo1:Count ,
+                                                                 foo1:Cov ,
+                                                                 foo1:Direction ,
+                                                                 foo1:Distance ,
+                                                                 foo1:ExtTemp ,
+                                                                 foo1:GMTDate ,
+                                                                 foo1:GMTTime ,
+                                                                 foo1:HDOP ,
+                                                                 foo1:Speed ,
+                                                                 foo1:Temperature ;
+                                           rdfs:comment "A male asian elephant called Guli, here, the GPS collar (sensor) is named after him." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Ita
 <http://www.schema.org/dgfc/elephant#Ita> rdf:type owl:NamedIndividual ,
                                                    sosa:Sensor ;
-                                          sosa:observedProperty foo:Count ,
-                                                                foo:Cov ,
-                                                                foo:Direction ,
-                                                                foo:Distance ,
-                                                                foo:ExtTemp ,
-                                                                foo:GMTDate ,
-                                                                foo:GMTTime ,
-                                                                foo:HDOP ,
-                                                                foo:Speed ,
-                                                                foo:Temperature ;
-                                          rdfs:comment "A female asian elephant called Ita, here, the GPS collar (sensor) is named after her."^^xsd:string .
+                                          sosa:observedProperty foo1:Count ,
+                                                                foo1:Cov ,
+                                                                foo1:Direction ,
+                                                                foo1:Distance ,
+                                                                foo1:ExtTemp ,
+                                                                foo1:GMTDate ,
+                                                                foo1:GMTTime ,
+                                                                foo1:HDOP ,
+                                                                foo1:Speed ,
+                                                                foo1:Temperature ;
+                                          rdfs:comment "A female asian elephant called Ita, here, the GPS collar (sensor) is named after her." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Jasmin
 <http://www.schema.org/dgfc/elephant#Jasmin> rdf:type owl:NamedIndividual ,
                                                       sosa:Sensor ;
-                                             sosa:observedProperty foo:Count ,
-                                                                   foo:Cov ,
-                                                                   foo:Direction ,
-                                                                   foo:Distance ,
-                                                                   foo:GMTDate ,
-                                                                   foo:GMTTime ,
-                                                                   foo:HDOP ,
-                                                                   foo:Speed ,
-                                                                   foo:Temperature ;
-                                             rdfs:comment "A female asian elephant called Jasmin, here, the GPS collar (sensor) is named after her."^^xsd:string .
+                                             sosa:observedProperty foo1:Count ,
+                                                                   foo1:Cov ,
+                                                                   foo1:Direction ,
+                                                                   foo1:Distance ,
+                                                                   foo1:GMTDate ,
+                                                                   foo1:GMTTime ,
+                                                                   foo1:HDOP ,
+                                                                   foo1:Speed ,
+                                                                   foo1:Temperature ;
+                                             rdfs:comment "A female asian elephant called Jasmin, here, the GPS collar (sensor) is named after her." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Jasper
 <http://www.schema.org/dgfc/elephant#Jasper> rdf:type owl:NamedIndividual ,
                                                       sosa:Sensor ;
-                                             sosa:observedProperty foo:Count ,
-                                                                   foo:Cov ,
-                                                                   foo:Direction ,
-                                                                   foo:Distance ,
-                                                                   foo:ExtTemp ,
-                                                                   foo:GMTDate ,
-                                                                   foo:GMTTime ,
-                                                                   foo:HDOP ,
-                                                                   foo:Speed ,
-                                                                   foo:Temperature ;
-                                             rdfs:comment "A male asian elephant called Jasper here, the GPS collar (sensor) is named after him."^^xsd:string .
+                                             sosa:observedProperty foo1:Count ,
+                                                                   foo1:Cov ,
+                                                                   foo1:Direction ,
+                                                                   foo1:Distance ,
+                                                                   foo1:ExtTemp ,
+                                                                   foo1:GMTDate ,
+                                                                   foo1:GMTTime ,
+                                                                   foo1:HDOP ,
+                                                                   foo1:Speed ,
+                                                                   foo1:Temperature ;
+                                             rdfs:comment "A male asian elephant called Jasper here, the GPS collar (sensor) is named after him." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Kasih
 <http://www.schema.org/dgfc/elephant#Kasih> rdf:type owl:NamedIndividual ,
                                                      sosa:Sensor ;
-                                            sosa:observedProperty foo:Count ,
-                                                                  foo:Cov ,
-                                                                  foo:Direction ,
-                                                                  foo:Distance ,
-                                                                  foo:ExtTemp ,
-                                                                  foo:GMTDate ,
-                                                                  foo:GMTTime ,
-                                                                  foo:HDOP ,
-                                                                  foo:Speed ,
-                                                                  foo:Temperature ;
-                                            rdfs:comment "A female asian elephant called Kasih, here, the GPS collar (sensor) is named after her."^^xsd:string .
+                                            sosa:observedProperty foo1:Count ,
+                                                                  foo1:Cov ,
+                                                                  foo1:Direction ,
+                                                                  foo1:Distance ,
+                                                                  foo1:ExtTemp ,
+                                                                  foo1:GMTDate ,
+                                                                  foo1:GMTTime ,
+                                                                  foo1:HDOP ,
+                                                                  foo1:Speed ,
+                                                                  foo1:Temperature ;
+                                            rdfs:comment "A female asian elephant called Kasih, here, the GPS collar (sensor) is named after her." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Kuma
 <http://www.schema.org/dgfc/elephant#Kuma> rdf:type owl:NamedIndividual ,
                                                     sosa:Sensor ;
-                                           sosa:observedProperty foo:Count ,
-                                                                 foo:Cov ,
-                                                                 foo:Direction ,
-                                                                 foo:Distance ,
-                                                                 foo:ExtTemp ,
-                                                                 foo:GMTDate ,
-                                                                 foo:GMTTime ,
-                                                                 foo:HDOP ,
-                                                                 foo:Speed ,
-                                                                 foo:Temperature ;
-                                           rdfs:comment "A male asian elephant called Kuma, here, the GPS collar (sensor) is named after him."^^xsd:string .
+                                           sosa:observedProperty foo1:Count ,
+                                                                 foo1:Cov ,
+                                                                 foo1:Direction ,
+                                                                 foo1:Distance ,
+                                                                 foo1:ExtTemp ,
+                                                                 foo1:GMTDate ,
+                                                                 foo1:GMTTime ,
+                                                                 foo1:HDOP ,
+                                                                 foo1:Speed ,
+                                                                 foo1:Temperature ;
+                                           rdfs:comment "A male asian elephant called Kuma, here, the GPS collar (sensor) is named after him." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Liun
 <http://www.schema.org/dgfc/elephant#Liun> rdf:type owl:NamedIndividual ,
                                                     sosa:Sensor ;
-                                           sosa:observedProperty foo:DateTime ,
-                                                                 foo:Direction ,
-                                                                 foo:PDOP ,
-                                                                 foo:Speed ,
-                                                                 foo:Temperature ;
-                                           rdfs:comment "A female asian elephant called Liun, here, the GPS collar (sensor) is named after her."^^xsd:string .
+                                           sosa:observedProperty foo1:DateTime ,
+                                                                 foo1:Direction ,
+                                                                 foo1:PDOP ,
+                                                                 foo1:Speed ,
+                                                                 foo1:Temperature ;
+                                           rdfs:comment "A female asian elephant called Liun, here, the GPS collar (sensor) is named after her." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Maliau
 <http://www.schema.org/dgfc/elephant#Maliau> rdf:type owl:NamedIndividual ,
                                                       sosa:Sensor ;
-                                             sosa:observedProperty foo:Count ,
-                                                                   foo:Cov ,
-                                                                   foo:Direction ,
-                                                                   foo:Distance ,
-                                                                   foo:ExtTemp ,
-                                                                   foo:GMTDate ,
-                                                                   foo:GMTTime ,
-                                                                   foo:HDOP ,
-                                                                   foo:Speed ,
-                                                                   foo:Temperature ;
-                                             rdfs:comment "A male asian elephant called Maliau, here, the GPS collar (sensor) is named after him."^^xsd:string .
+                                             sosa:observedProperty foo1:Count ,
+                                                                   foo1:Cov ,
+                                                                   foo1:Direction ,
+                                                                   foo1:Distance ,
+                                                                   foo1:ExtTemp ,
+                                                                   foo1:GMTDate ,
+                                                                   foo1:GMTTime ,
+                                                                   foo1:HDOP ,
+                                                                   foo1:Speed ,
+                                                                   foo1:Temperature ;
+                                             rdfs:comment "A male asian elephant called Maliau, here, the GPS collar (sensor) is named after him." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Merotai
 <http://www.schema.org/dgfc/elephant#Merotai> rdf:type owl:NamedIndividual ,
                                                        sosa:Sensor ;
-                                              sosa:observedProperty foo:Count ,
-                                                                    foo:Cov ,
-                                                                    foo:Direction ,
-                                                                    foo:Distance ,
-                                                                    foo:ExtTemp ,
-                                                                    foo:GMTDate ,
-                                                                    foo:GMTTime ,
-                                                                    foo:HDOP ,
-                                                                    foo:Speed ,
-                                                                    foo:Temperature ;
-                                              rdfs:comment "A male asian elephant called Merotai, here, the GPS collar (sensor) is named after him."^^xsd:string .
+                                              sosa:observedProperty foo1:Count ,
+                                                                    foo1:Cov ,
+                                                                    foo1:Direction ,
+                                                                    foo1:Distance ,
+                                                                    foo1:ExtTemp ,
+                                                                    foo1:GMTDate ,
+                                                                    foo1:GMTTime ,
+                                                                    foo1:HDOP ,
+                                                                    foo1:Speed ,
+                                                                    foo1:Temperature ;
+                                              rdfs:comment "A male asian elephant called Merotai, here, the GPS collar (sensor) is named after him." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Puteri
 <http://www.schema.org/dgfc/elephant#Puteri> rdf:type owl:NamedIndividual ,
                                                       sosa:Sensor ;
-                                             sosa:observedProperty foo:Count ,
-                                                                   foo:Cov ,
-                                                                   foo:Direction ,
-                                                                   foo:Distance ,
-                                                                   foo:ExtTemp ,
-                                                                   foo:GMTDate ,
-                                                                   foo:GMTTime ,
-                                                                   foo:HDOP ,
-                                                                   foo:Speed ,
-                                                                   foo:Temperature ;
-                                             rdfs:comment "A female asian elephant called Puteri here, the GPS collar (sensor) is named after her."^^xsd:string .
+                                             sosa:observedProperty foo1:Count ,
+                                                                   foo1:Cov ,
+                                                                   foo1:Direction ,
+                                                                   foo1:Distance ,
+                                                                   foo1:ExtTemp ,
+                                                                   foo1:GMTDate ,
+                                                                   foo1:GMTTime ,
+                                                                   foo1:HDOP ,
+                                                                   foo1:Speed ,
+                                                                   foo1:Temperature ;
+                                             rdfs:comment "A female asian elephant called Puteri here, the GPS collar (sensor) is named after her." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Putut
 <http://www.schema.org/dgfc/elephant#Putut> rdf:type owl:NamedIndividual ,
                                                      sosa:Sensor ;
-                                            sosa:observedProperty foo:Count ,
-                                                                  foo:Cov ,
-                                                                  foo:Direction ,
-                                                                  foo:Distance ,
-                                                                  foo:GMTDate ,
-                                                                  foo:GMTTime ,
-                                                                  foo:HDOP ,
-                                                                  foo:Speed ,
-                                                                  foo:Temperature ;
-                                            rdfs:comment "A female asian elephant called Putut, here, the GPS collar (sensor) is named after her."^^xsd:string .
+                                            sosa:observedProperty foo1:Count ,
+                                                                  foo1:Cov ,
+                                                                  foo1:Direction ,
+                                                                  foo1:Distance ,
+                                                                  foo1:GMTDate ,
+                                                                  foo1:GMTTime ,
+                                                                  foo1:HDOP ,
+                                                                  foo1:Speed ,
+                                                                  foo1:Temperature ;
+                                            rdfs:comment "A female asian elephant called Putut, here, the GPS collar (sensor) is named after her." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Sandi
 <http://www.schema.org/dgfc/elephant#Sandi> rdf:type owl:NamedIndividual ,
                                                      sosa:Sensor ;
-                                            sosa:observedProperty foo:Count ,
-                                                                  foo:Cov ,
-                                                                  foo:Direction ,
-                                                                  foo:Distance ,
-                                                                  foo:ExtTemp ,
-                                                                  foo:GMTDate ,
-                                                                  foo:GMTTime ,
-                                                                  foo:HDOP ,
-                                                                  foo:Speed ,
-                                                                  foo:Temperature ;
-                                            rdfs:comment "A female asian elephant called Sandi, here, the GPS collar (sensor) is named after her."^^xsd:string .
+                                            sosa:observedProperty foo1:Count ,
+                                                                  foo1:Cov ,
+                                                                  foo1:Direction ,
+                                                                  foo1:Distance ,
+                                                                  foo1:ExtTemp ,
+                                                                  foo1:GMTDate ,
+                                                                  foo1:GMTTime ,
+                                                                  foo1:HDOP ,
+                                                                  foo1:Speed ,
+                                                                  foo1:Temperature ;
+                                            rdfs:comment "A female asian elephant called Sandi, here, the GPS collar (sensor) is named after her." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Sejati
 <http://www.schema.org/dgfc/elephant#Sejati> rdf:type owl:NamedIndividual ,
                                                       sosa:Sensor ;
-                                             sosa:observedProperty foo:Count ,
-                                                                   foo:Cov ,
-                                                                   foo:Direction ,
-                                                                   foo:Distance ,
-                                                                   foo:GMTDate ,
-                                                                   foo:GMTTime ,
-                                                                   foo:HDOP ,
-                                                                   foo:Speed ,
-                                                                   foo:Temperature ;
-                                             rdfs:comment "A male asian elephant called Sejati, here, the GPS collar (sensor) is named after him."^^xsd:string .
+                                             sosa:observedProperty foo1:Count ,
+                                                                   foo1:Cov ,
+                                                                   foo1:Direction ,
+                                                                   foo1:Distance ,
+                                                                   foo1:GMTDate ,
+                                                                   foo1:GMTTime ,
+                                                                   foo1:HDOP ,
+                                                                   foo1:Speed ,
+                                                                   foo1:Temperature ;
+                                             rdfs:comment "A male asian elephant called Sejati, here, the GPS collar (sensor) is named after him." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Seri
 <http://www.schema.org/dgfc/elephant#Seri> rdf:type owl:NamedIndividual ,
                                                     sosa:Sensor ;
-                                           sosa:observedProperty foo:Count ,
-                                                                 foo:Cov ,
-                                                                 foo:Direction ,
-                                                                 foo:Distance ,
-                                                                 foo:ExtTemp ,
-                                                                 foo:GMTDate ,
-                                                                 foo:GMTTime ,
-                                                                 foo:HDOP ,
-                                                                 foo:Speed ,
-                                                                 foo:Temperature ;
-                                           rdfs:comment "A female asian elephant called Seri, here, the GPS collar (sensor) is named after her."^^xsd:string .
+                                           sosa:observedProperty foo1:Count ,
+                                                                 foo1:Cov ,
+                                                                 foo1:Direction ,
+                                                                 foo1:Distance ,
+                                                                 foo1:ExtTemp ,
+                                                                 foo1:GMTDate ,
+                                                                 foo1:GMTTime ,
+                                                                 foo1:HDOP ,
+                                                                 foo1:Speed ,
+                                                                 foo1:Temperature ;
+                                           rdfs:comment "A female asian elephant called Seri, here, the GPS collar (sensor) is named after her." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Tulid
 <http://www.schema.org/dgfc/elephant#Tulid> rdf:type owl:NamedIndividual ,
                                                      sosa:Sensor ;
-                                            sosa:observedProperty foo:Count ,
-                                                                  foo:Cov ,
-                                                                  foo:Direction ,
-                                                                  foo:Distance ,
-                                                                  foo:ExtTemp ,
-                                                                  foo:GMTDate ,
-                                                                  foo:GMTTime ,
-                                                                  foo:Speed ,
-                                                                  foo:Temperature ;
-                                            rdfs:comment "A female asian elephant called Tulid, here, the GPS collar (sensor) is named after her."^^xsd:string .
+                                            sosa:observedProperty foo1:Count ,
+                                                                  foo1:Cov ,
+                                                                  foo1:Direction ,
+                                                                  foo1:Distance ,
+                                                                  foo1:ExtTemp ,
+                                                                  foo1:GMTDate ,
+                                                                  foo1:GMTTime ,
+                                                                  foo1:Speed ,
+                                                                  foo1:Temperature ;
+                                            rdfs:comment "A female asian elephant called Tulid, here, the GPS collar (sensor) is named after her." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Tunglap
 <http://www.schema.org/dgfc/elephant#Tunglap> rdf:type owl:NamedIndividual ,
                                                        sosa:Sensor ;
-                                              sosa:observedProperty foo:Count ,
-                                                                    foo:Cov ,
-                                                                    foo:Direction ,
-                                                                    foo:Distance ,
-                                                                    foo:ExtTemp ,
-                                                                    foo:GMTDate ,
-                                                                    foo:GMTTime ,
-                                                                    foo:HDOP ,
-                                                                    foo:Speed ,
-                                                                    foo:Temperature ;
-                                              rdfs:comment "A female asian elephant called Tunglap, here, the GPS collar (sensor) is named after her."^^xsd:string .
+                                              sosa:observedProperty foo1:Count ,
+                                                                    foo1:Cov ,
+                                                                    foo1:Direction ,
+                                                                    foo1:Distance ,
+                                                                    foo1:ExtTemp ,
+                                                                    foo1:GMTDate ,
+                                                                    foo1:GMTTime ,
+                                                                    foo1:HDOP ,
+                                                                    foo1:Speed ,
+                                                                    foo1:Temperature ;
+                                              rdfs:comment "A female asian elephant called Tunglap, here, the GPS collar (sensor) is named after her." .
 
 
 ###  http://www.schema.org/dgfc/elephant#Umas2
 <http://www.schema.org/dgfc/elephant#Umas2> rdf:type owl:NamedIndividual ,
                                                      sosa:Sensor ;
-                                            sosa:observedProperty foo:Count ,
-                                                                  foo:Cov ,
-                                                                  foo:Direction ,
-                                                                  foo:Distance ,
-                                                                  foo:ExtTemp ,
-                                                                  foo:GMTDate ,
-                                                                  foo:GMTTime ,
-                                                                  foo:HDOP ,
-                                                                  foo:Speed ,
-                                                                  foo:Temperature ;
-                                            rdfs:comment "A male asian elephant called Umas2, here, the GPS collar (sensor) is named after him."^^xsd:string .
+                                            sosa:observedProperty foo1:Count ,
+                                                                  foo1:Cov ,
+                                                                  foo1:Direction ,
+                                                                  foo1:Distance ,
+                                                                  foo1:ExtTemp ,
+                                                                  foo1:GMTDate ,
+                                                                  foo1:GMTTime ,
+                                                                  foo1:HDOP ,
+                                                                  foo1:Speed ,
+                                                                  foo1:Temperature ;
+                                            rdfs:comment "A male asian elephant called Umas2, here, the GPS collar (sensor) is named after him." .
 
 
 ###  http://www.w3.org/1999/xhtml/vocab#license
@@ -1505,29 +1777,26 @@ foo:C:N rdf:type owl:NamedIndividual ,
 
 
 ###  http://www.w3.org/2003/01/geo/wgs84_pos#Point
-wgs84_pos:Point rdf:type owl:NamedIndividual ;
-                wgs84_pos:lat ""^^xsd:string ;
-                wgs84_pos:long ""^^xsd:string .
+<http://www.w3.org/2003/01/geo/wgs84_pos#Point> rdf:type owl:NamedIndividual .
 
 
 #################################################################
 #    Annotations
 #################################################################
 
-terms:isPartOf rdfs:label "Is Part Of"@en ;
-               terms:description "This property is intended to be used with non-literal values. This property is an inverse property of Has Part."@en ;
+terms:isPartOf terms:description "This property is intended to be used with non-literal values. This property is an inverse property of Has Part."@en ;
+               rdfs:comment "A related resource in which the described resource is physically or logically included."@en ;
                rdfs:isDefinedBy terms: ;
-               rdfs:comment "A related resource in which the described resource is physically or logically included."@en .
+               rdfs:label "Is Part Of"@en .
 
 
 <http://purl.org/vocab/vann/preferredNamespacePrefix> rdfs:comment <http://www.FOO/DGFC> .
 
 
-<http://purl.org/vocab/vann/preferredNamespaceUri> terms:title "http://www.FOO.org/DGFC/"^^xsd:string .
+<http://purl.org/vocab/vann/preferredNamespaceUri> terms:title "http://www.FOO.org/DGFC/" .
 
 
-wgs84_pos: rdfs:label "geo"^^xsd:string ;
-           rdfs:comment """
+<http://www.w3.org/2003/01/geo/wgs84_pos#> rdfs:comment """
 Recent changes to this namespace:
 $Log: wgs84_pos.rdf,v $
 Revision 1.22  2009/04/20 15:00:30  timbl
@@ -1610,34 +1879,27 @@ revision 1.1
 date: 2003/01/10 10:53:23;  author: danbri;  state: Exp;
 basic geo vocab
 
-"""^^xsd:string .
+""" ;
+                                           rdfs:label "geo" .
 
 
-wgs84_pos:Point iot-lite:relativeLocation ""^^xsd:string ;
-                rdfs:comment """ 
+<http://www.w3.org/2003/01/geo/wgs84_pos#Point> metadata:prefixIRI "wgs84_pos:Point" ;
+                                                iot-lite:relativeLocation "" ;
+                                                rdfs:comment """ 
 Uniquely identified by lat/long/alt. i.e.
 
 spaciallyIntersects(P1, P2) :- lat(P1, LAT), long(P1, LONG), alt(P1, ALT),
   lat(P2, LAT), long(P2, LONG), alt(P2, ALT).
 
 sameThing(P1, P2) :- type(P1, Point), type(P2, Point), spaciallyIntersects(P1, P2).
-  """^^xsd:string ;
-                rdfs:label "point"^^xsd:string ;
-                rdfs:comment """A point, typically described using a coordinate system relative to Earth, such as WGS84.
-  """^^xsd:string ;
-                metadata:prefixIRI "wgs84_pos:Point"^^xsd:string .
+  """ ,
+                                                             """A point, typically described using a coordinate system relative to Earth, such as WGS84.
+  """ ;
+                                                rdfs:label "point" .
 
 
-wgs84_pos:lat rdfs:comment "The WGS84 latitude of a SpatialThing (decimal degrees)."^^xsd:string ;
-              rdfs:label "latitude"^^xsd:string .
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat_long> rdfs:comment "A comma-separated representation of a latitude, longitude coordinate." ;
+                                                   rdfs:label "lat/long" .
 
 
-wgs84_pos:lat_long rdfs:comment "A comma-separated representation of a latitude, longitude coordinate."^^xsd:string ;
-                   rdfs:label "lat/long"^^xsd:string .
-
-
-wgs84_pos:long rdfs:label "longitude"^^xsd:string ;
-               rdfs:comment "The WGS84 longitude of a SpatialThing (decimal degrees)."^^xsd:string .
-
-
-###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi
