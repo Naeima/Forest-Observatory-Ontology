@@ -1,4 +1,4 @@
-@prefix ns1: <http://www.ontology/ns/foo/1.1#> .
+@prefix ns1: <http://www.w3id.org/def/foo#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <foo_DGFC_0> a <http://www.w3.org/ns/sosa/Observation> ;
