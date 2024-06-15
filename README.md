@@ -4,17 +4,6 @@ The Forest Observatory Ontology (FOO) is an ontology for describing wildlife dat
 
 
 
-![image](https://user-images.githubusercontent.com/57564713/185769396-6a963789-43da-4993-9273-cf2c37256595.png)
-
-
-
-
-# FOO Documentation. [Click here](https://github.com/Naeima/Forest-Observatory-Ontology/releases/download/v1.2.3/index-en.html)
-
-
-# OOPS! (OntOlogy Pitfall Scanner!). [Click here](https://github.com/Naeima/Forest-Observatory-Ontology/releases/download/Oops!ResultsV1.0.0/oopsresult.png)
-
-
 # FOO Development
 
 We developed FOO following the Linked Open Terms (LOT) [6] methodology using a complied list of comptency questions (functional requirements)- implemented in protege software.  LOT  was originated from Neon methodology, it encourages borrowing and reusing classes from fully developed and widely shared ontologies. Therefore, we searched the existing literature for suitable ontologies. Then, we decided to borrow classes and relationships from SOSA and BBC Wildlife Ontologies, as they contained sufficient components to model our proposed entities (i.e., instances or individuals). Moreover, LOT recommends sharing ontologies according to the Linked Data principles to enable re-using the ontologies by the research community and software applications. 
