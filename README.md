@@ -9,65 +9,21 @@ The Forest Observatory Ontology (FOO) is an ontology for describing wildlife dat
 
 
 
-# FOO Documentation. [Click here](https://github.com/Naeima/Forest-Observatory-Ontology/releases/download/v1.2.3/index-en.html)
+# FOO Documentation. https://w3id.org/def/foo#  and https://w3id.org/def/fooKG
 
 
-# OOPS! (OntOlogy Pitfall Scanner!). [Click here](https://github.com/Naeima/Forest-Observatory-Ontology/releases/download/Oops!ResultsV1.0.0/oopsresult.png)
+
 
 
 # FOO Development
 
-We developed FOO following the Linked Open Terms (LOT) [6] methodology using a complied list of comptency questions (functional requirements)- implemented in protege software.  LOT  was originated from Neon methodology, it encourages borrowing and reusing classes from fully developed and widely shared ontologies. Therefore, we searched the existing literature for suitable ontologies. Then, we decided to borrow classes and relationships from SOSA and BBC Wildlife Ontologies, as they contained sufficient components to model our proposed entities (i.e., instances or individuals). Moreover, LOT recommends sharing ontologies according to the Linked Data principles to enable re-using the ontologies by the research community and software applications. 
+We developed FOO following the Linked Open Terms (LOT) [6] methodology using a compiled list of competency questions (functional requirements)- implemented in protege software.  LOT originated from Neon methodology; it encourages borrowing and reusing classes from fully developed and widely shared ontologies. Therefore, we searched the existing literature for suitable ontologies. Then, we decided to borrow classes and relationships from SOSA and BBC Wildlife Ontologies, as they contained sufficient components to model our proposed entities (i.e., instances or individuals). Moreover, LOT recommends sharing ontologies according to the Linked Data principles to enable re-using the ontologies by the research community and software applications. 
 
 
 
-# Repository
+# Main website 
 
-This repository has a copy of the following:
-
-•	Ontology Requirements Specification Document (ORSD).
-
-•	A spreadsheet contains the ontology functional requirements (i.e., comptency questions). 
-
-•	Ontology in RDF/XML and TURTLE formats.
-
-•	Ontology documentation using WIDOCO tool
-
-•	Soil data properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia. 
-Retrieved from [data.gov.uk.](https://data.gov.uk/dataset/e54d035f-4bcb-4d65-a600-043a2c0f729a/soil-properties-across-primary-forest-logged-forest-and-oil-palm-plantation-in-sabah-malaysia)
-
-
-
-# SPARQL 
-What objects do contain the word sensor? 
-
-    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
-
-    PREFIX owl: <http://www.w3.org/2002/07/owl#>.
-
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-
-    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>.
-
-
-    SELECT ?subject ?predicate ?object
-
-    WHERE { ?subject ?predicate  ?object.
-    
-    FILTER REGEX(?object, ("Sensor"))}
-    
-
-![sensor](https://user-images.githubusercontent.com/57564713/185769348-497951cf-6b9d-465b-98f8-8a67b99121df.png)
-
-
-![Stardog](https://user-images.githubusercontent.com/57564713/187270662-9236804f-3e1c-4425-a8c1-535e2a96776e.png)
-
-# Instantiate FOO with soil properties dataset. [Click here](https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/Soil-Data-v1.0.0)
-
-
-# How to use FOO. [Click here.](https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/How-to-run-FOO-v1.0.0)
-
-
+https:ontology.forest-observatory.org
 
 # References
 
