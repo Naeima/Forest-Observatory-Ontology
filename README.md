@@ -9,12 +9,13 @@ The Forest Observatory Ontology (FOO) is an ontology for describing wildlife dat
 
 # FOO Heavyweight Visualisation.  [Click here](https://service.tib.eu/webvowl/#opts=doc=0;#iri=https://naeima.github.io/foo_html/index.ttl)
 
-
 # FOO Documentation. [Click here](https://w3id.org/def/foo#)
 
 # FOO Website. [Click here](https://ontology.forest-observatory.org)
 
 # FOO Parseable and Queriable Turtle File. [Click here](https://naeima.github.io/foo_html/index.ttl)
+
+# FOO Chatbot [Click here]([https://naeima.github.io/FOO_chatbot/])
 
 
 # FOOPS! (Ontology Scanner!). [Click here](https://lucid.app/publicSegments/view/f83da098-0bec-4fa4-bbde-34a154fd9457/image.png)
@@ -105,6 +106,7 @@ Meaningful Internet Systems". Springer, 966–982.
 [SOSA: A lightweight ontology for sensors, observations, samples, and actuators. Journal of Web Semantics 56, (2019), 1–10. DOI:](https://doi.org/10.1016/j.websem.2018.06.003)
 
 [12] Soil properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia](data.gov.uk. Retrieved January 21, 2022 from https://data.gov.uk/dataset/e54d035f-4bcb-4d65-a600-043a2c0f729a/soil-properties-across-primary-forest-logged-forest-and-oil-palm-plantation-in-sabah-malaysia)
+[13] Zapier app (https://zapier.com/app/home)
 
 
 
