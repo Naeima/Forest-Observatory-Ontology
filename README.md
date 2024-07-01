@@ -4,7 +4,7 @@ The Forest Observatory Ontology (FOO) is an ontology for describing wildlife dat
 
 
 
-![image]([https://lucid.app/publicSegments/view/9cc68f08-b71f-4a20-b2e7-a22584442f2c/image.png])
+![image](https://lucid.app/publicSegments/view/b8378e7c-e41c-4aa9-86cd-80c8037b5c95/image.png)
 
 
 # FOO Visualisation  [Click here]([https://service.tib.eu/webvowl/#opts=doc=0;#iri=https://naeima.github.io/foo_html/index.ttl])
