@@ -77,7 +77,7 @@ What objects do contain the word sensor?
 [2] Daniel Garijo. 2017. [WIDOCO: a wizard for documenting ontologies. In International Semantic Web Conference. Springer,
 94–102.](https://dgarijo.github.io/Widoco/)
 
-[3] 2022. [FOOPS! - Ontology Scanner!]([https://foops.linkeddata.es/FAIR_validator.html#])
+[3] 2022. [FOOPS! - Ontology Scanner!](https://foops.linkeddata.es/FAIR_validator.html#)
 
 [4] 2022. [Protégé.](https://protege.stanford.edu/)
 
