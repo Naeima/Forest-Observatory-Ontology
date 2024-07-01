@@ -4,7 +4,7 @@ The Forest Observatory Ontology (FOO) is an ontology for describing wildlife dat
 
 
 
-![image]([https://lucid.app/publicSegments/view/b8378e7c-e41c-4aa9-86cd-80c8037b5c95/image.png]}
+# FOO Visualisation. [Click here](https://lucid.app/publicSegments/view/b8378e7c-e41c-4aa9-86cd-80c8037b5c95/image.png)
 
 
 # FOO Visualisation.  [Click here](https://service.tib.eu/webvowl/#opts=doc=0;#iri=https://naeima.github.io/foo_html/index.ttl)
@@ -13,12 +13,12 @@ The Forest Observatory Ontology (FOO) is an ontology for describing wildlife dat
 # FOO Documentation. [Click here](https://w3id.org/def/foo#)
 
 
-# OOPS! (Ontology Pitfall Scanner!). [Click here](https://lucid.app/publicSegments/view/f83da098-0bec-4fa4-bbde-34a154fd9457/image.png)
+# FOOPS! (Ontology Scanner!). [Click here](https://lucid.app/publicSegments/view/f83da098-0bec-4fa4-bbde-34a154fd9457/image.png)
 
 
 # FOO Development
 
-We developed FOO following the Linked Open Terms (LOT) [6] methodology using a complied list of comptency questions (functional requirements)- implemented in protege software.  LOT  was originated from Neon methodology, it encourages borrowing and reusing classes from fully developed and widely shared ontologies. Therefore, we searched the existing literature for suitable ontologies. Then, we decided to borrow classes and relationships from SOSA and BBC Wildlife Ontologies, as they contained sufficient components to model our proposed entities (i.e., instances or individuals). Moreover, LOT recommends sharing ontologies according to the Linked Data principles to enable re-using the ontologies by the research community and software applications. 
+We developed FOO following the Linked Open Terms (LOT) [6] methodology using a compiled list of competency questions (functional requirements)- implemented in protege software.  LOT  was originated from Neon methodology, it encourages borrowing and reusing classes from fully developed and widely shared ontologies. Therefore, we searched the existing literature for suitable ontologies. Then, we decided to borrow classes and relationships from SOSA and BBC Wildlife Ontologies, as they contained sufficient components to model our proposed entities (i.e., instances or individuals). Moreover, LOT recommends sharing ontologies according to the Linked Data principles to enable re-using the ontologies by the research community and software applications. 
 
 
 
@@ -28,7 +28,7 @@ This repository has a copy of the following:
 
 •	Ontology Requirements Specification Document (ORSD).
 
-•	A spreadsheet contains the ontology functional requirements (i.e., comptency questions). 
+•	A spreadsheet containing the ontology functional requirements (i.e., competency questions). 
 
 •	Ontology in RDF/XML and TURTLE formats.
 
