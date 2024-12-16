@@ -20,54 +20,79 @@ The Forest Observatory Ontology (FOO) is an ontology for describing wildlife dat
 # FOOPS! (Ontology Scanner!). [Click here](https://lucid.app/publicSegments/view/f83da098-0bec-4fa4-bbde-34a154fd9457/image.png)
 
 
+@prefix foo: <https://w3id.org/def/foo#> .
+@prefix swrl: <http://www.w3.org/2003/11/swrl#> .
+@prefix swrlb: <http://www.w3.org/2003/11/swrlb#> .
+@prefix pos: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+### Define the SWRL Rule ###
+foo:GPSObservationToPlantationHazardRule a swrl:Imp ;
+    swrl:body (
+        [ a swrl:ClassAtom ;
+          swrl:classPredicate foo:gPSObservation ;
+          swrl:argument1 ?observation
+        ]
+        [ a swrl:DatavaluedPropertyAtom ;
+          swrl:propertyPredicate pos:latitude ;
+          swrl:argument1 ?observation ;
+          swrl:argument2 ?obsLat
+        ]
+        [ a swrl:DatavaluedPropertyAtom ;
+          swrl:propertyPredicate pos:longitude ;
+          swrl:argument1 ?observation ;
+          swrl:argument2 ?obsLong
+        ]
+        [ a swrl:ClassAtom ;
+          swrl:classPredicate foo:OilPalmPlantation ;
+          swrl:argument1 ?plantation
+        ]
+        [ a swrl:DatavaluedPropertyAtom ;
+          swrl:propertyPredicate pos:latitude ;
+          swrl:argument1 ?plantation ;
+          swrl:argument2 ?plantationLat
+        ]
+        [ a swrl:DatavaluedPropertyAtom ;
+          swrl:propertyPredicate pos:longitude ;
+          swrl:argument1 ?plantation ;
+          swrl:argument2 ?plantationLong
+        ]
+        [ a swrl:BuiltInAtom ;
+          swrl:builtin swrlb:subtract ;
+          swrl:arguments (?latDiff ?obsLat ?plantationLat)
+        ]
+        [ a swrl:BuiltInAtom ;
+          swrl:builtin swrlb:subtract ;
+          swrl:arguments (?longDiff ?obsLong ?plantationLong)
+        ]
+        [ a swrl:BuiltInAtom ;
+          swrl:builtin swrlb:pow ;
+          swrl:arguments (?latDiffSq ?latDiff 2)
+        ]
+        [ a swrl:BuiltInAtom ;
+          swrl:builtin swrlb:pow ;
+          swrl:arguments (?longDiffSq ?longDiff 2)
+        ]
+        [ a swrl:BuiltInAtom ;
+          swrl:builtin swrlb:add ;
+          swrl:arguments (?geoDistSq ?latDiffSq ?longDiffSq)
+        ]
+        [ a swrl:BuiltInAtom ;
+          swrl:builtin swrlb:sqrt ;
+          swrl:arguments (?geoDistance ?geoDistSq)
+        ]
+        [ a swrl:BuiltInAtom ;
+          swrl:builtin swrlb:lessThanOrEqual ;
+          swrl:arguments (?geoDistance 5)
+        ]
+    ) ;
+    swrl:head (
+        [ a swrl:ClassAtom ;
+          swrl:classPredicate foo:HazardArea ;
+          swrl:argument1 ?observation
+        ]
+    ) .
 
-# FOO Development
-
-We developed FOO following the Linked Open Terms (LOT) [6] methodology using a complied list of comptency questions (functional requirements)- implemented in protege software.  LOT  was originated from Neon methodology, it encourages borrowing and reusing classes from fully developed and widely shared ontologies. Therefore, we searched the existing literature for suitable ontologies. Then, we decided to borrow classes and relationships from SOSA and BBC Wildlife Ontologies, as they contained sufficient components to model our proposed entities (i.e., instances or individuals). Moreover, LOT recommends sharing ontologies according to the Linked Data principles to enable re-using the ontologies by the research community and software applications. 
-
-
-
-# Repository
-
-This repository has a copy of the following:
-
-•	Ontology Requirements Specification Document (ORSD).
-
-•	A spreadsheet contains the ontology functional requirements (i.e., comptency questions). 
-
-•	Ontology in RDF/XML and TURTLE formats.
-
-•	Ontology documentation using WIDOCO tool
-
-•	Soil data properties across primary forest, logged forest and oil palm plantation in Sabah, Malaysia. 
-Retrieved from [data.gov.uk.](https://data.gov.uk/dataset/e54d035f-4bcb-4d65-a600-043a2c0f729a/soil-properties-across-primary-forest-logged-forest-and-oil-palm-plantation-in-sabah-malaysia)
-
-
-
-# SPARQL 
-What objects do contain the word sensor? 
-
-    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
-
-    PREFIX owl: <http://www.w3.org/2002/07/owl#>.
-
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-
-    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>.
-
-
-    SELECT ?subject ?predicate ?object
-
-    WHERE { ?subject ?predicate  ?object.
-    
-    FILTER REGEX(?object, ("Sensor"))}
-    
-
-![sensor](https://user-images.githubusercontent.com/57564713/185769348-497951cf-6b9d-465b-98f8-8a67b99121df.png)
-
-
-![Stardog](https://user-images.githubusercontent.com/57564713/187270662-9236804f-3e1c-4425-a8c1-535e2a96776e.png)
 
 # Instantiate FOO with soil properties dataset. [Click here](https://github.com/Naeima/Forest-Observatory-Ontology/releases/tag/Soil-Data-v1.0.0)
 
